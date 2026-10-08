@@ -1,0 +1,416 @@
+﻿id_commande,type_anomalie,colonne,valeur_originale,valeur_injectee
+CMD-2024-00002,quantite_en_milliers,qte_commandee,54500.0,54.5
+CMD-2024-00006,quantite_en_milliers,qte_commandee,57500.0,57.5
+CMD-2024-00010,quantite_en_milliers,qte_commandee,45000.0,45.0
+CMD-2024-00030,quantite_en_milliers,qte_commandee,22500.0,22.5
+CMD-2024-00051,quantite_en_milliers,qte_commandee,49500.0,49.5
+CMD-2024-00052,quantite_en_milliers,qte_commandee,14500.0,14.5
+CMD-2024-00080,quantite_en_milliers,qte_commandee,12000.0,12.0
+CMD-2024-00088,quantite_en_milliers,qte_commandee,32500.0,32.5
+CMD-2024-00089,quantite_en_milliers,qte_commandee,46500.0,46.5
+CMD-2024-00094,quantite_en_milliers,qte_commandee,64000.0,64.0
+CMD-2024-00111,quantite_en_milliers,qte_commandee,95500.0,95.5
+CMD-2024-00132,quantite_en_milliers,qte_commandee,27500.0,27.5
+CMD-2024-00144,quantite_en_milliers,qte_commandee,56500.0,56.5
+CMD-2024-00151,quantite_en_milliers,qte_commandee,16500.0,16.5
+CMD-2024-00156,quantite_en_milliers,qte_commandee,67000.0,67.0
+CMD-2024-00159,quantite_en_milliers,qte_commandee,56000.0,56.0
+CMD-2024-00177,quantite_en_milliers,qte_commandee,27000.0,27.0
+CMD-2024-00183,quantite_en_milliers,qte_commandee,75000.0,75.0
+CMD-2024-00198,quantite_en_milliers,qte_commandee,11000.0,11.0
+CMD-2024-00204,quantite_en_milliers,qte_commandee,18500.0,18.5
+CMD-2024-00205,quantite_en_milliers,qte_commandee,28500.0,28.5
+CMD-2024-00218,quantite_en_milliers,qte_commandee,53000.0,53.0
+CMD-2024-00229,quantite_en_milliers,qte_commandee,70000.0,70.0
+CMD-2024-00236,quantite_en_milliers,qte_commandee,19000.0,19.0
+CMD-2024-00237,quantite_en_milliers,qte_commandee,81000.0,81.0
+CMD-2024-00241,quantite_en_milliers,qte_commandee,27500.0,27.5
+CMD-2024-00251,quantite_en_milliers,qte_commandee,39500.0,39.5
+CMD-2024-00284,quantite_en_milliers,qte_commandee,37500.0,37.5
+CMD-2024-00289,quantite_en_milliers,qte_commandee,49000.0,49.0
+CMD-2024-00290,quantite_en_milliers,qte_commandee,28000.0,28.0
+CMD-2024-00308,quantite_en_milliers,qte_commandee,34000.0,34.0
+CMD-2024-00313,quantite_en_milliers,qte_commandee,28500.0,28.5
+CMD-2024-00316,quantite_en_milliers,qte_commandee,56500.0,56.5
+CMD-2024-00373,quantite_en_milliers,qte_commandee,30000.0,30.0
+CMD-2024-00374,quantite_en_milliers,qte_commandee,41000.0,41.0
+CMD-2024-00400,quantite_en_milliers,qte_commandee,27000.0,27.0
+CMD-2024-00413,quantite_en_milliers,qte_commandee,24500.0,24.5
+CMD-2024-00417,quantite_en_milliers,qte_commandee,19500.0,19.5
+CMD-2024-00418,quantite_en_milliers,qte_commandee,96000.0,96.0
+CMD-2024-00422,quantite_en_milliers,qte_commandee,15000.0,15.0
+CMD-2024-00424,quantite_en_milliers,qte_commandee,84500.0,84.5
+CMD-2024-00425,quantite_en_milliers,qte_commandee,80500.0,80.5
+CMD-2024-00445,quantite_en_milliers,qte_commandee,91500.0,91.5
+CMD-2024-00450,quantite_en_milliers,qte_commandee,47000.0,47.0
+CMD-2024-00456,quantite_en_milliers,qte_commandee,96000.0,96.0
+CMD-2024-00471,quantite_en_milliers,qte_commandee,113000.0,113.0
+CMD-2024-00479,quantite_en_milliers,qte_commandee,22000.0,22.0
+CMD-2024-00484,quantite_en_milliers,qte_commandee,95500.0,95.5
+CMD-2024-00486,quantite_en_milliers,qte_commandee,58500.0,58.5
+CMD-2024-00499,quantite_en_milliers,qte_commandee,150000.0,150.0
+CMD-2024-00515,quantite_en_milliers,qte_commandee,68000.0,68.0
+CMD-2024-00521,quantite_en_milliers,qte_commandee,24500.0,24.5
+CMD-2024-00531,quantite_en_milliers,qte_commandee,42000.0,42.0
+CMD-2024-00548,quantite_en_milliers,qte_commandee,21500.0,21.5
+CMD-2024-00553,quantite_en_milliers,qte_commandee,57500.0,57.5
+CMD-2024-00556,quantite_en_milliers,qte_commandee,34000.0,34.0
+CMD-2024-00561,quantite_en_milliers,qte_commandee,33500.0,33.5
+CMD-2024-00564,quantite_en_milliers,qte_commandee,11000.0,11.0
+CMD-2024-00571,quantite_en_milliers,qte_commandee,59500.0,59.5
+CMD-2024-00572,quantite_en_milliers,qte_commandee,83000.0,83.0
+CMD-2024-00586,quantite_en_milliers,qte_commandee,20000.0,20.0
+CMD-2024-00588,quantite_en_milliers,qte_commandee,50500.0,50.5
+CMD-2024-00595,quantite_en_milliers,qte_commandee,70500.0,70.5
+CMD-2024-00604,quantite_en_milliers,qte_commandee,31500.0,31.5
+CMD-2024-00622,quantite_en_milliers,qte_commandee,97500.0,97.5
+CMD-2024-00632,quantite_en_milliers,qte_commandee,14500.0,14.5
+CMD-2024-00638,quantite_en_milliers,qte_commandee,34000.0,34.0
+CMD-2024-00641,quantite_en_milliers,qte_commandee,55000.0,55.0
+CMD-2024-00657,quantite_en_milliers,qte_commandee,61000.0,61.0
+CMD-2024-00668,quantite_en_milliers,qte_commandee,20500.0,20.5
+CMD-2024-00672,quantite_en_milliers,qte_commandee,45000.0,45.0
+CMD-2024-00687,quantite_en_milliers,qte_commandee,30500.0,30.5
+CMD-2024-00719,quantite_en_milliers,qte_commandee,85500.0,85.5
+CMD-2024-00729,quantite_en_milliers,qte_commandee,50000.0,50.0
+CMD-2024-00747,quantite_en_milliers,qte_commandee,20000.0,20.0
+CMD-2024-00778,quantite_en_milliers,qte_commandee,44500.0,44.5
+CMD-2024-00796,quantite_en_milliers,qte_commandee,19000.0,19.0
+CMD-2024-00821,quantite_en_milliers,qte_commandee,36500.0,36.5
+CMD-2024-00829,quantite_en_milliers,qte_commandee,50000.0,50.0
+CMD-2024-00834,quantite_en_milliers,qte_commandee,53000.0,53.0
+CMD-2024-00838,quantite_en_milliers,qte_commandee,20000.0,20.0
+CMD-2024-00839,quantite_en_milliers,qte_commandee,25500.0,25.5
+CMD-2024-00864,quantite_en_milliers,qte_commandee,14000.0,14.0
+CMD-2024-00871,quantite_en_milliers,qte_commandee,13500.0,13.5
+CMD-2024-00876,quantite_en_milliers,qte_commandee,70000.0,70.0
+CMD-2024-00891,quantite_en_milliers,qte_commandee,17500.0,17.5
+CMD-2024-00895,quantite_en_milliers,qte_commandee,35000.0,35.0
+CMD-2024-00897,quantite_en_milliers,qte_commandee,24000.0,24.0
+CMD-2024-00912,quantite_en_milliers,qte_commandee,11000.0,11.0
+CMD-2024-00918,quantite_en_milliers,qte_commandee,14500.0,14.5
+CMD-2024-00941,quantite_en_milliers,qte_commandee,41000.0,41.0
+CMD-2024-00948,quantite_en_milliers,qte_commandee,79000.0,79.0
+CMD-2024-00951,quantite_en_milliers,qte_commandee,117000.0,117.0
+CMD-2024-00954,quantite_en_milliers,qte_commandee,22500.0,22.5
+CMD-2024-00955,quantite_en_milliers,qte_commandee,35500.0,35.5
+CMD-2024-00956,quantite_en_milliers,qte_commandee,47000.0,47.0
+CMD-2024-00967,quantite_en_milliers,qte_commandee,38000.0,38.0
+CMD-2023-00728,livraison_avant_commande,date_livraison,2023-06-23 00:00:00,2023-05-03 00:00:00
+CMD-2025-01436,livraison_avant_commande,date_livraison,2025-10-16 00:00:00,2025-09-17 00:00:00
+CMD-2025-01271,livraison_avant_commande,date_livraison,2025-09-11 00:00:00,2025-08-07 00:00:00
+CMD-2023-01145,livraison_avant_commande,date_livraison,2023-08-21 00:00:00,2023-07-19 00:00:00
+CMD-2024-00434,livraison_avant_commande,date_livraison,2024-04-11 00:00:00,2024-03-08 00:00:00
+CMD-2024-01412,livraison_avant_commande,date_livraison,2024-10-18 00:00:00,2024-09-10 00:00:00
+CMD-2025-01318,livraison_avant_commande,date_livraison,2025-09-30 00:00:00,2025-08-23 00:00:00
+CMD-2024-00157,livraison_avant_commande,date_livraison,2024-02-24 00:00:00,2024-01-19 00:00:00
+CMD-2025-01261,livraison_avant_commande,date_livraison,2025-09-02 00:00:00,2025-08-09 00:00:00
+CMD-2024-01345,livraison_avant_commande,date_livraison,2024-10-01 00:00:00,2024-08-21 00:00:00
+CMD-2025-00617,livraison_avant_commande,date_livraison,2025-05-18 00:00:00,2025-04-06 00:00:00
+CMD-2023-00985,livraison_avant_commande,date_livraison,2023-08-08 00:00:00,2023-06-26 00:00:00
+CMD-2025-00496,livraison_avant_commande,date_livraison,2025-05-07 00:00:00,2025-03-25 00:00:00
+CMD-2023-01763,livraison_avant_commande,date_livraison,2023-12-06 00:00:00,2023-11-03 00:00:00
+CMD-2024-01020,livraison_avant_commande,date_livraison,2024-08-01 00:00:00,2024-07-02 00:00:00
+CMD-2025-01155,livraison_avant_commande,date_livraison,2025-09-04 00:00:00,2025-07-19 00:00:00
+CMD-2025-00277,livraison_avant_commande,date_livraison,2025-03-20 00:00:00,2025-02-08 00:00:00
+CMD-2023-00732,livraison_avant_commande,date_livraison,2023-06-04 00:00:00,2023-04-27 00:00:00
+CMD-2023-01510,livraison_avant_commande,date_livraison,2023-10-21 00:00:00,2023-09-18 00:00:00
+CMD-2024-00750,livraison_avant_commande,date_livraison,2024-06-07 00:00:00,2024-05-09 00:00:00
+CMD-2024-00339,livraison_avant_commande,date_livraison,2024-04-16 00:00:00,2024-02-24 00:00:00
+CMD-2025-01709,livraison_avant_commande,date_livraison,2025-12-31 00:00:00,2025-11-01 00:00:00
+CMD-2024-01780,livraison_avant_commande,date_livraison,2024-12-20 00:00:00,2024-11-21 00:00:00
+CMD-2023-01736,livraison_avant_commande,date_livraison,2023-12-06 00:00:00,2023-10-24 00:00:00
+CMD-2023-00696,livraison_avant_commande,date_livraison,2023-06-12 00:00:00,2023-04-27 00:00:00
+CMD-2023-01768,livraison_avant_commande,date_livraison,2023-12-19 00:00:00,2023-11-10 00:00:00
+CMD-2023-00877,livraison_avant_commande,date_livraison,2023-07-02 00:00:00,2023-06-03 00:00:00
+CMD-2025-00855,livraison_avant_commande,date_livraison,2025-07-11 00:00:00,2025-05-19 00:00:00
+CMD-2025-01170,livraison_avant_commande,date_livraison,2025-08-18 00:00:00,2025-07-27 00:00:00
+CMD-2024-00095,livraison_avant_commande,date_livraison,2024-02-25 00:00:00,2024-01-13 00:00:00
+CMD-2024-01886,quantite_negative_ou_nulle,qte_livree,21500.0,-21500.0
+CMD-2023-00902,quantite_negative_ou_nulle,qte_livree,92500.0,-92500.0
+CMD-2025-00466,quantite_negative_ou_nulle,qte_livree,46500.0,0.0
+CMD-2025-00647,quantite_negative_ou_nulle,qte_livree,34000.0,-34000.0
+CMD-2024-00751,quantite_negative_ou_nulle,qte_livree,23000.0,-23000.0
+CMD-2025-00977,quantite_negative_ou_nulle,qte_livree,68500.0,0.0
+CMD-2023-00674,quantite_negative_ou_nulle,qte_livree,26000.0,-26000.0
+CMD-2023-00530,quantite_negative_ou_nulle,qte_livree,33500.0,0.0
+CMD-2025-01698,quantite_negative_ou_nulle,qte_livree,45500.0,0.0
+CMD-2023-01142,quantite_negative_ou_nulle,qte_livree,33500.0,0.0
+CMD-2023-01391,quantite_negative_ou_nulle,qte_livree,89000.0,0.0
+CMD-2025-00117,quantite_negative_ou_nulle,qte_livree,64000.0,0.0
+CMD-2025-01748,quantite_negative_ou_nulle,qte_livree,29500.0,0.0
+CMD-2025-00517,quantite_negative_ou_nulle,qte_livree,28500.0,0.0
+CMD-2023-00241,quantite_negative_ou_nulle,qte_livree,40500.0,0.0
+CMD-2024-01661,quantite_negative_ou_nulle,qte_livree,34500.0,-34500.0
+CMD-2024-01783,quantite_negative_ou_nulle,qte_livree,70000.0,0.0
+CMD-2025-00134,quantite_negative_ou_nulle,qte_livree,23500.0,0.0
+CMD-2024-01384,sku_inconnu,sku,DL-SV-004,DL-SV-04
+CMD-2024-01572,sku_inconnu,sku,DL-DE-001,DL-DE-01
+CMD-2024-01730,sku_inconnu,sku,DL-CA-011,DL-CA-11
+CMD-2023-01530,sku_inconnu,sku,DL-HY-001,DL-HY-01
+CMD-2023-01475,sku_inconnu,sku,DL-SO-001,DL-XX-998
+CMD-2025-01623,sku_inconnu,sku,DL-HY-005,DL-HY-05
+CMD-2023-00025,sku_inconnu,sku,DL-SV-008,DL-SV-08
+CMD-2023-00377,sku_inconnu,sku,DL-DE-009,DL-XX-954
+CMD-2024-01347,sku_inconnu,sku,DL-BB-001,DL-BB-01
+CMD-2024-00320,sku_inconnu,sku,DL-BB-001,DL-BB-01
+CMD-2025-01580,sku_inconnu,sku,DL-SO-008,DL-SO-08
+CMD-2025-01649,sku_inconnu,sku,DL-SV-002,DL-XX-920
+CMD-2023-00899,sku_inconnu,sku,DL-DE-008,DL-XX-987
+CMD-2024-01265,sku_inconnu,sku,DL-CA-011,DL-CA-11
+CMD-2023-00576,sku_inconnu,sku,DL-SV-002,DL-XX-956
+CMD-2023-01450,sku_inconnu,sku,DL-DE-001,DL-DE-01
+CMD-2023-00812,sku_inconnu,sku,DL-DE-008,DL-XX-926
+CMD-2024-00325,sku_inconnu,sku,DL-CA-011,DL-XX-974
+CMD-2025-01005,sku_inconnu,sku,DL-SV-002,DL-SV-02
+CMD-2023-01587,sku_inconnu,sku,DL-HY-006,DL-HY-06
+CMD-2025-01306,sku_inconnu,sku,DL-SV-006,DL-XX-933
+CMD-2024-00317,sku_inconnu,sku,DL-SO-009,DL-SO-09
+CMD-2023-00745,sku_inconnu,sku,DL-HY-001,DL-XX-914
+CMD-2023-00818,sku_inconnu,sku,DL-HY-002,DL-HY-02
+CMD-2025-00390,sku_inconnu,sku,DL-SO-001,DL-XX-908
+CMD-2024-01282,sku_inconnu,sku,DL-SV-001,DL-SV-01
+CMD-2025-01283,sku_inconnu,sku,DL-HY-008,DL-XX-948
+CMD-2024-00488,sku_inconnu,sku,DL-CA-012,DL-XX-979
+CMD-2024-00262,sku_inconnu,sku,DL-CA-011,DL-CA-11
+CMD-2025-01160,sku_inconnu,sku,DL-CA-011,DL-CA-11
+CMD-2024-01389,sku_inconnu,sku,DL-HY-002,DL-XX-952
+CMD-2023-01601,sku_inconnu,sku,DL-HY-002,DL-XX-943
+CMD-2023-00336,sku_inconnu,sku,DL-DE-008,DL-XX-975
+CMD-2024-01479,sku_inconnu,sku,DL-CA-012,DL-CA-12
+CMD-2023-01680,sku_inconnu,sku,DL-HY-004,DL-XX-946
+CMD-2023-01586,sku_inconnu,sku,DL-DE-007,DL-DE-07
+CMD-2024-00073,sku_inconnu,sku,DL-CA-006,DL-XX-965
+CMD-2023-00896,sku_inconnu,sku,DL-BB-001,DL-BB-01
+CMD-2025-00892,sku_inconnu,sku,DL-HY-001,DL-XX-969
+CMD-2025-00334,sku_inconnu,sku,DL-SO-005,DL-SO-05
+CMD-2024-01426,sku_inconnu,sku,DL-CA-004,DL-XX-904
+CMD-2024-00624,sku_inconnu,sku,DL-HY-005,DL-XX-918
+CMD-2023-01593,sku_inconnu,sku,DL-DE-009,DL-XX-988
+CMD-2025-00021,sku_inconnu,sku,DL-SO-002,DL-SO-02
+CMD-2025-00536,sku_inconnu,sku,DL-HY-004,DL-HY-04
+CMD-2024-00714,sku_inconnu,sku,DL-DE-001,DL-DE-01
+CMD-2025-01671,sku_inconnu,sku,DL-BB-006,DL-BB-06
+CMD-2025-00236,sku_inconnu,sku,DL-BB-006,DL-XX-958
+CMD-2023-01466,sku_inconnu,sku,DL-DE-002,DL-XX-914
+CMD-2023-00763,sku_inconnu,sku,DL-SV-006,DL-XX-949
+CMD-2023-01201,sku_inconnu,sku,DL-HY-009,DL-HY-09
+CMD-2024-00628,sku_inconnu,sku,DL-DE-001,DL-DE-01
+CMD-2023-00075,sku_inconnu,sku,DL-SV-002,DL-XX-931
+CMD-2025-00087,sku_inconnu,sku,DL-DE-007,DL-DE-07
+CMD-2025-00085,sku_inconnu,sku,DL-HY-004,DL-XX-969
+CMD-2024-00361,sku_inconnu,sku,DL-CA-004,DL-XX-953
+CMD-2025-00487,sku_inconnu,sku,DL-CA-011,DL-XX-958
+CMD-2023-01909,sku_inconnu,sku,DL-SO-009,DL-XX-995
+CMD-2023-00145,sku_inconnu,sku,DL-DE-001,DL-DE-01
+CMD-2023-00931,sku_inconnu,sku,DL-HY-001,DL-HY-01
+CMD-2025-01335,date_livraison_manquante,date_livraison,2025-09-20 00:00:00,
+CMD-2024-00928,date_livraison_manquante,date_livraison,2024-07-18 00:00:00,
+CMD-2023-00094,date_livraison_manquante,date_livraison,2023-03-15 00:00:00,
+CMD-2024-01883,date_livraison_manquante,date_livraison,2025-01-07 00:00:00,
+CMD-2023-00567,date_livraison_manquante,date_livraison,2023-05-09 00:00:00,
+CMD-2024-00985,date_livraison_manquante,date_livraison,2024-08-01 00:00:00,
+CMD-2023-01204,date_livraison_manquante,date_livraison,2023-08-28 00:00:00,
+CMD-2025-00319,date_livraison_manquante,date_livraison,2025-03-20 00:00:00,
+CMD-2023-02026,date_livraison_manquante,date_livraison,2024-02-12 00:00:00,
+CMD-2023-00091,date_livraison_manquante,date_livraison,2023-01-31 00:00:00,
+CMD-2025-00339,date_livraison_manquante,date_livraison,2025-03-18 00:00:00,
+CMD-2023-01631,date_livraison_manquante,date_livraison,2023-11-05 00:00:00,
+CMD-2025-00600,date_livraison_manquante,date_livraison,2025-05-20 00:00:00,
+CMD-2023-02012,date_livraison_manquante,date_livraison,2024-01-21 00:00:00,
+CMD-2023-01876,date_livraison_manquante,date_livraison,2024-01-08 00:00:00,
+CMD-2023-00398,date_livraison_manquante,date_livraison,2023-04-11 00:00:00,
+CMD-2023-01442,date_livraison_manquante,date_livraison,2023-10-08 00:00:00,
+CMD-2024-00138,date_livraison_manquante,date_livraison,2024-02-28 00:00:00,
+CMD-2024-01339,date_livraison_manquante,date_livraison,2024-10-06 00:00:00,
+CMD-2023-01695,date_livraison_manquante,date_livraison,2023-11-17 00:00:00,
+CMD-2023-00287,date_livraison_manquante,date_livraison,2023-03-28 00:00:00,
+CMD-2023-01082,date_livraison_manquante,date_livraison,2023-08-07 00:00:00,
+CMD-2025-00146,date_livraison_manquante,date_livraison,2025-02-19 00:00:00,
+CMD-2025-00231,date_livraison_manquante,date_livraison,2025-03-19 00:00:00,
+CMD-2023-00139,date_livraison_manquante,date_livraison,2023-03-10 00:00:00,
+CMD-2024-00348,date_livraison_manquante,date_livraison,2024-03-30 00:00:00,
+CMD-2024-00721,date_livraison_manquante,date_livraison,2024-06-16 00:00:00,
+CMD-2023-00940,date_livraison_manquante,date_livraison,2023-07-14 00:00:00,
+CMD-2025-00594,date_livraison_manquante,date_livraison,2025-05-28 00:00:00,
+CMD-2025-01116,date_livraison_manquante,date_livraison,2025-08-17 00:00:00,
+CMD-2025-00924,date_livraison_manquante,date_livraison,2025-07-16 00:00:00,
+CMD-2024-00903,date_livraison_manquante,date_livraison,2024-07-21 00:00:00,
+CMD-2024-00269,date_livraison_manquante,date_livraison,2024-03-31 00:00:00,
+CMD-2025-00145,date_livraison_manquante,date_livraison,2025-02-13 00:00:00,
+CMD-2023-01984,date_livraison_manquante,date_livraison,2024-01-13 00:00:00,
+CMD-2024-01148,date_livraison_manquante,date_livraison,2024-09-10 00:00:00,
+CMD-2025-01129,date_livraison_manquante,date_livraison,2025-08-09 00:00:00,
+CMD-2024-00522,date_livraison_manquante,date_livraison,2024-05-08 00:00:00,
+CMD-2024-01195,date_livraison_manquante,date_livraison,2024-09-04 00:00:00,
+CMD-2024-01293,date_livraison_manquante,date_livraison,2024-09-16 00:00:00,
+CMD-2025-00410,date_livraison_manquante,date_livraison,2025-03-31 00:00:00,
+CMD-2024-00798,date_livraison_manquante,date_livraison,2024-07-14 00:00:00,
+CMD-2024-01801,date_livraison_manquante,date_livraison,2024-12-23 00:00:00,
+CMD-2025-00249,date_livraison_manquante,date_livraison,2025-04-06 00:00:00,
+CMD-2024-00877,date_livraison_manquante,date_livraison,2024-07-09 00:00:00,
+CMD-2023-01716,date_livraison_manquante,date_livraison,2023-11-28 00:00:00,
+CMD-2024-01608,date_livraison_manquante,date_livraison,2024-11-16 00:00:00,
+CMD-2024-01447,date_livraison_manquante,date_livraison,2024-11-01 00:00:00,
+CMD-2023-00509,date_livraison_manquante,date_livraison,2023-05-03 00:00:00,
+CMD-2023-01497,date_livraison_manquante,date_livraison,2023-11-05 00:00:00,
+CMD-2023-00342,date_livraison_manquante,date_livraison,2023-03-26 00:00:00,
+CMD-2024-00973,date_livraison_manquante,date_livraison,2024-07-25 00:00:00,
+CMD-2023-01180,date_livraison_manquante,date_livraison,2023-09-02 00:00:00,
+CMD-2023-00815,date_livraison_manquante,date_livraison,2023-06-18 00:00:00,
+CMD-2024-00332,date_livraison_manquante,date_livraison,2024-03-25 00:00:00,
+CMD-2025-00354,date_livraison_manquante,date_livraison,2025-03-24 00:00:00,
+CMD-2025-01738,date_livraison_manquante,date_livraison,2025-12-09 00:00:00,
+CMD-2025-00682,date_livraison_manquante,date_livraison,2025-06-08 00:00:00,
+CMD-2024-00551,date_livraison_manquante,date_livraison,2024-05-13 00:00:00,
+CMD-2023-00881,date_livraison_manquante,date_livraison,2023-07-04 00:00:00,
+CMD-2024-01579,date_livraison_manquante,date_livraison,2024-11-24 00:00:00,
+CMD-2025-01242,date_livraison_manquante,date_livraison,2025-09-14 00:00:00,
+CMD-2023-00250,date_livraison_manquante,date_livraison,2023-03-11 00:00:00,
+CMD-2023-01455,date_livraison_manquante,date_livraison,2023-10-24 00:00:00,
+CMD-2023-00177,date_livraison_manquante,date_livraison,2023-02-23 00:00:00,
+CMD-2023-00283,date_livraison_manquante,date_livraison,2023-03-19 00:00:00,
+CMD-2023-01400,date_livraison_manquante,date_livraison,2023-10-11 00:00:00,
+CMD-2023-01916,date_livraison_manquante,date_livraison,2024-01-02 00:00:00,
+CMD-2025-01749,date_livraison_manquante,date_livraison,2025-12-12 00:00:00,
+CMD-2023-00042,date_livraison_manquante,date_livraison,2023-01-31 00:00:00,
+CMD-2025-00467,date_livraison_manquante,date_livraison,2025-04-18 00:00:00,
+CMD-2023-00217,date_livraison_manquante,date_livraison,2023-03-16 00:00:00,
+CMD-2024-01550,date_livraison_manquante,date_livraison,2024-11-27 00:00:00,
+CMD-2025-01202,date_livraison_manquante,date_livraison,2025-09-05 00:00:00,
+CMD-2024-00038,date_livraison_manquante,date_livraison,2024-02-06 00:00:00,
+CMD-2023-01703,date_livraison_manquante,date_livraison,2023-12-05 00:00:00,
+CMD-2023-00583,date_livraison_manquante,date_livraison,2023-05-02 00:00:00,
+CMD-2025-01128,date_livraison_manquante,date_livraison,2025-08-28 00:00:00,
+CMD-2025-00191,date_livraison_manquante,date_livraison,2025-03-10 00:00:00,
+CMD-2024-01002,date_livraison_manquante,date_livraison,2024-08-09 00:00:00,
+CMD-2025-00911,date_livraison_manquante,date_livraison,2025-07-27 00:00:00,
+CMD-2023-01418,date_livraison_manquante,date_livraison,2023-10-08 00:00:00,
+CMD-2024-00164,date_livraison_manquante,date_livraison,2024-03-04 00:00:00,
+CMD-2024-00645,date_livraison_manquante,date_livraison,2024-05-22 00:00:00,
+CMD-2025-00533,date_livraison_manquante,date_livraison,2025-05-09 00:00:00,
+CMD-2025-00462,date_livraison_manquante,date_livraison,2025-04-21 00:00:00,
+CMD-2024-00882,date_livraison_manquante,date_livraison,2024-07-20 00:00:00,
+CMD-2023-01283,date_livraison_manquante,date_livraison,2023-09-30 00:00:00,
+CMD-2023-01369,date_livraison_manquante,date_livraison,2023-09-28 00:00:00,
+CMD-2024-00468,date_livraison_manquante,date_livraison,2024-04-17 00:00:00,
+CMD-2023-00277,date_livraison_manquante,date_livraison,2023-03-26 00:00:00,
+CMD-2025-00176,date_livraison_manquante,date_livraison,2025-02-27 00:00:00,
+CMD-2023-00305,date_livraison_manquante,date_livraison,2023-03-16 00:00:00,
+CMD-2024-00324,date_livraison_manquante,date_livraison,2024-03-30 00:00:00,
+CMD-2023-00979,date_livraison_manquante,date_livraison,2023-08-06 00:00:00,
+CMD-2024-00155,date_livraison_manquante,date_livraison,2024-02-26 00:00:00,
+CMD-2025-00183,date_livraison_manquante,date_livraison,2025-03-15 00:00:00,
+CMD-2024-00134,date_livraison_manquante,date_livraison,2024-02-16 00:00:00,
+CMD-2024-00664,date_livraison_manquante,date_livraison,2024-06-06 00:00:00,
+CMD-2024-01793,date_livraison_manquante,date_livraison,2024-12-26 00:00:00,
+CMD-2025-01103,date_livraison_manquante,date_livraison,2025-08-12 00:00:00,
+CMD-2025-01411,date_livraison_manquante,date_livraison,2025-10-15 00:00:00,
+CMD-2023-00219,date_livraison_manquante,date_livraison,2023-03-04 00:00:00,
+CMD-2024-01487,date_livraison_manquante,date_livraison,2024-11-11 00:00:00,
+CMD-2024-01362,date_livraison_manquante,date_livraison,2024-09-30 00:00:00,
+CMD-2025-01721,date_livraison_manquante,date_livraison,2025-12-19 00:00:00,
+CMD-2025-01372,date_livraison_manquante,date_livraison,2025-09-29 00:00:00,
+CMD-2023-02014,date_livraison_manquante,date_livraison,2024-01-27 00:00:00,
+CMD-2024-01649,date_livraison_manquante,date_livraison,2024-12-10 00:00:00,
+CMD-2025-01091,date_livraison_manquante,date_livraison,2025-08-19 00:00:00,
+CMD-2024-01595,date_livraison_manquante,date_livraison,2024-11-29 00:00:00,
+CMD-2023-01588,date_livraison_manquante,date_livraison,2023-11-05 00:00:00,
+CMD-2023-01934,date_livraison_manquante,date_livraison,2024-01-16 00:00:00,
+CMD-2025-00036,date_livraison_manquante,date_livraison,2025-02-23 00:00:00,
+CMD-2025-01374,date_livraison_manquante,date_livraison,2025-10-26 00:00:00,
+CMD-2024-01475,date_livraison_manquante,date_livraison,2024-11-01 00:00:00,
+CMD-2023-02009,date_livraison_manquante,date_livraison,2024-01-20 00:00:00,
+CMD-2024-01863,date_livraison_manquante,date_livraison,2025-01-14 00:00:00,
+CMD-2024-01070,date_livraison_manquante,date_livraison,2024-08-17 00:00:00,
+CMD-2023-00031,date_livraison_manquante,date_livraison,2023-02-01 00:00:00,
+CMD-2024-01675,doublon,ligne entière,,
+CMD-2025-01925,doublon,ligne entière,,
+CMD-2023-01244,doublon,ligne entière,,
+CMD-2023-01223,doublon,ligne entière,,
+CMD-2023-00408,doublon,ligne entière,,
+CMD-2024-01728,doublon,ligne entière,,
+CMD-2024-01414,doublon,ligne entière,,
+CMD-2024-01061,doublon,ligne entière,,
+CMD-2025-00168,doublon,ligne entière,,
+CMD-2024-01449,doublon,ligne entière,,
+CMD-2024-00025,doublon,ligne entière,,
+CMD-2025-00884,doublon,ligne entière,,
+CMD-2023-01955,doublon,ligne entière,,
+CMD-2024-00101,doublon,ligne entière,,
+CMD-2025-00281,doublon,ligne entière,,
+CMD-2025-01106,doublon,ligne entière,,
+CMD-2024-01778,doublon,ligne entière,,
+CMD-2024-00845,doublon,ligne entière,,
+CMD-2024-01127,doublon,ligne entière,,
+CMD-2025-01921,doublon,ligne entière,,
+CMD-2024-00904,doublon,ligne entière,,
+CMD-2023-01665,doublon,ligne entière,,
+CMD-2023-01926,doublon,ligne entière,,
+CMD-2025-00044,doublon,ligne entière,,
+CMD-2025-01040,doublon,ligne entière,,
+CMD-2024-01384,doublon,ligne entière,,
+CMD-2024-01955,doublon,ligne entière,,
+CMD-2024-00132,doublon,ligne entière,,
+CMD-2025-01671,doublon,ligne entière,,
+CMD-2024-01107,doublon,ligne entière,,
+CMD-2025-00167,doublon,ligne entière,,
+CMD-2023-01455,doublon,ligne entière,,
+CMD-2025-00695,doublon,ligne entière,,
+CMD-2023-00082,doublon,ligne entière,,
+CMD-2024-00837,doublon,ligne entière,,
+CMD-2023-00601,doublon,ligne entière,,
+CMD-2023-01561,doublon,ligne entière,,
+CMD-2024-00006,doublon,ligne entière,,
+CMD-2023-00429,doublon,ligne entière,,
+CMD-2024-00763,doublon,ligne entière,,
+CMD-2023-01944,doublon,ligne entière,,
+CMD-2023-01284,doublon,ligne entière,,
+CMD-2023-00271,doublon,ligne entière,,
+CMD-2024-00815,doublon,ligne entière,,
+CMD-2025-00864,doublon,ligne entière,,
+CMD-2025-00564,doublon,ligne entière,,
+CMD-2025-00488,doublon,ligne entière,,
+CMD-2023-00957,doublon,ligne entière,,
+CMD-2023-00728,doublon,ligne entière,,
+CMD-2023-00616,doublon,ligne entière,,
+CMD-2024-01739,doublon,ligne entière,,
+CMD-2023-01273,doublon,ligne entière,,
+CMD-2023-01152,doublon,ligne entière,,
+CMD-2023-01104,doublon,ligne entière,,
+CMD-2023-01170,doublon,ligne entière,,
+CMD-2023-00134,doublon,ligne entière,,
+CMD-2024-00995,doublon,ligne entière,,
+CMD-2024-00069,doublon,ligne entière,,
+CMD-2023-01371,doublon,ligne entière,,
+CMD-2023-01976,doublon,ligne entière,,
+CMD-2023-00507,doublon,ligne entière,,
+CMD-2024-01054,doublon,ligne entière,,
+CMD-2024-00796,doublon,ligne entière,,
+CMD-2023-00802,doublon,ligne entière,,
+CMD-2025-00313,doublon,ligne entière,,
+CMD-2024-01280,doublon,ligne entière,,
+CMD-2025-00773,doublon,ligne entière,,
+CMD-2024-00774,doublon,ligne entière,,
+CMD-2025-00982,doublon,ligne entière,,
+CMD-2023-00370,doublon,ligne entière,,
+CMD-2024-01147,doublon,ligne entière,,
+CMD-2025-00182,doublon,ligne entière,,
+CMD-2025-01737,doublon,ligne entière,,
+CMD-2024-01852,doublon,ligne entière,,
+CMD-2023-00206,doublon,ligne entière,,
+CMD-2023-01283,doublon,ligne entière,,
+CMD-2024-00789,doublon,ligne entière,,
+CMD-2025-01506,doublon,ligne entière,,
+CMD-2024-00781,doublon,ligne entière,,
+CMD-2023-01654,doublon,ligne entière,,
+CMD-2025-00046,doublon,ligne entière,,
+CMD-2025-00482,doublon,ligne entière,,
+CMD-2023-01885,doublon,ligne entière,,
+CMD-2023-01357,doublon,ligne entière,,
+CMD-2025-00862,doublon,ligne entière,,
+CMD-2024-01074,doublon,ligne entière,,
+CMD-2024-01687,doublon,ligne entière,,
+CMD-2024-00670,doublon,ligne entière,,
+CMD-2025-01902,doublon,ligne entière,,
+CMD-2024-01347,doublon,ligne entière,,

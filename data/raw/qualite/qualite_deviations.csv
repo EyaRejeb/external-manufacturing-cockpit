@@ -1,0 +1,1224 @@
+﻿id_deviation,id_lot,date_ouverture,date_cloture,statut_deviation,gravite,description_libre
+DEV-2023-0001,L2023-00045-2,2023-01-13,2023-01-27,clôturée,mineure,Certificat d'analyse du lot fournisseur d'émulsifiant absent ou incomplet. Impact qualité en cours d'évaluation
+DEV-2023-0002,L2023-00032-1,2023-01-13,2023-01-25,clôturée,mineure,Panne de la remplisseuse pendant l'étape d'émulsion
+DEV-2023-0003,L2023-00001-1,2023-01-15,2023-01-19,clôturée,mineure,Certificat d'analyse du lot fournisseur de parfum absent ou incomplet
+DEV-2023-0004,L2023-00056-2,2023-01-17,2023-04-03,clôturée,majeure,Matiere premiere tensioactif non conforme a la specification (aspect) a reception
+DEV-2023-0005,L2023-00040-1,2023-01-19,2023-02-19,clôturée,majeure,Oubli de vérification par l'opérateur avant le lancmeent
+DEV-2023-0006,L2023-00066-1,2023-01-19,2023-01-25,clôturée,mineure,Article de condit. non conforme : notice défectueux
+DEV-2023-0007,L2023-00079-2,2023-01-20,2023-02-22,clôturée,mineure,Erreur de saisie de l'opérateur sur la quantité d'eau purifiée
+DEV-2023-0008,L2023-00036-1,2023-01-22,2023-03-07,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape d'homogénéisation
+DEV-2023-0009,L2023-00091-2,2023-01-22,2023-03-05,clôturée,majeure,Présence de particules étrangères dans le fût d'émulsifiant. Lot placé en quarantaine
+DEV-2023-0010,L2023-00023-2,2023-01-23,2023-02-07,clôturée,majeure,Double vérification non réalisée par le second opé. Responsable qualité informé (après redémarrage de la ligne)
+DEV-2023-0011,L2023-00033-1,2023-01-24,2023-02-19,clôturée,majeure,Erreur de calcul dans le rapport d'analyse du lot
+DEV-2023-0012,L2023-00068-2,2023-01-24,2023-02-12,clôturée,mineure,Erreur de saisie de l'opé sur la quantité de parfum. Production arrêtée deux heures (selon le dossier de lot)
+DEV-2023-0013,L2023-00111-2,2023-01-31,2023-02-06,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de pesée. Ipmact qualité en cours d'évaluation
+DEV-2023-0014,L2023-00152-2,2023-02-01,2023-02-10,clôturée,mineure,Certificat d'analyse du lot fournisseur d'huile minérale absent ou incomplet. Investigation ouverte (selon le dossier de lot)
+DEV-2023-0015,L2023-00161-3,2023-02-01,2023-02-09,clôturée,mineure,Lot d'émuslifiant utilisé alors qu'il était en statut quarantaine. Responsable qualité informé
+DEV-2023-0016,L2023-00136-1,2023-02-01,2023-05-01,clôturée,majeure,Procédure de nettoyage non appliquée entre deux campagnes
+DEV-2023-0017,L2023-00048-2,2023-02-02,2023-02-28,clôturée,majeure,Lot d'eau purifiée utilisé alors qu'il était en statut quarantaine
+DEV-2023-0018,L2023-00132-2,2023-02-02,2023-02-23,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape de fab
+DEV-2023-0019,L2023-00127-2,2023-02-04,2023-02-07,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de conditionnement
+DEV-2023-0020,L2023-00113-1,2023-02-05,2023-03-09,clôturée,critique,Article de conditionnement non conforme : étui défectueux
+DEV-2023-0021,L2023-00022-1,2023-02-06,2023-03-13,clôturée,majeure,Odeur anormale constatée sur huile minérale à la pesée
+DEV-2023-0022,L2023-00114-2,2023-02-06,2023-02-23,clôturée,mineure,"Excipient actif apaisant contamine, signale par le fournisseur apres utilisation. Lot place en quarantaine (en zone de production)"
+DEV-2023-0023,L2023-00055-2,2023-02-06,2023-02-11,clôturée,mineure,Fuite constatee sur la cuve de fabrication
+DEV-2023-0024,L2023-00133-2,2023-02-08,2023-02-13,clôturée,mineure,Article de conditionnement non conforme : notice défectueux. Lot placé en quaranatine (selon le dossier de lot)
+DEV-2023-0025,L2023-00210-1,2023-02-08,2023-02-23,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de pesée. Investigation ouverte
+DEV-2023-0026,L2023-00177-2,2023-02-09,2023-02-15,clôturée,mineure,Paramètre de procédé non enregistré lors de l'étape d'homogénéisation. Responsable qualité informé
+DEV-2023-0027,L2023-00043-3,2023-02-09,2023-03-02,clôturée,mineure,"Écart de viscosité sur la matière première parfum, hors limites du cahier des charges. Aucun impact sur la sécurité du consommateur identifié à ce stade"
+DEV-2023-0028,L2023-00161-2,2023-02-10,2023-03-27,clôturée,majeure,Certificat d'analyse du lot fournisseur de filtre UV absent ou incomplet
+DEV-2023-0029,L2023-00041-2,2023-02-11,2023-03-05,clôturée,mineure,Arrêt non planifié de la turbine d'homogénéisation suite à une alarme (confirmé par analyse)
+DEV-2023-0030,L2023-00152-3,2023-02-12,2023-03-13,clôturée,mineure,Odeur anormale constatée sur émulsifiant à la pesée
+DEV-2023-0031,L2023-00077-2,2023-02-13,2023-02-27,clôturée,mineure,Temps d'homogénéisation dépassé par rapport au dossier de lot. Impact qualité en cours d'évaluation
+DEV-2023-0032,L2023-00167-1,2023-02-13,2023-02-18,clôturée,mineure,Certificat d'analyse du lot fournisseur de tensioactif absent ou incomplet. Responsable qualité informé
+DEV-2023-0033,L2023-00177-1,2023-02-14,2023-03-14,clôturée,majeure,Lot d'émulsifiant utilisé alors qu'il était en statut quarantaine. Lot placé en quarantaine (après redémarrage de la ligne)
+DEV-2023-0034,L2023-00222-1,2023-02-14,2023-03-03,clôturée,mineure,odeur anormale constatée sur eau purifiée à la pesée
+DEV-2023-0035,L2023-00207-2,2023-02-14,2023-03-13,clôturée,majeure,Instruction de fabrication non suivie lors de l'étape d'homogénéisation. Responsable qualité informé
+DEV-2023-0036,L2023-00233-1,2023-02-16,2023-03-11,clôturée,majeure,Balance de pesée hors étalonnage utilisée pour eau purifiée
+DEV-2023-0037,L2023-00134-2,2023-02-17,2023-03-26,clôturée,majeure,Article de condti. non conforme : flacon défectueux
+DEV-2023-0038,L2023-00181-1,2023-02-17,2023-03-04,clôturée,mineure,Double vérification non réalisée par le second opérateur. Responsable qualité informé
+DEV-2023-0039,L2023-00195-1,2023-02-17,2023-02-26,clôturée,mineure,Instruction de fabrication non suivie lors de l'étape d'émulsion
+DEV-2023-0040,L2023-00257-1,2023-02-18,2023-03-21,clôturée,mineure,Etape de refroidissement realisee hors procedure : vitesse d'agitation non respectee. Investigation ouverte
+DEV-2023-0041,L2023-00216-1,2023-02-18,2023-04-04,clôturée,critique,Erreur dé'tiquetage manuel par l'opérateur. Investigation ouverte
+DEV-2023-0042,L2023-00140-1,2023-02-18,2023-03-09,clôturée,mineure,Défaut d'étanchéité de la turbine d'homogénéisation. Lot placé en quarantaine
+DEV-2023-0043,L2023-00183-1,2023-02-20,2023-03-15,clôturée,critique,Comptage particulaire hors limites en salle propre. Production arrêtée deux heures
+DEV-2023-0044,L2023-00217-3,2023-02-20,2023-03-06,clôturée,mineure,Derive de vitesse de la pompe de transfert detectee en cours de production
+DEV-2023-0045,L2023-00225-3,2023-02-21,2023-03-04,clôturée,majeure,Formation de l'opérateur à la procédure d'émulsion non à jour. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0046,L2023-00269-1,2023-02-21,2023-03-28,clôturée,majeure,Article de conditionnement non conforme : etui defectueux
+DEV-2023-0047,L2023-00289-1,2023-02-24,2023-04-21,clôturée,critique,mode opératoire obsolète utilisé pour l'étape de pesée (confirmé par analyse)
+DEV-2023-0048,L2023-00144-2,2023-02-28,2023-05-13,clôturée,majeure,Arret non plnaifie de la remplisseuse suite a une alarme
+DEV-2023-0049,L2023-00333-2,2023-02-28,2023-04-19,clôturée,majeure,fuite constatée sur la cuve de fabrication. production arrêtée deux heures
+DEV-2023-0050,L2023-00281-2,2023-03-01,2023-04-02,clôturée,majeure,Infiltration d'eau constatée dans l'taelier de fabrication
+DEV-2023-0051,L2023-00287-2,2023-03-02,2023-03-07,clôturée,mineure,Odeur anormale constatée sur beurre de karité à la pesée. Responsable qualité informé
+DEV-2023-0052,L2023-00274-1,2023-03-02,2023-04-12,clôturée,critique,Erreur de saisie de l'operateur sur la quantite de glycerine
+DEV-2023-0053,L2023-00190-1,2023-03-02,2023-03-23,clôturée,mineure,Humidité relative excessive en zone de fabrication
+DEV-2023-0054,L2023-00223-2,2023-03-03,2023-03-10,clôturée,mineure,Certificat d'analyse du lot fournisseur de glycérine absent ou incomplet
+DEV-2023-0055,L2023-00304-1,2023-03-05,2023-03-25,clôturée,mineure,Erreur d'étiquetage manuel par l'opé. Responsable qualité informé
+DEV-2023-0056,L2023-00201-1,2023-03-06,2023-03-26,clôturée,majeure,"excipient glycerine contamine, signale par le fournisseur apres utilisation. aucun impact sur la securite du consommateur identifie a ce stade"
+DEV-2023-0057,L2023-00348-2,2023-03-08,2023-03-24,clôturée,majeure,Capteur de la pompe de transfert hors service
+DEV-2023-0058,L2023-00307-1,2023-03-08,2023-04-04,clôturée,mineure,odeur anormale constatée sur glycérine à la pesée
+DEV-2023-0059,L2023-00245-1,2023-03-10,2023-04-12,clôturée,majeure,Certificat d'analyse du lot fournisseur de beurre de karite absent ou incomplet. Impact qualite en cours d'evaluation
+DEV-2023-0060,L2023-00266-3,2023-03-11,2023-03-24,clôturée,mineure,Capteur de la pompe de transfert hors service. Lot placé en quarantaine
+DEV-2023-0061,L2023-00358-1,2023-03-12,2023-04-02,clôturée,majeure,opérateur non habilité affecté au poste de fabrication. aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0062,L2023-00361-1,2023-03-13,2023-03-27,clôturée,mineure,Présence de particules étrangères dans le fût de tensioactif
+DEV-2023-0063,L2023-00277-2,2023-03-13,2023-04-10,clôturée,majeure,Opérateur non habilité affecté au poste de refroidissement. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0064,L2023-00165-2,2023-03-16,2023-03-29,clôturée,mineure,Panne de la machine d'etiquetage pendant l'etape de pesee
+DEV-2023-0065,L2023-00332-1,2023-03-17,2023-03-19,clôturée,mineure,Ecart entre deux mesures d'aspect sur le meme echantillon
+DEV-2023-0066,L2023-00389-3,2023-03-19,2023-03-28,clôturée,mineure,Opérateur non habilité affecté au poste de remplissage. Production arrêtée deux heures (selon le dossier de lot)
+DEV-2023-0067,L2023-00396-2,2023-03-20,2023-05-15,clôturée,majeure,Oubli de vérification par l'opérateur avant le lancement. Impact qualité en cours d'évaluation
+DEV-2023-0068,L2023-00287-1,2023-03-22,2023-03-30,clôturée,mineure,Certificat d'analyse du lot fournisseur de glycérine absent ou incomplet. Impact qualité en cours d'évaluation
+DEV-2023-0069,L2023-00402-1,2023-03-22,2023-04-17,clôturée,mineure,Fuite constatée sur la pompe de transfert (sur le lot fournisseur)
+DEV-2023-0070,L2023-00379-2,2023-03-22,2023-04-02,clôturée,majeure,"Écart d'odeur sur la matière première huile minérale, hors limites du chaier des charges"
+DEV-2023-0071,L2023-00394-3,2023-03-23,2023-03-29,clôturée,mineure,"Excipient émulsifiant contaminé, siganlé par le fournisseur après utilisation"
+DEV-2023-0072,L2023-00455-2,2023-03-23,2023-04-14,clôturée,majeure,Odeur anormale constatée sur filtre UV à la pesée. Responsable qualité informé
+DEV-2023-0073,L2023-00312-2,2023-03-25,2023-04-25,clôturée,mineure,procédure de nettoyage non appliquée entre deux campagnes. investigation ouverte
+DEV-2023-0074,L2023-00424-1,2023-03-26,2023-04-13,clôturée,majeure,erreur de calcul dans le rapport d'analyse du lot (arpès redémarrage de la ligne)
+DEV-2023-0075,L2023-00438-3,2023-03-27,2023-05-22,clôturée,majeure,Arrêt non planifié de la pompe de transfert suite à une alarme. Production arrêtée deux heures
+DEV-2023-0076,L2023-00450-2,2023-03-30,2023-04-15,clôturée,majeure,certificat d'analyse du lot fournisseur de beurre de karité absent ou incomplet
+DEV-2023-0077,L2023-00359-2,2023-03-31,2023-04-14,clôturée,mineure,odeur anormale constatée sur huile minérale à la pesée. investigation ouverte
+DEV-2023-0078,L2023-00346-3,2023-03-31,2023-04-10,clôturée,majeure,Panne de la machine d'étiquetage pendant l'étape de filtration
+DEV-2023-0079,L2023-00491-1,2023-03-31,2023-04-05,clôturée,mineure,Instruction de fab non suivie lors de l'étape de remplissage. Investigation ouverte (sur le lot fournisseur)
+DEV-2023-0080,L2023-00431-2,2023-04-01,2023-04-04,clôturée,mineure,Dossier de lot inocmplet : signature manquante à l'étape de refroidissement
+DEV-2023-0081,L2023-00417-1,2023-04-02,2023-04-30,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape de refroidissement. Responsable qualité informé
+DEV-2023-0082,L2023-00437-1,2023-04-02,2023-04-08,clôturée,majeure,Mode opératoire obsolète utilisé pour l'étape de filtration. Responsable qualité informé (constaté par l'opérateur)
+DEV-2023-0083,L2023-00474-1,2023-04-03,2023-08-09,clôturée,critique,Présence de particules étrangères dans le fût d'eau purifiée
+DEV-2023-0084,L2023-00519-1,2023-04-05,2023-04-08,clôturée,mineure,Thermomètre de contrôle défectueux en cours de refroidissement. Impact qualité en cours d'évaluation
+DEV-2023-0085,L2023-00490-2,2023-04-05,2023-04-25,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape d'homogénéisation
+DEV-2023-0086,L2023-00385-1,2023-04-05,2023-04-19,clôturée,majeure,"Excipient huile minerale contamine, signale par le fournisseur apres utilisation. Production arretee deux heures (en zone de production)"
+DEV-2023-0087,L2023-00473-2,2023-04-07,2023-04-20,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes
+DEV-2023-0088,L2023-00466-3,2023-04-08,2023-04-27,clôturée,mineure,Temps d'homogénéisation dépassé par rapport au dossier de lot
+DEV-2023-0089,L2023-00471-1,2023-04-08,2023-05-21,clôturée,majeure,Methode analytique non validee utilisee pour le dosage
+DEV-2023-0090,L2023-00525-2,2023-04-09,2023-04-15,clôturée,mineure,Certificat d'analyse du lot fournisseur de filtre UV abesnt ou incomplet (confirmé par analyse)
+DEV-2023-0091,L2023-00504-1,2023-04-10,2023-04-16,clôturée,majeure,Lot de conservateur utilise alors qu'il etait en statut qaurantaine. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2023-0092,L2023-00541-3,2023-04-10,2023-06-07,clôturée,majeure,Formation de l'opérateur à la procédure de conditionnement non à jour. Responsable qualité informé
+DEV-2023-0093,L2023-00515-3,2023-04-12,2023-07-12,clôturée,majeure,mode opératoire obsolète utilisé pour l'étape de refroidissement. production arrêtée deux heures
+DEV-2023-0094,L2023-00564-1,2023-04-13,2023-04-20,clôturée,mineure,Odeur anormale constatée sur eau purifiée à la pesée. Impact qualité en cours d'évaluation
+DEV-2023-0095,L2023-00553-2,2023-04-14,2023-04-29,clôturée,mineure,Operateur non habilite affecte au poste de fabrication
+DEV-2023-0096,L2023-00501-1,2023-04-14,2023-04-28,clôturée,mineure,article de conditionnement non conforme : notice défectueux
+DEV-2023-0097,L2023-00512-1,2023-04-14,2023-05-14,clôturée,majeure,Odeur anormale constatée sur filtre UV à la pesée. Production arrêtée deux heures
+DEV-2023-0098,L2023-00529-1,2023-04-14,2023-04-27,clôturée,majeure,Maint. preventive de la remplisseuse non realisee a echeance. Impact qualite en cours d'evaluation (constate par l'ope)
+DEV-2023-0099,L2023-00439-1,2023-04-15,2023-05-17,clôturée,majeure,Double vérification non réalisée par le second opérateur. Lot placé en quarantaine
+DEV-2023-0100,L2023-00414-1,2023-04-15,2023-04-30,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes. Impact qualité en cours d'évaluation
+DEV-2023-0101,L2023-00369-1,2023-04-17,2023-05-12,clôturée,critique,Port des équipements de protection non conforme en zone de fabrication
+DEV-2023-0102,L2023-00547-1,2023-04-18,2023-06-04,clôturée,critique,Defaut d'etancheite de la ligne d'encartonnage
+DEV-2023-0103,L2023-00541-1,2023-04-19,2023-05-03,clôturée,mineure,ordre d'introduction des phases inversé pendant l'étape de filtration
+DEV-2023-0104,L2023-00589-2,2023-04-19,2023-04-30,clôturée,mineure,Double vérification non réalisée par le second opérateur. Impact qualité en cours d'évaluation (confirmé par analyse)
+DEV-2023-0105,L2023-00541-2,2023-04-20,2023-06-10,clôturée,majeure,présence de particules étrangères dans le fût de parfum. lot placé en quarantaine (constaté par l'opérateur)
+DEV-2023-0106,L2023-00558-1,2023-04-20,2023-04-23,clôturée,mineure,lot de filtre uv utilisé alors qu'il était en statut quarantaine
+DEV-2023-0107,L2023-00520-1,2023-04-22,2023-06-02,clôturée,majeure,instruction de fabrication non suivie lors de l'étape de pesée. impact qualité en cours d'évlauation
+DEV-2023-0108,L2023-00511-3,2023-04-22,2023-05-17,clôturée,mineure,Balance de pesée hors étalonnage utilisée pour beurre de karité. Lot placé en quarantaine (en zone de production)
+DEV-2023-0109,L2023-00589-1,2023-04-22,2023-05-10,clôturée,mineure,"Excipient parfum contaminé, signalé par le fournisseur après utilisation"
+DEV-2023-0110,L2023-00602-2,2023-04-23,2023-04-30,clôturée,mineure,Panne de la cuve de fab pendant l'étape de refroidissement. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0111,L2023-00607-1,2023-04-23,2023-05-15,clôturée,critique,"Écart de densité sur la MP émulsifiant, hors limites du cahier des charges"
+DEV-2023-0112,L2023-00549-1,2023-04-27,2023-05-06,clôturée,majeure,dossier de lot incomplet : signature manquante à l'étape d'émulsion
+DEV-2023-0113,L2023-00618-2,2023-04-27,2023-06-01,clôturée,majeure,contamination microbiologique détectée lors du contrôle d'environnement. lot placé en quarantaine
+DEV-2023-0114,L2023-00618-1,2023-05-02,2023-05-15,clôturée,majeure,Instruction de fab non suivie lors de l'etape d'homogeneisation
+DEV-2023-0115,L2023-00629-1,2023-05-03,2023-05-26,clôturée,mineure,thermomètre de contrôle défectueux en cours de conditionnement. responsable qualité informé
+DEV-2023-0116,L2023-00596-1,2023-05-05,2023-06-03,clôturée,majeure,capteur de la ligne d'encartonnage hors service. investigation ouverte
+DEV-2023-0117,L2023-00603-1,2023-05-05,2023-05-10,clôturée,mineure,étape de remplissage réalisée hors proc. : vitesse d'agitation non respectée
+DEV-2023-0118,L2023-00673-1,2023-05-05,2023-05-29,clôturée,mineure,Paramètre de procédé non enregistré lors de l'étape de refroidissement. Production arrêtée deux heures
+DEV-2023-0119,L2023-00598-1,2023-05-06,2023-06-05,clôturée,majeure,Fuite constatée sur la pompe de transfert
+DEV-2023-0120,L2023-00593-1,2023-05-08,2023-05-29,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes
+DEV-2023-0121,L2023-00596-3,2023-05-08,2023-05-31,clôturée,mineure,Erreur d'etiquetage manuel par l'operateur
+DEV-2023-0122,L2023-00637-3,2023-05-11,2023-06-24,clôturée,critique,"Écart de densité sur la matière première beurre de karité, hors limites du cahier des charges. Investigation ouverte"
+DEV-2023-0123,L2023-00642-2,2023-05-13,2023-05-25,clôturée,mineure,Matière première filtre UV non conforme à la spécification (odeur) à réception. Lot placé en quarantaine (confirmé par analyse)
+DEV-2023-0124,L2023-00677-1,2023-05-15,2023-06-04,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes
+DEV-2023-0125,L2023-00723-2,2023-05-16,2023-05-25,clôturée,mineure,Lot d'actif apaisant utilisé alors qu'il était en statut quarantaine
+DEV-2023-0126,L2023-00690-3,2023-05-16,2023-06-14,clôturée,critique,Instrument de mesure d'aspect non qualifié. Impact qualité en cours d'évaluation
+DEV-2023-0127,L2023-00651-3,2023-05-16,2023-05-29,clôturée,majeure,Étape de pesée réalisée hors procédure : vitesse d'agitation non respectée
+DEV-2023-0128,L2023-00654-2,2023-05-17,2023-05-24,clôturée,mineure,fuite constatée sur la pompe de transfert
+DEV-2023-0129,L2023-00741-1,2023-05-17,2023-06-07,clôturée,majeure,Instruction de fabrication non suivie lors de l'etape de pesee. Impact qualite en cours d'evaluation
+DEV-2023-0130,L2023-00676-1,2023-05-17,2023-05-28,clôturée,mineure,Lot d'huile minérale utliisé alors qu'il était en statut quarantaine. Lot placé en quarantaine
+DEV-2023-0131,L2023-00634-1,2023-05-18,2023-05-31,clôturée,majeure,Écart entre deux mesures de pH sur le même échantillon. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0132,L2023-00725-2,2023-05-19,2023-06-16,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape d'émulsion (en zone de production)
+DEV-2023-0133,L2023-00749-1,2023-05-21,2023-06-28,clôturée,majeure,Lot d'huile minérale utilisé alors qu'il était en statut quaarntaine
+DEV-2023-0134,L2023-00598-2,2023-05-23,2023-06-18,clôturée,mineure,Defaut d'etancehite de la machine d'etiquetage
+DEV-2023-0135,L2023-00592-1,2023-05-23,2023-06-07,clôturée,mineure,"Ecart d'odeur sur la MP beurre de karite, hors limites du cahier des charges"
+DEV-2023-0136,L2023-00745-1,2023-05-24,2023-06-01,clôturée,majeure,comptage particulaire hors limites en salle propre. aucun impact sur la sécurité du consommateur identifié à ce stade (confirmé par analyse)
+DEV-2023-0137,L2023-00634-2,2023-05-25,2023-06-21,clôturée,majeure,Dossier de lot incomplet : signature manquante a l'etape de fabrication. Investigation ouverte
+DEV-2023-0138,L2023-00587-2,2023-05-25,2023-06-06,clôturée,mineure,Double verification non realisee par le second operateur. Responsable qualite informe
+DEV-2023-0139,L2023-00759-3,2023-05-27,2023-06-08,clôturée,mineure,Formation de l'opé à la proc. de remplissage non à jour. Production arrêtée deux heures
+DEV-2023-0140,L2023-00611-2,2023-05-27,2023-06-22,clôturée,critique,Dérive de vitesse de la ligne d'encartonnage détectée en cours de production
+DEV-2023-0141,L2023-00685-1,2023-05-27,2023-06-07,clôturée,mineure,Humidite relative excessive en zone de fabrication (confirme par analyse)
+DEV-2023-0142,L2023-00644-1,2023-05-27,2023-06-07,clôturée,majeure,Formation de l'ope a la proc. de condit. non a jour
+DEV-2023-0143,L2023-00726-1,2023-05-29,2023-06-05,clôturée,mineure,Panne de la climatisation de la zone de fabrication
+DEV-2023-0144,L2023-00690-1,2023-05-30,2023-06-25,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape de remplissage. Investigation ouverte
+DEV-2023-0145,L2023-00678-1,2023-05-30,2023-06-10,clôturée,mineure,étape d'émulsion réalisée hors procédure : contrôle intermédiaire omis. investigation ouverte
+DEV-2023-0146,L2023-00784-2,2023-05-30,2023-06-11,clôturée,mineure,"Excipient glycérine contaminé, signalé par le fournisseur après utilisation. Investigation ouverte"
+DEV-2023-0147,L2023-00766-1,2023-05-30,2023-07-09,clôturée,majeure,Étape de remplissage réalisée hors procédure : vitesse d'agitation non respectée. Investigation ouverte
+DEV-2023-0148,L2023-00778-1,2023-05-31,2023-06-07,clôturée,mineure,Fuite constatée sur la boucheuse
+DEV-2023-0149,L2023-00768-3,2023-05-31,2023-06-04,clôturée,mineure,capteur de la cuve de fab hors service. production arretee deux heures
+DEV-2023-0150,L2023-00787-1,2023-06-01,2023-06-15,clôturée,mineure,Étape de remplissage réalisée hors proc. : durée d'homogénéisation raccoucrie
+DEV-2023-0151,L2023-00779-2,2023-06-01,2023-06-16,clôturée,mineure,Étape de fabrication réalisée hors procédure : température de phase non contrôlée
+DEV-2023-0152,L2023-00770-1,2023-06-01,2023-07-26,clôturée,majeure,Etape d'homogeneisation realisee hors procedure : temperature de phase non controlee. Production arretee deux heures
+DEV-2023-0153,L2023-00746-2,2023-06-02,2023-06-21,clôturée,mineure,article de conditionnement non conforme : étiquette défectueux. production arrêtée deux heures
+DEV-2023-0154,L2023-00732-1,2023-06-02,2023-07-03,clôturée,majeure,Matiere premiere filtre UV non conforme a la specification (viscosite) a reception. Lot place en quarantaine
+DEV-2023-0155,L2023-00828-1,2023-06-04,2023-06-29,clôturée,mineure,Formation de l'operateur a la procedure de fabrication non a jour
+DEV-2023-0156,L2023-00763-1,2023-06-07,2023-08-03,clôturée,majeure,Température de la salle de remplissage hors limites (8 °C). Impact qualité en cours d'évaluation
+DEV-2023-0157,L2023-00823-3,2023-06-07,2023-07-26,clôturée,mineure,Certificat d'analyse du lot fournisseur d'émulsifiant absent ou incomplet
+DEV-2023-0158,L2023-00855-1,2023-06-08,2023-08-31,clôturée,majeure,Formation de l'opérateur à la procédure de conditionnement non à jour. Lot placé en quarantaine
+DEV-2023-0159,L2023-00859-1,2023-06-08,2023-06-27,clôturée,majeure,Lot de parfum utilise alors qu'il etait en statut quarantaine
+DEV-2023-0160,L2023-00753-2,2023-06-08,2023-07-24,clôturée,critique,"Écart de pH sur la matière première huile minérale, hors limites du cahier des charges. Investigation ouverte"
+DEV-2023-0161,L2023-00820-1,2023-06-09,2023-06-23,clôturée,mineure,Arrêt non planifié de la pompe de transfert suite à une alarme. Investigation ouverte
+DEV-2023-0162,L2023-00831-2,2023-06-09,2023-07-01,clôturée,mineure,Ecart de pression differentielle entre zones
+DEV-2023-0163,L2023-00842-2,2023-06-10,2023-06-23,clôturée,mineure,Contamination microbiologique détectée lors du contrôle d'environnement. Impact qualité en cours d'évaluation
+DEV-2023-0164,L2023-00764-3,2023-06-11,2023-06-15,clôturée,mineure,Étape de filtration réalisée hors procédure : durée d'homogénéisation raccourcie. Impact qualité en cours d'évaluation
+DEV-2023-0165,L2023-00746-1,2023-06-11,2023-07-11,clôturée,majeure,Lot de conservateur utilise alors qu'il etait en statut quarantaine. Impact qualite en cours d'evaluation
+DEV-2023-0166,L2023-00823-1,2023-06-12,2023-07-05,clôturée,mineure,temps d'emulsion depasse par rapport au dossier de lot. rseponsable qualite informe
+DEV-2023-0167,L2023-00839-1,2023-06-12,2023-06-27,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape de pesée. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0168,L2023-00862-1,2023-06-13,2023-06-22,clôturée,mineure,"Écart de densité sur la matière première tensioactif, hors limites du cahier des charges. Investigation ouverte"
+DEV-2023-0169,L2023-00863-2,2023-06-14,2023-06-28,clôturée,mineure,Ordre d'introduction des phases inverse pendant l'etape de conditionnement
+DEV-2023-0170,L2023-00722-3,2023-06-15,2023-07-22,clôturée,mineure,Odeur anormale constatée sur filtre UV à la pesée
+DEV-2023-0171,L2023-00847-1,2023-06-16,2023-07-02,clôturée,majeure,Usure d'une pièce de la remplisseuse provoquant des défauts de scellage (confirmé par analyse)
+DEV-2023-0172,L2023-00883-2,2023-06-16,2023-07-06,clôturée,mineure,Matière première conservateur non conforme à la spécification (viscosité) à réception. Investigation ouverte
+DEV-2023-0173,L2023-00910-1,2023-06-18,2023-07-27,clôturée,critique,Mauvaise manipulation lors de l'étape d'homogénéisation par un intérimaire. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0174,L2023-00906-2,2023-06-18,2023-07-22,clôturée,majeure,Double vérification non réalisée par le second opé
+DEV-2023-0175,L2023-00879-1,2023-06-19,2023-07-05,clôturée,mineure,"Excipient eau purifiée contaminé, signalé par le fournisseur après utilisation"
+DEV-2023-0176,L2023-00868-3,2023-06-22,2023-07-13,clôturée,majeure,"Excipient beurre de karité contaminé, signalé par le fournisseur après utilisation"
+DEV-2023-0177,L2023-00897-2,2023-06-22,2023-07-02,clôturée,mineure,Panne de la ligne d'encartonnage pendant l'étape de remplissage
+DEV-2023-0178,L2023-00856-1,2023-06-23,2023-07-14,clôturée,mineure,Erreur d'étiquetage manuel par l'opérateur
+DEV-2023-0179,L2023-00810-1,2023-06-23,2023-09-04,clôturée,critique,Dérive de vitesse de la boucheuse détectée en cours de production
+DEV-2023-0180,L2023-00936-1,2023-06-23,2023-08-12,clôturée,majeure,Arrêt non planifié de la turbine d'homogénéisation suite à une alarme
+DEV-2023-0181,L2023-00929-1,2023-06-24,2023-07-16,clôturée,mineure,Erreur de saisie de l'opérateur sur la quatnité de glycérine
+DEV-2023-0182,L2023-00910-2,2023-06-24,2023-07-17,clôturée,majeure,Ordre d'introduction des phases inversé pendnat l'étape de refroidissement
+DEV-2023-0183,L2023-00896-2,2023-06-24,2023-10-12,clôturée,critique,temps d'emulsion depasse par rapport au dossier de lot. production arretee deux heures (constate par l'ope)
+DEV-2023-0184,L2023-00865-1,2023-06-25,2023-07-18,clôturée,majeure,Erreur de saisie de l'opérateur sur la quantité d'huile minérale. Impact qualité en cours d'évaluation
+DEV-2023-0185,L2023-00932-2,2023-06-26,2023-07-04,clôturée,mineure,Port des équipements de protection non conforme en zone de fab. Impact qualité en cours d'évaluation
+DEV-2023-0186,L2023-00931-3,2023-06-27,2023-07-15,clôturée,majeure,"Écart de pH sur la matière première conservateur, hors limites du cahier des charges. Production arrêtée deux heures"
+DEV-2023-0187,L2023-00889-1,2023-06-27,2023-08-11,clôturée,majeure,Arrêt non planifié de la cuve de fabrication suite à une alarme. Ipmact qualité en cours d'évaluation (constaté par l'opérateur)
+DEV-2023-0188,L2023-00945-2,2023-06-27,2023-07-26,clôturée,majeure,thermomètre de contrôle défectueux en cours de refroidissement
+DEV-2023-0189,L2023-00931-1,2023-06-28,2023-08-03,clôturée,majeure,"Excipient glycérine contaminé, signalé par le fournisseur après utilisation. Production arrêtée deux heures"
+DEV-2023-0190,L2023-00936-2,2023-06-28,2023-07-08,clôturée,mineure,Présence de particules étrangères dans le fût de conservateur (après redémarrage de la ligne)
+DEV-2023-0191,L2023-00791-1,2023-06-28,2023-08-13,clôturée,critique,Contamination microbiologique détectée lors du contrlôe d'environnement
+DEV-2023-0192,L2023-00930-1,2023-06-28,2023-07-15,clôturée,mineure,Mauvaise manipulation lors de l'étape de fabrication par un intérimaire. Impact qualité en cours d'évaluation
+DEV-2023-0193,L2023-00812-2,2023-06-29,2023-07-06,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape de pesée. Production arrêtée deux heures
+DEV-2023-0194,L2023-00901-1,2023-07-01,2023-08-13,clôturée,majeure,Infiltration d'eau constatée dans l'atelier de pesée
+DEV-2023-0195,L2023-00885-2,2023-07-01,2023-07-24,clôturée,majeure,Maintenance préventive de la boucheuse non réalisée à échéance
+DEV-2023-0196,L2023-00938-1,2023-07-01,2023-07-12,clôturée,mineure,mauvaise manipulation lors de l'étape d'homogénéisation par un intérimaire. responsable qualité informé
+DEV-2023-0197,L2023-00941-1,2023-07-02,2023-08-13,clôturée,majeure,Mode opératoire obsolète utilisé pour l'étape de filtration
+DEV-2023-0198,L2023-00939-2,2023-07-03,2023-09-13,clôturée,majeure,Défaut d'étanchéité de la turbine d'homogénéisation
+DEV-2023-0199,L2023-00957-2,2023-07-03,2023-07-31,clôturée,majeure,"Excipient tensioactif contaminé, signalé par le fournisseur après utilisation. Responsable qualité informé"
+DEV-2023-0200,L2023-00935-2,2023-07-05,2023-07-10,clôturée,mineure,"Excipient glycérine contaminé, signalé par le fournisseur après utilisation"
+DEV-2023-0201,L2023-00927-1,2023-07-06,2023-09-12,clôturée,majeure,Échantillonnage non représentatif pour le contrôle de densité
+DEV-2023-0202,L2023-00909-2,2023-07-06,2023-08-23,clôturée,majeure,Contamination microbiologique détectée lors du contrôle d'environnement
+DEV-2023-0203,L2023-01008-1,2023-07-08,2023-08-29,clôturée,majeure,Article de conditionnement non confrome : tube défectueux
+DEV-2023-0204,L2023-00975-1,2023-07-09,2023-07-26,clôturée,mineure,"Écart de densité sur la matière première émulsifiant, hors limites du cahier des charges"
+DEV-2023-0205,L2023-00946-1,2023-07-11,2023-07-27,clôturée,mineure,Panne de la ligne d'encartonnage pendant l'étape de refroidissement
+DEV-2023-0206,L2023-01011-1,2023-07-12,2023-08-08,clôturée,majeure,Mauvaise manipulation lors de l'etape de pesee par un interimaire
+DEV-2023-0207,L2023-00987-2,2023-07-12,2023-09-15,clôturée,majeure,Oubli de vérification par l'opé avant le lancement
+DEV-2023-0208,L2023-01025-2,2023-07-15,2023-09-27,clôturée,majeure,ordre d'introduction des phases inversé pendant l'étape d'émulsion. responsable qualité informé
+DEV-2023-0209,L2023-01012-1,2023-07-16,2023-07-27,clôturée,mineure,Mauvaise manipulation lors de l'etape de filtration par un interimaire (apres redemarrage de la ligne)
+DEV-2023-0210,L2023-01034-1,2023-07-16,2023-07-31,clôturée,mineure,certificat d'analyse du lot fournisseur de tensioactif absent ou incomplet. production arrêtée deux heures
+DEV-2023-0211,L2023-01084-1,2023-07-18,2023-08-04,clôturée,mineure,Lot de tensioactif utilisé alors qu'il était en statut quarantaine. Aucun impact sur la sécurité du consommateur identifié à ce stade (en zone de production)
+DEV-2023-0212,L2023-00998-1,2023-07-19,2023-07-30,clôturée,mineure,MP conservateur non conforme a la spec (pH) a reception. Lot place en qaurantaine
+DEV-2023-0213,L2023-01046-1,2023-07-20,2023-07-29,clôturée,mineure,Certificat d'analyse du lot fournisseur d'hiule minérale absent ou incomplet. Aucun impact sur la sécurité du consommateur identifié à ce stade (constaté par l'opérateur)
+DEV-2023-0214,L2023-01010-3,2023-07-21,2023-07-27,clôturée,mineure,resultat de viscosite hors spec (oos) au controle qualtie
+DEV-2023-0215,L2023-00929-3,2023-07-22,2023-07-29,clôturée,mineure,Présence de particules étrangères dans le fût de filtre UV. Production arrêtée deux heures
+DEV-2023-0216,L2023-01061-1,2023-07-22,2023-08-27,clôturée,majeure,instruction de fab non suivie lors de l'etape de remplissage
+DEV-2023-0217,L2023-01013-1,2023-07-23,2023-08-17,clôturée,majeure,"Excipient beurre de karité contaminé, signalé par le fournisseur après utilisation"
+DEV-2023-0218,L2023-01019-1,2023-07-23,2023-07-30,clôturée,mineure,Panne de la machine d'etiquetage pendant l'etape d'homogeneisation. Production arretee deux heures (selon le dossier de lot)
+DEV-2023-0219,L2023-01095-2,2023-07-24,2023-09-30,clôturée,critique,Certificat d'analyse du lot fournisseur de tensioactif absent ou incomplet
+DEV-2023-0220,L2023-00953-1,2023-07-24,2023-08-02,clôturée,mineure,Échantillonnage non représentatif pour le contrôle de densité. Lot placé en quarantaine
+DEV-2023-0221,L2023-01010-2,2023-07-25,2023-08-02,clôturée,mineure,Instruction de fabrication non suivie lors de l'étape de fabrication
+DEV-2023-0222,L2023-01128-2,2023-07-26,2023-09-01,clôturée,majeure,Procédure de nettoyage non appliquée entre deux campagnes
+DEV-2023-0223,L2023-01047-2,2023-07-26,2023-09-05,clôturée,majeure,procédure de nettoyage non appliquée entre deux campagnes. impact qualité en cours d'évaluation
+DEV-2023-0224,L2023-00970-1,2023-07-28,2023-07-31,clôturée,mineure,Parametre de procede non enregistre lors de l'etape de fabrication. Impact qualite en cours d'evaluation
+DEV-2023-0225,L2023-00992-1,2023-07-28,2023-08-17,clôturée,mineure,port des équipements de protection non conforme en zone de fabrication. aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0226,L2023-01101-1,2023-07-29,2023-09-03,clôturée,majeure,Instruction de fabrication non suivie lors de l'étape de conditionnement. Investigation ouverte
+DEV-2023-0227,L2023-01060-1,2023-07-29,2023-08-09,clôturée,mineure,certificat d'analyse du lot fournisseur de glycérine absent ou incomplet (selon le dossier de lot)
+DEV-2023-0228,L2023-01137-3,2023-07-30,2023-08-17,clôturée,critique,Article de condit. non conforme : tube défectueux
+DEV-2023-0229,L2023-00994-2,2023-07-31,2023-08-16,clôturée,critique,Résultat de teneur en eau hors spécification (OOS) au contrôle qualité
+DEV-2023-0230,L2023-01077-1,2023-07-31,2023-08-26,clôturée,mineure,Port des équipements de protection non conforme en zone de fab. Impact qualité en cours d'évaluation
+DEV-2023-0231,L2023-01116-2,2023-08-01,2023-09-03,clôturée,majeure,Mauvaise manipulation lors de l'étape de refroidissement par un intérimaire
+DEV-2023-0232,L2023-01125-1,2023-08-01,2023-09-14,clôturée,majeure,fuite constatée sur la machine d'étiquetage. investigation ouverte
+DEV-2023-0233,L2023-01152-1,2023-08-02,2023-09-01,clôturée,majeure,Présence de particules étrangères dans le fût de filtre UV
+DEV-2023-0234,L2023-01125-2,2023-08-03,2023-08-23,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape d'émulsion (confirmé par analyse)
+DEV-2023-0235,L2023-00986-1,2023-08-03,2023-08-30,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de condit.
+DEV-2023-0236,L2023-01111-2,2023-08-03,2023-09-14,clôturée,majeure,"Excipient huile minérale contaminé, sginalé par le fournisseur après utilisation. Lot placé en quarantaine"
+DEV-2023-0237,L2023-01167-1,2023-08-05,2023-09-01,clôturée,majeure,"Écart de teneur en actif sur la matière première beurre de karité, hors limites du cahier des charges (confirmé par analyse)"
+DEV-2023-0238,L2023-01071-1,2023-08-06,2023-08-21,clôturée,critique,Infiltration d'eau constatee dans l'atelier d'homogeneisation. Lot place en quarantaine
+DEV-2023-0239,L2023-01206-3,2023-08-07,2023-10-02,clôturée,mineure,Écart de pression différentielle entre zones. Impact qualité en cours d'évaluation
+DEV-2023-0240,L2023-01110-1,2023-08-07,2023-08-25,clôturée,mineure,Présence de particules étrangères dans le fût d'eau purifiée
+DEV-2023-0241,L2023-01136-3,2023-08-09,2023-09-07,clôturée,majeure,Panne de la remplisseuse pendant l'etape de fab. Responsable qualite informe
+DEV-2023-0242,L2023-01122-1,2023-08-09,2023-08-22,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape d'homogénéisation. Impact qualité en cours d'évaluation
+DEV-2023-0243,L2023-01150-1,2023-08-10,2023-08-30,clôturée,mineure,Comptage particulaire hors limites en salle propre
+DEV-2023-0244,L2023-01058-1,2023-08-11,2023-10-27,clôturée,critique,Mode opératoire obsolète utilisé pour l'étape de conditionnement
+DEV-2023-0245,L2023-01214-2,2023-08-12,2023-09-05,clôturée,critique,"Excipient conservateur contaminé, signalé par le fournisseur après utilisation. Responsable qualité informé"
+DEV-2023-0246,L2023-01189-1,2023-08-12,2023-08-26,clôturée,mineure,Dossier de lot incomplet : signature manquante à l'étape de remplissage
+DEV-2023-0247,L2023-01167-2,2023-08-13,2023-08-30,clôturée,mineure,Certificat d'analyse du lot fournisseur de beurre de karité absent ou incomplet
+DEV-2023-0248,L2023-01155-2,2023-08-14,2023-08-22,clôturée,mineure,Presence de particules etrangeres dans le fut d'eau purifiee
+DEV-2023-0249,L2023-01235-2,2023-08-15,2023-08-28,clôturée,mineure,humidité relative excessive en zone de fab
+DEV-2023-0250,L2023-01173-1,2023-08-16,2023-09-28,clôturée,critique,"Écart de densité sur la MP parfum, hors limites du cahier des charges. Production arrêtée deux heures"
+DEV-2023-0251,L2023-01112-2,2023-08-18,2023-09-17,clôturée,mineure,Lot d'emulsifiant utilise alors qu'il etait en statut quarantaine. Investigation ouverte
+DEV-2023-0252,L2023-01186-1,2023-08-18,2023-08-25,clôturée,mineure,défaut d'étanchéité de la cuve de fabrication
+DEV-2023-0253,L2023-01205-2,2023-08-19,2023-08-31,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de fab. Responsable qualité informé
+DEV-2023-0254,L2023-01114-3,2023-08-19,2023-09-01,clôturée,mineure,Formation de l'opérateur à la procédure de pesée non à jour
+DEV-2023-0255,L2023-01206-1,2023-08-20,2023-09-21,clôturée,mineure,methode analytique non validee utiilsee pour le dosage. responsable qualite informe
+DEV-2023-0256,L2023-01257-2,2023-08-20,2023-09-04,clôturée,majeure,"Excipient parfum contaminé, signalé par le fournisseur après utilisation"
+DEV-2023-0257,L2023-01191-2,2023-08-22,2023-09-18,clôturée,mineure,Arret non planifie de la cuve de fabrication suite a une alarme
+DEV-2023-0258,L2023-01253-3,2023-08-22,2023-09-06,clôturée,mineure,Infiltration d'eau constatée dans l'atelier de pesée. Aucun impact sur la sécurité du consommateur identifié à ce stade (après redémarrage de la ligne)
+DEV-2023-0259,L2023-01263-3,2023-08-23,2023-12-16,clôturée,critique,Maintenance préventive de la pompe de transfert non réalisée à échéance. Responsable qualité informé
+DEV-2023-0260,L2023-01213-1,2023-08-24,2023-09-13,clôturée,mineure,Instruciton de fabrication non suivie lors de l'étape d'homogénéisation. Lot placé en quarantaine
+DEV-2023-0261,L2023-01183-1,2023-08-24,2023-09-30,clôturée,majeure,procedure de nettoyage non appliquee entre deux campagnes
+DEV-2023-0262,L2023-01266-2,2023-08-27,2023-09-30,clôturée,majeure,Arret non planifie de la boucheuse suite a une alarme. Lot place en quarantaine
+DEV-2023-0263,L2023-01202-2,2023-08-27,2023-09-12,clôturée,mineure,Erreur d'etiquetage manuel par l'ope (selon le dossier de lot)
+DEV-2023-0264,L2023-01188-1,2023-08-29,2023-09-10,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape de pesée. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0265,L2023-01294-2,2023-08-29,2023-09-16,clôturée,mineure,Erreur de saisie de l'opé sur la quantité d'émulsifiant. Lot placé en quarantaine
+DEV-2023-0266,L2023-01300-2,2023-08-29,2023-09-06,clôturée,mineure,balance de pesée hors étalonnage utilisée pour émulsifiant. porduction arrêtée deux heures
+DEV-2023-0267,L2023-01149-1,2023-09-03,2023-09-19,clôturée,mineure,Article de condit. non conforme : flacon défectueux
+DEV-2023-0268,L2023-01301-1,2023-09-03,2023-09-14,clôturée,majeure,Instruction de fab non suivie lors de l'etape de pesee. Responsable qualite informe
+DEV-2023-0269,L2023-01263-1,2023-09-04,2023-10-06,clôturée,majeure,paramètre de procédé non enregistré lors de l'étape d'homogénéisation (constaté par l'opé)
+DEV-2023-0270,L2023-01290-2,2023-09-04,2023-10-03,clôturée,mineure,Humidité relative excessive en zone de fabrication
+DEV-2023-0271,L2023-01304-2,2023-09-04,2023-10-28,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape de refroidissement (confirmé par analyse)
+DEV-2023-0272,L2023-01356-1,2023-09-07,2023-09-14,clôturée,mineure,Erreur de calcul dans le rapport d'analyse du lot. Investigation ouverte
+DEV-2023-0273,L2023-01376-1,2023-09-08,2023-09-22,clôturée,critique,Arrêt non planifié de la machine d'étiquetage suite à une alarme
+DEV-2023-0274,L2023-01325-1,2023-09-08,2023-09-15,clôturée,mineure,"Excipient actif apaisant contaminé, signalé par le fournisseur après utilisation. Impact qualité en cours d'évaluation"
+DEV-2023-0275,L2023-01355-1,2023-09-09,2023-09-24,clôturée,mineure,procédure de nettoyage non appliquée entre deux campagnes (après redémarrage de la ligne)
+DEV-2023-0276,L2023-01303-2,2023-09-14,2023-09-18,clôturée,mineure,"Excipient emulsifiant contamine, signale par le fournisseur apres utilisation (constate par l'operateur)"
+DEV-2023-0277,L2023-01398-1,2023-09-14,2023-10-06,clôturée,majeure,Article de conditionnement non conforme : bouchon pompe défectueux
+DEV-2023-0278,L2023-01425-1,2023-09-16,2023-10-19,clôturée,majeure,Lot de glycerine utilise alors qu'il etait en statut quarantaine
+DEV-2023-0279,L2023-01303-1,2023-09-16,2023-09-27,clôturée,mineure,Presence de particlues etrangeres dans le fut de conservateur
+DEV-2023-0280,L2023-01271-2,2023-09-18,2023-09-30,clôturée,mineure,Présence d'insectes signalée en zone de stockage
+DEV-2023-0281,L2023-01382-2,2023-09-18,2023-11-14,clôturée,critique,Présence de particules étrangères dans le fût de tensioactif
+DEV-2023-0282,L2023-01383-1,2023-09-18,2023-10-04,clôturée,mineure,Article de conditionnement non conforme : étui défectueux
+DEV-2023-0283,L2023-01416-1,2023-09-18,2023-11-21,clôturée,critique,Thermomètre de contrôle défectueux en cours de remplissage. Investigation ouverte
+DEV-2023-0284,L2023-01350-2,2023-09-19,2023-10-15,clôturée,majeure,Resultat de densite hors specification (OOS) au controle qualite. Responsable qualite informe
+DEV-2023-0285,L2023-01331-3,2023-09-20,2023-10-24,clôturée,majeure,lot de glycérine utilisé alors qu'il était en statut quarantaine. responsable qualité informé
+DEV-2023-0286,L2023-01320-1,2023-09-20,2023-10-10,clôturée,mineure,Double verification non realisee par le second ope. Responsable qualite informe
+DEV-2023-0287,L2023-01374-3,2023-09-20,2023-11-19,clôturée,majeure,Lot d'émulsifiant utilisé alors qu'il était en statut quarantaine. Investigation ouverte
+DEV-2023-0288,L2023-01244-1,2023-09-20,2023-10-07,clôturée,mineure,Usure d'une piece de la remplisseuse provoquant des defauts de remplissage. Impact qualite en cours d'evaluation (confirme par analyse)
+DEV-2023-0289,L2023-01433-1,2023-09-21,2023-10-18,clôturée,majeure,maintenance prévetnive de la remplisseuse non réalisée à échéance
+DEV-2023-0290,L2023-01357-3,2023-09-22,2023-11-01,clôturée,majeure,Méthode analytique non validée utilisée pour le dosage. Lot placé en quarantaine
+DEV-2023-0291,L2023-01344-1,2023-09-24,2023-10-04,clôturée,mineure,Usure d'une pièce de la pompe de transfert provoquant des défauts de remplissage
+DEV-2023-0292,L2023-01414-2,2023-09-25,2023-10-13,clôturée,mineure,Usure d'une piece de la remplisseuse provoquant des defauts de remplissage. Production arretee deux heures
+DEV-2023-0293,L2023-01461-2,2023-09-27,2023-10-08,clôturée,mineure,infiltration d'eau constatee dans l'atelier de refroidissement
+DEV-2023-0294,L2023-01385-1,2023-09-28,2023-10-21,clôturée,mineure,défaut d'étanchéité de la pompe de transfert
+DEV-2023-0295,L2023-01446-3,2023-09-28,2023-10-14,clôturée,mineure,certificat d'analyse du lot fournisseur d'eau purifiée absent ou incomplet
+DEV-2023-0296,L2023-01384-1,2023-09-29,2023-10-09,clôturée,critique,"Excipient parfum contaminé, signalé par le fournisseur après utilisation"
+DEV-2023-0297,L2023-01404-2,2023-09-29,2023-11-05,clôturée,majeure,Article de condit. non conforme : tube défectueux. Investigation ouverte
+DEV-2023-0298,L2023-01467-1,2023-10-02,2023-11-02,clôturée,majeure,Article de condit. non cofnorme : notice défectueux
+DEV-2023-0299,L2023-01328-2,2023-10-03,2023-11-04,clôturée,mineure,Odeur anormale constatée sur actif apaisant à la pesée
+DEV-2023-0300,L2023-01458-1,2023-10-03,2023-10-24,clôturée,mineure,Arrêt non planifié de la ligne d'encartonnage suite à une alarme
+DEV-2023-0301,L2023-01456-2,2023-10-03,2023-11-04,clôturée,majeure,Dérive de vitesse de la pompe de transfert détectée en cours de production. Production arrêtée deux heures
+DEV-2023-0302,L2023-01494-3,2023-10-04,2023-10-15,clôturée,mineure,Étape d'homogénéisation réalisée hors procédure : vitesse d'agitation non respectée (constaté par l'opérateur)
+DEV-2023-0303,L2023-01426-3,2023-10-04,2023-10-24,clôturée,majeure,Temps d'émulsion dépassé par rapport au dossier de lot. Lot placé en quarantaine
+DEV-2023-0304,L2023-01520-1,2023-10-04,2023-11-10,clôturée,majeure,Ordre d'introduction des phases inversé pendant l'étape de conditionnement
+DEV-2023-0305,L2023-01478-1,2023-10-05,2023-11-13,clôturée,majeure,Lot d'actif apaisant utilise alors qu'il etait en statut quarantaine. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2023-0306,L2023-01505-3,2023-10-07,2023-10-17,clôturée,mineure,Odeur anormale constatee sur eau purifiee a la pesee. Responsable qualite informe
+DEV-2023-0307,L2023-01487-1,2023-10-08,2023-11-04,clôturée,majeure,odeur anormale constatée sur conservateur à la pesée. aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0308,L2023-01547-1,2023-10-09,2023-10-17,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes. Impact qualité en cours d'évaluation
+DEV-2023-0309,L2023-01566-2,2023-10-10,2023-10-29,clôturée,majeure,Temps de fab dépassé par rapport au dossier de lot
+DEV-2023-0310,L2023-01395-2,2023-10-10,2023-11-16,clôturée,majeure,Échantillonnage non représentatif pour le contrôle d'odeur
+DEV-2023-0311,L2023-01566-3,2023-10-12,2023-10-23,clôturée,majeure,Présence de particules étrangères dans le fût d'émulsifiant
+DEV-2023-0312,L2023-01554-2,2023-10-12,2023-10-17,clôturée,mineure,T° de la salle de remplissage hors limites (31 °C)
+DEV-2023-0313,L2023-01508-2,2023-10-12,2023-10-17,clôturée,mineure,Matière première beurre de karité non conforme à la spécification (teneur en eau) à réception
+DEV-2023-0314,L2023-01399-2,2023-10-13,2023-10-23,clôturée,mineure,Operateur non habilite affecte au poste d'homogeneisation. Investigation ouverte
+DEV-2023-0315,L2023-01429-1,2023-10-14,2023-12-27,clôturée,majeure,Écart de pression différentielle entre zones
+DEV-2023-0316,L2023-01456-1,2023-10-14,2023-11-17,clôturée,majeure,"Écart de teneur en eau sur la matière première beurre de karité, hors limites du cahier des charges"
+DEV-2023-0317,L2023-01565-1,2023-10-15,2023-11-10,clôturée,majeure,méthode analytique non validée utilisée pour le dosage. production arrêtée deux heures
+DEV-2023-0318,L2023-01564-2,2023-10-16,2023-11-11,clôturée,majeure,Panne de la remplisseuse pendant l'étape de conditionnement
+DEV-2023-0319,L2023-01545-2,2023-10-18,2023-11-09,clôturée,mineure,instruction de fabrication non suivie lors de l'etape de conditionnement. impact qualite en cours d'evaluation
+DEV-2023-0320,L2023-01488-1,2023-10-18,2023-11-15,clôturée,mineure,Erreur de calcul dans le rapport d'analyse du lot. Impact qualite en cours d'evaluation
+DEV-2023-0321,L2023-01511-2,2023-10-18,2023-11-02,clôturée,mineure,Matière première émulsifiant non conforme à la spécifiaction (charge microbienne) à réception. Lot placé en quarantaine
+DEV-2023-0322,L2023-01458-2,2023-10-19,2023-11-01,clôturée,majeure,odeur anormale constatée sur eau purifiée à la pesée
+DEV-2023-0323,L2023-01479-1,2023-10-21,2023-12-10,clôturée,majeure,dérive de vitesse de la machine d'étiquetage détectée en cours de production
+DEV-2023-0324,L2023-01497-1,2023-10-23,2023-11-29,clôturée,majeure,Double verification non realisee par le second ope. Impact qualite en cours d'evaluation
+DEV-2023-0325,L2023-01422-1,2023-10-23,2023-10-31,clôturée,mineure,arret non planifie de la ligne d'encartonnage suite a une alarme. aucun impact sur la sceurite du consommateur identifie a ce stade
+DEV-2023-0326,L2023-01638-2,2023-10-29,2023-11-28,clôturée,majeure,Arrêt non planifié de la ligne d'encartonnage suite à une alarme
+DEV-2023-0327,L2023-01611-2,2023-10-30,2023-11-07,clôturée,mineure,certificat d'analyse du lot fournisseur d'actif apaisant absent ou incomplet. impact qualité en cours d'évaluation
+DEV-2023-0328,L2023-01535-1,2023-10-30,2023-11-05,clôturée,majeure,Erreur d'étiquetage manuel par l'opérateur (sur le lot fournisseur)
+DEV-2023-0329,L2023-01580-1,2023-10-31,2023-11-15,clôturée,mineure,Méthode analytique non validée utilisée pour le dosage. Lot placé en quarantaine
+DEV-2023-0330,L2023-01648-3,2023-10-31,2023-11-13,clôturée,mineure,Présence de particules étrangères dans le fût de conservateur. Lot placé en quarantaine
+DEV-2023-0331,L2023-01679-1,2023-11-01,2023-11-25,clôturée,majeure,Capteur de la remplisseuse hors service. Lot placé en quarantaine
+DEV-2023-0332,L2023-01578-3,2023-11-01,2023-11-07,clôturée,mineure,Usure d'une pièce de la cuve de fabrication provoquant des défauts de bouchage. Impact qualité en cours d'évaluation
+DEV-2023-0333,L2023-01630-2,2023-11-01,2023-12-08,clôturée,majeure,Opérateur non habilité affecté au poste de pesée
+DEV-2023-0334,L2023-01595-1,2023-11-03,2023-11-25,clôturée,mineure,Température de la salle de refroidissement hors limites (28 °C). Responsable qualité informé
+DEV-2023-0335,L2023-01656-2,2023-11-03,2023-11-23,clôturée,majeure,Maintenance préventive de la remplisseuse non réalisée à échéance
+DEV-2023-0336,L2023-01607-2,2023-11-04,2023-11-20,clôturée,mineure,MP filtre UV non conforme à la spec (pH) à réception. Lot placé en quarantaine
+DEV-2023-0337,L2023-01628-1,2023-11-06,2023-11-27,clôturée,majeure,Comptage particulaire hors limites en salle propre. Production arrêtée deux heures
+DEV-2023-0338,L2023-01658-1,2023-11-06,2023-11-27,clôturée,mineure,Methode analytique non validee utilisee pour le dosage. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2023-0339,L2023-01622-1,2023-11-08,2023-12-27,clôturée,majeure,T° de la salle de pesee hors limites (8 °C)
+DEV-2023-0340,L2023-01697-2,2023-11-08,2023-11-13,clôturée,mineure,Usure d'une piece de la boucheuse provoquant des defauts de remplissage
+DEV-2023-0341,L2023-01597-1,2023-11-09,2023-11-25,clôturée,mineure,Capteur de la boucheuse hors service. Production arretee deux heures
+DEV-2023-0342,L2023-01686-1,2023-11-10,2023-12-05,clôturée,majeure,Écart entre deux mesures de teneur en eau sur le même échantillon
+DEV-2023-0343,L2023-01715-2,2023-11-10,2023-12-02,clôturée,mineure,"écart de teneur en eau sur la matière première beurre de karité, hors limites du cahier des charges. aucun impact sur la sécurité du consommateur identifié à ce stade (confirmé par analyse)"
+DEV-2023-0344,L2023-01669-2,2023-11-11,2023-11-27,clôturée,mineure,Temps de conditionnement dépassé par rapport au dossier de lot
+DEV-2023-0345,L2023-01721-1,2023-11-12,2024-01-10,clôturée,critique,erreur d'étiquetage manuel par l'opérateur. investigation ouverte
+DEV-2023-0346,L2023-01724-1,2023-11-12,2023-12-02,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape de filtration
+DEV-2023-0347,L2023-01662-1,2023-11-12,2023-12-04,clôturée,critique,comptage particulaire hors limites en salle propre. production arretee deux heures
+DEV-2023-0348,L2023-01650-2,2023-11-12,2023-12-09,clôturée,mineure,Présence de particules étrangères dans le fût de glycérine
+DEV-2023-0349,L2023-01699-2,2023-11-16,2023-12-09,clôturée,mineure,T° de la salle de fab hors limites (31 °C). Lot placé en quarantaine
+DEV-2023-0350,L2023-01680-1,2023-11-16,2023-11-29,clôturée,mineure,procédure de nettoyage non appliquée entre deux campagnes (confirmé par analyse)
+DEV-2023-0351,L2023-01739-1,2023-11-18,2023-12-13,clôturée,majeure,Présence de particules étrangères dans le fût de beurre de karité
+DEV-2023-0352,L2023-01689-1,2023-11-19,2023-12-10,clôturée,mineure,Article de conditionnement non conforme : flacon défectueux. Impact qualité en cours d'évaluation
+DEV-2023-0353,L2023-01611-3,2023-11-19,2023-12-25,clôturée,majeure,Présence de particules étrangères dans le fût d'eau purifiée
+DEV-2023-0354,L2023-01742-3,2023-11-19,2023-11-22,clôturée,majeure,Lot de parfum utilisé alors qu'il était en statut quarantaine. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0355,L2023-01789-2,2023-11-23,2023-12-09,clôturée,majeure,Odeur anormale constatée sur filtre UV à la pesée (confirmé par analyse)
+DEV-2023-0356,L2023-01766-3,2023-11-23,2023-12-19,clôturée,mineure,Etape d'homogeneisation realisee hors procedure : temeprature de phase non controlee
+DEV-2023-0357,L2023-01736-3,2023-11-25,2023-12-25,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape de pesée. Lot placé en quarantaine
+DEV-2023-0358,L2023-01756-1,2023-11-26,2023-12-12,clôturée,mineure,Formation de l'opé à la proc. de refroidissement non à jour
+DEV-2023-0359,L2023-01799-1,2023-11-27,2023-12-02,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape d'homogénéisation. Production arrêtée deux heures
+DEV-2023-0360,L2023-01753-1,2023-11-27,2023-12-11,clôturée,majeure,MP émulsifiant non conforme à la spec (aspect) à réception. Lot placé en quarantaine
+DEV-2023-0361,L2023-01727-2,2023-11-27,2024-02-14,clôturée,critique,lot d'eau purifiee utilise alors qu'il etait en statut quarantaine
+DEV-2023-0362,L2023-01717-2,2023-11-27,2023-12-06,clôturée,mineure,Double vérification non réalisée par le second opé
+DEV-2023-0363,L2023-01769-1,2023-11-28,2023-12-21,clôturée,majeure,Panne de la climatisation de la zone d'homogénéisation. Impact qualité en cours d'évaluation
+DEV-2023-0364,L2023-01769-2,2023-11-28,2024-01-21,clôturée,majeure,Panne de la ligne d'encartonnage pendant l'étape de pesée (en zone de production)
+DEV-2023-0365,L2023-01786-1,2023-11-28,2023-12-23,clôturée,majeure,Comptage particulaire hors limites en salle propre
+DEV-2023-0366,L2023-01800-1,2023-11-28,2023-12-03,clôturée,mineure,"Ecart d'aspect sur la matiere premiere conservateur, hors limites du cahier des charges. Aucun impact sur la securite du consommateur identifie a ce stade"
+DEV-2023-0367,L2023-01767-1,2023-11-29,2023-12-22,clôturée,majeure,Article de conditionnement non conforme : bouchon pompe defectueux
+DEV-2023-0368,L2023-01744-2,2023-12-01,2024-01-08,clôturée,majeure,Maintenance préventive de la boucheuse non réalisée à échéance (confirmé par analyse)
+DEV-2023-0369,L2023-01717-3,2023-12-06,2023-12-23,clôturée,majeure,Temps de pesee depasse par rapport au dossier de lot. Production arretee deux heures
+DEV-2023-0370,L2023-01847-2,2023-12-06,2024-02-04,clôturée,majeure,Ordre d'introduction des phases inversé pendant l'étape de conditionnement. Lot placé en quarantaine
+DEV-2023-0371,L2023-01831-1,2023-12-06,2023-12-15,clôturée,mineure,Dossier de lot incomplet : signature manquante à l'étape d'émulsion. Impact qualité en cours d'évaluation
+DEV-2023-0372,L2023-01823-1,2023-12-07,2024-01-25,clôturée,majeure,Port des équipements de protection non conforme en zone de fab. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0373,L2023-01810-3,2023-12-07,2023-12-18,clôturée,mineure,Oubli de verification par l'operateur avant le lancement. Impact qualite en cours d'evaluation
+DEV-2023-0374,L2023-01810-2,2023-12-08,2023-12-18,clôturée,majeure,Arrêt non planifié de la machine d'étiquetage suite à une alarme. Production arrêtée deux heures
+DEV-2023-0375,L2023-01863-1,2023-12-08,2024-01-21,clôturée,critique,Ordre d'introduction des phases inversé pendant l'étape de conditionnement. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0376,L2023-01878-1,2023-12-10,2023-12-19,clôturée,majeure,Mauvaise manipulation lors de l'étape de fab par un intérimaire
+DEV-2023-0377,L2023-01796-1,2023-12-11,2023-12-15,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de refroidissement. Lot placé en quarantaine
+DEV-2023-0378,L2023-01821-1,2023-12-11,2023-12-27,clôturée,mineure,Double vérificaiton non réalisée par le second opérateur
+DEV-2023-0379,L2023-01888-1,2023-12-11,2023-12-27,clôturée,majeure,Panne de la boucheuse pendant l'étape de remplissage. Production arrêtée deux heures
+DEV-2023-0380,L2023-01843-2,2023-12-12,2023-12-27,clôturée,mineure,maint. préventive de la turbine d'homogénéisation non réalisée à échéance. production arrêtée deux heures
+DEV-2023-0381,L2023-01847-1,2023-12-12,2024-02-16,clôturée,majeure,"Ecart d'aspect sur la MP tensioactif, hors limites du cahier des charges. Investigation ouverte"
+DEV-2023-0382,L2023-01793-1,2023-12-15,2024-01-07,clôturée,mineure,Thermometre de controle defectueux en cours de remplissage
+DEV-2023-0383,L2023-01891-2,2023-12-15,2023-12-24,clôturée,mineure,Certificat d'analyse du lot fournisseur d'huile minérale absent ou incomplet
+DEV-2023-0384,L2023-01775-1,2023-12-16,2024-01-04,clôturée,mineure,Lot d'émulsifiant utilisé alors qu'il était en statut quarantaine
+DEV-2023-0385,L2023-01797-1,2023-12-18,2024-01-05,clôturée,critique,Thermometre de controle defectueux en cours de conditionnement
+DEV-2023-0386,L2023-01803-1,2023-12-18,2024-01-10,clôturée,mineure,usure d'une pièce de la machine d'étiquetage provoquant des défauts d'étiquetage. aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0387,L2023-01938-1,2023-12-18,2024-01-05,clôturée,mineure,Double vérification non réalisée par le second opérateur
+DEV-2023-0388,L2023-01891-1,2023-12-18,2023-12-30,clôturée,mineure,"Excipient glycérine contaminé, signalé par le fournisseur après utilisation. Lot placé en quarantaine"
+DEV-2023-0389,L2023-01889-1,2023-12-18,2024-01-08,clôturée,majeure,article de conditionnement non conforme : tube défectueux
+DEV-2023-0390,L2023-01903-3,2023-12-19,2024-01-03,clôturée,majeure,Mode opératoire obsolète utilisé pour l'étape d'homogénéisation
+DEV-2023-0391,L2023-01771-1,2023-12-19,2024-01-02,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape d'homogénéisation. Impact qualité en cours d'évaluation
+DEV-2023-0392,L2023-01827-1,2023-12-19,2024-01-29,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape de pesée. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0393,L2023-01936-2,2023-12-20,2023-12-28,clôturée,mineure,Odeur anormale constatée sur conservateur à la pesée. Investigation ouverte
+DEV-2023-0394,L2023-01849-1,2023-12-21,2023-12-29,clôturée,mineure,mauvaise manipulatoin lors de l'etape de remplissage par un interimaire
+DEV-2023-0395,L2023-01824-1,2023-12-23,2024-01-10,clôturée,mineure,Lot d'eau purifiée utilisé alors qu'il était en statut quarantaine. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2023-0396,L2023-01905-2,2023-12-23,2024-01-08,clôturée,mineure,"ecart de viscosite sur la mp conservateur, hors limites du cahier des charges"
+DEV-2023-0397,L2023-01907-1,2023-12-25,2024-01-29,clôturée,majeure,Presence de particules etrangeres dans le fut de glycerine. Investigation ouverte
+DEV-2023-0398,L2023-01856-1,2023-12-27,2024-01-15,clôturée,mineure,"excipient parfum contaminé, signalé par le fournisseur après utilisation. impact qualité en cours d'évaluation"
+DEV-2023-0399,L2023-01957-2,2023-12-27,2024-01-28,clôturée,mineure,Formation de l'opé à la proc. de condit. non à jour
+DEV-2023-0400,L2023-01972-3,2023-12-31,2024-02-01,clôturée,majeure,Capteur de la turbine d'homogénéisation hors service. Production arrêtée deux heures (confirmé par analyse)
+DEV-2024-0001,L2023-01987-2,2024-01-02,2024-01-30,clôturée,mineure,"Excipient huile minerale contamine, signale par le fournisseur apres utilisation. Production arretee deux heures"
+DEV-2024-0002,L2023-02011-1,2024-01-03,2024-01-10,clôturée,mineure,MP huile minérale non conforme à la spec (pH) à réception. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0003,L2023-01868-1,2024-01-05,2024-02-05,clôturée,majeure,procédure de nettoyage non appliquée entre deux campagnes
+DEV-2024-0004,L2023-01901-1,2024-01-06,2024-02-04,clôturée,mineure,Mauvaise manipulation lors de l'étape de refroidissement par un intérimaire
+DEV-2024-0005,L2023-02024-2,2024-01-07,2024-01-29,clôturée,majeure,Etape de filtration realisee hors procedure : duree d'homogeneisation raccourcie. Investigation ouverte
+DEV-2024-0006,L2023-01984-1,2024-01-07,2024-01-16,clôturée,majeure,Odeur anormale constatée sur actif apaisant à la pesée. Impact qualtié en cours d'évaluation
+DEV-2024-0007,L2023-01974-1,2024-01-08,2024-01-25,clôturée,mineure,Certificat d'analyse du lot fournisseur de beurre de karité absent ou incomplet. Investigation ouverte
+DEV-2024-0008,L2024-00003-1,2024-01-09,2024-01-25,clôturée,mineure,Odeur anormale constatée sur émulsifiant à la pesée
+DEV-2024-0009,L2023-01992-1,2024-01-10,2024-01-16,clôturée,mineure,Comptage particulaire hors limites en salle propre. Responsable qualité informé
+DEV-2024-0010,L2024-00016-1,2024-01-12,2024-02-13,clôturée,majeure,Certificat d'analyse du lot fournisseur de tensioactif absent ou incomplet
+DEV-2024-0011,L2024-00029-3,2024-01-13,2024-02-11,clôturée,majeure,Mode operatoire obsolete utilise pour l'etape de pesee. Responsable qualite informe
+DEV-2024-0012,L2024-00056-3,2024-01-15,2024-03-02,clôturée,majeure,Odeur anormale constatée sur glycérine à la pesée. Investigation ouverte
+DEV-2024-0013,L2024-00047-2,2024-01-17,2024-02-08,clôturée,mineure,Temps de refroidissement dépassé par rapport au dossier de lot. Lot placé en quarantaine (constaté par l'opé)
+DEV-2024-0014,L2023-02026-1,2024-01-17,2024-02-03,clôturée,majeure,Matirèe première conservateur non conforme à la spécification (densité) à réception
+DEV-2024-0015,L2023-01902-1,2024-01-17,2024-04-04,clôturée,majeure,Etape d'homogeneisation realisee hors procedure : duree d'homogeneisation raccourcie. Responsable qualite informe
+DEV-2024-0016,L2024-00031-1,2024-01-17,2024-01-31,clôturée,mineure,"Excipient tensioactif contaminé, signalé par le fournisseur après utilisation"
+DEV-2024-0017,L2024-00045-1,2024-01-18,2024-01-22,clôturée,mineure,Double vérification non réalisée par le second opérateur. Lot placé en quarantaine
+DEV-2024-0018,L2024-00058-2,2024-01-18,2024-02-10,clôturée,mineure,"Écart de teneur en eau sur la matière première huile minérale, hors limites du cahier des charges"
+DEV-2024-0019,L2023-01966-2,2024-01-21,2024-02-08,clôturée,mineure,Dérive de vitesse de la pompe de transfert détectée en cours de production
+DEV-2024-0020,L2024-00028-1,2024-01-23,2024-01-31,clôturée,mineure,Parametre de procede non enregistre lors de l'etape de condit.
+DEV-2024-0021,L2023-02020-1,2024-01-23,2024-02-07,clôturée,mineure,odeur anormale constatée sur huile minérale à la pesée (confirmé par analyse)
+DEV-2024-0022,L2023-02014-3,2024-01-23,2024-01-29,clôturée,mineure,arrêt non planifié de la remplisseuse suite à une alarme. impact qualité en cours d'évaluation
+DEV-2024-0023,L2024-00013-3,2024-01-23,2024-02-01,clôturée,mineure,instruction de fabrication non suivie lors de l'étape de refroidissement. lot placé en quarantaine
+DEV-2024-0024,L2024-00084-3,2024-01-25,2024-02-21,clôturée,majeure,Comptage particulaire hors limites en salle propre (constaté par l'opé)
+DEV-2024-0025,L2024-00018-2,2024-01-27,2024-03-21,clôturée,majeure,Étape de remplissage réalisée hors procédure : contrôle intermédiaire omis. Investigation ouverte
+DEV-2024-0026,L2024-00008-3,2024-01-27,2024-02-25,clôturée,mineure,Port des equipements de protection non conforme en zone de fabrication
+DEV-2024-0027,L2024-00057-2,2024-01-30,2024-03-27,clôturée,critique,Maintenance préventive de la machine d'étiquetage non réalisée à échéance
+DEV-2024-0028,L2023-02002-2,2024-02-01,2024-02-26,clôturée,majeure,Température de la salle de pesée hors limites (28 °C)
+DEV-2024-0029,L2024-00095-1,2024-02-01,2024-02-17,clôturée,mineure,Article de condit. non conforme : étui défectueux. Impact qualité en cours d'évaluation
+DEV-2024-0030,L2024-00109-1,2024-02-02,2024-02-06,clôturée,mineure,Méthode analytique non validée utilisée pour le dosage (constaté par l'opérateur)
+DEV-2024-0031,L2024-00125-1,2024-02-04,2024-04-03,clôturée,majeure,Temps de filtration dépassé par rapport au dossier de lot
+DEV-2024-0032,L2024-00124-2,2024-02-05,2024-02-16,clôturée,mineure,Article de conditionnement non conforme : flacon defectueux
+DEV-2024-0033,L2024-00007-2,2024-02-06,2024-02-20,clôturée,majeure,Comptage particulaire hors limites en salle propre. Responsable qualité informé
+DEV-2024-0034,L2024-00146-1,2024-02-06,2024-02-27,clôturée,mineure,"excipient eau purifiée contaminé, signalé par le fournisseur après utilisation"
+DEV-2024-0035,L2024-00190-1,2024-02-07,2024-03-15,clôturée,majeure,"écart de teneur en actif sur la mp tensioactif, hors limites du cahier des charges. responsable qualité informé"
+DEV-2024-0036,L2024-00167-2,2024-02-07,2024-03-22,clôturée,majeure,Certificat d'analyse du lot fournsiseur de tensioactif absent ou incomplet (confirme par analyse)
+DEV-2024-0037,L2024-00102-3,2024-02-09,2024-03-02,clôturée,majeure,Arrêt non planifié de la boucheuse suite à une alarme. Aucun impact sur la sécurité du consommateur idetnifié à ce stade
+DEV-2024-0038,L2024-00192-3,2024-02-09,2024-03-01,clôturée,majeure,Méthode analytique non validée utilisée pour le dosage. Impact qualité en cours d'évaluation (en zone de production)
+DEV-2024-0039,L2024-00148-1,2024-02-10,2024-02-18,clôturée,majeure,Lot d'actif apaisant utilisé alors qu'il était en statut quarantaine
+DEV-2024-0040,L2024-00148-2,2024-02-10,2024-02-25,clôturée,mineure,Erreur de calcul dans le rapport d'analyse du lot. Responsable qualite informe
+DEV-2024-0041,L2024-00152-1,2024-02-11,2024-03-12,clôturée,majeure,Présence de particules étrangères dans le fût de filtre UV
+DEV-2024-0042,L2024-00166-1,2024-02-12,2024-03-21,clôturée,mineure,ordre d'introduction des phases inversé pendant l'étape d'émulsion
+DEV-2024-0043,L2024-00160-2,2024-02-12,2024-02-25,clôturée,mineure,Paramètre de procédé non enregistré lors de l'étape d'homogénéisation (constaté par l'opérateur)
+DEV-2024-0044,L2024-00208-1,2024-02-13,2024-03-08,clôturée,mineure,"Écart de pH sur la MP parfum, hors limites du cahier des charges. Lot placé en quarantaine"
+DEV-2024-0045,L2024-00176-1,2024-02-13,2024-03-09,clôturée,mineure,mauvaise manipulation lors de l'étape de conditionnement par un intérimaire
+DEV-2024-0046,L2024-00118-3,2024-02-13,2024-02-19,clôturée,mineure,Présence de particules étrangères dans le fût d'eau purifiée
+DEV-2024-0047,L2024-00211-1,2024-02-15,2024-04-17,clôturée,majeure,derive de vitesse de la pompe de transfert detectee en cours de production. lot place en quarantaine
+DEV-2024-0048,L2024-00183-3,2024-02-15,2024-03-18,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de refroidissement. Responsable qualité informé
+DEV-2024-0049,L2024-00153-2,2024-02-16,2024-03-21,clôturée,majeure,Odeur anormale constatée sur huile minérale à la pesée. Lot placé en quarantaine
+DEV-2024-0050,L2024-00192-1,2024-02-17,2024-04-02,clôturée,majeure,Présence de particules étrangères dans le fût de parfum. Investigation ouverte
+DEV-2024-0051,L2024-00157-3,2024-02-17,2024-02-18,clôturée,mineure,Article de conditionnement non conforme : notice défectueux. Production arrêtée deux heures (constaté par l'opérateur)
+DEV-2024-0052,L2024-00124-1,2024-02-18,2024-03-01,clôturée,mineure,maint. préventive de la pompe de transfert non réalisée à échéance
+DEV-2024-0053,L2024-00210-1,2024-02-19,2024-03-06,clôturée,majeure,"Ecart de viscosite sur la MP filtre UV, hors limites du cahier des chrages. Impact qualite en cours d'evaluation"
+DEV-2024-0054,L2024-00202-1,2024-02-19,2024-02-27,clôturée,mineure,MP filtre UV non conforme a la spec (densite) a reception. Investigation ouverte
+DEV-2024-0055,L2024-00171-1,2024-02-20,2024-03-20,clôturée,mineure,maintenance preventive de la machine d'etiquetage non realisee a echeance. responsable qualite informe
+DEV-2024-0056,L2024-00243-1,2024-02-22,2024-03-05,clôturée,mineure,Lot de beurre de karité utilisé alors qu'il était en statut quarantaine. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0057,L2024-00089-2,2024-02-23,2024-03-09,clôturée,majeure,Echantillonnage non representatif pour le controle de densite
+DEV-2024-0058,L2024-00175-1,2024-02-24,2024-04-06,clôturée,majeure,matière première huile minérale non conforme à la spécification (viscosité) à réception (selon le dossier de lot)
+DEV-2024-0059,L2024-00232-2,2024-02-25,2024-03-11,clôturée,majeure,Article de conditionnement non conforme : tube défectueux. Responsable qualité informé
+DEV-2024-0060,L2024-00223-2,2024-02-25,2024-03-19,clôturée,mineure,Mauvasie manipulation lors de l'étape de pesée par un intérimaire (en zone de production)
+DEV-2024-0061,L2024-00256-2,2024-02-25,2024-03-15,clôturée,mineure,"Écart de densité sur la matière première eau purifiée, hors limites du cahier des charges. Impact qualité en cours d'évaluation"
+DEV-2024-0062,L2024-00238-1,2024-02-27,2024-05-02,clôturée,majeure,"Écart de teneur en eau sur la matière première émulsifiant, hors limites du cahier des charges"
+DEV-2024-0063,L2024-00277-2,2024-02-29,2024-04-30,clôturée,majeure,Certificat d'analyse du lot fournisesur d'actif apaisant absent ou incomplet. Responsable qualité informé
+DEV-2024-0064,L2024-00226-2,2024-02-29,2024-03-18,clôturée,critique,Étape de fabrication réalisée hors procdéure : durée d'homogénéisation raccourcie (constaté par l'opérateur)
+DEV-2024-0065,L2024-00226-1,2024-02-29,2024-04-10,clôturée,majeure,"Écart de charge microbienne sur la matière première parfum, hors limites du cahier des charges"
+DEV-2024-0066,L2024-00239-2,2024-03-01,2024-03-23,clôturée,mineure,Certificat d'analyse du lot fournisseur de tensioactif absent ou incomplet
+DEV-2024-0067,L2024-00206-2,2024-03-01,2024-03-13,clôturée,mineure,presence de particules etrangeres dans le fut d'eau purifiee. aucun impact sur la securite du consommateur identifie a ce stade (confirme par analyse)
+DEV-2024-0068,L2024-00212-1,2024-03-02,2024-03-28,clôturée,majeure,"Excipient emulsifiant contamine, signale par le fournisseur apres utilisation"
+DEV-2024-0069,L2024-00245-1,2024-03-02,2024-04-19,clôturée,majeure,Port des équipements de protectoin non conforme en zone de fab. Lot placé en quarantaine
+DEV-2024-0070,L2024-00184-1,2024-03-03,2024-03-16,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape d'émulsion
+DEV-2024-0071,L2024-00257-2,2024-03-03,2024-03-14,clôturée,mineure,Certificat d'analyse du lot fournisseur d'actif apaisant absent ou incomplet. Investigation ouverte
+DEV-2024-0072,L2024-00220-1,2024-03-04,2024-03-24,clôturée,majeure,"écart de teneur en eau sur la mp beurre de karité, hors limites du cahier des charges"
+DEV-2024-0073,L2024-00258-1,2024-03-08,2024-03-21,clôturée,mineure,Présence de particules étrangères dans le fût de parfum. Investigation ouverte
+DEV-2024-0074,L2024-00274-1,2024-03-09,2024-03-17,clôturée,mineure,Derive de vitesse de la turbine d'homogeneisation detectee en cours de production
+DEV-2024-0075,L2024-00206-1,2024-03-09,2024-04-02,clôturée,critique,"Ecart de teneur en eau sur la matiere premiere filtre UV, hors limites du cahier des charges"
+DEV-2024-0076,L2024-00259-1,2024-03-10,2024-03-19,clôturée,mineure,Dossier de lot incomplet : signature manquante à l'étape de conditionnement
+DEV-2024-0077,L2024-00271-3,2024-03-10,2024-04-26,clôturée,majeure,Panne de la boucheuse pendant l'etape de pesee. Investigation ouverte
+DEV-2024-0078,L2024-00244-1,2024-03-11,2024-04-07,clôturée,majeure,Port des équipements de protection non conforme en zone de fabrication
+DEV-2024-0079,L2024-00311-1,2024-03-12,2024-04-02,clôturée,majeure,Présence de particules étrangères dans le fût d'eau purifiée
+DEV-2024-0080,L2024-00271-2,2024-03-12,2024-04-01,clôturée,critique,erreur de saisie de l'ope sur la quantite d'actif apaisant (confirme par analyse)
+DEV-2024-0081,L2024-00224-2,2024-03-14,2024-03-23,clôturée,majeure,"Excipient parfum contaminé, signalé par le fournisseur après utilisation. Investigation ouverte"
+DEV-2024-0082,L2024-00374-3,2024-03-16,2024-04-21,clôturée,majeure,Double vérification non réalisée par le second opé
+DEV-2024-0083,L2024-00302-2,2024-03-17,2024-05-04,clôturée,critique,Article de condit. non conforme : étiquette défectueux. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0084,L2024-00354-1,2024-03-17,2024-03-28,clôturée,mineure,Temps de filtration dépassé par rapport au dossier de lot
+DEV-2024-0085,L2024-00275-1,2024-03-18,2024-04-04,clôturée,majeure,Mode opératoire obsolète utilisé pour l'étape d'émulsion
+DEV-2024-0086,L2024-00279-1,2024-03-18,2024-03-30,clôturée,mineure,Article de conditionnement non conforme : flacon défectueux (après redémarrage de la ligne)
+DEV-2024-0087,L2024-00341-3,2024-03-18,2024-03-26,clôturée,mineure,Écart de pression différentielle entre zones (confirmé par analyse)
+DEV-2024-0088,L2024-00251-1,2024-03-19,2024-03-25,clôturée,mineure,Formation de l'opérateur à la procédure de fabrication non à jour. Responsable qualité informé
+DEV-2024-0089,L2024-00305-1,2024-03-19,2024-05-09,clôturée,critique,Comptage particulaire hors limites en salle propre. Investigation ouverte
+DEV-2024-0090,L2024-00384-1,2024-03-20,2024-03-30,clôturée,mineure,Erreur de calcul dans le rapport d'analyse du lot. Impact qualité en cours d'évaluation
+DEV-2024-0091,L2024-00383-2,2024-03-20,2024-04-10,clôturée,majeure,Certificat d'analyse du lot fournisseur d'émulsifiant absent ou incomplet
+DEV-2024-0092,L2024-00369-2,2024-03-20,2024-04-30,clôturée,majeure,capteur de la pompe de transfert hors service (en zone de production)
+DEV-2024-0093,L2024-00361-2,2024-03-20,2024-04-03,clôturée,majeure,Ordre d'introduction des phases inversé pendant l'étape d'émulsion
+DEV-2024-0094,L2024-00416-1,2024-03-21,2024-04-03,clôturée,mineure,Usure d'une pièce de la machine d'étiquetage provoquant des défauts de scellage. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0095,L2024-00317-1,2024-03-21,2024-03-26,clôturée,mineure,Defaut d'etancheite de la boucheuse. Lot place en quarantaine
+DEV-2024-0096,L2024-00413-3,2024-03-22,2024-04-10,clôturée,majeure,Erreur d'étiquetage manuel par l'opérateur. Lot placé en quarantaine
+DEV-2024-0097,L2024-00399-1,2024-03-23,2024-05-13,clôturée,majeure,maintenance preventive de la turbine d'homogeneisation non realisee a echeance
+DEV-2024-0098,L2024-00350-1,2024-03-23,2024-04-16,clôturée,majeure,Instruction de fab non suivie lors de l'etape de refroidissement
+DEV-2024-0099,L2024-00406-1,2024-03-23,2024-04-14,clôturée,majeure,écart de pression différentielle entre zones. impact qualité en cours d'évaluation
+DEV-2024-0100,L2024-00360-2,2024-03-24,2024-04-23,clôturée,majeure,Temps de conditionnement dépassé par rapport au dossier de lot. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0101,L2024-00324-3,2024-03-25,2024-04-27,clôturée,majeure,Matiere premiere huile minerale non conforme a la specification (odeur) a reception. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2024-0102,L2024-00312-3,2024-03-25,2024-04-01,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de fabrication. Impact qualité en cours d'évaluation (en zone de production)
+DEV-2024-0103,L2024-00346-1,2024-03-26,2024-05-03,clôturée,majeure,Matiere premiere tensioactif non conforme a la specification (aspect) a reception
+DEV-2024-0104,L2024-00361-1,2024-03-26,2024-04-11,clôturée,mineure,erreur de saisie de l'opé sur la quantité de tensioactif. investigation ouverte
+DEV-2024-0105,L2024-00408-1,2024-03-26,2024-04-08,clôturée,mineure,Odeur anormale constatée sur eau purifiée à la pesée
+DEV-2024-0106,L2024-00378-2,2024-03-30,2024-05-05,clôturée,majeure,Étape d'émulsion réalisée hors proc. : durée d'homogénéisation raccourcie
+DEV-2024-0107,L2024-00439-1,2024-03-30,2024-04-12,clôturée,mineure,Écart entre deux mesures de densité sur le même échantillon
+DEV-2024-0108,L2024-00444-3,2024-03-31,2024-04-11,clôturée,mineure,Matiere premiere tensioactif non conforme a la specification (teneur en actif) a reception. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2024-0109,L2024-00349-1,2024-04-01,2024-04-11,clôturée,mineure,Certificat d'analyse du lot fournisseur d'émulsifiant absent ou incomplet. Responsable qualité informé
+DEV-2024-0110,L2024-00464-1,2024-04-01,2024-04-09,clôturée,mineure,défaut d'étanchéité de la boucheuse. lot placé en quarantaine
+DEV-2024-0111,L2024-00458-1,2024-04-02,2024-04-21,clôturée,mineure,Instruction de fab non suivie lors de l'étape de refroidissement (sur le lot fournisseur)
+DEV-2024-0112,L2024-00290-1,2024-04-02,2024-04-11,clôturée,majeure,"Écart de densité sur la matière première eau purifiée, hors limites du cahier des charges. Production arrêtée deux heures"
+DEV-2024-0113,L2024-00479-1,2024-04-04,2024-04-09,clôturée,mineure,Étape de remplissage réalisée hors proc. : durée d'homogénéisation raccourcie
+DEV-2024-0114,L2024-00450-2,2024-04-05,2024-04-19,clôturée,majeure,Port des équipements de protection non conforme en zone de fabrication. Investigation ouverte
+DEV-2024-0115,L2024-00404-2,2024-04-06,2024-04-16,clôturée,majeure,Écart de pression différentielle entre zones
+DEV-2024-0116,L2024-00497-1,2024-04-07,2024-05-12,clôturée,majeure,Dérive de vitesse de la machine d'étiquetage dtéectée en cours de production
+DEV-2024-0117,L2024-00474-2,2024-04-09,2024-06-12,clôturée,majeure,Écart de pression différentielle entre zones. Production arrêtée deux heures
+DEV-2024-0118,L2024-00448-2,2024-04-09,2024-04-19,clôturée,mineure,Présence de particules étrangères dans le fût d'émulsifiant
+DEV-2024-0119,L2024-00506-1,2024-04-12,2024-05-05,clôturée,majeure,Capteur de la machine d'etiquetage hors service. Responsable qualite informe
+DEV-2024-0120,L2024-00501-1,2024-04-12,2024-04-16,clôturée,mineure,"excipient filrte uv contaminé, signalé par le fournisseur après utilisation"
+DEV-2024-0121,L2024-00355-1,2024-04-12,2024-05-24,clôturée,majeure,"Écart d'aspect sur la MP cnoservateur, hors limites du cahier des charges"
+DEV-2024-0122,L2024-00475-1,2024-04-13,2024-05-02,clôturée,majeure,Oubli de verification par l'operateur avant le lancement. Impact qualite en cours d'evaluation
+DEV-2024-0123,L2024-00500-3,2024-04-14,2024-04-29,clôturée,mineure,Procedure de nettoyage non appliquee entre deux campagnes. Production arretee deux herues
+DEV-2024-0124,L2024-00422-1,2024-04-15,2024-04-26,clôturée,mineure,ordre d'introduction des phases inversé pendant l'étape de filtration
+DEV-2024-0125,L2024-00541-1,2024-04-16,2024-04-23,clôturée,mineure,"Écart de teneur en actif sur la matière première tensioactif, hors limites du cahier des charges. Investigation ouverte"
+DEV-2024-0126,L2024-00492-3,2024-04-16,2024-05-04,clôturée,mineure,"Écart de densité sur la matière première eau purifiée, hors limites du cahier des charges"
+DEV-2024-0127,L2024-00485-1,2024-04-16,2024-05-05,clôturée,critique,Présence d'insectes signalée en zone de stokcage. Responsable qualité informé
+DEV-2024-0128,L2024-00466-2,2024-04-17,2024-04-30,clôturée,majeure,Article de conditionnement non conforme : étiquette défectueux
+DEV-2024-0129,L2024-00440-3,2024-04-18,2024-05-23,clôturée,majeure,Mode operatoire obsolete utilise pour l'etape d'homogeneisation
+DEV-2024-0130,L2024-00484-3,2024-04-20,2024-05-22,clôturée,majeure,Fuite constatée sur la turbine d'homogénéisation
+DEV-2024-0131,L2024-00544-2,2024-04-22,2024-05-26,clôturée,majeure,Odeur anormale constatée sur huile minérale à la pesée
+DEV-2024-0132,L2024-00603-1,2024-04-23,2024-06-30,clôturée,majeure,"Excipient huile minérale contaminé, sginalé par le fournisseur après utilisation"
+DEV-2024-0133,L2024-00559-1,2024-04-24,2024-04-30,clôturée,mineure,Instruction de fab non suivie lors de l'etape de remplissage. Production arretee deux heures
+DEV-2024-0134,L2024-00569-1,2024-04-24,2024-06-09,clôturée,critique,Mode opératoire obsolète utilisé pour l'étape de remplissage (confirmé par analyse)
+DEV-2024-0135,L2024-00578-1,2024-04-24,2024-06-11,clôturée,majeure,Odeur anormale constatee sur eau purifiee a la pesee
+DEV-2024-0136,L2024-00598-2,2024-04-25,2024-05-17,clôturée,majeure,Comptage particulaire hors limites en salle propre
+DEV-2024-0137,L2024-00573-1,2024-04-25,2024-06-03,clôturée,mineure,Écart de perssion différentielle entre zones
+DEV-2024-0138,L2024-00536-1,2024-04-26,2024-05-06,clôturée,mineure,Temps d'émulsion dépassé par rapport au dossier de lot. Impact qualité en cours d'évaluation
+DEV-2024-0139,L2024-00587-1,2024-04-29,2024-05-11,clôturée,majeure,Lot d'eau purifiée utilisé alors qu'il était en statut quarantaine. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0140,L2024-00622-2,2024-04-30,2024-05-18,clôturée,majeure,Formation de l'opérateur à la procédure de filtration non à jour
+DEV-2024-0141,L2024-00606-1,2024-04-30,2024-05-14,clôturée,mineure,Mode operatoire obsolete utilise pour l'etape de remplissage
+DEV-2024-0142,L2024-00581-3,2024-04-30,2024-05-13,clôturée,majeure,"Excipient glycérine contaminé, signalé par le fournisseur après utilisation"
+DEV-2024-0143,L2024-00621-3,2024-04-30,2024-05-14,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de remplissage. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0144,L2024-00538-3,2024-04-30,2024-05-07,clôturée,mineure,Présence de particules étrangères dans le fût de glycérine. Impact qualité en cours d'évaluation (constaté par l'opérateur)
+DEV-2024-0145,L2024-00610-1,2024-05-02,2024-06-09,clôturée,majeure,Article de conditionnement non conforme : étui défectueux. Impact qualité en cours d'évaluation (après redémarrage de la ligne)
+DEV-2024-0146,L2024-00510-2,2024-05-02,2024-05-21,clôturée,mineure,Erreur d'étiquetage manuel par l'opérateur
+DEV-2024-0147,L2024-00523-3,2024-05-03,2024-05-15,clôturée,mineure,Erreur de saisie de l'opé sur la quantité d'huile minérale
+DEV-2024-0148,L2024-00565-1,2024-05-05,2024-05-22,clôturée,mineure,Écart entre deux mesures d'aspect sur le même échantillon. Lot placé en quarantaine (après redémarrage de la ligne)
+DEV-2024-0149,L2024-00577-2,2024-05-05,2024-05-15,clôturée,mineure,Certificat d'analyse du lot fournisseur de filtre UV absent ou incomplet
+DEV-2024-0150,L2024-00631-2,2024-05-06,2024-06-12,clôturée,majeure,"excipient conservateur contaminé, signalé par le fournisseur après utilisation"
+DEV-2024-0151,L2024-00674-3,2024-05-07,2024-06-17,clôturée,majeure,Port des équipements de protection non conforme en zone de fabrication
+DEV-2024-0152,L2024-00587-2,2024-05-08,2024-05-15,clôturée,mineure,"Excipient eau purifiée contaminé, signalé par le fournisseur après utilisation. Impact qualité en cours d'évaluation"
+DEV-2024-0153,L2024-00670-2,2024-05-13,2024-05-26,clôturée,mineure,Paramètre de procédé non enregistré lors de l'étape de filtration. Lot placé en quarantaine
+DEV-2024-0154,L2024-00595-1,2024-05-14,2024-05-30,clôturée,mineure,mode opératoire obsolète utilisé pour l'étape de refroidissement. production arrêtée deux heures
+DEV-2024-0155,L2024-00704-2,2024-05-14,2024-06-26,clôturée,majeure,Comptage particulaire hors limites en salle propre. Responsable qualité informé
+DEV-2024-0156,L2024-00630-1,2024-05-14,2024-06-08,clôturée,majeure,Parametre de procede non enregistre lors de l'etape de refroidissement. Impact qualite en cours d'evaluation
+DEV-2024-0157,L2024-00576-1,2024-05-16,2024-08-09,clôturée,majeure,matière première eau purifiée non conforme à la spécification (viscosité) à rcéeption
+DEV-2024-0158,L2024-00685-1,2024-05-16,2024-06-11,clôturée,critique,Méthode analytique non validée utilisée pour le dosage. Impact qualité en cours d'évaluation
+DEV-2024-0159,L2024-00664-1,2024-05-16,2024-06-13,clôturée,majeure,Presence de particules etrangeres dans le fut d'emulsifiant. Impact qualite en cours d'evaluation
+DEV-2024-0160,L2024-00712-1,2024-05-18,2024-06-10,clôturée,mineure,Opérateur non habilité affecté au poste de remplissage (en zone de production)
+DEV-2024-0161,L2024-00618-1,2024-05-18,2024-06-04,clôturée,majeure,dossier de lot incomplet : signature manquante à l'étape de pesée
+DEV-2024-0162,L2024-00694-2,2024-05-19,2024-06-23,clôturée,majeure,Opérateur non habilité affecté au poste de fabrication. Lot placé en quarantaine
+DEV-2024-0163,L2024-00717-1,2024-05-19,2024-06-14,clôturée,mineure,Echantillonnage non representatif pour le controle de teneur en eau. Impact qualite en cours d'evaluation
+DEV-2024-0164,L2024-00728-1,2024-05-20,2024-05-30,clôturée,mineure,"Excipient tensioactif contaminé, signalé par le fournisseur après utilisation"
+DEV-2024-0165,L2024-00711-2,2024-05-21,2024-05-26,clôturée,mineure,Certificat d'analyse du lot fournisseur de beurre de karite absent ou incomplet (en zone de production)
+DEV-2024-0166,L2024-00697-2,2024-05-23,2024-06-09,clôturée,mineure,Lot d'huile minérale utilisé alors qu'il était en statut quarantaine. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0167,L2024-00735-1,2024-05-23,2024-06-13,clôturée,mineure,Fuite constatee sur la remplisseuse. Lot place en quarantaine
+DEV-2024-0168,L2024-00761-1,2024-05-27,2024-06-13,clôturée,mineure,Port des équipements de protection non conforme en zone de fabrication. Investigation ouverte
+DEV-2024-0169,L2024-00730-1,2024-05-28,2024-07-09,clôturée,mineure,Opérateur non habilité affecté au poste de refroidissement
+DEV-2024-0170,L2024-00739-1,2024-05-28,2024-06-24,clôturée,mineure,temps d'homogénéisation dépassé par rapport au dossier de lot. impact qualité en cours d'évaluation
+DEV-2024-0171,L2024-00707-3,2024-05-28,2024-07-08,clôturée,critique,Capteur de la remplisseuse hors service. Impact qualité en cours d'évaluation
+DEV-2024-0172,L2024-00711-1,2024-05-29,2024-06-27,clôturée,mineure,Article de conditionnement non conforme : tube défectueux
+DEV-2024-0173,L2024-00713-2,2024-05-29,2024-06-09,clôturée,mineure,paramètre de procédé non enregistré lors de l'étape de remplissage. aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0174,L2024-00740-1,2024-05-30,2024-06-23,clôturée,majeure,Certificat d'analyse du lot fournisseur de parfum absent ou incomplet. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0175,L2024-00766-1,2024-05-30,2024-06-09,clôturée,mineure,capteur de la ligne d'encartonnage hors service. responsable qualité informé
+DEV-2024-0176,L2024-00733-3,2024-05-31,2024-06-24,clôturée,mineure,présence de particules étrangères dans le fût d'atcif apaisant (confirmé par analyse)
+DEV-2024-0177,L2024-00749-1,2024-05-31,2024-08-01,clôturée,majeure,Double vérification non réalisée par le second opérateur. Production arrêtée deux heures
+DEV-2024-0178,L2024-00790-1,2024-05-31,2024-06-06,clôturée,mineure,Double vérification non réalisée par le second opérateur
+DEV-2024-0179,L2024-00763-2,2024-05-31,2024-06-17,clôturée,mineure,Temps d'homogénéisation dépassé par rapport au dossier de lot
+DEV-2024-0180,L2024-00660-1,2024-06-01,2024-07-02,clôturée,majeure,Odeur anormale constatée sur actif apaisant à la pesée. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0181,L2024-00647-2,2024-06-01,2024-06-14,clôturée,mineure,Formation de l'ope a la proc. d'homogeneisation non a jour
+DEV-2024-0182,L2024-00775-1,2024-06-01,2024-06-26,clôturée,mineure,odeur anormale constatee sur beurre de karite a la pesee. production arretee deux heures
+DEV-2024-0183,L2024-00755-1,2024-06-01,2024-07-18,clôturée,critique,Panne de la machine d'étiquetage pendant l'étape de pesée
+DEV-2024-0184,L2024-00756-1,2024-06-03,2024-06-09,clôturée,mineure,certificat d'analyse du lot fournisseur d'actif apaisant absent ou incomplet
+DEV-2024-0185,L2024-00680-1,2024-06-03,2024-06-15,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape d'émulsion
+DEV-2024-0186,L2024-00729-1,2024-06-04,2024-08-22,clôturée,critique,Mode operatoire obsolete utilise pour l'etape d'homogeneisation. Investigation ouverte
+DEV-2024-0187,L2024-00779-2,2024-06-05,2024-07-02,clôturée,majeure,"Ecart de pH sur la matiere premiere actif apaisant, hors limites du cahier des charges"
+DEV-2024-0188,L2024-00754-3,2024-06-05,2024-06-20,clôturée,mineure,Fuite constatée sur la cuve de fabrication
+DEV-2024-0189,L2024-00747-2,2024-06-06,2024-07-05,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape d'homogénéisation
+DEV-2024-0190,L2024-00757-1,2024-06-06,2024-06-20,clôturée,mineure,Parametre de procede non enregistre lors de l'etape d'homogeneisation (apres redemarrage de la ligne)
+DEV-2024-0191,L2024-00837-1,2024-06-08,2024-06-25,clôturée,mineure,Présence d'insectes signalée en zone de stockage
+DEV-2024-0192,L2024-00777-2,2024-06-09,2024-06-18,clôturée,mineure,Article de conditionnement non conforme : tube défectueux (constaté par l'opérateur)
+DEV-2024-0193,L2024-00790-2,2024-06-09,2024-06-23,clôturée,majeure,Certificat d'analyse du lot fournisseur de glycérine absent ou incomplet
+DEV-2024-0194,L2024-00684-2,2024-06-09,2024-07-11,clôturée,majeure,Erreur d'étiquetage manuel par l'opé. Responsable qualité informé
+DEV-2024-0195,L2024-00735-2,2024-06-11,2024-07-23,clôturée,mineure,Erreur de saisie de l'opérateur sur la quantité d'huile minérale. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0196,L2024-00846-3,2024-06-15,2024-08-21,clôturée,majeure,Article de condit. non conforme : notice défectueux. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0197,L2024-00872-1,2024-06-15,2024-06-24,clôturée,mineure,Défaut d'étanchéité de la machine d'étiquetage. Impact qualité en cours d'évaluation
+DEV-2024-0198,L2024-00794-3,2024-06-15,2024-07-16,clôturée,majeure,Etape de pesee realisee hors procedure : temperature de phase non controlee. Impact qualite en cours d'evaluation
+DEV-2024-0199,L2024-00815-2,2024-06-16,2024-07-19,clôturée,mineure,Lot d'huile minérale utilisé alors qu'il était en statut quarantaine. Responsable qualité informé
+DEV-2024-0200,L2024-00872-2,2024-06-18,2024-06-28,clôturée,mineure,Présence de particules étrangères dans le fût de parfum. Impact qualité en cours d'évaluation
+DEV-2024-0201,L2024-00846-1,2024-06-18,2024-06-24,clôturée,mineure,"Excipient beurre de karité contaminé, signalé par le fournisseur après utilisation. Responsable qualité informé (selon le dossier de lot)"
+DEV-2024-0202,L2024-00853-1,2024-06-18,2024-07-12,clôturée,majeure,lot de filtre uv utilisé alors qu'il était en statut quarantaine (selon le dossier de lot)
+DEV-2024-0203,L2024-00828-1,2024-06-19,2024-07-04,clôturée,mineure,Usure d'une piece de la turbine d'homogeneisation provoquant des defauts de scellage. Lot place en quarantaine
+DEV-2024-0204,L2024-00807-2,2024-06-19,2024-06-30,clôturée,mineure,paramètre de procédé non enregistré lors de l'étape de filtration
+DEV-2024-0205,L2024-00819-3,2024-06-20,2024-07-09,clôturée,majeure,"Excipient parfum contamine, signale par le fournisseur apres utilisation"
+DEV-2024-0206,L2024-00827-1,2024-06-20,2024-07-02,clôturée,majeure,mode opératoire obsolète utilisé pour l'étape d'émulsion. impact qualité en cours d'évaluation (constaté par l'opérateur)
+DEV-2024-0207,L2024-00894-2,2024-06-20,2024-07-24,clôturée,majeure,Odeur anormale constatée sur émulsfiiant à la pesée
+DEV-2024-0208,L2024-00832-1,2024-06-21,2024-07-04,clôturée,majeure,Temps de pesée dépassé par rapport au dosiser de lot
+DEV-2024-0209,L2024-00907-2,2024-06-22,2024-07-05,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de remplissage
+DEV-2024-0210,L2024-00866-2,2024-06-22,2024-08-02,clôturée,majeure,Étape de pesée réalisée hors proc. : vitesse d'agitation non respectée. Responsable qualité informé
+DEV-2024-0211,L2024-00841-1,2024-06-22,2024-09-13,clôturée,majeure,Article de condit. non conforme : étui défectueux. Production arrêtée deux heures
+DEV-2024-0212,L2024-00901-1,2024-06-23,2024-07-29,clôturée,mineure,Panne de la climatisation de la zone de pesée. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0213,L2024-00752-3,2024-06-23,2024-07-24,clôturée,majeure,Capteur de la machine d'etiquetage hors service
+DEV-2024-0214,L2024-00878-1,2024-06-23,2024-07-07,clôturée,critique,Procédure de nettoyage non appliquée entre deux campagnes. Investigation ouverte
+DEV-2024-0215,L2024-00888-1,2024-06-23,2024-07-04,clôturée,mineure,instruction de fabrication non suivie lors de l'étape d'émulsion. responsable qualité informé
+DEV-2024-0216,L2024-00881-1,2024-06-25,2024-07-12,clôturée,majeure,Fuite cnostatée sur la turbine d'homogénéisation
+DEV-2024-0217,L2024-00893-3,2024-06-25,2024-07-19,clôturée,mineure,Défaut d'étanchéité de la turbine d'homogénéisation
+DEV-2024-0218,L2024-00877-1,2024-06-27,2024-08-05,clôturée,majeure,"Ecart d'odeur sur la matiere premiere actif apaisant, hors limites du caheir des charges"
+DEV-2024-0219,L2024-00842-3,2024-06-28,2024-07-23,clôturée,majeure,Résultat d'aspect hors spécification (OOS) au contrôle qualité. Impact qualité en cours d'évaluation
+DEV-2024-0220,L2024-00922-2,2024-06-28,2024-07-05,clôturée,mineure,Odeur anormale constatée sur beurre de karité à la pesée. Production arrêtée deux heures (en zone de production)
+DEV-2024-0221,L2024-00908-3,2024-07-01,2024-07-14,clôturée,mineure,instrument de mesure d'odeur non qualifié. investigation ouverte (sur le lot fournisseur)
+DEV-2024-0222,L2024-00860-2,2024-07-01,2024-07-05,clôturée,mineure,Capteur de la ligne d'encartonnage hors service
+DEV-2024-0223,L2024-00940-1,2024-07-02,2024-10-03,clôturée,majeure,echantillonnage non represenattif pour le controle de densite
+DEV-2024-0224,L2024-00904-3,2024-07-03,2024-07-20,clôturée,majeure,Certificat d'analyse du lot fournisseur de tensioactif absent ou incomplet (en zone de production)
+DEV-2024-0225,L2024-00832-3,2024-07-05,2024-07-26,clôturée,majeure,double vérification non réalsiée par le second opé. responsable qualité informé
+DEV-2024-0226,L2024-00886-1,2024-07-07,2024-09-27,clôturée,majeure,mauvaise manipulation lors de l'étape de fab par un intérimaire. aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0227,L2024-00887-1,2024-07-08,2024-07-21,clôturée,mineure,Odeur anormale constatée sur parfum à la pesée
+DEV-2024-0228,L2024-01001-1,2024-07-08,2024-07-16,clôturée,mineure,Étape d'émulsion réalisée hors procédure : température de phase non contrôlée. Investigation ouverte
+DEV-2024-0229,L2024-00979-1,2024-07-08,2024-07-17,clôturée,mineure,Présence de particules étrangères dans le fût de beurre de karité. Investigation ouverte
+DEV-2024-0230,L2024-00949-2,2024-07-09,2024-07-12,clôturée,majeure,"Excipient glycérine contaminé, signalé par le fournisseur après utilisation"
+DEV-2024-0231,L2024-00970-3,2024-07-10,2024-07-24,clôturée,mineure,Odeur anormale constatee sur conservateur a la pesee. Lot place en quarantaine
+DEV-2024-0232,L2024-00873-3,2024-07-11,2024-09-06,clôturée,majeure,instruction de fab non suivie lors de l'étape de filtration. responsable qualité informé
+DEV-2024-0233,L2024-00996-3,2024-07-11,2024-07-21,clôturée,mineure,Matière première actif apaisant non conforme à la spécification (teneur en actif) à réception. Lot placé en quarantaine
+DEV-2024-0234,L2024-00910-1,2024-07-12,2024-07-29,clôturée,majeure,"Ecart de pH sur la matiere premiere actif apaisant, hors limites du cahier des charges. Aucun impact sur la securite du consommateur identifie a ce stade"
+DEV-2024-0235,L2024-00971-1,2024-07-12,2024-07-28,clôturée,mineure,Port des equipements de protection non conforme en zone de fab. Production arretee deux heures (sur le lot fournisseur)
+DEV-2024-0236,L2024-00954-1,2024-07-13,2024-07-17,clôturée,mineure,Capteur de la turbine d'homogénéisation hors service. Production arrêtée deux heures
+DEV-2024-0237,L2024-00959-2,2024-07-13,2024-07-25,clôturée,mineure,Odeur anormale constatée sur beurre de karité à la pesée
+DEV-2024-0238,L2024-01011-1,2024-07-13,2024-07-26,clôturée,mineure,temps de filtration dépassé par rapport au dossier de lot. lot placé en quarantaine
+DEV-2024-0239,L2024-00962-2,2024-07-14,2024-07-26,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape de remplissage
+DEV-2024-0240,L2024-00925-1,2024-07-14,2024-07-22,clôturée,majeure,Ordre d'introduction des phases inversé pendant l'étape d'homogénéisation
+DEV-2024-0241,L2024-00978-1,2024-07-15,2024-07-31,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape de pesée
+DEV-2024-0242,L2024-01017-2,2024-07-18,2024-09-25,clôturée,majeure,Humidité relative excessive en zone de fabrication. Lot placé en quarantaine
+DEV-2024-0243,L2024-00957-1,2024-07-18,2024-08-22,clôturée,majeure,Instruction de fabrication non suivie lors de l'étape de conditionnement
+DEV-2024-0244,L2024-00900-1,2024-07-18,2024-08-07,clôturée,majeure,Port des équipements de protection non conforme en zone de fabrication
+DEV-2024-0245,L2024-01011-2,2024-07-19,2024-09-26,clôturée,majeure,"Écart de teneur en eau sur la matière première tensioactif, hors limites du cahier des charges. Aucun impact sur la sécurité du consommateur identifié à ce stade"
+DEV-2024-0246,L2024-00997-1,2024-07-19,2024-08-09,clôturée,majeure,Presence de particules etrangeres dans le fut de filtre UV. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2024-0247,L2024-01057-1,2024-07-20,2024-08-29,clôturée,majeure,Écart de pression différentielle entre zones
+DEV-2024-0248,L2024-00992-1,2024-07-22,2024-08-31,clôturée,critique,Fuite constatée sur la machine d'étiquetage
+DEV-2024-0249,L2024-00976-1,2024-07-22,2024-08-01,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape de fab. Lot placé en quarantaine (en zone de production)
+DEV-2024-0250,L2024-01038-1,2024-07-22,2024-09-06,clôturée,majeure,Derive de vitesse de la pompe de transfert detectee en cours de production
+DEV-2024-0251,L2024-00999-2,2024-07-23,2024-09-03,clôturée,majeure,Article de condit. non conforme : étui défectueux. Lot placé en quarantaine
+DEV-2024-0252,L2024-00977-3,2024-07-24,2024-08-15,clôturée,mineure,Matière première filtre UV non conforme à la spécification (aspect) à réception
+DEV-2024-0253,L2024-01067-3,2024-07-25,2024-08-14,clôturée,majeure,Instruction de fabrication non suivie lors de l'étape de pesée
+DEV-2024-0254,L2024-01033-1,2024-07-25,2024-08-22,clôturée,majeure,MP conservateur non conforme à la spec (viscosité) à réception. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0255,L2024-01071-3,2024-07-25,2024-08-18,clôturée,majeure,Infiltration d'eau constatee dans l'atelier d'homogeneisation. Impact qualite en cours d'evaluation
+DEV-2024-0256,L2024-01017-3,2024-07-25,2024-08-09,clôturée,mineure,Etape de conditionnement realisee hors procedure : duree d'homogeneisation raccourcie (sur le lot fournisseur)
+DEV-2024-0257,L2024-01079-2,2024-07-26,2024-08-21,clôturée,majeure,"Écart de teneur en actif sur la matière première tensioactif, hors limites du cahier des charges"
+DEV-2024-0258,L2024-01051-2,2024-07-26,2024-08-17,clôturée,majeure,Arrêt non planifié de la cuve de fab suite à une alarme. Investigation ouverte
+DEV-2024-0259,L2024-00955-2,2024-07-27,2024-10-02,clôturée,critique,Double vérification non réalisée par le second opé. Aucun impact sur la sécurité du consommateur identifié à ce stade (en zone de production)
+DEV-2024-0260,L2024-01069-1,2024-07-27,2024-08-13,clôturée,mineure,Étape d'homogénéisation réalisée hors procédure : vitesse d'agitation non respectée. Impact qualité en cours d'évaluation
+DEV-2024-0261,L2024-00989-2,2024-07-28,2024-08-21,clôturée,mineure,Matière première beurre de karité non conforme à la spécification (aspect) à réception
+DEV-2024-0262,L2024-01088-2,2024-07-29,2024-09-20,clôturée,critique,Article de conditionnement non conforme : étui défectueux
+DEV-2024-0263,L2024-01098-1,2024-07-29,2024-08-19,clôturée,majeure,temps d'emulsion depasse par rapport au dossier de lot. responsable qualite informe (constate par l'ope)
+DEV-2024-0264,L2024-00964-2,2024-07-29,2024-08-13,clôturée,mineure,Odeur anormale constatee sur tensioactif a la pesee. Impact qualite en cours d'evaluation (constate par l'ope)
+DEV-2024-0265,L2024-01066-2,2024-07-31,2024-09-02,clôturée,majeure,ordre d'introduction des phases inversé pendant l'étape de pesée
+DEV-2024-0266,L2024-01049-1,2024-07-31,2024-08-18,clôturée,majeure,Opérateur non habilité affecté au poste de filtration
+DEV-2024-0267,L2024-01057-3,2024-07-31,2024-08-07,clôturée,mineure,contamination microbiologique détectée lors du contrôle d'environnement
+DEV-2024-0268,L2024-01142-1,2024-07-31,2024-08-06,clôturée,mineure,Instruction de fabrication non suivie lors de l'étape de refroidissement (confirmé par analyse)
+DEV-2024-0269,L2024-01119-1,2024-08-02,2024-09-03,clôturée,mineure,Certificat d'analyse du lot fournisseur de filtre UV absent ou incomplet
+DEV-2024-0270,L2024-01055-1,2024-08-03,2024-08-28,clôturée,mineure,Dossier de lot incomplet : signature manquante a l'etape de fabrication. Investigation ouverte
+DEV-2024-0271,L2024-01096-3,2024-08-03,2024-08-20,clôturée,majeure,Présence de particules étrangères dans le fût d'actif apaisant
+DEV-2024-0272,L2024-01041-2,2024-08-06,2024-08-15,clôturée,mineure,Étape de filtration réalisée hors proc. : contrôle intermédiaire omis. Investigation ouverte
+DEV-2024-0273,L2024-00993-1,2024-08-06,2024-08-25,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes. Impact qualité en cours d'évaluation
+DEV-2024-0274,L2024-01153-1,2024-08-09,2024-08-20,clôturée,mineure,dossier de lot incomplet : signature manquante à l'étape de remplissage. responsable qualité informé
+DEV-2024-0275,L2024-01142-2,2024-08-10,2024-08-31,clôturée,majeure,Certificat d'analyse du lot fournisseur d'huile minérale absent ou incomplet. Impact qualité en cours d'évaluation
+DEV-2024-0276,L2024-01177-2,2024-08-11,2024-08-29,clôturée,mineure,erreur d'étiquetage manuel par l'opérateur. investigation ouverte
+DEV-2024-0277,L2024-01097-1,2024-08-11,2024-09-19,clôturée,majeure,Capteur de la boucheuse hors service. Impact qulaité en cours d'évaluation (en zone de production)
+DEV-2024-0278,L2024-01125-2,2024-08-13,2024-09-06,clôturée,mineure,Certificat da'nalyse du lot fournisseur de tensioactif absent ou incomplet
+DEV-2024-0279,L2024-01207-2,2024-08-15,2024-08-28,clôturée,mineure,Instrument de mesure de charge microbienne non qualifié
+DEV-2024-0280,L2024-01134-1,2024-08-16,2024-09-14,clôturée,majeure,"Écart de densité sur la matière première beurre de karité, hors limites du cahier des charges. Production arrêtée deux heures"
+DEV-2024-0281,L2024-01171-2,2024-08-17,2024-08-24,clôturée,mineure,Présence de particules étrangères dans le fût d'actif apaisant. Investigation ouverte
+DEV-2024-0282,L2024-01131-1,2024-08-19,2024-09-04,clôturée,mineure,Défaut d'étanchéité de la cuve de fabrication
+DEV-2024-0283,L2024-01178-2,2024-08-19,2024-08-28,clôturée,majeure,"Ecart de teneur en actif sur la MP tensioactif, hors limites du cahier des charges"
+DEV-2024-0284,L2024-01190-1,2024-08-21,2024-09-22,clôturée,majeure,Article de conditionnement non conforme : bouchon pompe défectueux
+DEV-2024-0285,L2024-01197-2,2024-08-22,2024-09-25,clôturée,majeure,"Écart de pH sur la matière première actif apaisant, hors limites du cahier des charges. Responsable qualité informé (constaté par l'opérateur)"
+DEV-2024-0286,L2024-01244-2,2024-08-23,2024-09-19,clôturée,mineure,présence d'insectes signalée en zone de stockage
+DEV-2024-0287,L2024-01241-1,2024-08-25,2024-09-14,clôturée,majeure,Port des équipements de protection non conforme en zone de fab. Investigation ouverte
+DEV-2024-0288,L2024-01194-3,2024-08-27,2024-10-08,clôturée,mineure,certificat d'analyse du lot fournisseur d'eau puriifée absent ou incomplet
+DEV-2024-0289,L2024-01160-1,2024-08-28,2024-09-13,clôturée,majeure,Matière première filtre UV non conforme à la spécification (odeur) à réception. Impact qualité en cours d'évaluation
+DEV-2024-0290,L2024-01260-3,2024-08-28,2024-09-22,clôturée,majeure,lot de filtre uv utilisé alors qu'il était en statut quarantaine. production arrêtée deux heuers
+DEV-2024-0291,L2024-01274-2,2024-08-29,2024-10-04,clôturée,majeure,présence de particules étrangères dans le fût de glycérine
+DEV-2024-0292,L2024-01182-2,2024-08-29,2024-09-08,clôturée,mineure,temps de fab dépassé par rapport au dossier de lot
+DEV-2024-0293,L2024-01284-1,2024-08-30,2024-09-10,clôturée,majeure,"Excipient conservateur contaminé, signalé par le fournisseur après utilisation"
+DEV-2024-0294,L2024-01280-2,2024-08-30,2024-09-14,clôturée,mineure,Certificat d'analyse du lot fournisseur d'actif apaisant absent ou incomplet. Investigation ouverte
+DEV-2024-0295,L2024-01206-1,2024-08-30,2024-09-12,clôturée,mineure,Port des équipements de protection non conforme en zone de fabrication. Impact qualité en cours d'évaluation
+DEV-2024-0296,L2024-01151-1,2024-08-31,2024-09-16,clôturée,mineure,Lot de glycerine utilise alors qu'il etait en statut quarantaine. Impact qualite en cours d'evaluation
+DEV-2024-0297,L2024-01244-1,2024-09-01,2024-09-03,clôturée,mineure,Capteur de la turbine d'homogénéisation hors serivce
+DEV-2024-0298,L2024-01291-1,2024-09-01,2024-09-16,clôturée,mineure,Usure d'une pièce de la ligne d'encartonnage provoquant des défauts de bouchage. Responsable qualité informé
+DEV-2024-0299,L2024-01278-1,2024-09-01,2024-09-16,clôturée,majeure,Capteur de la ligne d'encartonnage hors service
+DEV-2024-0300,L2024-01213-2,2024-09-01,2024-09-20,clôturée,majeure,Lot de conservateur utilise alors qu'il etait en statut quarantaine
+DEV-2024-0301,L2024-01245-2,2024-09-02,2024-09-24,clôturée,mineure,Temps de refroidissement dépassé par rapport au dossier de lot
+DEV-2024-0302,L2024-01241-2,2024-09-05,2024-09-23,clôturée,mineure,Presence de particules etrangeres dans le fut de conservateur. Impact qualite en cours d'evaluation
+DEV-2024-0303,L2024-01295-3,2024-09-05,2024-09-16,clôturée,mineure,"excipient huile minerale contamine, signale par le fournisseur apres utilisation. lot place en quarantaine"
+DEV-2024-0304,L2024-01308-2,2024-09-05,2024-09-18,clôturée,majeure,Mauvaise manipulation lors de l'étape de refroidissement par un intérimaire
+DEV-2024-0305,L2024-01262-1,2024-09-06,2024-09-17,clôturée,majeure,Maintenance préventive de la remplisseuse non réalisée à échéance
+DEV-2024-0306,L2024-01271-1,2024-09-06,2024-10-07,clôturée,majeure,"Écart de densité sur la matière première glycérine, hors limites du cahier des charges"
+DEV-2024-0307,L2024-01221-1,2024-09-06,2024-11-17,clôturée,critique,Baalnce de pesée hors étalonnage utilisée pour beurre de karité. Responsable qualité informé (après redémarrage de la ligne)
+DEV-2024-0308,L2024-01293-2,2024-09-07,2024-10-14,clôturée,majeure,Port des équipements de protection non conforme en zone de fab
+DEV-2024-0309,L2024-01186-1,2024-09-07,2024-09-20,clôturée,mineure,Dossier de lot incomplet : signature manquante à l'étape de refroidissement. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0310,L2024-01260-1,2024-09-10,2024-10-06,clôturée,mineure,Étape d'homogénéisation réalisée hors procédure : vitesse d'agitation non respectée
+DEV-2024-0311,L2024-01296-2,2024-09-11,2024-11-06,clôturée,critique,Échantillonnage non représentatif pour le contrôle de charge microbienne (sur le lot fournisseur)
+DEV-2024-0312,L2024-01286-2,2024-09-12,2024-09-28,clôturée,mineure,Dossier de lot incomplet : signature manquante à l'étape de fabrication
+DEV-2024-0313,L2024-01330-1,2024-09-12,2024-09-18,clôturée,mineure,oubli de verification par l'operateur avant le lancement. production arretee deux heures
+DEV-2024-0314,L2024-01322-2,2024-09-12,2024-10-31,clôturée,majeure,Temps de filtration dépassé par rapport au dossier de lot (constaté par l'opérateur)
+DEV-2024-0315,L2024-01318-1,2024-09-12,2024-10-06,clôturée,majeure,"ecart d'aspect sur la matiere premiere eau purifiee, hors limites du cahier des charges. responsable qualite informe"
+DEV-2024-0316,L2024-01281-1,2024-09-13,2024-10-04,clôturée,mineure,Écart de pression différentielle entre zones. Investigation ouverte
+DEV-2024-0317,L2024-01341-1,2024-09-13,2024-09-21,clôturée,mineure,Fuite constatee sur la cuve de fabrication
+DEV-2024-0318,L2024-01359-2,2024-09-13,2024-10-08,clôturée,majeure,Port des équipements de protection non conforme en zone de fabrication
+DEV-2024-0319,L2024-01366-1,2024-09-13,2024-09-30,clôturée,mineure,Usure d'une pièce de la boucheuse provoquant des défauts d'étiquetage
+DEV-2024-0320,L2024-01295-1,2024-09-13,2024-10-05,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape de remplissage
+DEV-2024-0321,L2024-01234-3,2024-09-13,2024-10-03,clôturée,majeure,Ordre d'introduction des phases inversé pendant l'étape d'émulsion
+DEV-2024-0322,L2024-01328-1,2024-09-14,2024-10-07,clôturée,mineure,Arrêt non planifié de la machine d'étiquetage suite à une alarme. Responsable qualité informé
+DEV-2024-0323,L2024-01333-1,2024-09-15,2024-10-04,clôturée,mineure,T° de la salle de remplissage hors limites (31 °C). Responsable qualite informe
+DEV-2024-0324,L2024-01313-3,2024-09-15,2024-09-23,clôturée,mineure,certifiact d'analyse du lot fournisseur de glycérine absent ou incomplet. investigation ouverte
+DEV-2024-0325,L2024-01352-2,2024-09-19,2024-10-13,clôturée,majeure,Capteur de la ligne d'encartonnage hors service. Investigation ouverte
+DEV-2024-0326,L2024-01403-1,2024-09-19,2024-10-07,clôturée,mineure,etape d'emulsion realisee hors procedure : temperature de phase non controlee. production arretee deux heures (en zone de production)
+DEV-2024-0327,L2024-01330-2,2024-09-19,2024-10-06,clôturée,mineure,Odeur anormale constatée sur parfum à la pesée
+DEV-2024-0328,L2024-01398-1,2024-09-21,2024-10-18,clôturée,majeure,Ordre d'introduction des phases inversé pendant l'étape d'émulsion. Investigation ouverte (sur le lot fournisseur)
+DEV-2024-0329,L2024-01307-2,2024-09-21,2024-10-09,clôturée,mineure,Matière première tensioactif non conforme à la spécification (charge microbienne) à réception. Investigation ouverte (constaté par l'opérateur)
+DEV-2024-0330,L2024-01372-1,2024-09-21,2024-09-26,clôturée,majeure,Écart de pression différentielle entre zones
+DEV-2024-0331,L2024-01334-2,2024-09-22,2024-10-22,clôturée,majeure,Presence de particules etrangeres dans le fut d'emulsifinat
+DEV-2024-0332,L2024-01395-2,2024-09-24,2024-11-01,clôturée,critique,Panne de la climatisation de la zone de fabrication
+DEV-2024-0333,L2024-01361-2,2024-09-24,2024-10-31,clôturée,mineure,Article de condit. non conforme : tube défectueux
+DEV-2024-0334,L2024-01385-2,2024-09-24,2024-10-08,clôturée,mineure,Panne de la climatsiation de la zone de filtration
+DEV-2024-0335,L2024-01387-1,2024-09-26,2024-10-24,clôturée,mineure,Paramètre de procédé non enregistré lors de l'étape de conditionnement
+DEV-2024-0336,L2024-01356-2,2024-09-26,2024-11-05,clôturée,majeure,Article de condit. non conforme : notice défectueux. Investigation ouverte
+DEV-2024-0337,L2024-01365-1,2024-09-26,2024-10-14,clôturée,mineure,"Ecart de pH sur la matiere premiere huile minerale, hors limites du cahier des charges. Investigation ouverte"
+DEV-2024-0338,L2024-01442-1,2024-09-27,2024-10-28,clôturée,mineure,Présence d'insectes signalée en zone de stockage. Lot placé en quarantaine
+DEV-2024-0339,L2024-01371-1,2024-09-28,2024-10-14,clôturée,mineure,Instrument de mesure de teneur en actif non qualifie
+DEV-2024-0340,L2024-01391-1,2024-09-29,2024-10-13,clôturée,majeure,Mode operatoire obsolete utilise pour l'etape de refroidissement
+DEV-2024-0341,L2024-01379-2,2024-09-30,2024-10-13,clôturée,mineure,Lot de beurre de karité utilisé alors qu'il était en statut quarantaine
+DEV-2024-0342,L2024-01380-2,2024-09-30,2024-10-13,clôturée,critique,article de conditionnement non conforme : bouchon pompe defectueux. investigation ouverte
+DEV-2024-0343,L2024-01356-3,2024-10-01,2024-10-18,clôturée,mineure,Odeur anormale constatée sur beurre de karité à la pesée. Impact qualité en cours d'évaluation
+DEV-2024-0344,L2024-01464-1,2024-10-02,2024-10-12,clôturée,mineure,double vérification non réalisée par le second opérateur. lot placé en quarantaine
+DEV-2024-0345,L2024-01390-2,2024-10-02,2024-11-04,clôturée,mineure,certificat d'analyse du lot fournisseur d'eau purifiée asbent ou incomplet
+DEV-2024-0346,L2024-01474-2,2024-10-03,2024-10-18,clôturée,majeure,Défaut d'étanchéité de la machine d'étiquetage
+DEV-2024-0347,L2024-01456-1,2024-10-04,2024-11-27,clôturée,majeure,Instrument de mesure d'odeur non qualifie. Impact qualite en cours d'evaluation
+DEV-2024-0348,L2024-01424-1,2024-10-05,2024-10-17,clôturée,mineure,dérive de vitesse de la cuve de fabrication détectée en cours de production
+DEV-2024-0349,L2024-01438-2,2024-10-07,2024-10-21,clôturée,majeure,Capteur de la boucheuse hors service
+DEV-2024-0350,L2024-01420-1,2024-10-08,2024-10-16,clôturée,mineure,Article de conditionnement non conforme : tube défectueux
+DEV-2024-0351,L2024-01399-1,2024-10-08,2024-10-12,clôturée,mineure,Instruction de fab non suivie lors de l'étape d'émulsion. Aucun impact sur la sécuirté du consommateur identifié à ce stade
+DEV-2024-0352,L2024-01444-1,2024-10-09,2024-11-26,clôturée,mineure,Usure d'une pièce de la machine d'étiquetage provoquant des défauts de scellage
+DEV-2024-0353,L2024-01465-1,2024-10-10,2024-10-30,clôturée,critique,Temps de fabrication dépassé par rapport au dossier de lot. Production arrêtée deux heures
+DEV-2024-0354,L2024-01440-2,2024-10-10,2024-10-25,clôturée,mineure,Double vérification non réalisée par le second opérateur
+DEV-2024-0355,L2024-01489-1,2024-10-10,2024-10-18,clôturée,majeure,Défaut d'étanchéité de la ligne d'encartonnage. Impact qualité en cours d'évaluation (confirmé par analyse)
+DEV-2024-0356,L2024-01437-1,2024-10-11,2024-10-22,clôturée,mineure,Instrument de mesure d'aspect non qualifie. Responsable qualite informe
+DEV-2024-0357,L2024-01495-1,2024-10-12,2024-10-25,clôturée,majeure,Lot d'eau purifiée utilisé alors qu'il était en statut quarantaine. Aucun impact sur la sécurité du consommateur identifié à ce stade (constaté par l'opérateur)
+DEV-2024-0358,L2024-01501-1,2024-10-13,2024-10-31,clôturée,mineure,Erreur de calcul dans le rapport d'analyse du lot. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0359,L2024-01411-1,2024-10-14,2024-10-31,clôturée,mineure,Usure d'une pièce de la machine d'étiquetage provoquant des défauts de remplissage
+DEV-2024-0360,L2024-01475-1,2024-10-14,2024-10-21,clôturée,critique,étape de pesée réalisée hors procédure : contrôle intermédiaire omis
+DEV-2024-0361,L2024-01494-2,2024-10-15,2024-10-27,clôturée,mineure,Défaut d'étanchéité de la ligne d'encartonnage. Lot placé en quarantaine
+DEV-2024-0362,L2024-01519-2,2024-10-15,2024-12-17,clôturée,critique,Panne de la remplisseuse pendant l'étape de filtration
+DEV-2024-0363,L2024-01484-2,2024-10-16,2024-12-05,clôturée,majeure,Résultat de teneur en actif hors spec (OOS) au contrôle qualité
+DEV-2024-0364,L2024-01488-1,2024-10-16,2024-11-01,clôturée,mineure,Arrêt non planifié de la cuve de fabrication suite à une alarme. Impact qualité en cours d'évaluation
+DEV-2024-0365,L2024-01524-1,2024-10-17,2024-10-26,clôturée,mineure,Arrêt non planifié de la cuve de fabrication suite à une alarme
+DEV-2024-0366,L2024-01386-1,2024-10-18,2024-11-06,clôturée,mineure,Panne de la climatisation de la zone d'émulsion. Investigation ouverte
+DEV-2024-0367,L2024-01553-1,2024-10-24,2024-11-05,clôturée,mineure,Dossier de lot incomplet : signature manquante à l'étape de pesée. Lot placé en quarantaine
+DEV-2024-0368,L2024-01506-1,2024-10-24,2024-12-17,clôturée,majeure,fuite constatee sur la remplisseuse. investigation ouverte
+DEV-2024-0369,L2024-01414-2,2024-10-25,2024-11-10,clôturée,critique,Erreur de saisie de l'opé sur la quantité de conservateur
+DEV-2024-0370,L2024-01518-2,2024-10-25,2024-10-30,clôturée,mineure,odeur anormale constatée sur eau purifiée à la pesée. investigation ouverte
+DEV-2024-0371,L2024-01538-2,2024-10-26,2024-11-03,clôturée,mineure,Double verification non realisee par le second ope. Production arretee deux heures
+DEV-2024-0372,L2024-01546-1,2024-10-28,2024-12-20,clôturée,critique,Dossier de lot incomplet : signature manquante à l'étape d'émulsion
+DEV-2024-0373,L2024-01513-2,2024-10-30,2024-11-13,clôturée,majeure,Odeur anormale constatée sur eau purifiée à la pesée. Production arrêtée deux heures
+DEV-2024-0374,L2024-01604-2,2024-10-31,2024-11-23,clôturée,mineure,Arrêt non planifié de la ligne d'encartonnage suite à une alarme
+DEV-2024-0375,L2024-01566-1,2024-11-02,2024-11-10,clôturée,mineure,Etape de conditionnement realisee hors procedure : vitesse d'agitation non respectee (en zone de production)
+DEV-2024-0376,L2024-01584-1,2024-11-03,2025-01-08,clôturée,critique,Balnace de pesee hors etalonnage utilisee pour huile minerale. Impact qualite en cours d'evaluation
+DEV-2024-0377,L2024-01584-2,2024-11-05,2024-11-23,clôturée,majeure,Port des équipements de protection non conforme en zone de fabrication. Lot placé en quarantaine
+DEV-2024-0378,L2024-01608-1,2024-11-05,2024-11-12,clôturée,mineure,lot de glycerine utilise alors qu'il etait en statut quarantaine (selon le dossier de lot)
+DEV-2024-0379,L2024-01524-2,2024-11-06,2024-12-26,clôturée,critique,Lot de glycérine utilisé alors qu'il était en statut quarantaine. Investigation ouverte
+DEV-2024-0380,L2024-01521-1,2024-11-08,2024-12-19,clôturée,critique,Infiltration d'eau constatée dans l'atelier de filtration. Responsable qualité informé
+DEV-2024-0381,L2024-01665-1,2024-11-08,2024-12-02,clôturée,mineure,Présence de particules étrangères dans le fût de beurre de karité
+DEV-2024-0382,L2024-01639-1,2024-11-09,2024-11-15,clôturée,majeure,Balance de pesée hors étalonnage utilisée pour filtre UV
+DEV-2024-0383,L2024-01625-1,2024-11-10,2024-12-05,clôturée,majeure,Panne de la turbine d'homogénéisation pendant l'étape de refroidissement
+DEV-2024-0384,L2024-01596-1,2024-11-12,2024-12-03,clôturée,majeure,erreur d'teiquetage manuel par l'operateur. impact qualite en cours d'evaluation
+DEV-2024-0385,L2024-01582-1,2024-11-13,2024-12-23,clôturée,critique,Paramètre de procédé non enregistré lors de l'étape de conditionnement
+DEV-2024-0386,L2024-01612-2,2024-11-14,2024-12-11,clôturée,majeure,opérateur non habilité affecté au poste d'émulsion
+DEV-2024-0387,L2024-01626-3,2024-11-15,2024-11-22,clôturée,mineure,Formation de l'opé à la proc. d'émulsion non à jour. Lot placé en quarantaine
+DEV-2024-0388,L2024-01666-3,2024-11-15,2024-12-08,clôturée,majeure,fuite cosntatée sur la machine d'étiquetage
+DEV-2024-0389,L2024-01674-1,2024-11-15,2024-11-26,clôturée,majeure,Erreur de calcul dans le rapport d'analyse du lot. Lot placé en quarantaine
+DEV-2024-0390,L2024-01610-2,2024-11-18,2024-12-28,clôturée,majeure,Matière première émulsifiant non conforme à la spécification (viscosité) à réception
+DEV-2024-0391,L2024-01645-1,2024-11-18,2024-11-30,clôturée,critique,Présence de particules étrangères dans le fût d'émulsifiant
+DEV-2024-0392,L2024-01571-2,2024-11-19,2024-12-12,clôturée,majeure,"Excipient eau purifiée contaminé, signalé par le fournisseur après utilisation. Investigation ouverte"
+DEV-2024-0393,L2024-01627-3,2024-11-20,2024-11-27,clôturée,majeure,Procédure de nettoyage non appliquée entre deux campagnes. Production arrêtée deux heures
+DEV-2024-0394,L2024-01698-1,2024-11-20,2024-11-28,clôturée,mineure,capteur de la machine d'etiquetage hors service
+DEV-2024-0395,L2024-01680-2,2024-11-20,2024-12-17,clôturée,majeure,article de conditionnement non conforme : flacon défectueux. impact qualité en cours d'évaluation
+DEV-2024-0396,L2024-01666-1,2024-11-22,2024-11-30,clôturée,mineure,Formation de l'opérateur à la procédure de fabrication non à jour. Responsable qualité informé
+DEV-2024-0397,L2024-01662-3,2024-11-25,2024-12-16,clôturée,majeure,étape d'homogénéisation réalisée hors procédure : vitesse d'agitation non respectée
+DEV-2024-0398,L2024-01711-2,2024-11-26,2024-12-08,clôturée,majeure,Erreur de saisie de l'opérateur sur la quantité de filtre UV. Responsable qualité informé
+DEV-2024-0399,L2024-01736-2,2024-11-27,2025-01-12,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape de pesée. Impact qualité en cours d'évaluation
+DEV-2024-0400,L2024-01769-2,2024-11-27,2024-12-03,clôturée,mineure,dérive de vitesse de la turbine d'homogénéisation détectée en cours de production. investigation ouverte
+DEV-2024-0401,L2024-01676-1,2024-11-27,2024-12-04,clôturée,majeure,methode analytique non validee utilisee pour le dosage
+DEV-2024-0402,L2024-01771-1,2024-12-01,2024-12-09,clôturée,mineure,Ordre d'introduction des phases inverse pendant l'etape de filtration
+DEV-2024-0403,L2024-01739-1,2024-12-01,2024-12-11,clôturée,mineure,Instruction de fabrication non suivie lors de l'étape de filtration
+DEV-2024-0404,L2024-01740-3,2024-12-02,2025-01-29,clôturée,majeure,Ordre d'introduction des phases inversé pendant l'étape de fab. Production arrêtée deux heures
+DEV-2024-0405,L2024-01755-2,2024-12-02,2024-12-28,clôturée,majeure,Port des equipements de protection non conforme en zone de fabrication. Investigation ouverte
+DEV-2024-0406,L2024-01764-2,2024-12-04,2024-12-11,clôturée,mineure,Matière première parfum non conforme à la spécification (aspect) à réception
+DEV-2024-0407,L2024-01734-2,2024-12-04,2025-02-04,clôturée,majeure,Écart de pression différentielle entre zones
+DEV-2024-0408,L2024-01768-2,2024-12-07,2024-12-14,clôturée,mineure,Odeur anormale constatée sur tensioactif à la pesée. Lot placé en quarantaine
+DEV-2024-0409,L2024-01712-1,2024-12-09,2025-01-05,clôturée,majeure,Défaut d'étanchéité de la pompe de transfert
+DEV-2024-0410,L2024-01772-1,2024-12-09,2025-02-04,clôturée,majeure,Lot de glycérine utilisé alors qu'il était en statut quarantaine. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0411,L2024-01759-1,2024-12-10,2024-12-26,clôturée,mineure,Panne de la pompe de transfert pendant l'étape de conditionnement. Production arrêtée deux heures
+DEV-2024-0412,L2024-01760-2,2024-12-10,2024-12-24,clôturée,mineure,Comptage particulaire hors limites en salle propre
+DEV-2024-0413,L2024-01782-1,2024-12-10,2025-03-06,clôturée,critique,Procédure de nettoyage non appliquée entre deux campagnes. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0414,L2024-01801-3,2024-12-11,2024-12-30,clôturée,majeure,Panne de la ligne d'encartonnage pendant l'étape d'homogénéisation
+DEV-2024-0415,L2024-01819-2,2024-12-11,2024-12-27,clôturée,mineure,double vérification non réalisée par le second opérateur
+DEV-2024-0416,L2024-01749-2,2024-12-18,2024-12-25,clôturée,mineure,Temps d'émulsion dépassé par rapport au dossier de lot
+DEV-2024-0417,L2024-01722-2,2024-12-18,2025-01-05,clôturée,mineure,Operateur non habilite affecte au poste d'emulsion
+DEV-2024-0418,L2024-01853-2,2024-12-19,2025-02-09,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape de refroidissement. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0419,L2024-01779-2,2024-12-21,2025-01-02,clôturée,majeure,Erreur de calcul dans le rapport d'analyse du lot
+DEV-2024-0420,L2024-01763-2,2024-12-22,2025-01-19,clôturée,majeure,Erreur de calcul dans le rapport d'analyse du lot. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0421,L2024-01831-2,2024-12-22,2025-01-04,clôturée,mineure,Instruction de fabrication non suivie lors de l'étape de conditionnement. Responsable qulaité informé
+DEV-2024-0422,L2024-01826-1,2024-12-24,2025-01-26,clôturée,majeure,Lot de filtre UV utilise alors qu'il etait en statut quarantaine. Production arretee deux heures
+DEV-2024-0423,L2024-01806-1,2024-12-25,2025-01-31,clôturée,majeure,Certificat d'analyse du lot fournisseur d'huile minérale absent ou incomplet. Investigation ouverte
+DEV-2024-0424,L2024-01889-1,2024-12-27,2025-01-24,clôturée,majeure,"Écart d'aspect sur la MP conservateur, hors limites du caheir des charges"
+DEV-2024-0425,L2024-01835-2,2024-12-28,2025-01-07,clôturée,mineure,Présence d'insectes signalée en zone de stockage. Aucun ipmact sur la sécurité du consommateur identifié à ce stade
+DEV-2024-0426,L2024-01849-1,2024-12-28,2025-01-26,clôturée,mineure,Fuite constatée sur la ligne d'encartonnage
+DEV-2024-0427,L2024-01843-1,2024-12-29,2025-03-16,clôturée,critique,"excipient filtre uv contaminé, signalé par le fournisseur après utilisation"
+DEV-2024-0428,L2024-01815-2,2024-12-29,2025-01-10,clôturée,majeure,"Écart de teneur en actif sur la matière première actif apaisant, hors limites du cahier des charges. Investigation ouverte"
+DEV-2025-0001,L2024-01800-3,2025-01-01,2025-01-06,clôturée,mineure,Comptage particulaire hors limites en salle propre
+DEV-2025-0002,L2024-01880-2,2025-01-02,2025-01-10,clôturée,majeure,Mode opératoire obsolète utilisé pour l'étape de fabrication. Responsable qualité informé (confirmé par analyse)
+DEV-2025-0003,L2024-01954-2,2025-01-05,2025-01-20,clôturée,mineure,Formation de l'operateur a la procedure de refroidissement non a jour
+DEV-2025-0004,L2024-01900-2,2025-01-05,2025-01-12,clôturée,mineure,Certificat d'analyse du lot fournisseur d'actif apaisant absent ou incomplet
+DEV-2025-0005,L2024-01909-2,2025-01-07,2025-01-26,clôturée,mineure,Erreur d'étiquetage manuel par l'opérateur
+DEV-2025-0006,L2024-01958-1,2025-01-07,2025-01-29,clôturée,mineure,Comptage particulaire hors limites en salle propre. Lot placé en quarantaine (sur le lot fournisseur)
+DEV-2025-0007,L2024-01906-2,2025-01-08,2025-01-18,clôturée,mineure,"Excipient eau purifiée contaminé, signalé par le fournisseur après utilisation"
+DEV-2025-0008,L2024-01868-1,2025-01-10,2025-02-03,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape d'émulsion (sur le lot fournisseur)
+DEV-2025-0009,L2024-01935-2,2025-01-10,2025-01-20,clôturée,mineure,Thermomètre de contrôle défectueux en cours de refroidissement
+DEV-2025-0010,L2025-00010-1,2025-01-12,2025-01-28,clôturée,mineure,Double vérification non réalisée par le second opé
+DEV-2025-0011,L2024-01947-1,2025-01-12,2025-01-23,clôturée,mineure,Maintenance préventive de la machine d'étiquetage non réalisée à échéance. Responsable qualtié informé (en zone de production)
+DEV-2025-0012,L2025-00017-2,2025-01-14,2025-01-20,clôturée,mineure,Defaut d'etancheite de la ligne d'encartonnage
+DEV-2025-0013,L2024-01964-2,2025-01-16,2025-01-26,clôturée,mineure,Lot de parfum utilisé alors qu'il était en statut quarantaine
+DEV-2025-0014,L2024-01948-1,2025-01-17,2025-02-21,clôturée,majeure,Thermomètre de contrôle défectueux en cours d'homogénéisation
+DEV-2025-0015,L2024-01899-1,2025-01-17,2025-01-21,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de pesée
+DEV-2025-0016,L2025-00017-3,2025-01-17,2025-02-04,clôturée,majeure,MP filtre UV non conforme à la spec (teneur en eau) à réception (en zone de production)
+DEV-2025-0017,L2025-00044-1,2025-01-18,2025-03-13,clôturée,majeure,Odeur anormale constatee sur conservateur a la pesee. Investigation ouverte
+DEV-2025-0018,L2024-01965-1,2025-01-21,2025-01-29,clôturée,mineure,Certificat d'analyse du lot fournisseur de filtre UV absent ou incomplet
+DEV-2025-0019,L2025-00031-1,2025-01-21,2025-02-20,clôturée,mineure,Instruction de fabrication non siuvie lors de l'étape de conditionnement
+DEV-2025-0020,L2025-00038-1,2025-01-21,2025-01-31,clôturée,mineure,Fuite constatee sur la boucheuse. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2025-0021,L2024-01931-2,2025-01-22,2025-02-21,clôturée,majeure,"Excipient actif apaisant contaminé, signalé par le fournisseur après utilisation. Aucun impact sur la sécurtié du consommateur identifié à ce stade"
+DEV-2025-0022,L2025-00082-2,2025-01-22,2025-03-25,clôturée,majeure,échantillonnage non représentatif pour le contrôle de densité. production arrêtée deux heures
+DEV-2025-0023,L2024-01928-1,2025-01-22,2025-02-12,clôturée,majeure,Étape de fab réalisée hors proc. : vitesse d'agitation non respectée. Lot placé en quarantaine
+DEV-2025-0024,L2025-00040-2,2025-01-24,2025-02-05,clôturée,majeure,Erreur de saisie de l'opérateur sur la quantité de tensioactif. Impact qualité en cours d'évaluation
+DEV-2025-0025,L2025-00095-1,2025-01-24,2025-03-20,clôturée,majeure,Usure d'une pièce de la cuve de fab provoquant des défauts de scellage. Investigation ouverte
+DEV-2025-0026,L2025-00099-2,2025-01-24,2025-01-29,clôturée,mineure,Port des équipements de protection non conforme en zone de fab. Lot placé en quarantaine
+DEV-2025-0027,L2025-00057-2,2025-01-28,2025-03-11,clôturée,majeure,Procédure de nettoyage non appliquée entre deux campagnes. Investigation ouverte (confirmé par analyse)
+DEV-2025-0028,L2025-00084-1,2025-01-28,2025-03-01,clôturée,majeure,Temps de filtration dépassé par rapport au dossier de lot. Impact qualité en cours d'évaluation
+DEV-2025-0029,L2025-00144-1,2025-01-31,2025-03-10,clôturée,majeure,T° de la salle d'émulsion hors limites (28 °C)
+DEV-2025-0030,L2025-00085-1,2025-01-31,2025-02-14,clôturée,mineure,matière première huile minérale non conforme à la spécification (odeur) à réception. responsable qualité informé
+DEV-2025-0031,L2025-00151-3,2025-02-01,2025-02-14,clôturée,mineure,Lot de conservateur utiilsé alors qu'il était en statut quarantaine
+DEV-2025-0032,L2025-00128-1,2025-02-01,2025-02-16,clôturée,mineure,Lot de conservateur utilise alors qu'il etait en statut quarantaine
+DEV-2025-0033,L2025-00093-1,2025-02-01,2025-03-23,clôturée,majeure,Matiere premiere huile minerale non conforme a la specification (densite) a reception
+DEV-2025-0034,L2024-01941-2,2025-02-01,2025-02-11,clôturée,mineure,Maintenance préventive de la turbine d'homogénéisation non réalisée à échéance. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0035,L2025-00091-1,2025-02-02,2025-02-05,clôturée,mineure,Mode operatoire obsolete utilise pour l'etape d'emulsion. Lot place en quarantaine
+DEV-2025-0036,L2025-00102-1,2025-02-03,2025-02-15,clôturée,majeure,Panne de la pompe de transfert pendant l'etape d'homogeneisation. Production arretee deux heures (selon le dossier de lot)
+DEV-2025-0037,L2025-00159-1,2025-02-03,2025-02-24,clôturée,mineure,"Excipient filtre UV contaminé, signalé par le fournisseur après utilisation"
+DEV-2025-0038,L2025-00117-3,2025-02-05,2025-02-13,clôturée,mineure,Maint. preventive de la pompe de transfert non realisee a echeance
+DEV-2025-0039,L2025-00179-2,2025-02-06,2025-02-21,clôturée,mineure,"Excipient émulsifiant contaminé, signalé par le fournisseur après utilisation"
+DEV-2025-0040,L2025-00185-1,2025-02-07,2025-04-07,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape d'homogénéisation. Investigation ouverte
+DEV-2025-0041,L2025-00089-3,2025-02-08,2025-02-18,clôturée,majeure,présence de particules étrangères dans le fût de filtre uv
+DEV-2025-0042,L2025-00088-1,2025-02-09,2025-02-22,clôturée,majeure,Matière première émulsifiant non conforme à la spécification (teneur en actif) à réception
+DEV-2025-0043,L2025-00005-1,2025-02-09,2025-02-20,clôturée,majeure,"Excipient tensioactif contaminé, signalé par le fournisseur après utilisation"
+DEV-2025-0044,L2025-00208-2,2025-02-11,2025-02-19,clôturée,mineure,humidité realtive excessive en zone de fab
+DEV-2025-0045,L2025-00192-1,2025-02-11,2025-04-15,clôturée,mineure,Thermomètre de contrôle défectueux en cours de filtration
+DEV-2025-0046,L2025-00184-1,2025-02-11,2025-04-07,clôturée,critique,Odeur anormale constatée sur conservateur à la pesée
+DEV-2025-0047,L2025-00214-1,2025-02-13,2025-03-20,clôturée,mineure,Certificat d'analyse du lot fournisseur de beurre de karité absent ou incomplet. Impact qualité en cours d'évaluation
+DEV-2025-0048,L2025-00204-2,2025-02-13,2025-03-25,clôturée,majeure,Instrument de mesure de teneur en actif non qualifié
+DEV-2025-0049,L2025-00176-1,2025-02-14,2025-04-02,clôturée,mineure,Étape de pesée réalisée hors procédure : contrôle intermédiaire omis. Production arrêtée deux heures (sur le lot fournisseur)
+DEV-2025-0050,L2025-00153-1,2025-02-15,2025-03-05,clôturée,majeure,Matière première parfum non conforme à la spécification (viscosité) à réception. Impact qualité en cours d'évaluation
+DEV-2025-0051,L2025-00215-2,2025-02-15,2025-03-04,clôturée,majeure,Dossier de lot incomplet : signature manquante a l'etape de condit.. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2025-0052,L2025-00169-3,2025-02-17,2025-03-14,clôturée,mineure,Formation de l'opérateur à la procédure d'homogénéisation non à jour
+DEV-2025-0053,L2025-00140-2,2025-02-18,2025-02-23,clôturée,mineure,Double vérification non réalisée par le second opérateur. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0054,L2025-00271-1,2025-02-19,2025-03-03,clôturée,mineure,instrument de mesure de viscosite non qualifie. aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2025-0055,L2025-00137-1,2025-02-19,2025-03-06,clôturée,majeure,Fuite constatée sur la machine d'étiquetage. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0056,L2025-00165-1,2025-02-20,2025-03-21,clôturée,mineure,comptage particulaire hors limites en salle propre. responsable qulaité informé (confirmé par analyse)
+DEV-2025-0057,L2025-00124-1,2025-02-20,2025-03-01,clôturée,majeure,Échantillonnage non représentatif pour le contrôle de densité
+DEV-2025-0058,L2025-00142-2,2025-02-20,2025-03-20,clôturée,mineure,Double vérification non réalisée par le second opérateur
+DEV-2025-0059,L2025-00155-2,2025-02-21,2025-03-19,clôturée,majeure,Défaut d'étanchéité de la machine d'étiquetage
+DEV-2025-0060,L2025-00065-1,2025-02-21,2025-02-26,clôturée,mineure,Fuite constatée sur la machine d'étiquetage
+DEV-2025-0061,L2025-00185-2,2025-02-22,2025-03-06,clôturée,mineure,Présence de particules étrangères dans le fût d'actif apaisant. Impact qualité en cours d'évaluation
+DEV-2025-0062,L2025-00297-1,2025-02-24,2025-03-18,clôturée,majeure,Panne de la climatisation de la zone d'homogénéisation
+DEV-2025-0063,L2025-00190-1,2025-02-24,2025-03-12,clôturée,majeure,Certificat d'analyse du lot fournisseur d'émulsifiant absent ou incomplet
+DEV-2025-0064,L2025-00263-1,2025-02-27,2025-03-08,clôturée,majeure,Présence d'insectes signalée en zone de stockage
+DEV-2025-0065,L2025-00279-2,2025-02-27,2025-03-15,clôturée,mineure,Dérive de vitesse de la turbine d'homogénéisation détectée en cours de production
+DEV-2025-0066,L2025-00223-3,2025-02-27,2025-03-26,clôturée,majeure,Operateur non habilite affecte au poste d'homogeneisation. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2025-0067,L2025-00308-2,2025-02-28,2025-03-16,clôturée,majeure,Thermomètre de contrôle défectueux en cours de remplissage. Impact qualité en cours d'évaluation (en zone de production)
+DEV-2025-0068,L2025-00246-1,2025-03-03,2025-03-27,clôturée,majeure,Résultat de teneur en actif hors spécification (OOS) au contrôle qualité
+DEV-2025-0069,L2025-00289-1,2025-03-04,2025-04-08,clôturée,majeure,Présence de particules étrangères dans le fût d'émulsifiant
+DEV-2025-0070,L2025-00280-3,2025-03-04,2025-05-06,clôturée,critique,Instruction de fabrication non suivie lors de l'étape d'homogénéisation
+DEV-2025-0071,L2025-00339-1,2025-03-06,2025-04-04,clôturée,majeure,Article de conditionnement non conforme : bouchon pompe défectueux (selon le dossier de lot)
+DEV-2025-0072,L2025-00287-3,2025-03-06,2025-04-04,clôturée,majeure,Parametre de procede non ernegistre lors de l'etape de fab
+DEV-2025-0073,L2025-00254-2,2025-03-07,2025-03-22,clôturée,majeure,Comptage particulaire hors limites en salle propre. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0074,L2025-00352-1,2025-03-08,2025-03-18,clôturée,mineure,"Excipient consrevateur contaminé, signalé par le fournisseur après utilisation"
+DEV-2025-0075,L2025-00243-1,2025-03-08,2025-03-15,clôturée,mineure,Article de conditionnement non conforme : flacon défectuexu. Responsable qualité informé
+DEV-2025-0076,L2025-00297-3,2025-03-09,2025-04-15,clôturée,mineure,Fuite constatée sur la cuve de fabrication
+DEV-2025-0077,L2025-00294-1,2025-03-10,2025-03-23,clôturée,critique,Formation de l'opérateur à la procédure de conditionnement non à jour
+DEV-2025-0078,L2025-00307-2,2025-03-10,2025-04-14,clôturée,majeure,Opérateur non habilité affecté au poste de filtration (confirmé par analyse)
+DEV-2025-0079,L2025-00256-1,2025-03-10,2025-04-19,clôturée,majeure,Défaut d'étanchéité de la remplisseuse. Investigation ouverte (en zone de production)
+DEV-2025-0080,L2025-00287-2,2025-03-11,2025-03-27,clôturée,mineure,panne de la turbine d'homogénéisation pendant l'étape de fabrication
+DEV-2025-0081,L2025-00366-2,2025-03-12,2025-05-14,clôturée,critique,Dsosier de lot incomplet : signature manquante a l'etape d'emulsion
+DEV-2025-0082,L2025-00404-1,2025-03-13,2025-03-20,clôturée,mineure,odeur anormale constatée sur glycérine à la pesée
+DEV-2025-0083,L2025-00266-2,2025-03-14,2025-04-01,clôturée,mineure,Double vérification non réalisée par le second opé. Responsable qualité informé
+DEV-2025-0084,L2025-00359-1,2025-03-14,2025-04-01,clôturée,mineure,Odeur anormale constatée sur eau purifiée à la pesée. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0085,L2025-00389-2,2025-03-15,2025-04-01,clôturée,mineure,formation de l'opé à la proc. de fab non à jour. impact qualité en cours d'évaluation
+DEV-2025-0086,L2025-00216-1,2025-03-16,2025-04-02,clôturée,mineure,Maintenance préventive de la ligne d'encartonnage non réalisée à échéance. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0087,L2025-00413-1,2025-03-17,2025-03-29,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de refroidissement
+DEV-2025-0088,L2025-00412-2,2025-03-18,2025-03-30,clôturée,mineure,Parametre de procede non enregistre lors de l'etape de remplissage. Production arretee deux heures
+DEV-2025-0089,L2025-00403-1,2025-03-19,2025-03-31,clôturée,mineure,Article de conditionnement non conforme : étui défectueux. Impact qualité en cours d'évaluation
+DEV-2025-0090,L2025-00385-3,2025-03-20,2025-03-29,clôturée,majeure,Présence de particules étrangères dans le fût de filtre UV
+DEV-2025-0091,L2025-00408-2,2025-03-21,2025-03-25,clôturée,mineure,Resultat de pH hors spec (OOS) au controle qualite. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2025-0092,L2025-00336-1,2025-03-22,2025-04-05,clôturée,mineure,Maintenance préventive de la remplisseuse non réalisée à échéance. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0093,L2025-00374-2,2025-03-22,2025-04-14,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape de filtration
+DEV-2025-0094,L2025-00441-1,2025-03-23,2025-04-20,clôturée,majeure,Certificat d'analyse du lot fournisseur de parfum absent ou incomplet
+DEV-2025-0095,L2025-00444-1,2025-03-23,2025-05-06,clôturée,majeure,port des équipements de protection non conforme en zone de fab
+DEV-2025-0096,L2025-00328-2,2025-03-24,2025-04-29,clôturée,majeure,Échantillonnage non représentatif pour le contrôle de charge microbienne. Production arrêtée deux heures
+DEV-2025-0097,L2025-00440-3,2025-03-25,2025-06-05,clôturée,majeure,Odeur anormale constatée sur conservateur à la pesée. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0098,L2025-00435-1,2025-03-27,2025-05-22,clôturée,majeure,Lot d'émulsifiant utilisé alors qu'il était en statut quarantaine
+DEV-2025-0099,L2025-00386-1,2025-03-28,2025-04-14,clôturée,majeure,Maintenance préventive de la pompe de transfert non réalisée à échéance (sur le lot fuornisseur)
+DEV-2025-0100,L2025-00347-2,2025-03-30,2025-04-14,clôturée,majeure,Étape de refroidissement réalisée hors procédure : température de phase non contrôlée
+DEV-2025-0101,L2025-00473-2,2025-03-30,2025-04-04,clôturée,mineure,Article de conditionnement non conforme : étiquette défectueux. Impact qualité en cours d'évaluation
+DEV-2025-0102,L2025-00467-2,2025-03-30,2025-04-07,clôturée,mineure,Étape de remplissage réalisée hors procédure : durée d'homogénéisation raccourcie. Responsable qualité informé
+DEV-2025-0103,L2025-00456-2,2025-03-31,2025-04-18,clôturée,majeure,"Écart de densité sur la matière première parfum, hors limites du cahier des charges. Responsable qualité informé"
+DEV-2025-0104,L2025-00459-2,2025-03-31,2025-04-21,clôturée,mineure,instrument de mesure de teneur en actif non qualifie
+DEV-2025-0105,L2025-00479-2,2025-04-01,2025-05-11,clôturée,majeure,défaut d'étanchéité de la turbine d'homogénéisation
+DEV-2025-0106,L2025-00477-2,2025-04-03,2025-04-19,clôturée,majeure,Temps de farbication dépassé par rapport au dossier de lot
+DEV-2025-0107,L2025-00474-2,2025-04-03,2025-05-19,clôturée,majeure,Matiere premiere huile minerale non conforme a la specification (pH) a reception. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2025-0108,L2025-00471-2,2025-04-05,2025-05-07,clôturée,majeure,Capteur de la boucheuse hors service
+DEV-2025-0109,L2025-00504-2,2025-04-05,2025-04-22,clôturée,mineure,Défaut d'étanchéité de la remplisseuse. Production arrêtée deux heures
+DEV-2025-0110,L2025-00497-1,2025-04-05,2025-04-22,clôturée,majeure,instruction de fabrication non suivie lors de l'étape de pesée
+DEV-2025-0111,L2025-00400-1,2025-04-06,2025-06-29,clôturée,majeure,Double vérification non réalisée par le second opérateur. Impact qualité en cours d'évaluation
+DEV-2025-0112,L2025-00521-2,2025-04-08,2025-04-23,clôturée,mineure,Fuite constatee sur la turbine d'homogeneisation (confirme par analyse)
+DEV-2025-0113,L2025-00506-3,2025-04-09,2025-06-08,clôturée,majeure,Infiltration d'eau constatée dans l'atelier de condit.. Aucun impact sur la sécurité du consommateur identifié à ce stade (constaté par l'opé)
+DEV-2025-0114,L2025-00507-3,2025-04-09,2025-04-14,clôturée,mineure,Écart entre deux mesures d'aspect sur le même échantillon. Responsable qualité informé
+DEV-2025-0115,L2025-00443-1,2025-04-09,2025-05-23,clôturée,mineure,Présence d'insectes signalée en zone de stockage (selon le dossier de lot)
+DEV-2025-0116,L2025-00420-1,2025-04-09,2025-04-30,clôturée,majeure,Instruction de fabrication non suivie lors de l'étape de conditionnement
+DEV-2025-0117,L2025-00469-2,2025-04-09,2025-04-19,clôturée,mineure,Mauvaise manipulation lors de l'etape de remplissage par un interimaire
+DEV-2025-0118,L2025-00530-2,2025-04-10,2025-05-02,clôturée,majeure,Temps de filtration dépassé par rapport au dosiser de lot
+DEV-2025-0119,L2025-00536-1,2025-04-12,2025-05-02,clôturée,majeure,Matière première filtre UV non conforme à la spécification (densité) à réception. Investigation ouverte
+DEV-2025-0120,L2025-00547-1,2025-04-13,2025-04-29,clôturée,mineure,Article de conditionnement non conforme : flacon defectueux
+DEV-2025-0121,L2025-00558-1,2025-04-14,2025-05-14,clôturée,majeure,Fuite constatée sur la turbine d'homogénéisation
+DEV-2025-0122,L2025-00388-1,2025-04-17,2025-05-02,clôturée,mineure,Port des équipements de protection non confrome en zone de fabrication
+DEV-2025-0123,L2025-00512-2,2025-04-18,2025-04-24,clôturée,mineure,Arrêt non planifié de la ligne d'encartonnage suite à une alarme
+DEV-2025-0124,L2025-00550-1,2025-04-18,2025-04-27,clôturée,mineure,"Excipient glycérine contaminé, signalé par le fournisseur après utilisation. Lot placé en quarantaine"
+DEV-2025-0125,L2025-00564-2,2025-04-19,2025-05-03,clôturée,mineure,Instruction de fab non suivie lors de l'étpae de refroidissement
+DEV-2025-0126,L2025-00563-2,2025-04-20,2025-05-08,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape de remplissage. Lot placé en quarantaine (constaté par l'opérateur)
+DEV-2025-0127,L2025-00564-1,2025-04-21,2025-05-03,clôturée,mineure,Fuite constatée sur la boucehuse
+DEV-2025-0128,L2025-00492-3,2025-04-22,2025-05-11,clôturée,mineure,Défaut d'étanchéité de la cuve de fab. Lot placé en quarantaine
+DEV-2025-0129,L2025-00508-2,2025-04-22,2025-05-18,clôturée,majeure,Instrument de mesure de teneur en actif non qualifié. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0130,L2025-00465-1,2025-04-23,2025-04-28,clôturée,majeure,Maintenance préventive de la machine d'étiquetage non réalisée à échéance
+DEV-2025-0131,L2025-00585-1,2025-04-25,2025-05-13,clôturée,majeure,Mode operatoire obsolete utilise pour l'etape de filtration. Lot place en quarantaine
+DEV-2025-0132,L2025-00586-1,2025-04-26,2025-05-23,clôturée,mineure,Usure d'une pièce de la turbine d'homogénéisation provoquant des défauts de remplissage. Investigation ouverte
+DEV-2025-0133,L2025-00529-1,2025-04-26,2025-06-08,clôturée,majeure,Certificat d'analyse du lot fournisseur de tensioactif absent ou incomplet
+DEV-2025-0134,L2025-00615-1,2025-04-27,2025-05-21,clôturée,majeure,Etape d'emulsion realisee hors procedure : temeprature de phase non controlee
+DEV-2025-0135,L2025-00602-2,2025-04-27,2025-05-16,clôturée,mineure,Odeur anormale constatée sur cosnervateur à la pesée
+DEV-2025-0136,L2025-00605-1,2025-04-28,2025-06-13,clôturée,majeure,Double verification non realisee par le second operateur
+DEV-2025-0137,L2025-00505-3,2025-04-29,2025-06-04,clôturée,majeure,"Excipient huile minérale contaminé, signalé par le fournisseur après utilisation (constaté par l'opé)"
+DEV-2025-0138,L2025-00656-2,2025-04-29,2025-05-15,clôturée,mineure,Port des équipements de protection non conforme en zone de fab
+DEV-2025-0139,L2025-00613-1,2025-05-03,2025-05-09,clôturée,mineure,Certificat d'analyse du lot fournisseur d'huile minérale absent ou incomplet. Impact qualité en cours d'évaluation
+DEV-2025-0140,L2025-00669-3,2025-05-04,2025-06-05,clôturée,majeure,Opérateur non habilité affecté au poste de remplissage. Production arrêtée deux heures
+DEV-2025-0141,L2025-00648-3,2025-05-04,2025-05-09,clôturée,mineure,"Ecart de teneur en eau sur la matiere premiere eau purifiee, hors limites du cahier des charges"
+DEV-2025-0142,L2025-00601-3,2025-05-06,2025-05-12,clôturée,mineure,température de la salle de pesée hors limites (12 °c)
+DEV-2025-0143,L2025-00523-3,2025-05-06,2025-05-20,clôturée,mineure,certificat d'analyse du lot fournisseur d'actif apaisant absent ou incomplet
+DEV-2025-0144,L2025-00689-2,2025-05-07,2025-05-18,clôturée,mineure,Panne de la machine d'etiquetage pendant l'etape de conditionnement. Lot place en quarantaine
+DEV-2025-0145,L2025-00597-1,2025-05-08,2025-07-10,clôturée,majeure,Lot de parfum utilisé alors qu'il était en statut quarantaine. Production arrêtée deux heures
+DEV-2025-0146,L2025-00649-2,2025-05-09,2025-06-04,clôturée,majeure,Erreur de saisie de l'opé sur la quantité de conservateur (sur le lot fournisseur)
+DEV-2025-0147,L2025-00655-3,2025-05-09,2025-05-23,clôturée,majeure,lot de glycérine utilisé alors qu'il était en statut quarantaine
+DEV-2025-0148,L2025-00586-2,2025-05-09,2025-07-01,clôturée,majeure,Formation de l'operateur a la procedure de filtration non a jour. Responsable qualite informe
+DEV-2025-0149,L2025-00629-3,2025-05-10,2025-05-20,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape d'homogénéisation
+DEV-2025-0150,L2025-00629-2,2025-05-10,2025-05-22,clôturée,critique,panne de la climatisation de la zone de filtration. responsable qualite informe
+DEV-2025-0151,L2025-00708-1,2025-05-10,2025-05-25,clôturée,mineure,Dérive de vitesse de la ligne d'encartonnage détectée en cours de production
+DEV-2025-0152,L2025-00712-1,2025-05-11,2025-05-15,clôturée,mineure,procédure de nettoyage non appliquée entre deux campagnes. investigation ouverte
+DEV-2025-0153,L2025-00735-1,2025-05-12,2025-06-16,clôturée,majeure,Échantillonnage non représentatif pour le contrôle de charge microbienne. Responsable qualité informé
+DEV-2025-0154,L2025-00717-2,2025-05-12,2025-06-04,clôturée,majeure,Erreur d'etiquetage manuel par l'ope
+DEV-2025-0155,L2025-00718-1,2025-05-13,2025-05-18,clôturée,mineure,Maintenance préventive de la machine d'étiquetage non réalisée à échéance
+DEV-2025-0156,L2025-00690-2,2025-05-13,2025-05-23,clôturée,mineure,oubli de vérification par l'opérateur avant le lancement. aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0157,L2025-00740-2,2025-05-14,2025-06-12,clôturée,majeure,Procédure de nettoyage non appliquée entre deux campagnes. Investigation ouverte
+DEV-2025-0158,L2025-00724-1,2025-05-14,2025-06-12,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de filtration
+DEV-2025-0159,L2025-00636-2,2025-05-14,2025-05-31,clôturée,mineure,Humidité relative excessive en zone de fabrication
+DEV-2025-0160,L2025-00606-1,2025-05-14,2025-06-07,clôturée,majeure,Arrêt non planifié de la cuve de fabrication suite à une alarme. Impact qualité en cours d'évaluation
+DEV-2025-0161,L2025-00715-1,2025-05-15,2025-06-18,clôturée,critique,Article de conditionnement non conforme : tube defectueux
+DEV-2025-0162,L2025-00751-3,2025-05-15,2025-07-08,clôturée,majeure,odeur anormale constatée sur tensioactif à la pesée
+DEV-2025-0163,L2025-00679-1,2025-05-16,2025-05-31,clôturée,mineure,Odeur anormale constatée sur parfum à la pesée
+DEV-2025-0164,L2025-00641-2,2025-05-16,2025-06-17,clôturée,majeure,infiltration d'eau constatée dans l'atelier d'homogénéisation. lot placé en quarantaine
+DEV-2025-0165,L2025-00598-2,2025-05-17,2025-05-28,clôturée,mineure,Arrêt non planifié de la pompe de transfert suite à une alarme. Investigation ouverte
+DEV-2025-0166,L2025-00747-1,2025-05-17,2025-05-27,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape de pesée. Impact qualité en cours d'évaluation
+DEV-2025-0167,L2025-00662-3,2025-05-20,2025-06-14,clôturée,critique,Parametre de procede non enregistre lors de l'etape d'emulsion
+DEV-2025-0168,L2025-00733-1,2025-05-21,2025-05-30,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape d'émulsion
+DEV-2025-0169,L2025-00765-1,2025-05-21,2025-07-07,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes
+DEV-2025-0170,L2025-00677-1,2025-05-23,2025-05-26,clôturée,mineure,Instruction de fab non suivie lors de l'étape d'émulsion. Responsable qualité informé
+DEV-2025-0171,L2025-00805-2,2025-05-23,2025-06-03,clôturée,majeure,dérive de vitesse de la machine d'étiquetage détectée en cours de production (sur le lot fournisseur)
+DEV-2025-0172,L2025-00801-2,2025-05-23,2025-06-11,clôturée,mineure,Methode analytique non validee utilisee pour le dosage. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2025-0173,L2025-00771-1,2025-05-24,2025-06-12,clôturée,mineure,Défaut d'étanchéité de la machine d'étiquetage. Lot placé en quarantaine
+DEV-2025-0174,L2025-00729-2,2025-05-24,2025-06-06,clôturée,mineure,Mauvaise manipulation lors de l'étape de pesée par un intérimaire (selon le dossier de lot)
+DEV-2025-0175,L2025-00793-1,2025-05-25,2025-06-13,clôturée,majeure,Resultat d'aspect hors specification (OOS) au controle qualite
+DEV-2025-0176,L2025-00723-1,2025-05-25,2025-06-17,clôturée,critique,Erreur de calcul dans le rapport d'analyse du lot. Responsable qualite informe
+DEV-2025-0177,L2025-00794-1,2025-05-26,2025-06-08,clôturée,mineure,Odeur anormale constatée sur beurre de karité à la pesée. Responsable qualité informé
+DEV-2025-0178,L2025-00793-2,2025-05-28,2025-06-14,clôturée,majeure,odeur anormale constatée sur tensioactif à la pesée. production arrêtée deux heures
+DEV-2025-0179,L2025-00790-2,2025-05-28,2025-06-24,clôturée,majeure,température de la salle de fabrication hors limites (8 °c). lot placé en quarantaine
+DEV-2025-0180,L2025-00812-3,2025-05-29,2025-06-20,clôturée,mineure,"Excipient huile minérale contaminé, signalé par le fournisseur après utilisation"
+DEV-2025-0181,L2025-00777-3,2025-05-30,2025-06-12,clôturée,mineure,Résultat d'odeur hors spec (OOS) au contrôle qualité. Lot placé en quarnataine
+DEV-2025-0182,L2025-00685-1,2025-05-30,2025-07-02,clôturée,majeure,Panne de la boucheuse pendant l'étape d'homogénéisation
+DEV-2025-0183,L2025-00817-2,2025-05-31,2025-06-11,clôturée,mineure,Infiltration d'eau constatée dans l'atelier d'homogénéisation
+DEV-2025-0184,L2025-00737-2,2025-05-31,2025-06-18,clôturée,majeure,Certificat d'anlayse du lot fournisseur d'eau purifiee absent ou incomplet
+DEV-2025-0185,L2025-00811-1,2025-06-01,2025-06-24,clôturée,majeure,Parametre de procede non enregistre lors de l'etape d'homogeneisation
+DEV-2025-0186,L2025-00812-2,2025-06-04,2025-06-17,clôturée,mineure,Ordre d'introduction des phases inverse pendant l'etape d'homogeneisation
+DEV-2025-0187,L2025-00817-1,2025-06-04,2025-07-01,clôturée,mineure,Défuat d'étanchéité de la boucheuse
+DEV-2025-0188,L2025-00826-1,2025-06-04,2025-06-30,clôturée,majeure,Formation de l'opé à la proc. de fab non à jour (sur le lot fournisseur)
+DEV-2025-0189,L2025-00820-3,2025-06-07,2025-06-21,clôturée,mineure,Instruction de fab non suivie lors de l'étape de filtration. Impact qualité en cours d'évaluation
+DEV-2025-0190,L2025-00721-1,2025-06-08,2025-09-11,clôturée,majeure,Erreur de calcul dans le rapport d'analyse du lot
+DEV-2025-0191,L2025-00849-2,2025-06-08,2025-06-13,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape d'émulsion. Impact qualité en cours d'évaluation
+DEV-2025-0192,L2025-00788-1,2025-06-08,2025-06-22,clôturée,mineure,présence de particules étrangères dans le fût d'huile minérale
+DEV-2025-0193,L2025-00839-1,2025-06-08,2025-07-02,clôturée,majeure,Operaetur non habilite affecte au poste de remplissage
+DEV-2025-0194,L2025-00884-1,2025-06-10,2025-07-05,clôturée,mineure,Erreur d'étiquetage manuel par l'opérateur. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0195,L2025-00871-1,2025-06-12,2025-06-22,clôturée,majeure,Instruction de fabrication non suivie lors de l'étape de refroidissement. Production arrêtée deux heures
+DEV-2025-0196,L2025-00911-3,2025-06-15,2025-07-12,clôturée,mineure,panne de la ligne d'encartonnage pendant l'étape de condit.
+DEV-2025-0197,L2025-00906-1,2025-06-15,2025-08-12,clôturée,majeure,temps d'homogénéisation dépassé par rapport au dossier de lot
+DEV-2025-0198,L2025-00823-2,2025-06-16,2025-07-23,clôturée,majeure,Échantillonnage non représentatif pour le contrôle de pH. Lot placé en quarantaine
+DEV-2025-0199,L2025-00944-1,2025-06-18,2025-07-12,clôturée,mineure,Lot de conservateur utilisé alors qu'il était en statut quarantaine
+DEV-2025-0200,L2025-00828-1,2025-06-19,2025-07-24,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape d'émulsion
+DEV-2025-0201,L2025-00816-2,2025-06-19,2025-06-30,clôturée,majeure,Présence de particules étrangères dans le fût d'eau purifiée
+DEV-2025-0202,L2025-00916-1,2025-06-20,2025-07-19,clôturée,mineure,Écart entre deux mesures de charge microbienne sur le même échantillon
+DEV-2025-0203,L2025-00877-1,2025-06-21,2025-07-09,clôturée,mineure,Port des équipements de protection non conforme en zone de fab. Investigation ouverte
+DEV-2025-0204,L2025-00922-2,2025-06-21,2025-06-27,clôturée,mineure,Présence de particules étrangères dans le fût d'émulsifiant. Aucun impact sur la sécuirté du consommateur identifié à ce stade (en zone de production)
+DEV-2025-0205,L2025-00946-1,2025-06-23,2025-07-10,clôturée,majeure,Panne de la boucheuse pendant l'étape d'homogénéisation. Impact qualité en cours d'évaluation
+DEV-2025-0206,L2025-00917-1,2025-06-23,2025-07-12,clôturée,majeure,Odeur anormale constatée sur filtre UV à la pesée. Production arrêtée deux heures (confirmé par analyse)
+DEV-2025-0207,L2025-00923-1,2025-06-24,2025-07-16,clôturée,majeure,Lot d'emulsifiant utilise alors qu'il etait en statut quarantaine. Production arretee deux heures (selon le dossier de lot)
+DEV-2025-0208,L2025-00827-2,2025-06-24,2025-08-03,clôturée,majeure,Usure d'une pièce de la pompe de transfert provoquant des défatus de remplissage. Impact qualité en cours d'évaluation
+DEV-2025-0209,L2025-00977-1,2025-06-26,2025-07-28,clôturée,mineure,Erreur de saisie de l'opé sur la quantité d'actif apaisant. Impact qualité en cours d'évaluation
+DEV-2025-0210,L2025-00893-1,2025-06-26,2025-07-05,clôturée,mineure,Erreur de calcul dans le rapport d'analyse du lot. Lot place en quarantaine
+DEV-2025-0211,L2025-00951-1,2025-06-27,2025-08-25,clôturée,critique,instrument de mesure d'aspect non qualifié
+DEV-2025-0212,L2025-00932-1,2025-06-28,2025-08-09,clôturée,majeure,Écart de pression différentielle entre zones. Impact qualité en cours d'évaluation
+DEV-2025-0213,L2025-00885-1,2025-06-28,2025-07-09,clôturée,mineure,Présence d'insectes signalée en zone de stockage
+DEV-2025-0214,L2025-00940-1,2025-06-29,2025-07-27,clôturée,majeure,Formation de l'opérateur à la procédure de filtration non à jour
+DEV-2025-0215,L2025-00868-1,2025-06-29,2025-07-25,clôturée,majeure,instruction de fab non suivie lors de l'étape de fab. production arrêtée deux heures
+DEV-2025-0216,L2025-00988-1,2025-06-29,2025-08-08,clôturée,majeure,Article de conditionnement non conforme : étiquette défectueux
+DEV-2025-0217,L2025-00947-2,2025-07-03,2025-08-13,clôturée,majeure,"Excipient beurre de karité contaminé, signalé par le fournisseur après utilisation"
+DEV-2025-0218,L2025-00945-1,2025-07-04,2025-07-20,clôturée,mineure,Instrument de mesure d'aspect non qualifie. Responsable qualite informe (en zone de production)
+DEV-2025-0219,L2025-00998-1,2025-07-04,2025-07-19,clôturée,mineure,Capteur de la ligne d'encartonnage hors service
+DEV-2025-0220,L2025-01026-2,2025-07-06,2025-08-13,clôturée,mineure,Defaut d'etancheite de la remplisseuse. Impact qualite en cours d'evaluation
+DEV-2025-0221,L2025-00901-2,2025-07-07,2025-07-19,clôturée,mineure,ordre d'introduction des phases inversé pendant l'étape de refroidissement. investigation ouverte
+DEV-2025-0222,L2025-00979-1,2025-07-08,2025-07-24,clôturée,mineure,Odeur anormale constatee sur parfum a la pesee. Responsable qualite informe
+DEV-2025-0223,L2025-01022-1,2025-07-08,2025-07-20,clôturée,majeure,Article de conditionnement non confrome : étui défectueux. Responsable qualité informé
+DEV-2025-0224,L2025-01016-1,2025-07-08,2025-07-16,clôturée,majeure,Défaut d'étanchéité de la cuve de fabrication. Production arrêtée deux heures
+DEV-2025-0225,L2025-01016-2,2025-07-09,2025-07-29,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape de remplissage. Lot placé en quarantaine
+DEV-2025-0226,L2025-01042-2,2025-07-09,2025-08-05,clôturée,majeure,Mauvaise manipulation lors de l'étape d'homogénéisation par un intérimaire. Lot placé en quarantaine
+DEV-2025-0227,L2025-00958-3,2025-07-09,2025-07-22,clôturée,mineure,Arrêt non planifié de la boucheuse suite à une alarme. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0228,L2025-00973-1,2025-07-10,2025-07-19,clôturée,mineure,Instruction de fab non suivie lors de l'étape de refroidissement
+DEV-2025-0229,L2025-00999-1,2025-07-11,2025-08-20,clôturée,majeure,Matière première beurre de karité non conforme à la spécification (teneur en eau) à réception (constaté par l'opérateur)
+DEV-2025-0230,L2025-00939-2,2025-07-11,2025-07-23,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes. Responsable qualité informé
+DEV-2025-0231,L2025-00872-1,2025-07-12,2025-07-22,clôturée,mineure,Paramètre de procédé non enregistré lors de l'étape de remplissage
+DEV-2025-0232,L2025-01045-1,2025-07-13,2025-07-20,clôturée,mineure,Lot d'émulsifiant utilisé alors qu'il était en statut quarantaine. Lot placé en quarantaine
+DEV-2025-0233,L2025-00995-1,2025-07-14,2025-08-03,clôturée,majeure,Procédure de nettoyage non appliquée entre deux campagnes. Production arrêtée deux heures
+DEV-2025-0234,L2025-01004-2,2025-07-14,2025-07-28,clôturée,critique,Instruction de fabrication non suivie lors de l'étape de pesée
+DEV-2025-0235,L2025-01005-1,2025-07-15,2025-09-19,clôturée,majeure,Usure d'une pièce de la cuve de fabrication provoquant des défauts de scellage (en zone de production)
+DEV-2025-0236,L2025-01048-1,2025-07-15,2025-08-25,clôturée,critique,Résultat de viscosité hors spécification (OOS) au contrôle qualité. Production arrêtée deux heures
+DEV-2025-0237,L2025-01012-1,2025-07-15,2025-07-20,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes. Lot placé en quarantaine
+DEV-2025-0238,L2025-01050-2,2025-07-16,2025-08-08,clôturée,majeure,Maintenance preventive de la ligne d'encartonnage non realisee a echeance. Impact qualite en cours d'evaluation
+DEV-2025-0239,L2025-01030-2,2025-07-16,2025-07-23,clôturée,mineure,Panne de la remplisseuse pendant l'étape de fab. Production arrêtée deux heures
+DEV-2025-0240,L2025-01036-2,2025-07-17,2025-08-06,clôturée,mineure,Presence de particules etrangeres dans le fut de beurre de karite (constate par l'operateur)
+DEV-2025-0241,L2025-01027-2,2025-07-17,2025-07-27,clôturée,mineure,Odeur anormale constatée sur beurre de karité à la pesée. Aucun impact sur la sécurité du consommateur identifié à ce stade (constaté par l'opérateur)
+DEV-2025-0242,L2025-00925-3,2025-07-17,2025-08-25,clôturée,majeure,Ordre d'introduction des phases inversé pendant l'étape de refroidissement
+DEV-2025-0243,L2025-01067-2,2025-07-18,2025-08-24,clôturée,critique,Lot d'actif apaisant utilisé alors qu'il était en statut quarantaine. Impact qualité en cours d'évaluation
+DEV-2025-0244,L2025-01064-2,2025-07-18,2025-08-15,clôturée,majeure,Lot de tensioactif utilisé alors qu'il était en statut quarantaine
+DEV-2025-0245,L2025-00972-2,2025-07-18,2025-09-22,clôturée,majeure,Temps de remplissage dépassé par rapport au dossier de lot
+DEV-2025-0246,L2025-01064-1,2025-07-19,2025-07-29,clôturée,mineure,lot d'eau purifiée utilisé alors qu'il était en statut quarantaine
+DEV-2025-0247,L2025-01009-2,2025-07-20,2025-08-11,clôturée,majeure,étape de condit. réalisée hors proc. : t° de phase non contrôlée. responsable qualité inofrmé
+DEV-2025-0248,L2025-01055-1,2025-07-20,2025-07-31,clôturée,mineure,Écart de pression différentielle entre zones
+DEV-2025-0249,L2025-01041-1,2025-07-21,2025-08-10,clôturée,mineure,Usure d'une pièce de la machine d'étiquetage provoquant des défauts d'étiquetage. Investigation ouverte
+DEV-2025-0250,L2025-01046-1,2025-07-21,2025-08-10,clôturée,majeure,Comtpage particulaire hors limites en salle propre
+DEV-2025-0251,L2025-01104-1,2025-07-22,2025-08-07,clôturée,mineure,"Excipient actif apaisant contaminé, signalé par le fournisseur après utilisation. Production arrêtée deux heures"
+DEV-2025-0252,L2025-01087-2,2025-07-22,2025-08-15,clôturée,mineure,Matière première émulsifiant non conforme à la spécification (aspect) à réception. Investigation ouverte
+DEV-2025-0253,L2025-01127-2,2025-07-23,2025-09-06,clôturée,majeure,Mode operatoire obsoltee utilise pour l'etape de remplissage. Impact qualite en cours d'evaluation (apres redemarrage de la ligne)
+DEV-2025-0254,L2025-01049-1,2025-07-23,2025-08-05,clôturée,mineure,Ordre d'introduction des phases inversé pendant l'étape de fabrication. Investigation ouverte
+DEV-2025-0255,L2025-01084-1,2025-07-25,2025-08-25,clôturée,mineure,Opérateur non habilité affecté au poste de filtration. Responsable qualité informé
+DEV-2025-0256,L2025-00993-2,2025-07-26,2025-08-09,clôturée,mineure,procédure de nettoyage non appliquée entre deux campagnes
+DEV-2025-0257,L2025-01083-1,2025-07-26,2025-08-16,clôturée,mineure,Panne de la ligne d'encartonnage pendant l'étape d'émulsion. Impact qualité en cours d'évaluation
+DEV-2025-0258,L2025-01039-1,2025-07-27,2025-08-02,clôturée,mineure,Usure d'une piece de la cuve de fabrication provoquant des defauts de scellage. Lot place en quarantaine
+DEV-2025-0259,L2025-01122-2,2025-07-28,2025-08-06,clôturée,mineure,Mode opéartoire obsolète utilisé pour l'étape de filtration. Responsable qualité informé
+DEV-2025-0260,L2025-01085-1,2025-07-28,2025-08-06,clôturée,mineure,Odeur anormale constatée sur émulsifiant à la pesée
+DEV-2025-0261,L2025-01103-1,2025-07-29,2025-08-27,clôturée,mineure,Formation de l'opé à la proc. de pesée non à jour. Production arrêtée deux heures (sur le lot fournisseur)
+DEV-2025-0262,L2025-01042-1,2025-07-30,2025-09-11,clôturée,majeure,Mode opératoire obsolète utilisé pour l'étape de refroidissement
+DEV-2025-0263,L2025-01075-1,2025-08-01,2025-08-05,clôturée,mineure,Erreur de calcul dans le rapport d'analyse du lot. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0264,L2025-01117-1,2025-08-01,2025-08-23,clôturée,mineure,Température de la salle de remplissage hors limites (8 °C)
+DEV-2025-0265,L2025-01088-3,2025-08-01,2025-08-10,clôturée,mineure,Article de conditionnement non conforme : étiquette défectueux
+DEV-2025-0266,L2025-01110-2,2025-08-04,2025-09-02,clôturée,critique,Paramètre de procédé non enregistré lors de l'étape de remplissage. Responsable qualité informé
+DEV-2025-0267,L2025-01115-1,2025-08-07,2025-09-10,clôturée,mineure,Maintenance préevntive de la ligne d'encartonnage non réalisée à échéance
+DEV-2025-0268,L2025-01154-1,2025-08-07,2025-08-11,clôturée,mineure,Matière première glycérine non conforme à la spécification (densité) à réception
+DEV-2025-0269,L2025-01164-2,2025-08-08,2025-09-13,clôturée,majeure,"Écart d'aspect sur la matière première tensioactif, hors limites du cahier des charges"
+DEV-2025-0270,L2025-01146-1,2025-08-09,2025-09-25,clôturée,critique,usure d'une pièce de la turbine d'homogénéisation provoquant des défauts de bouchage. production arrêtée deux heures
+DEV-2025-0271,L2025-01143-1,2025-08-09,2025-09-08,clôturée,majeure,Ordre d'introduction des phases inversé pendant l'étape de pesée. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0272,L2025-01130-1,2025-08-11,2025-09-13,clôturée,majeure,Panne de la remplisseuse pendant l'étape de filtration
+DEV-2025-0273,L2025-01156-3,2025-08-11,2025-09-03,clôturée,majeure,dossier de lot incomplet : signature manquante à l'étape de filtration
+DEV-2025-0274,L2025-01165-1,2025-08-12,2025-09-02,clôturée,majeure,Opérateur non habilité affecté au poste d'homogénéisation
+DEV-2025-0275,L2025-01123-2,2025-08-14,2025-10-04,clôturée,mineure,Erreur de calcul dans le rapport d'analyse du lot (selon le dossier de lot)
+DEV-2025-0276,L2025-01175-2,2025-08-14,2025-09-06,clôturée,mineure,"Écart de teneur en actif sur la matière première conservateur, hors limites du cahier des charges"
+DEV-2025-0277,L2025-01148-1,2025-08-15,2025-09-17,clôturée,mineure,Certificat d'anaylse du lot fournisseur de parfum absent ou incomplet. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0278,L2025-01189-1,2025-08-16,2025-09-14,clôturée,majeure,Présence de particules étrangères dans le fût d'eau purifiée. Lot placé en quarantaine
+DEV-2025-0279,L2025-01189-2,2025-08-16,2025-09-11,clôturée,majeure,Odeur anormale constaéte sur tensioactif à la pesée
+DEV-2025-0280,L2025-01137-1,2025-08-16,2025-08-24,clôturée,critique,Lot d'huile minérale utilisé alors qu'il était en statut quarantaine. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0281,L2025-01069-2,2025-08-17,2025-09-16,clôturée,critique,Capteur de la cuve de fab hors service
+DEV-2025-0282,L2025-01075-2,2025-08-18,2025-09-14,clôturée,critique,Panne de la climatisation de la zone d'homogénéisation. Production arrêtée deux heures
+DEV-2025-0283,L2025-01250-2,2025-08-19,2025-08-27,clôturée,mineure,Méthode analytique non validée utilisée pour le dosage. Impact qualité en cours d'évaluation
+DEV-2025-0284,L2025-01245-1,2025-08-19,2025-09-26,clôturée,majeure,Usure d'une pièce de la ligne d'encartonnage provoquant des défauts de scellage. Lot placé en quarantaine
+DEV-2025-0285,L2025-01187-2,2025-08-20,2025-09-03,clôturée,mineure,matiere premiere huile minerale non conforme a la specification (charge microbienne) a reception. aucun impact sur la securite du consommateur idnetifie a ce stade
+DEV-2025-0286,L2025-01235-3,2025-08-21,2025-09-21,clôturée,majeure,Lot d'huile minérale utilisé alors qu'il était en sattut quarantaine. Production arrêtée deux heures
+DEV-2025-0287,L2025-01246-1,2025-08-21,2025-09-19,clôturée,majeure,Odeur anormale constatee sur parfum a la pesee. Impact qualite en cours d'evaluation
+DEV-2025-0288,L2025-01117-2,2025-08-22,2025-10-14,clôturée,critique,arrêt non planifié de la ligne d'encartonnage suite à une alarme
+DEV-2025-0289,L2025-01221-2,2025-08-22,2025-10-02,clôturée,majeure,Lot de tensioactif utilisé alors qu'il était en statut quarantaine. Responsable qualité informé
+DEV-2025-0290,L2025-01173-2,2025-08-22,2025-09-04,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes. Production arrêtée deux heures
+DEV-2025-0291,L2025-01195-1,2025-08-23,2025-08-26,clôturée,majeure,Température de la salle d'émulsion hors limites (31 °C). Production arrêtée deux heures
+DEV-2025-0292,L2025-01210-1,2025-08-24,2025-09-09,clôturée,mineure,Opérateur non habilité affecté au poste de fabrication (en zone de production)
+DEV-2025-0293,L2025-01223-3,2025-08-26,2025-09-15,clôturée,mineure,Erreur de saisie de l'opérateur sur la quantité de glycérine. Impact qualité en cours d'évaluation (en zone de production)
+DEV-2025-0294,L2025-01212-2,2025-08-27,2025-09-23,clôturée,majeure,Presence de particules etrangeres dans le fut d'actif apaisant. Investigation ouverte
+DEV-2025-0295,L2025-01242-1,2025-08-30,2025-09-25,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de remplissage. Impact qualité en cours d'évaluation
+DEV-2025-0296,L2025-01305-3,2025-09-01,2025-09-15,clôturée,mineure,Presence de particules etrangeres dans le fut de glycerine. Impact qualite en cours d'evaluation
+DEV-2025-0297,L2025-01263-2,2025-09-02,2025-09-14,clôturée,mineure,Réslutat de viscosité hors spec (OOS) au contrôle qualité. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0298,L2025-01304-1,2025-09-03,2025-09-09,clôturée,mineure,Fuite constatée sur la boucheuse
+DEV-2025-0299,L2025-01242-2,2025-09-03,2025-11-12,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape de filtration. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0300,L2025-01228-1,2025-09-06,2025-09-16,clôturée,mineure,odeur anormale constatée sur tensioactif à la pesée. investigation ouverte
+DEV-2025-0301,L2025-01335-1,2025-09-08,2025-09-18,clôturée,mineure,Certificat d'analyse du lot fournisseur de conservateur absent ou incomplet. Lot placé en quarantaine
+DEV-2025-0302,L2025-01304-2,2025-09-14,2025-10-18,clôturée,critique,Comptage particulaire hors limites en salle propre
+DEV-2025-0303,L2025-01343-1,2025-09-14,2025-09-22,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de filtration
+DEV-2025-0304,L2025-01381-1,2025-09-21,2025-09-25,clôturée,mineure,mp huile minérale non conforme à la spec (ph) à réception
+DEV-2025-0305,L2025-01289-1,2025-09-21,2025-10-28,clôturée,majeure,Capteur de la ligne d'encartonnage hors service
+DEV-2025-0306,L2025-01390-1,2025-09-22,2025-10-15,clôturée,mineure,Lot de parfum utilsié alors qu'il était en statut quarantaine. Investigation ouverte
+DEV-2025-0307,L2025-01402-2,2025-09-23,2025-10-19,clôturée,majeure,Odeur anormale constatée sur glycérine à la pesée
+DEV-2025-0308,L2025-01359-1,2025-09-25,2025-10-03,clôturée,mineure,Article de condit. non conforme : étiquette défectueux. Lot placé en quarantaine
+DEV-2025-0309,L2025-01310-1,2025-09-26,2025-11-02,clôturée,majeure,Derive de vitesse de la boucheuse detectee en cours de production (en zone de production)
+DEV-2025-0310,L2025-01409-2,2025-09-26,2025-12-09,clôturée,majeure,maint. preventive de la ligne d'encartonnage non realisee a echeance
+DEV-2025-0311,L2025-01395-1,2025-09-26,2025-10-05,clôturée,majeure,Oubli de vérification par l'opé avant le lancement
+DEV-2025-0312,L2025-01401-1,2025-09-28,2025-11-21,clôturée,mineure,Paramètre de procédé non enregistré lors de l'étape de filtration. Aucun impact sur la sécurité du consommateur identifié à ce stade (sur le lot fournisseur)
+DEV-2025-0313,L2025-01331-1,2025-09-28,2025-11-04,clôturée,majeure,temps de pesée dépassé par rapport au dossier de lot
+DEV-2025-0314,L2025-01425-1,2025-09-29,2025-11-16,clôturée,critique,"Écart de teneur en eau sur la matière première huile minérale, hors limites du cahier des charges. Aucun impact sur la sécurité du consommateur identifié à ce stade"
+DEV-2025-0315,L2025-01438-1,2025-09-30,2025-12-07,clôturée,critique,Méthode analytique non validée utilisée pour le dosage
+DEV-2025-0316,L2025-01441-2,2025-10-03,2025-11-04,clôturée,majeure,Dérive de vitesse de la cuve de fabrication détectée en cours de production. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0317,L2025-01474-1,2025-10-03,2025-11-12,clôturée,majeure,panne de la climatisation de la zone de condit.. investigation ouverte (constaté par l'opé)
+DEV-2025-0318,L2025-01393-2,2025-10-03,2025-10-12,clôturée,mineure,temps de pesée dépassé par rapport au dossier de lot. lot placé en quarantaine
+DEV-2025-0319,L2025-01385-2,2025-10-04,2025-10-14,clôturée,critique,Double vérification non réalisée par le secnod opérateur. Lot placé en quarantaine
+DEV-2025-0320,L2025-01394-3,2025-10-04,2025-10-26,clôturée,majeure,Mauvaise manipulation lors de l'étape de conditionnement par un intérimaire. Production arrêtée deux heures
+DEV-2025-0321,L2025-01430-2,2025-10-05,2025-10-18,clôturée,mineure,Erreur de calcul dans le rapport d'analyse du lot. Impact qualité en cours d'évaluation
+DEV-2025-0322,L2025-01456-2,2025-10-05,2025-10-15,clôturée,mineure,Ordre d'introductoin des phases inversé pendant l'étape d'homogénéisation
+DEV-2025-0323,L2025-01420-3,2025-10-08,2025-10-19,clôturée,mineure,Odeur anormale constatée sur eau purifiée à la pesée
+DEV-2025-0324,L2025-01411-2,2025-10-09,2025-10-24,clôturée,mineure,Resultat de teneur en actif hors spec (OOS) au controle qualite
+DEV-2025-0325,L2025-01455-1,2025-10-10,2025-10-26,clôturée,critique,Mode opératoire obsolète utilisé pour l'étape de filtration (constaté par l'opérateur)
+DEV-2025-0326,L2025-01480-1,2025-10-10,2025-11-09,clôturée,majeure,Opérateur non habilité affecté au poste d'émulsion. Impact qualité en cours d'évaluation
+DEV-2025-0327,L2025-01443-1,2025-10-11,2025-11-10,clôturée,mineure,Dérive de vitesse de la cuve de fabrication détectée en cours de production. Investigation ouverte
+DEV-2025-0328,L2025-01521-2,2025-10-14,2025-11-04,clôturée,mineure,Certificat d'analyse du lot fournisseur d'émulsifiant absent ou incomplet. Investigation ouverte
+DEV-2025-0329,L2025-01433-3,2025-10-15,2025-11-14,clôturée,majeure,Article de conditionnement non conforme : tube défectueux. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0330,L2025-01394-2,2025-10-16,,ouverte,majeure,Procédure de nettoyage non appliquée entre deux campagnes. Production arrêtée deux heures
+DEV-2025-0331,L2025-01497-2,2025-10-16,2025-12-07,clôturée,critique,Instruction de fab non suivie lors de l'etape de pesee. Investigation ouverte
+DEV-2025-0332,L2025-01501-2,2025-10-18,2025-11-16,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape de conditionnement
+DEV-2025-0333,L2025-01518-2,2025-10-19,2025-10-31,clôturée,mineure,mode operatoire obsolete utilise pour l'etape de filtration. impact qualite en cours d'evaluation
+DEV-2025-0334,L2025-01520-1,2025-10-19,2025-10-25,clôturée,mineure,Formation de l'operateur a la procedure d'emulsion non a jour. Lot place en quarantaine
+DEV-2025-0335,L2025-01494-2,2025-10-21,2025-11-17,clôturée,majeure,Article de condit. non conforme : flacon défectueux. Production arrêtée deux heures
+DEV-2025-0336,L2025-01494-1,2025-10-22,2025-12-07,clôturée,majeure,Dossier de lot incomplet : signature manquante à l'étape de pesée
+DEV-2025-0337,L2025-01531-2,2025-10-22,,ouverte,majeure,Erreur d'étiquetage manuel par l'opé. Responsable qualité informé
+DEV-2025-0338,L2025-01514-1,2025-10-23,2025-12-21,clôturée,majeure,mode opératoire obsolète utilisé pour l'étape de refroidissement (confirmé par analyse)
+DEV-2025-0339,L2025-01549-3,2025-10-24,2025-11-23,clôturée,mineure,Opérateur non habilité affecté au poste de fabrication. Investigation ouverte
+DEV-2025-0340,L2025-01547-2,2025-10-24,2025-12-27,clôturée,critique,Capteur de la machine d'étiquetage hors service. Production arrêtée deux heures
+DEV-2025-0341,L2025-01537-3,2025-10-25,2025-11-12,clôturée,mineure,Article de conditionnement non conforme : bouchon pompe défectueux. Impact qualité en cours d'évaluation
+DEV-2025-0342,L2025-01537-2,2025-10-25,,ouverte,majeure,Dérive de vitesse de la cuve de fab détectée en cours de production. Impact qualité en cours d'évlauation
+DEV-2025-0343,L2025-01524-3,2025-10-26,2025-11-06,clôturée,majeure,matière première tensioactif non conforme à la spécification (odeur) à réception. production arrêtée deux heures
+DEV-2025-0344,L2025-01585-3,2025-10-26,2025-11-15,clôturée,mineure,Matière première parfum non conforme à la spécification (charge microbienne) à réception. Responsable qualité informé
+DEV-2025-0345,L2025-01560-1,2025-10-27,2025-12-16,clôturée,critique,Présence de particules étrangères dans le fût de filtre UV
+DEV-2025-0346,L2025-01564-1,2025-10-31,2025-12-10,clôturée,majeure,Lot de glycerine utilise alors qu'il etait en statut quarantaine. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2025-0347,L2025-01570-2,2025-10-31,,ouverte,majeure,Mauvaise manipulation lors de l'étape de filtration par un intérimaire. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0348,L2025-01607-3,2025-10-31,,ouverte,majeure,Instrument de mesure de teneur en actif non qualifié (selon le dossier de lot)
+DEV-2025-0349,L2025-01592-1,2025-11-02,2025-11-14,clôturée,majeure,Mode opératoire obsolète utilisé pour l'étape d'émulsion. Investigation ouverte
+DEV-2025-0350,L2025-01570-1,2025-11-04,2025-11-30,clôturée,mineure,Méthode analytique non validée utilisée pour le dosage. Impact qualité en cours d'évaluation
+DEV-2025-0351,L2025-01588-3,2025-11-04,2025-12-02,clôturée,critique,Étape de remplissage réalisée hors procédure : durée d'homogénéisation raccourcie
+DEV-2025-0352,L2025-01616-1,2025-11-06,2025-11-15,clôturée,mineure,Contamination microbiologique detectee lors du controle d'environnement
+DEV-2025-0353,L2025-01529-1,2025-11-07,2025-11-15,clôturée,mineure,Certificat d'analyse du lot fournisseur de glycérine absent ou incomplet. Investigation ouverte
+DEV-2025-0354,L2025-01543-1,2025-11-10,,ouverte,majeure,Ordre d'introduction des phases inversé pendant l'étape de fab. Production arrêtée deux heures
+DEV-2025-0355,L2025-01588-2,2025-11-10,2025-12-06,clôturée,mineure,Arrêt non planifié de la cuve de fabrication suite à une alarme
+DEV-2025-0356,L2025-01654-2,2025-11-11,2025-11-29,clôturée,mineure,Présence de particules étrangères dans le fût de glycérine
+DEV-2025-0357,L2025-01675-2,2025-11-14,2025-12-16,clôturée,majeure,Échantillonnage non représentatif pour le contrôle de pH. Lot placé en quarantaine
+DEV-2025-0358,L2025-01645-3,2025-11-15,2025-12-27,clôturée,majeure,Paramètre de procédé non enregistré lors de l'étape d'homogénéisaiton
+DEV-2025-0359,L2025-01654-3,2025-11-16,2025-11-20,clôturée,mineure,Mode opératoire obsolète utilisé pour l'étape de remplissage. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0360,L2025-01701-3,2025-11-18,2025-12-20,clôturée,critique,resultat d'odeur hors specification (oos) au controle qualite
+DEV-2025-0361,L2025-01582-1,2025-11-20,2025-12-14,clôturée,majeure,Méthode analytique non validée utilisée pour le dosage. Investigation ouverte
+DEV-2025-0362,L2025-01682-1,2025-11-20,2025-12-01,clôturée,mineure,Procedure de nettoyage non appliquee entre deux campagnes. Responsable qualite informe
+DEV-2025-0363,L2025-01666-1,2025-11-21,2025-12-11,clôturée,mineure,Infiltration d'eau constatee dans l'atelier d'homogeneisation
+DEV-2025-0364,L2025-01666-2,2025-11-23,2025-11-29,clôturée,majeure,Mauvaise manipulation lors de l'etape de refroidissement par un interimaire
+DEV-2025-0365,L2025-01714-1,2025-11-25,2025-12-05,clôturée,mineure,Usure d'une piece de la boucheuse provoquant des defauts de scellage
+DEV-2025-0366,L2025-01658-2,2025-11-27,2025-12-30,clôturée,critique,Comptage particulaire hors lmiites en salle propre
+DEV-2025-0367,L2025-01759-1,2025-11-28,2025-12-26,clôturée,majeure,capteur de la remplisseuse hors service
+DEV-2025-0368,L2025-01637-1,2025-11-28,2025-12-02,clôturée,mineure,Certificat d'analyse du lot fournisseur d'huile minérale absent ou incomplet. Impact qualité en cours d'évaluation (après redémarrage de la ligne)
+DEV-2025-0369,L2025-01603-2,2025-11-28,2025-12-17,clôturée,mineure,"Excipient glycerine contamine, signale par le fournisseur apres utilisation. Impact qualite en cours d'evaluation"
+DEV-2025-0370,L2025-01768-1,2025-11-29,,ouverte,majeure,"Écart de teneur en eau sur la matière première actif apaisant, hors limites du cahier des charges. Lot placé en quarantaine"
+DEV-2025-0371,L2025-01774-1,2025-12-01,2025-12-15,clôturée,mineure,Procédure de nettoyage non appliquée entre deux campagnes. Impact qualité en cours d'évaluation
+DEV-2025-0372,L2025-01639-3,2025-12-01,,ouverte,majeure,Defaut d'etancheite de la ligne d'encartonnage. Lot place en quarantaine
+DEV-2025-0373,L2025-01792-2,2025-12-02,,ouverte,majeure,Port des equipements de protection non conforme en zone de fab. Lot place en quarantaine
+DEV-2025-0374,L2025-01772-1,2025-12-02,,ouverte,majeure,Maintenance preventive de la cuve de fabrciation non realisee a echeance
+DEV-2025-0375,L2025-01659-2,2025-12-03,,ouverte,mineure,Étape de refroidissement réalisée hors procédure : durée d'homogénéisation raccourcie. Impact qualité en cours d'évaluation (constaté par l'opérateur)
+DEV-2025-0376,L2025-01715-2,2025-12-04,2025-12-27,clôturée,mineure,Instruction de fabrication non suivie lors de l'éatpe de fabrication
+DEV-2025-0377,L2025-01745-2,2025-12-05,2025-12-16,clôturée,majeure,Odeur anormale constatée sur actif apaisant à la pesée. Investigation ouverte
+DEV-2025-0378,L2025-01745-1,2025-12-06,2025-12-19,clôturée,majeure,Erreur d'étiquetage manuel par l'opé. Production arrêtée deux heures
+DEV-2025-0379,L2025-01756-2,2025-12-06,2025-12-12,clôturée,mineure,présence de particules étrangères dans le fût de filtre uv
+DEV-2025-0380,L2025-01829-2,2025-12-07,,ouverte,mineure,Article de conditionnement non conforme : bouchon pompe défectueux
+DEV-2025-0381,L2025-01669-2,2025-12-07,,ouverte,mineure,Infiltration d'eau constatée dans l'atelier de remplissage
+DEV-2025-0382,L2025-01684-2,2025-12-09,2025-12-20,clôturée,majeure,Formation de l'operateur a la procedure de pesee non a jour. Lot place en quarantaine
+DEV-2025-0383,L2025-01826-1,2025-12-10,,ouverte,majeure,article de condit. non conforme : étiquette défectueux
+DEV-2025-0384,L2025-01798-1,2025-12-10,,ouverte,majeure,"Ecart d'aspect sur la matiere premiere conservateur, hors limites du cahier des charges. Impact qualite en cours d'evaluation"
+DEV-2025-0385,L2025-01729-3,2025-12-10,,ouverte,majeure,Procedure de nettoyage non appliquee entre deux campagnes. Investigation ouverte
+DEV-2025-0386,L2025-01759-2,2025-12-11,2025-12-23,clôturée,mineure,Lot d'actif apaisant utilisé alors qu'il était en statut quarantaine. Aucun impact sur la sécurité du consommateur identifié à ce stade
+DEV-2025-0387,L2025-01871-1,2025-12-11,,ouverte,majeure,Thermomètre de contrôle défectueux en cours de refroidissement. Impact qualité en cours d'évaluation
+DEV-2025-0388,L2025-01869-3,2025-12-14,,ouverte,majeure,Odeur anormale constatée sur parfum à la pesée
+DEV-2025-0389,L2025-01791-3,2025-12-15,2025-12-22,clôturée,mineure,Article de conditionnement non conforme : bouchon pompe défectueux
+DEV-2025-0390,L2025-01882-1,2025-12-17,2025-12-27,clôturée,mineure,Temps d'émulsion dépassé par rapport au dossier de lot (confirmé par analyse)
+DEV-2025-0391,L2025-01787-1,2025-12-18,,ouverte,mineure,Dossier de lot incomplet : signature manquante à l'étape de remplissage (après redémarrage de la ligne)
+DEV-2025-0392,L2025-01817-2,2025-12-18,2025-12-26,clôturée,majeure,Certificat d'analyse du lot fournisseur d'emulsifiant absent ou incomplet. Investigation ouverte (confirme par analyse)
+DEV-2025-0393,L2025-01861-1,2025-12-18,,ouverte,mineure,"Excipient actif apaisant contamine, signale par le fournisseur apres utilisation"
+DEV-2025-0394,L2025-01849-1,2025-12-19,,ouverte,critique,Formation de l'ope a la proc. de filtration non a jour. Aucun impact sur la securite du consommateur identifie a ce stade
+DEV-2025-0395,L2025-01871-2,2025-12-24,,ouverte,mineure,Erreur de calcul dans le rapoprt d'analyse du lot

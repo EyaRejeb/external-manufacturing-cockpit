@@ -3,6 +3,9 @@
 Partie 1 : référentiels (façonniers, produits, calendrier).
 Toutes les règles de l'univers simulé sont dans config.yaml.
 """
+
+import re
+import unicodedata
 from pathlib import Path
 
 import numpy as np
@@ -45,6 +48,38 @@ GAMMES_COMPLEXES = {"Solaire", "Dermatologie"}  # formulations plus exigeantes
 CONTENANCES_ML = [30, 50, 100, 200, 400]
 CATEGORIES_6M = ["Matière", "Méthode", "Machine", "Main-d'œuvre", "Milieu", "Mesure"]
 POIDS_6M = [0.22, 0.25, 0.20, 0.15, 0.08, 0.10]
+
+COLONNES_EXPORT = ["id_commande", "sku", "fournisseur", "date_commande", "date_promise",
+                   "date_livraison", "qte_commandee", "qte_livree", "qte_conforme",
+                   "cout_unitaire_eur"]
+
+FORMATS_EXPORT = {
+    "fr_standard": {
+        "libelles": ["N° commande", "Réf. article", "Fournisseur", "Date cde", "Date promise",
+                     "Date livr.", "Qté commandée", "Qté livrée", "Qté conforme", "Prix unitaire"],
+        "format_date": "%d/%m/%Y", "decimale": ","},
+    "fr_variante": {
+        "libelles": ["Commande", "Article", "Fabricant", "Date de commande", "Date prévue",
+                     "Date de livraison", "Quantité", "Quantité reçue", "Quantité acceptée", "PU (€)"],
+        "format_date": "%d/%m/%Y", "decimale": ","},
+    "fr_codes": {
+        "libelles": ["num_cde", "ref_art", "fourn", "dt_cde", "dt_prom", "dt_liv",
+                     "qte_cde", "qte_liv", "qte_conf", "pu"],
+        "format_date": "serie_excel", "decimale": "."},
+    "es": {
+        "libelles": ["Nº pedido", "Referencia", "Proveedor", "Fecha pedido", "Fecha prometida",
+                     "Fecha entrega", "Cantidad pedida", "Cantidad entregada", "Cantidad conforme",
+                     "Precio unitario"],
+        "format_date": "%Y-%m-%d", "decimale": ","},
+    "en": {
+        "libelles": ["Order_ID", "Item_Code", "Supplier", "Order_Date", "Promised_Date",
+                     "Delivery_Date", "Ordered_Qty", "Delivered_Qty", "Accepted_Qty", "Unit_Price"],
+        "format_date": "%Y-%m-%d", "decimale": "."},
+}
+
+FORMAT_PAR_FACCONNIER = {"F01": "fr_standard", "F02": "fr_variante", "F03": "fr_standard",
+                         "F04": "fr_codes", "F05": "es", "F06": "en", "F07": "es", "F08": "en"}
+FACCONNIERS_ONGLET_PAR_MOIS = {"F06"}
 
 def charger_config(chemin: Path = RACINE / "config.yaml") -> dict:
     with open(chemin, encoding="utf-8") as fichier:
@@ -279,6 +314,132 @@ def controler_qualite(cfg: dict, commandes: pd.DataFrame, lots: pd.DataFrame,
     for texte in deviations["description_libre"].head(5):
         print("-", texte)
 
+def injecter_anomalies(cfg: dict, rng: np.random.Generator,
+                       commandes: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Salit les commandes et note chaque anomalie injectée dans un journal."""
+    an = cfg["anomalies"]
+    df = commandes.copy()
+    journal = []
+
+    def noter(i, type_anomalie, colonne, avant, apres):
+        journal.append({"id_commande": df.at[i, "id_commande"], "type_anomalie": type_anomalie,
+                        "colonne": colonne, "valeur_originale": avant, "valeur_injectee": apres})
+
+    # 1. Quantités saisies en milliers (F05, 1er semestre 2024)
+    m = an["quantite_en_milliers"]
+    qtes = ["qte_commandee", "qte_livree", "qte_conforme"]
+    df[qtes] = df[qtes].astype("Float64")
+    masque = ((df["id_facconnier"] == m["facconnier"])
+              & (df["date_commande"] >= pd.Timestamp(m["date_debut"]))
+              & (df["date_commande"] <= pd.Timestamp(m["date_fin"])))
+    for i in df.index[masque]:
+        noter(i, "quantite_en_milliers", "qte_commandee",
+              df.at[i, "qte_commandee"], df.at[i, "qte_commandee"] / 1000)
+    df.loc[masque, qtes] = df.loc[masque, qtes] / 1000
+
+    # 2. Anomalies ponctuelles, chacune sur des commandes livrées différentes
+    candidates = list(rng.permutation(df.index[(df["statut_commande"] == "livrée") & ~masque].to_numpy()))
+    n = len(df)
+
+    def tirer(taux: float) -> list:
+        k = round(taux * n)
+        choisis = candidates[:k]
+        del candidates[:k]
+        return choisis
+
+    for i in tirer(an["livraison_avant_commande"]):
+        avant = df.at[i, "date_livraison"]
+        df.at[i, "date_livraison"] = df.at[i, "date_commande"] - pd.Timedelta(days=int(rng.integers(1, 15)))
+        noter(i, "livraison_avant_commande", "date_livraison", avant, df.at[i, "date_livraison"])
+
+    for i in tirer(an["quantite_negative_ou_nulle"]):
+        avant = df.at[i, "qte_livree"]
+        df.at[i, "qte_livree"] = 0 if rng.random() < 0.5 else -avant
+        noter(i, "quantite_negative_ou_nulle", "qte_livree", avant, df.at[i, "qte_livree"])
+
+    for i in tirer(an["sku_inconnu"]):
+        avant = df.at[i, "sku"]
+        df.at[i, "sku"] = (avant.replace("-0", "-", 1) if rng.random() < 0.5
+                           else f"DL-XX-{int(rng.integers(900, 1000))}")
+        noter(i, "sku_inconnu", "sku", avant, df.at[i, "sku"])
+
+    for i in tirer(an["date_livraison_manquante"]):
+        avant = df.at[i, "date_livraison"]
+        df.at[i, "date_livraison"] = pd.NaT
+        noter(i, "date_livraison_manquante", "date_livraison", avant, None)
+
+    # 3. Doublons : des lignes recopiées à l'identique
+    k = round(an["doublons_commandes"] * n)
+    idx = rng.choice(df.index.to_numpy(), size=k, replace=False)
+    for i in idx:
+        noter(i, "doublon", "ligne entière", None, None)
+    df = pd.concat([df, df.loc[idx]]).sort_values("date_commande", kind="stable").reset_index(drop=True)
+
+    return df, pd.DataFrame(journal)
+
+
+def slug(texte: str) -> str:
+    """'Cosmétiques du Midi' → 'cosmetiques_du_midi' (pour les noms de fichiers)."""
+    sans_accents = "".join(c for c in unicodedata.normalize("NFD", texte)
+                           if unicodedata.category(c) != "Mn")
+    return re.sub(r"[^a-z0-9]+", "_", sans_accents.lower()).strip("_")
+
+
+def formater_dates(serie: pd.Series, format_date: str) -> pd.Series:
+    if format_date == "serie_excel":  # nombre de jours depuis le 30/12/1899, comme Excel
+        return (serie - pd.Timestamp("1899-12-30")).dt.days.astype("Int64")
+    return serie.dt.strftime(format_date)
+
+
+def exporter_facconniers(cfg: dict, rng: np.random.Generator, commandes: pd.DataFrame) -> None:
+    """Un fichier Excel par façonnier, chacun dans son propre format."""
+    dossier = RACINE / "data" / "raw" / "facconniers"
+    dossier.mkdir(parents=True, exist_ok=True)
+    params = {f["id"]: f for f in cfg["facconniers"]}
+
+    for fid, nom_format in FORMAT_PAR_FACCONNIER.items():
+        fmt = FORMATS_EXPORT[nom_format]
+        sous = commandes[commandes["id_facconnier"] == fid].copy()
+        noms = [params[fid]["nom"]] + params[fid]["variantes_nom"]
+        sous["fournisseur"] = rng.choice(noms, size=len(sous))  # noms écrits de plusieurs façons
+
+        colonnes = {}
+        for col, libelle in zip(COLONNES_EXPORT, fmt["libelles"]):
+            valeurs = sous[col]
+            if col.startswith("date_"):
+                valeurs = formater_dates(valeurs, fmt["format_date"])
+            elif col == "cout_unitaire_eur" and fmt["decimale"] == ",":
+                valeurs = valeurs.map(lambda x: f"{x:.3f}".replace(".", ","))
+            colonnes[libelle] = valeurs.to_numpy()
+        sortie = pd.DataFrame(colonnes)
+        sortie = sortie.astype(object).where(sortie.notna(), None)  # cellules vides dans Excel
+
+        fichier = dossier / f"{fid}_{slug(params[fid]['nom'])}.xlsx"
+        with pd.ExcelWriter(fichier, engine="openpyxl") as writer:
+            if fid in FACCONNIERS_ONGLET_PAR_MOIS:
+                mois = sous["date_commande"].dt.strftime("%Y-%m").to_numpy()
+                for m in sorted(set(mois)):
+                    sortie[mois == m].to_excel(writer, sheet_name=m, index=False)
+            else:
+                sortie.to_excel(writer, sheet_name="export", index=False)
+        print(f"  {fichier.name} : {len(sortie)} lignes (format {nom_format})")
+
+
+def exporter_autres_sources(dim_produit: pd.DataFrame, dim_facconnier: pd.DataFrame,
+                            lots: pd.DataFrame, deviations: pd.DataFrame) -> None:
+    """ERP (CSV français), système qualité (CSV) et référentiel façonniers (Excel)."""
+    raw = RACINE / "data" / "raw"
+    for sous_dossier in ["erp", "qualite", "referentiels"]:
+        (raw / sous_dossier).mkdir(parents=True, exist_ok=True)
+
+    dim_produit.to_csv(raw / "erp" / "erp_produits.csv", sep=";", decimal=",",
+                       index=False, encoding="utf-8-sig")
+    lots.to_csv(raw / "qualite" / "qualite_lots.csv", index=False, encoding="utf-8-sig")
+    deviations.drop(columns="categorie_6m_verite").to_csv(
+        raw / "qualite" / "qualite_deviations.csv", index=False, encoding="utf-8-sig")
+    dim_facconnier.to_excel(raw / "referentiels" / "referentiel_facconniers.xlsx", index=False)
+    print("  erp_produits.csv, qualite_lots.csv, qualite_deviations.csv, referentiel_facconniers.xlsx")
+
 def sauvegarder(df: pd.DataFrame, nom: str) -> None:
     DOSSIER_VERITE.mkdir(parents=True, exist_ok=True)
     df.to_csv(DOSSIER_VERITE / f"{nom}.csv", index=False, encoding="utf-8-sig")
@@ -408,6 +569,7 @@ def main() -> None:
     fact_commande = ajouter_qte_conforme(fact_commande, fact_lot)
     fact_deviation = generer_deviations(cfg, rng, fact_lot, fact_commande)
 
+    # Sauvegarde de la vérité terrain (données propres)
     for df, nom in [(dim_facconnier, "dim_facconnier"), (dim_produit, "dim_produit"),
                     (ref_sku_facconnier, "ref_sku_facconnier"), (dim_date, "dim_date"),
                     (fact_commande, "fact_commande"), (fact_lot, "fact_lot"),
@@ -418,8 +580,18 @@ def main() -> None:
     controler_commandes(cfg, fact_commande, dim_produit)
     controler_qualite(cfg, fact_commande, fact_lot, fact_deviation, dim_produit)
 
+    # Partie 4 : anomalies et exports « réalistes »
+    commandes_sales, journal = injecter_anomalies(cfg, rng, fact_commande)
+    journal.to_csv(RACINE / "data" / "reference" / "anomalies_injectees.csv",
+                   index=False, encoding="utf-8-sig")
+
+    print("\n--- Anomalies injectées ---")
+    print(journal["type_anomalie"].value_counts().to_string())
+
+    print("\n--- Fichiers exportés dans data/raw/ ---")
+    exporter_facconniers(cfg, rng, commandes_sales)
+    exporter_autres_sources(dim_produit, dim_facconnier, fact_lot, fact_deviation)
+
 
 if __name__ == "__main__":
     main()
-
-
