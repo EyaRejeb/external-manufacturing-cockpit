@@ -1,0 +1,13 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers temporaires Alteryx
+data/processed/*.yxdb
