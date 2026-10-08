@@ -1,0 +1,162 @@
+# ============================================================
+# Configuration du générateur — DermaLab Laboratoires (fictif)
+# Toutes les données produites sont synthétiques.
+# ============================================================
+
+projet:
+  seed: 42                      # graine fixe : mêmes données à chaque exécution
+  date_debut: "2023-01-01"
+  date_fin: "2025-12-31"
+
+regles_metier:
+  tolerance_retard_jours: 2     # "On Time" si livré au plus tard à date promise + 2 j
+  seuil_in_full: 0.98           # "In Full" si quantité conforme >= 98 % de la commande
+
+volumes:
+  nb_produits: 60
+  nb_commandes: 6000
+  lots_par_commande: [1, 3]     # min, max
+  taille_lot: [5000, 80000]     # unités
+  taux_deviation_par_lot: 0.10  # environ 900 déviations au total
+
+facconniers:
+  - id: F01
+    nom: "Cosmétiques du Midi"
+    variantes_nom: ["COSMETIQUES DU MIDI", "Cosmetiques Midi", "Cosmétiques du Midi SAS"]
+    pays: France
+    langue_export: fr
+    criticite: A
+    certification_iso: "ISO 22716"
+    date_debut_contrat: "2018-03-01"
+    delai_promis_jours: 28
+    proba_retard: 0.05
+    taux_rejet: 0.015
+  - id: F02
+    nom: "Laboratoires Garonne Façonnage"
+    variantes_nom: ["LAB GARONNE", "Garonne Façonnage", "Labo Garonne"]
+    pays: France
+    langue_export: fr
+    criticite: A
+    certification_iso: "ISO 22716"
+    date_debut_contrat: "2016-09-01"
+    delai_promis_jours: 30
+    proba_retard: 0.06
+    taux_rejet: 0.02
+  - id: F03
+    nom: "Fabrication Pyrénées"
+    variantes_nom: ["FAB PYRENEES", "Fabrication Pyrenees", "Pyrénées Fab."]
+    pays: France
+    langue_export: fr
+    criticite: B
+    certification_iso: "ISO 22716"
+    date_debut_contrat: "2020-01-15"
+    delai_promis_jours: 25
+    proba_retard: 0.04          # livre à l'heure...
+    taux_rejet: 0.03            # ... mais concentre les déviations Matière (signal)
+  - id: F04
+    nom: "Atlantique Formulation"
+    variantes_nom: ["ATLANTIQUE FORMUL.", "Atlantique Formulations", "Atl. Formulation"]
+    pays: France
+    langue_export: fr
+    criticite: B
+    certification_iso: "ISO 22716"
+    date_debut_contrat: "2019-06-01"
+    delai_promis_jours: 35
+    proba_retard: 0.08
+    taux_rejet: 0.02
+  - id: F05
+    nom: "Valencia Cosmetic Partners"
+    variantes_nom: ["VALENCIA COSMETIC", "Valencia Cosmetic Partners SL", "Valencia CP"]
+    pays: Espagne
+    langue_export: es
+    criticite: B
+    certification_iso: "ISO 22716"
+    date_debut_contrat: "2021-02-01"
+    delai_promis_jours: 40
+    proba_retard: 0.10
+    taux_rejet: 0.025
+  - id: F06
+    nom: "Wisla Contract Manufacturing"
+    variantes_nom: ["WISLA CM", "Wisla Contract Mfg", "Wisła Contract Manufacturing"]
+    pays: Pologne
+    langue_export: en
+    criticite: A
+    certification_iso: "ISO 22716"
+    date_debut_contrat: "2019-11-01"
+    delai_promis_jours: 45
+    proba_retard: 0.06          # se dégrade à partir de mars 2025 (signal)
+    taux_rejet: 0.02
+  - id: F07
+    nom: "Andalucía Dermo Industrial"
+    variantes_nom: ["ANDALUCIA DERMO", "Andalucia Dermo Ind.", "Andalucía Dermo"]
+    pays: Espagne
+    langue_export: es
+    criticite: C
+    certification_iso: "ISO 22716"
+    date_debut_contrat: "2022-05-01"
+    delai_promis_jours: 42
+    proba_retard: 0.12
+    taux_rejet: 0.03
+  - id: F08
+    nom: "Toscana Beauty Lab"
+    variantes_nom: ["TOSCANA BEAUTY", "Toscana Beauty Lab Srl", "Toscana BL"]
+    pays: Italie
+    langue_export: en
+    criticite: C
+    certification_iso: "ISO 22716"
+    date_debut_contrat: "2021-09-01"
+    delai_promis_jours: 38
+    proba_retard: 0.09
+    taux_rejet: 0.025
+
+gammes:
+  - nom: "Soin visage"
+    formes: ["crème", "sérum", "gel"]
+    part_produits: 0.25
+  - nom: "Solaire"
+    formes: ["crème", "spray", "lait"]
+    part_produits: 0.15
+  - nom: "Capillaire"
+    formes: ["shampoing", "après-shampoing", "masque"]
+    part_produits: 0.20
+  - nom: "Hygiène"
+    formes: ["gel douche", "savon", "déodorant"]
+    part_produits: 0.15
+  - nom: "Bébé"
+    formes: ["crème", "lait", "gel lavant"]
+    part_produits: 0.10
+  - nom: "Dermatologie"
+    formes: ["crème", "émulsion", "baume"]
+    part_produits: 0.15
+
+# Signaux métier injectés, à retrouver dans l'analyse (section 3.5 du cahier des charges)
+signaux:
+  chute_otif_f06:
+    facconnier: F06
+    date_debut: "2025-03-01"
+    proba_retard_apres: 0.22    # OTIF d'environ 94 % à environ 78 %
+  saisonnalite_solaire:
+    gamme: "Solaire"
+    mois: [3, 4, 5]
+    multiplicateur_retard: 1.8
+  effet_complexite:
+    niveau: 3
+    multiplicateur_rejet: 2.0
+  matiere_f03:
+    facconnier: F03
+    part_deviations_matiere: 0.55
+  effet_taille_lot:
+    seuil_unites: 50000
+    multiplicateur_deviation_methode: 1.7
+
+# Anomalies de qualité de données injectées à l'export (section 3.4)
+anomalies:
+  doublons_commandes: 0.015
+  livraison_avant_commande: 0.005
+  quantite_negative_ou_nulle: 0.003
+  sku_inconnu: 0.01
+  date_livraison_manquante: 0.02
+  quantite_en_milliers:
+    facconnier: F05
+    date_debut: "2024-01-01"
+    date_fin: "2024-06-30"
