@@ -1,0 +1,9 @@
+﻿id_facconnier,nom,pays,criticite,certification_iso,date_debut_contrat,delai_contractuel_jours
+F01,Cosmétiques du Midi,France,A,ISO 22716,2018-03-01,28
+F02,Laboratoires Garonne Façonnage,France,A,ISO 22716,2016-09-01,30
+F03,Fabrication Pyrénées,France,B,ISO 22716,2020-01-15,25
+F04,Atlantique Formulation,France,B,ISO 22716,2019-06-01,35
+F05,Valencia Cosmetic Partners,Espagne,B,ISO 22716,2021-02-01,40
+F06,Wisla Contract Manufacturing,Pologne,A,ISO 22716,2019-11-01,45
+F07,Andalucía Dermo Industrial,Espagne,C,ISO 22716,2022-05-01,42
+F08,Toscana Beauty Lab,Italie,C,ISO 22716,2021-09-01,38
