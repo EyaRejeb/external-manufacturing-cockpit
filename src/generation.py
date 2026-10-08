@@ -8,6 +8,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import yaml
+from gabarits_deviations import generer_description
 
 RACINE = Path(__file__).resolve().parents[1]
 DOSSIER_VERITE = RACINE / "data" / "reference" / "verite"
@@ -42,7 +43,8 @@ NOMS_PRODUITS = {
 
 GAMMES_COMPLEXES = {"Solaire", "Dermatologie"}  # formulations plus exigeantes
 CONTENANCES_ML = [30, 50, 100, 200, 400]
-
+CATEGORIES_6M = ["Matière", "Méthode", "Machine", "Main-d'œuvre", "Milieu", "Mesure"]
+POIDS_6M = [0.22, 0.25, 0.20, 0.15, 0.08, 0.10]
 
 def charger_config(chemin: Path = RACINE / "config.yaml") -> dict:
     with open(chemin, encoding="utf-8") as fichier:
@@ -129,6 +131,153 @@ def generer_dim_date(cfg: dict) -> pd.DataFrame:
     df["jour_ouvre"] = df["jour_semaine"] <= 5
     return df
 
+def generer_lots(cfg: dict, rng: np.random.Generator,
+                 commandes: pd.DataFrame, dim_produit: pd.DataFrame) -> pd.DataFrame:
+    """Découpe chaque commande livrée en 1 à 3 lots et tire leur statut qualité."""
+    params = {f["id"]: f for f in cfg["facconniers"]}
+    taille_min, taille_max = cfg["volumes"]["taille_lot"]
+    _, lots_max = cfg["volumes"]["lots_par_commande"]
+    s_cplx = cfg["signaux"]["effet_complexite"]
+
+    livrees = commandes[commandes["statut_commande"] == "livrée"].merge(
+        dim_produit[["sku", "complexite"]], on="sku", how="left")
+
+    lignes = []
+    for c in livrees.itertuples(index=False):
+        qte = int(c.qte_livree)
+        n_min = max(1, int(np.ceil(qte / taille_max)))
+        n_max = max(n_min, min(lots_max, qte // taille_min))
+        n_lots = int(rng.integers(n_min, n_max + 1))
+        tailles = np.full(n_lots, qte // n_lots // 100 * 100)
+        tailles[-1] = qte - tailles[:-1].sum()
+
+        duree = (c.date_livraison - c.date_commande).days
+        multiplicateur = s_cplx["multiplicateur_rejet"] if c.complexite == s_cplx["niveau"] else 1.0
+        p_rejet = params[c.id_facconnier]["taux_rejet"] * multiplicateur
+
+        for k, taille in enumerate(tailles, start=1):
+            tirage = rng.random()
+            if tirage < p_rejet:
+                statut, cout = "rejeté", taille * c.cout_unitaire_eur              # lot détruit
+            elif tirage < 2.2 * p_rejet:
+                statut, cout = "retraité", taille * c.cout_unitaire_eur * 0.15     # coût de reprise
+            else:
+                statut, cout = "libéré", 0.0
+            lignes.append({
+                "id_lot": f"L{c.id_commande[4:]}-{k}",
+                "id_commande": c.id_commande,
+                "date_fabrication": c.date_commande + pd.Timedelta(days=int(rng.integers(5, max(6, duree - 3)))),
+                "taille_lot": int(taille),
+                "statut_lot": statut,
+                "cout_non_qualite_eur": round(float(cout), 2),
+            })
+    return pd.DataFrame(lignes)
+
+
+def ajouter_qte_conforme(commandes: pd.DataFrame, lots: pd.DataFrame) -> pd.DataFrame:
+    """Quantité conforme = lots libérés + lots retraités (les rejetés sont perdus)."""
+    conforme = lots[lots["statut_lot"] != "rejeté"].groupby("id_commande")["taille_lot"].sum()
+    commandes = commandes.copy()
+    commandes["qte_conforme"] = commandes["id_commande"].map(conforme)
+    livree = commandes["statut_commande"] == "livrée"
+    commandes.loc[livree, "qte_conforme"] = commandes.loc[livree, "qte_conforme"].fillna(0)
+    commandes["qte_conforme"] = commandes["qte_conforme"].astype("Int64")
+    colonnes = ["id_commande", "sku", "id_facconnier", "date_commande", "date_promise",
+                "date_livraison", "qte_commandee", "qte_livree", "qte_conforme",
+                "cout_unitaire_eur", "statut_commande"]
+    return commandes[colonnes]
+
+
+def generer_deviations(cfg: dict, rng: np.random.Generator,
+                       lots: pd.DataFrame, commandes: pd.DataFrame) -> pd.DataFrame:
+    """Crée les déviations : toujours pour les lots rejetés ou retraités,
+    parfois pour les lots libérés."""
+    p_libere = cfg["volumes"]["proba_deviation_lot_libere"]
+    s_taille = cfg["signaux"]["effet_taille_lot"]
+    s_f03 = cfg["signaux"]["matiere_f03"]
+    date_extraction = pd.Timestamp(cfg["projet"]["date_fin"])
+    duree_moyenne = {"mineure": 15, "majeure": 30, "critique": 45}  # jours avant clôture
+
+    lots_f = lots.merge(commandes[["id_commande", "id_facconnier"]], on="id_commande", how="left")
+    lignes = []
+    for lot in lots_f.itertuples(index=False):
+        gros_lot = lot.taille_lot > s_taille["seuil_unites"]
+
+        # Y a-t-il une déviation, et de quelle gravité ?
+        if lot.statut_lot == "libéré":
+            if rng.random() >= p_libere * (1.3 if gros_lot else 1.0):
+                continue
+            gravite = "majeure" if rng.random() < 0.15 else "mineure"
+        elif lot.statut_lot == "retraité":
+            gravite = "majeure" if rng.random() < 0.60 else "mineure"
+        else:
+            gravite = "critique" if rng.random() < 0.30 else "majeure"
+
+        # Catégorie 6M + signaux F03 (Matière) et gros lots (Méthode)
+        poids = np.array(POIDS_6M, dtype=float)
+        if lot.id_facconnier == s_f03["facconnier"]:
+            i_mat = CATEGORIES_6M.index("Matière")
+            autres = np.delete(poids, i_mat)
+            poids = np.insert(autres / autres.sum() * (1 - s_f03["part_deviations_matiere"]),
+                              i_mat, s_f03["part_deviations_matiere"])
+        if gros_lot:
+            poids[CATEGORIES_6M.index("Méthode")] *= s_taille["multiplicateur_deviation_methode"]
+        categorie = str(rng.choice(CATEGORIES_6M, p=poids / poids.sum()))
+
+        # Dates d'ouverture et de clôture
+        ouverture = min(lot.date_fabrication + pd.Timedelta(days=int(rng.integers(0, 4))), date_extraction)
+        cloture = ouverture + pd.Timedelta(days=int(np.ceil(rng.gamma(3.0, duree_moyenne[gravite] / 3))))
+        ouverte = cloture > date_extraction
+
+        lignes.append({
+            "id_lot": lot.id_lot,
+            "date_ouverture": ouverture,
+            "date_cloture": pd.NaT if ouverte else cloture,
+            "statut_deviation": "ouverte" if ouverte else "clôturée",
+            "gravite": gravite,
+            "description_libre": generer_description(categorie, rng),
+            "categorie_6m_verite": categorie,  # vérité terrain, pour évaluer l'IA en phase 4
+        })
+
+    df = pd.DataFrame(lignes).sort_values("date_ouverture").reset_index(drop=True)
+    numero = df.groupby(df["date_ouverture"].dt.year).cumcount() + 1
+    df.insert(0, "id_deviation", "DEV-" + df["date_ouverture"].dt.year.astype(str)
+              + "-" + numero.astype(str).str.zfill(4))
+    return df
+
+
+def controler_qualite(cfg: dict, commandes: pd.DataFrame, lots: pd.DataFrame,
+                      deviations: pd.DataFrame, dim_produit: pd.DataFrame) -> None:
+    """Vérifie que les signaux qualité sont bien présents."""
+    print("\n--- Contrôle des lots et déviations ---")
+    print(f"Lots : {len(lots)} | Déviations : {len(deviations)}")
+    print("Statut des lots :", lots["statut_lot"].value_counts().to_dict())
+
+    lc = lots.merge(commandes[["id_commande", "sku", "id_facconnier"]], on="id_commande") \
+             .merge(dim_produit[["sku", "complexite"]], on="sku")
+    print("\nTaux de rejet par complexité :")
+    print(lc.groupby("complexite")["statut_lot"].apply(lambda s: (s == "rejeté").mean()).round(4).to_string())
+
+    dv = deviations.merge(lc[["id_lot", "id_facconnier", "taille_lot"]], on="id_lot")
+    part_matiere = dv.groupby("id_facconnier")["categorie_6m_verite"].apply(lambda s: (s == "Matière").mean())
+    print("\nPart des déviations 'Matière' par façonnier :")
+    print(part_matiere.round(2).to_string())
+
+    gros = dv["taille_lot"] > cfg["signaux"]["effet_taille_lot"]["seuil_unites"]
+    print(f"\nPart 'Méthode' gros lots   : {(dv.loc[gros, 'categorie_6m_verite'] == 'Méthode').mean():.1%}")
+    print(f"Part 'Méthode' autres lots : {(dv.loc[~gros, 'categorie_6m_verite'] == 'Méthode').mean():.1%}")
+
+    tolerance = cfg["regles_metier"]["tolerance_retard_jours"]
+    seuil = cfg["regles_metier"]["seuil_in_full"]
+    liv = commandes[commandes["statut_commande"] == "livrée"].copy()
+    liv["otif"] = (((liv["date_livraison"] - liv["date_promise"]).dt.days <= tolerance)
+                   & (liv["qte_conforme"] >= seuil * liv["qte_commandee"]))
+    print("\nOTIF par façonnier :")
+    print(liv.groupby("id_facconnier")["otif"].mean().round(3).to_string())
+
+    print("\nExemples de descriptions :")
+    for texte in deviations["description_libre"].head(5):
+        print("-", texte)
 
 def sauvegarder(df: pd.DataFrame, nom: str) -> None:
     DOSSIER_VERITE.mkdir(parents=True, exist_ok=True)
@@ -254,15 +403,23 @@ def main() -> None:
     # Partie 2 : commandes
     fact_commande = generer_commandes(cfg, rng, dim_produit, ref_sku_facconnier)
 
-    sauvegarder(dim_facconnier, "dim_facconnier")
-    sauvegarder(dim_produit, "dim_produit")
-    sauvegarder(ref_sku_facconnier, "ref_sku_facconnier")
-    sauvegarder(dim_date, "dim_date")
-    sauvegarder(fact_commande, "fact_commande")
+    # Partie 3 : lots et déviations
+    fact_lot = generer_lots(cfg, rng, fact_commande, dim_produit)
+    fact_commande = ajouter_qte_conforme(fact_commande, fact_lot)
+    fact_deviation = generer_deviations(cfg, rng, fact_lot, fact_commande)
+
+    for df, nom in [(dim_facconnier, "dim_facconnier"), (dim_produit, "dim_produit"),
+                    (ref_sku_facconnier, "ref_sku_facconnier"), (dim_date, "dim_date"),
+                    (fact_commande, "fact_commande"), (fact_lot, "fact_lot"),
+                    (fact_deviation, "fact_deviation")]:
+        sauvegarder(df, nom)
 
     print(f"Façonniers : {len(dim_facconnier)} | Produits : {len(dim_produit)}")
     controler_commandes(cfg, fact_commande, dim_produit)
+    controler_qualite(cfg, fact_commande, fact_lot, fact_deviation, dim_produit)
 
 
 if __name__ == "__main__":
     main()
+
+

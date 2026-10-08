@@ -17,8 +17,8 @@ volumes:
   nb_commandes: 6000
   lots_par_commande: [1, 3]     # min, max
   taille_lot: [5000, 80000]     # unités
-  taux_deviation_par_lot: 0.10  # environ 900 déviations au total
-
+  proba_deviation_lot_libere: 0.045  # les lots rejetés ou retraités ont toujours une déviation
+  
 facconniers:
   - id: F01
     nom: "Cosmétiques du Midi"
