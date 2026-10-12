@@ -112,9 +112,9 @@ Query=`formats$`</DefaultAnnotationText>
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField expression="IIF(IsEmpty([date_commande]), Null(),&#xA;  IIF([format_date] = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1899-12-30&quot;, ToNumber([date_commande]), &quot;days&quot;),&#xA;      DateTimeParse([date_commande],&#xA;                    IIF([format_date] = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_commande" size="10" type="Date" enabled="true" />
-            <FormulaField expression="IIF(IsEmpty([date_promise]), Null(),&#xA;  IIF([format_date] = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1899-12-30&quot;, ToNumber([date_promise]), &quot;days&quot;),&#xA;      DateTimeParse([date_promise],&#xA;                    IIF([format_date] = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_promise" size="10" type="Date" enabled="true" />
-            <FormulaField expression="IIF(IsEmpty([date_livraison]), Null(),&#xA;  IIF([format_date] = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1899-12-30&quot;, ToNumber([date_livraison]), &quot;days&quot;),&#xA;      DateTimeParse([date_livraison],&#xA;                    IIF([format_date] = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_livraison" size="10" type="Date" enabled="true" />
+            <FormulaField expression="IIF(IsEmpty([date_commande]), Null(),&#xA;  IIF(Trim([format_date]) = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1900-01-01&quot;, ToNumber([date_commande]) - 2, &quot;days&quot;),&#xA;      DateTimeParse([date_commande],&#xA;                    IIF(Trim([format_date]) = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_commande" size="10" type="Date" enabled="true" />
+            <FormulaField expression="IIF(IsEmpty([date_promise]), Null(),&#xA;  IIF(Trim([format_date]) = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1900-01-01&quot;, ToNumber([date_promise]) - 2, &quot;days&quot;),&#xA;      DateTimeParse([date_promise],&#xA;                    IIF(Trim([format_date]) = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_promise" size="10" type="Date" enabled="true" />
+            <FormulaField expression="IIF(IsEmpty([date_livraison]), Null(),&#xA;  IIF(Trim([format_date]) = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1900-01-01&quot;, ToNumber([date_livraison]) - 2, &quot;days&quot;),&#xA;      DateTimeParse([date_livraison],&#xA;                    IIF(Trim([format_date]) = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_livraison" size="10" type="Date" enabled="true" />
             <FormulaField expression="IIF(IsEmpty([qte_commandee]), Null(), ToNumber(Replace([qte_commandee], &quot;,&quot;, &quot;.&quot;)))" field="q_commandee" size="8" type="Double" enabled="true" />
             <FormulaField expression="IIF(IsEmpty([qte_livree]), Null(), ToNumber(Replace([qte_livree], &quot;,&quot;, &quot;.&quot;)))" field="q_livree" size="8" type="Double" enabled="true" />
             <FormulaField expression="IIF(IsEmpty([qte_conforme]), Null(), ToNumber(Replace([qte_conforme], &quot;,&quot;, &quot;.&quot;)))" field="q_conforme" size="8" type="Double" enabled="true" />
@@ -124,11 +124,130 @@ Query=`formats$`</DefaultAnnotationText>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>dt_commande = IIF(IsEmpty([date_commande]), Null(),
-  IIF([format_date] = "serie...</DefaultAnnotationText>
+  IIF(Trim([format_date]) = ...</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="546" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="id_facconnier" selected="True" />
+            <SelectField field="id_commande" selected="True" />
+            <SelectField field="sku" selected="True" />
+            <SelectField field="fournisseur" selected="True" />
+            <SelectField field="dt_commande" selected="True" rename="date_commande" />
+            <SelectField field="dt_promise" selected="True" rename="date_promise" />
+            <SelectField field="dt_livraison" selected="True" rename="date_livraison" />
+            <SelectField field="q_commandee" selected="True" rename="qte_commandee" />
+            <SelectField field="q_livree" selected="True" rename="qte_livree" />
+            <SelectField field="q_conforme" selected="True" rename="qte_conforme" />
+            <SelectField field="prix" selected="True" rename="prix_unitaire_eur" />
+            <SelectField field="fichier_source" selected="True" />
+            <SelectField field="date_commande" selected="False" />
+            <SelectField field="date_promise" selected="False" />
+            <SelectField field="date_livraison" selected="False" />
+            <SelectField field="qte_commandee" selected="False" />
+            <SelectField field="qte_livree" selected="False" />
+            <SelectField field="qte_conforme" selected="False" />
+            <SelectField field="prix_unitaire_eur" selected="False" />
+            <SelectField field="format_date" selected="False" />
+            <SelectField field="separateur_decimal" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Temp\Alteryx\Engine_13496_364a4264baa44fbc98b1f934e91524a3_\Engine_13496_88b036e187604d18a5382f9e261d1c6e~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="690" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="id_facconnier" action="GroupBy" rename="id_facconnier" />
+            <SummarizeField field="id_commande" action="Count" rename="Count" />
+            <SummarizeField field="date_commande" action="CountNonNull" rename="CountNonNull_date_commande" />
+            <SummarizeField field="date_livraison" action="CountNonNull" rename="CountNonNull_date_livraison" />
+            <SummarizeField field="prix_unitaire_eur" action="CountNonNull" rename="CountNonNull_prix_unitaire_eur" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Temp\Alteryx\Engine_13496_364a4264baa44fbc98b1f934e91524a3_\Engine_13496_d109aa94b37f4d368e8e62c958504267~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
   </Nodes>
   <Connections>
@@ -143,6 +262,22 @@ Query=`formats$`</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="3" Connection="Join" />
       <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
