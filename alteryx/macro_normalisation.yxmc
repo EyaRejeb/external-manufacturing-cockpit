@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="354" y="114" width="600" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro de normalisation : lit un onglet de fichier façonnier, convertit tout en texte, renomme les colonnes selon mapping_colonnes.xlsx et ajoute l’identifiant du façonnier. Appelée une fois par onglet par le workflow 01.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="713" y="233" width="486" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Sortie</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sortie</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="738" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="   Left(FileGetFileName([FileName]), 3)" field="id_facconnier" size="500" type="V_WString" enabled="true" />
+                <FormulaField expression="[FileName]" field="fichier_source" size="500" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>id_facconnier =    Left(FileGetFileName([FileName]), 3)
+fichier_source = [FileNa...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id_commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="sku" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="fournisseur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_promise" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_livraison" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_commandee" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_livree" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_conforme" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="prix_unitaire_eur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="FileName" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="id_facconnier" size="500" source="Formula:    Left(FileGetFileName([FileName]), 3)" type="V_WString" />
+                <Field name="fichier_source" size="500" source="Formula: [FileName]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="906" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="id_facconnier" selected="True" />
+                <SelectField field="id_commande" selected="True" />
+                <SelectField field="sku" selected="True" />
+                <SelectField field="fournisseur" selected="True" />
+                <SelectField field="date_commande" selected="True" />
+                <SelectField field="date_promise" selected="True" />
+                <SelectField field="date_livraison" selected="True" />
+                <SelectField field="qte_commandee" selected="True" />
+                <SelectField field="qte_livree" selected="True" />
+                <SelectField field="qte_conforme" selected="True" />
+                <SelectField field="prix_unitaire_eur" selected="True" />
+                <SelectField field="FileName" selected="False" />
+                <SelectField field="New_N° commande" selected="False" />
+                <SelectField field="New_Réf. article" selected="False" />
+                <SelectField field="New_Fournisseur" selected="False" />
+                <SelectField field="New_Date cde" selected="False" />
+                <SelectField field="New_Date promise" selected="False" />
+                <SelectField field="New_Date livr." selected="False" />
+                <SelectField field="New_Qté commandée" selected="False" />
+                <SelectField field="New_Qté livrée" selected="False" />
+                <SelectField field="New_Qté conforme" selected="False" />
+                <SelectField field="New_Prix unitaire" selected="False" />
+                <SelectField field="New_FileName" selected="False" />
+                <SelectField field="N° commande" selected="True" />
+                <SelectField field="Réf. article" selected="True" />
+                <SelectField field="Date cde" selected="True" />
+                <SelectField field="Date promise" selected="True" />
+                <SelectField field="Date livr." selected="True" />
+                <SelectField field="Qté commandée" selected="True" />
+                <SelectField field="Qté livrée" selected="True" />
+                <SelectField field="Qté conforme" selected="True" />
+                <SelectField field="Prix unitaire" selected="True" />
+                <SelectField field="fichier_source" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id_facconnier" size="500" source="Formula:    Left(FileGetFileName([FileName]), 3)" type="V_WString" />
+                <Field name="id_commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="sku" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="fournisseur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_promise" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_livraison" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_commandee" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_livree" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_conforme" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="prix_unitaire_eur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="fichier_source" size="500" source="Formula: [FileName]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+            <Position x="1062" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Name>donnees_standard</Name>
+              <Abbrev>S</Abbrev>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Output</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="377" y="245" width="253" height="193" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Normalisation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Normalisation</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="402" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>All</FieldType>
+              <Fields orderChanged="False">
+                <Field name="N° commande" />
+                <Field name="Réf. article" />
+                <Field name="Fournisseur" />
+                <Field name="Date cde" />
+                <Field name="Date promise" />
+                <Field name="Date livr." />
+                <Field name="Qté commandée" />
+                <Field name="Qté livrée" />
+                <Field name="Qté conforme" />
+                <Field name="Prix unitaire" />
+                <Field name="FileName" />
+                <Field name="*Unknown" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression>[_CurrentField_]</Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="V_WString" size="255" scale="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[_CurrentField_]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="N° commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="Réf. article" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="Fournisseur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="Date cde" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="Date promise" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="Date livr." size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="Qté commandée" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="Qté livrée" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="Qté conforme" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="Prix unitaire" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="FileName" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="546" y="354" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>RightInputRows</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="N° commande" />
+                <Field name="Réf. article" />
+                <Field name="Fournisseur" />
+                <Field name="Date cde" />
+                <Field name="Date promise" />
+                <Field name="Date livr." />
+                <Field name="Qté commandée" />
+                <Field name="Qté livrée" />
+                <Field name="Qté conforme" />
+                <Field name="Prix unitaire" />
+                <Field name="FileName" />
+                <Field name="New_N° commande" />
+                <Field name="New_Réf. article" />
+                <Field name="New_Fournisseur" />
+                <Field name="New_Date cde" />
+                <Field name="New_Date promise" />
+                <Field name="New_Date livr." />
+                <Field name="New_Qté commandée" />
+                <Field name="New_Qté livrée" />
+                <Field name="New_Qté conforme" />
+                <Field name="New_Prix unitaire" />
+                <Field name="New_FileName" />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression />
+              <NamesFromRows>
+                <OnError>Warn</OnError>
+                <InputMode>Mapped</InputMode>
+                <OldName><![CDATA[colonne_source ]]></OldName>
+                <NewName><![CDATA[colonne_cible ]]></NewName>
+              </NamesFromRows>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id_commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="sku" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="fournisseur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_promise" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_livraison" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_commandee" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_livree" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_conforme" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="prix_unitaire_eur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="FileName" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="40" y="101" width="277" height="531" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Entrée</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Entrée</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+            <Position x="66" y="150" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Paramètre de contrôle (3)</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="66" y="234" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Mettre à jour la valeur</AnnotationText>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="65" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="Path" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>F01_cosmetiques_du_midi.xlsx
+Query=`export$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="N° commande" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`" type="V_String" />
+                <Field name="Réf. article" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`" type="V_String" />
+                <Field name="Fournisseur" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`" type="V_String" />
+                <Field name="Date cde" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`" type="V_String" />
+                <Field name="Date promise" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`" type="V_String" />
+                <Field name="Date livr." size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`" type="V_String" />
+                <Field name="Qté commandée" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`" type="Double" />
+                <Field name="Qté livrée" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`" type="Double" />
+                <Field name="Qté conforme" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`" type="Double" />
+                <Field name="Prix unitaire" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||`export$`" type="V_String" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="66" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\data\reference\mapping_colonnes.xlsx|||`colonnes$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>mapping_colonnes.xlsx
+Query=`colonnes$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id_facconnier " size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`colonnes$`" type="V_String" />
+                <Field name="colonne_source " size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`colonnes$`" type="V_WString" />
+                <Field name="colonne_cible " size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`colonnes$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="234" y="486" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="colonne_source " />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Unique">
+              <RecordInfo>
+                <Field name="id_facconnier " size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`colonnes$`" type="V_String" />
+                <Field name="colonne_source " size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`colonnes$`" type="V_WString" />
+                <Field name="colonne_cible " size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`colonnes$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Duplicates">
+              <RecordInfo>
+                <Field name="id_facconnier " size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`colonnes$`" type="V_String" />
+                <Field name="colonne_source " size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`colonnes$`" type="V_WString" />
+                <Field name="colonne_cible " size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`colonnes$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Unique" />
+      <Destination ToolID="8" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="3" Connection="Question" />
+      <Destination ToolID="4" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="4" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Paramètre de contrôle (3)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Sortie de macro (11)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>macro_normalisation</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="044cbe3b-83f3-40da-8d59-2995cccb90c3" />
+      <Telemetry>
+        <PreviousWorkflowId value="1a4d361f-7156-4903-84bc-f7f84c4a5775" />
+        <OriginWorkflowId value="1a4d361f-7156-4903-84bc-f7f84c4a5775" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="4" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>1/File</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tabulation (2)</Name>
+          <ToolId value="2" />
+          <Questions>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>chemin_feuille</Description>
+              <Name>Paramètre de contrôle (3)</Name>
+              <ToolId value="3" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Sortie de macro (11)</Description>
+              <Name>Sortie de macro (11)</Name>
+              <ToolId value="11" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Paramètre de contrôle (3)</Name>
+            <Description>chemin_feuille</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="11" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
