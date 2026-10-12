@@ -1,28 +1,9 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="2024.2" RunE2="T">
   <Nodes>
-    <Node ToolID="5">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="606" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="   IIF(FindString([FileName], &quot;|||&quot;) &gt;= 0,&#xA;       Left([FileName], FindString([FileName], &quot;|||&quot;)),&#xA;       [FileName])&#xA;   + &quot;|||`&quot; + [Sheet Names] + &quot;$`&quot;" field="chemin_feuille" size="1000" type="V_WString" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>chemin_feuille =    IIF(FindString([FileName], "|||") &gt;= 0,
-       Left([FileNam...</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="270" y="90" width="100" height="40" />
+        <Position x="174" y="78" width="1008" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -40,130 +21,20 @@
         </Annotation>
       </Properties>
     </Node>
-    <Node ToolID="11">
-      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="28" y="101" width="575" height="210" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Caption>Liste des onglets</Caption>
-          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
-          <Disabled value="False" />
-          <Folded value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <AnnotationText>Liste des onglets</AnnotationText>
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <ChildNodes>
-        <Node ToolID="1">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
-            <Position x="53" y="150" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Directory>..\data\raw\facconniers</Directory>
-              <FileSpec>*.xlsx</FileSpec>
-              <IncludeSubDirs value="False" />
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText>dir ..\data\raw\facconniers\*.xlsx</DefaultAnnotationText>
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
-        </Node>
-        <Node ToolID="2">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="222" y="150" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <Expression><![CDATA[   !StartsWith([FileName], "~$")]]></Expression>
-              <Mode>Custom</Mode>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText><![CDATA[   !StartsWith([FileName], "~$")]]></DefaultAnnotationText>
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
-        </Node>
-        <Node ToolID="4">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="342" y="150" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <FormulaFields>
-                <FormulaField expression="     [FullPath] + &quot;|||&lt;List of Sheet Names&gt;&quot;" field="chemin_liste_onglets" size="1000" type="V_WString" enabled="true" />
-              </FormulaFields>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText><![CDATA[chemin_liste_onglets =      [FullPath] + "|||<List of Sheet Names>"
-]]></DefaultAnnotationText>
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-        </Node>
-        <Node ToolID="3">
-          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicInput.DynamicInput">
-            <Position x="474" y="150" />
-          </GuiSettings>
-          <Properties>
-            <Configuration>
-              <InputConfiguration>
-                <Configuration>
-                  <Passwords />
-                  <File OutputFileName="Path" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||&lt;List of Sheet Names&gt;</File>
-                  <FormatSpecificOptions>
-                    <FirstRowData>False</FirstRowData>
-                    <ImportLine>1</ImportLine>
-                  </FormatSpecificOptions>
-                </Configuration>
-              </InputConfiguration>
-              <Mode>ReadList</Mode>
-              <ReadList_Field>chemin_liste_onglets</ReadList_Field>
-              <ReadList_Type>Path</ReadList_Type>
-              <ErrorBehaviour>Error</ErrorBehaviour>
-            </Configuration>
-            <Annotation DisplayMode="0">
-              <Name />
-              <DefaultAnnotationText>F01_cosmetiques_du_midi.xlsx
-Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
-              <Left value="False" />
-            </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
-          </Properties>
-          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicInput" />
-        </Node>
-      </ChildNodes>
-    </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="773" y="85" width="426" height="325" />
+        <Position x="845" y="137" width="426" height="261" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Caption><![CDATA[Normalisation et sortie
-]]></Caption>
+          <Caption>Normalisation et sortie</Caption>
           <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
           <Disabled value="False" />
           <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <AnnotationText><![CDATA[Normalisation et sortie
-]]></AnnotationText>
+          <AnnotationText>Normalisation et sortie</AnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
@@ -171,7 +42,7 @@ Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="6">
           <GuiSettings>
-            <Position x="798" y="150" />
+            <Position x="870" y="186" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -207,7 +78,7 @@ Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
         </Node>
         <Node ToolID="7">
           <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-            <Position x="942" y="150" />
+            <Position x="1014" y="186" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -226,11 +97,11 @@ Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
         </Node>
         <Node ToolID="8">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="1074" y="150" />
+            <Position x="1146" y="186" />
           </GuiSettings>
           <Properties>
             <Configuration>
-              <TempFile>C:\Temp\Alteryx\Engine_23060_bc42fc8205184869a3abe7bbc36b8a85_\Engine_23060_3cab9e11e32d4e61b57dc2eccac7fb5c~.yxdb</TempFile>
+              <TempFile>C:\Temp\Alteryx\Engine_21996_55a73e6197de44a5ab966b973aba1ff3_\Engine_21996_784bf591fd344a6c8a852d9dd9e366a1~.yxdb</TempFile>
               <TempFileDataProfiling />
               <Layout>
                 <ViewMode>Single</ViewMode>
@@ -254,7 +125,7 @@ Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
         </Node>
         <Node ToolID="9">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-            <Position x="1074" y="294" />
+            <Position x="1146" y="282" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -281,11 +152,146 @@ Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
         </Node>
       </ChildNodes>
     </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="89" y="137" width="708" height="225" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Liste des onglets</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Liste des onglets</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+            <Position x="114" y="185" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Directory>..\data\raw\facconniers</Directory>
+              <FileSpec>*.xlsx</FileSpec>
+              <IncludeSubDirs value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>dir ..\data\raw\facconniers\*.xlsx</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="282" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression><![CDATA[   !StartsWith([FileName], "~$")]]></Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[   !StartsWith([FileName], "~$")]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="402" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="     [FullPath] + &quot;|||&lt;List of Sheet Names&gt;&quot;" field="chemin_liste_onglets" size="1000" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[chemin_liste_onglets =      [FullPath] + "|||<List of Sheet Names>"
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicInput.DynamicInput">
+            <Position x="534" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <InputConfiguration>
+                <Configuration>
+                  <Passwords />
+                  <File OutputFileName="Path" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\data\raw\facconniers\F01_cosmetiques_du_midi.xlsx|||&lt;List of Sheet Names&gt;</File>
+                  <FormatSpecificOptions>
+                    <FirstRowData>False</FirstRowData>
+                    <ImportLine>1</ImportLine>
+                  </FormatSpecificOptions>
+                </Configuration>
+              </InputConfiguration>
+              <Mode>ReadList</Mode>
+              <ReadList_Field>chemin_liste_onglets</ReadList_Field>
+              <ReadList_Type>Path</ReadList_Type>
+              <ErrorBehaviour>Error</ErrorBehaviour>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>F01_cosmetiques_du_midi.xlsx
+Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="666" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="   IIF(FindString([FileName], &quot;|||&quot;) &gt;= 0,&#xA;       Left([FileName], FindString([FileName], &quot;|||&quot;)),&#xA;       [FileName])&#xA;   + &quot;|||`&quot; + [Sheet Names] + &quot;$`&quot;" field="chemin_feuille" size="1000" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>chemin_feuille =    IIF(FindString([FileName], "|||") &gt;= 0,
+       Left([FileNam...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="5" Connection="Output" />
-      <Destination ToolID="6" Connection="Control" />
+      <Origin ToolID="6" Connection="donnees_standard" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="donnees_standard" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="1" Connection="Output" />
@@ -304,16 +310,8 @@ Query=&lt;List of Sheet Names&gt;</DefaultAnnotationText>
       <Destination ToolID="5" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="6" Connection="donnees_standard" />
-      <Destination ToolID="7" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="6" Connection="donnees_standard" />
-      <Destination ToolID="9" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="8" Connection="Input" />
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Control" />
     </Connection>
   </Connections>
   <Properties>
