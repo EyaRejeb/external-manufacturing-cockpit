@@ -177,7 +177,7 @@ Query=`formats$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Temp\Alteryx\Engine_13496_364a4264baa44fbc98b1f934e91524a3_\Engine_13496_88b036e187604d18a5382f9e261d1c6e~.yxdb</TempFile>
+          <TempFile>C:\Temp\Alteryx\Engine_24480_76086fa5075c45d8bbb52ac857b349ce_\Engine_24480_7729b8d47ccd4adb836664335f578126~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -227,7 +227,7 @@ Query=`formats$`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Temp\Alteryx\Engine_13496_364a4264baa44fbc98b1f934e91524a3_\Engine_13496_d109aa94b37f4d368e8e62c958504267~.yxdb</TempFile>
+          <TempFile>C:\Temp\Alteryx\Engine_24480_76086fa5075c45d8bbb52ac857b349ce_\Engine_24480_da999b22f5f74a3a87bb2413b1eba127~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -248,6 +248,236 @@ Query=`formats$`</DefaultAnnotationText>
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="690" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="id_commande" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="774" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;doublon&quot;" field="type_anomalie" size="50" type="V_WString" enabled="true" />
+            <FormulaField expression="[id_commande]" field="valeur_originale" size="255" type="V_WString" enabled="true" />
+            <FormulaField expression="&quot;ligne exclue&quot;" field="action" size="255" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>type_anomalie = "doublon"
+valeur_originale = [id_commande]
+action = "ligne exclu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="954" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>;</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>erp_produits.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="sku" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+            <Field name="libelle" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+            <Field name="gamme" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+            <Field name="forme" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+            <Field name="contenance_ml" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+            <Field name="complexite" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+            <Field name="prix_standard_eur" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1038" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="sku" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1134" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="sku" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="sku" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_sku" selected="False" rename="Right_sku" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1266" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;non&quot;" field="sku_inconnu" size="3" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[sku_inconnu = "non"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1266" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;oui&quot;" field="sku_inconnu" size="3" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[sku_inconnu = "oui"
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1410" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1518" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IIF([sku_inconnu] = &quot;oui&quot;, &quot;sku_inconnu&quot;,&#xA;IIF([qte_commandee] &lt; 1000, &quot;quantite_en_milliers&quot;,&#xA;IIF(!IsNull([date_livraison]) AND [date_livraison] &lt; [date_commande], &quot;livraison_avant_commande&quot;,&#xA;IIF(!IsNull([qte_livree]) AND [qte_livree] &lt;= 0, &quot;quantite_negative_ou_nulle&quot;,&#xA;IIF(IsNull([date_livraison]) AND !IsNull([qte_livree]), &quot;date_livraison_manquante&quot;,&#xA;&quot;&quot;)))))" field="type_anomalie" size="50" type="V_WString" enabled="true" />
+            <FormulaField expression="Switch([type_anomalie], &quot;&quot;,&#xA;  &quot;sku_inconnu&quot;, [sku],&#xA;  &quot;quantite_en_milliers&quot;, ToString([qte_commandee], 1),&#xA;  &quot;livraison_avant_commande&quot;, DateTimeFormat([date_livraison], &quot;%Y-%m-%d&quot;),&#xA;  &quot;quantite_negative_ou_nulle&quot;, ToString([qte_livree], 0),&#xA;  &quot;date_livraison_manquante&quot;, &quot;vide&quot;)" field="valeur_originale" size="255" type="V_WString" enabled="true" />
+            <FormulaField expression="Switch([type_anomalie], &quot;&quot;,&#xA;  &quot;sku_inconnu&quot;, &quot;signalée&quot;,&#xA;  &quot;quantite_en_milliers&quot;, &quot;corrigée (x1000)&quot;,&#xA;  &quot;livraison_avant_commande&quot;, &quot;date invalidée (mise à vide)&quot;,&#xA;  &quot;quantite_negative_ou_nulle&quot;, &quot;quantité invalidée (mise à vide)&quot;,&#xA;  &quot;date_livraison_manquante&quot;, &quot;signalée&quot;)" field="action" size="255" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>type_anomalie = IIF([sku_inconnu] = "oui", "sku_inconnu",
+IIF([qte_commandee] &lt; ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1650" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[   [type_anomalie] != ""]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[   [type_anomalie] != ""]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
     </Node>
   </Nodes>
   <Connections>
@@ -276,8 +506,52 @@ Query=`formats$`</DefaultAnnotationText>
       <Destination ToolID="7" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="7" Connection="Output" />
       <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Duplicates" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Unique" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Left" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
