@@ -1,483 +1,689 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="2024.2" RunE2="T">
   <Nodes>
-    <Node ToolID="1">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="54" />
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="29" y="15" width="829" height="324" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Passwords />
-          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\processed\stg_commandes_brutes.yxdb</File>
-          <FormatSpecificOptions />
+          <Caption>Conversion des types</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>stg_commandes_brutes.yxdb</DefaultAnnotationText>
+          <AnnotationText>Conversion des types</AnnotationText>
+          <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="id_facconnier" size="500" source="Formula:    Left(FileGetFileName([FileName]), 3)" type="V_WString" />
-            <Field name="id_commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-            <Field name="sku" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-            <Field name="fournisseur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-            <Field name="date_commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-            <Field name="date_promise" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-            <Field name="date_livraison" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-            <Field name="qte_commandee" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-            <Field name="qte_livree" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-            <Field name="qte_conforme" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-            <Field name="prix_unitaire_eur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
-            <Field name="fichier_source" size="500" source="Formula: [FileName]" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="2">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`</File>
-          <FormatSpecificOptions>
-            <FirstRowData>False</FirstRowData>
-            <ImportLine>1</ImportLine>
-          </FormatSpecificOptions>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>mapping_colonnes.xlsx
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="64" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\processed\stg_commandes_brutes.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>stg_commandes_brutes.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id_facconnier" size="500" source="Formula:    Left(FileGetFileName([FileName]), 3)" type="V_WString" />
+                <Field name="id_commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="sku" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="fournisseur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_commande" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_promise" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="date_livraison" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_commandee" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_livree" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="qte_conforme" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="prix_unitaire_eur" size="255" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="fichier_source" size="500" source="Formula: [FileName]" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="54" y="209" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>mapping_colonnes.xlsx
 Query=`formats$`</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="id_facconnier" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`" type="V_String" />
-            <Field name="fichier" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`" type="V_String" />
-            <Field name="format_date" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`" type="V_String" />
-            <Field name="separateur_decimal" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`" type="V_String" />
-            <Field name="onglet_par_mois" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="3">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="234" y="126" />
-      </GuiSettings>
-      <Properties>
-        <Configuration joinByRecordPos="False">
-          <JoinInfo connection="Left">
-            <Field field="id_facconnier" />
-          </JoinInfo>
-          <JoinInfo connection="Right">
-            <Field field="id_facconnier" />
-          </JoinInfo>
-          <SelectConfiguration>
-            <Configuration outputConnection="Join">
-              <OrderChanged value="False" />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="id_facconnier" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`" type="V_String" />
+                <Field name="fichier" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`" type="V_String" />
+                <Field name="format_date" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`" type="V_String" />
+                <Field name="separateur_decimal" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`" type="V_String" />
+                <Field name="onglet_par_mois" size="255" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\reference\mapping_colonnes.xlsx|||`formats$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="234" y="137" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="id_facconnier" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="id_facconnier" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_id_facconnier" selected="False" rename="Right_id_facconnier" input="Right_" />
+                    <SelectField field="Right_fichier" selected="False" input="Right_" />
+                    <SelectField field="Right_onglet_par_mois" selected="False" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="390" y="137" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF(IsEmpty([date_commande]), Null(),&#xA;  IIF(Trim([format_date]) = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1900-01-01&quot;, ToNumber([date_commande]) - 2, &quot;days&quot;),&#xA;      DateTimeParse([date_commande],&#xA;                    IIF(Trim([format_date]) = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_commande" size="10" type="Date" enabled="true" />
+                <FormulaField expression="IIF(IsEmpty([date_promise]), Null(),&#xA;  IIF(Trim([format_date]) = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1900-01-01&quot;, ToNumber([date_promise]) - 2, &quot;days&quot;),&#xA;      DateTimeParse([date_promise],&#xA;                    IIF(Trim([format_date]) = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_promise" size="10" type="Date" enabled="true" />
+                <FormulaField expression="IIF(IsEmpty([date_livraison]), Null(),&#xA;  IIF(Trim([format_date]) = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1900-01-01&quot;, ToNumber([date_livraison]) - 2, &quot;days&quot;),&#xA;      DateTimeParse([date_livraison],&#xA;                    IIF(Trim([format_date]) = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_livraison" size="10" type="Date" enabled="true" />
+                <FormulaField expression="IIF(IsEmpty([qte_commandee]), Null(), ToNumber(Replace([qte_commandee], &quot;,&quot;, &quot;.&quot;)))" field="q_commandee" size="8" type="Double" enabled="true" />
+                <FormulaField expression="IIF(IsEmpty([qte_livree]), Null(), ToNumber(Replace([qte_livree], &quot;,&quot;, &quot;.&quot;)))" field="q_livree" size="8" type="Double" enabled="true" />
+                <FormulaField expression="IIF(IsEmpty([qte_conforme]), Null(), ToNumber(Replace([qte_conforme], &quot;,&quot;, &quot;.&quot;)))" field="q_conforme" size="8" type="Double" enabled="true" />
+                <FormulaField expression="IIF(IsEmpty([prix_unitaire_eur]), Null(),&#xA;    IIF([separateur_decimal] = &quot;,&quot;,&#xA;        ToNumber(Replace([prix_unitaire_eur], &quot;,&quot;, &quot;.&quot;)),&#xA;        ToNumber([prix_unitaire_eur])))" field="prix" size="8" type="Double" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>dt_commande = IIF(IsEmpty([date_commande]), Null(),
+  IIF(Trim([format_date]) = ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="546" y="137" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
               <CommaDecimal value="False" />
               <SelectFields>
-                <SelectField field="Right_id_facconnier" selected="False" rename="Right_id_facconnier" input="Right_" />
-                <SelectField field="Right_fichier" selected="False" input="Right_" />
-                <SelectField field="Right_onglet_par_mois" selected="False" input="Right_" />
+                <SelectField field="id_facconnier" selected="True" />
+                <SelectField field="id_commande" selected="True" />
+                <SelectField field="sku" selected="True" />
+                <SelectField field="fournisseur" selected="True" />
+                <SelectField field="dt_commande" selected="True" rename="date_commande" />
+                <SelectField field="dt_promise" selected="True" rename="date_promise" />
+                <SelectField field="dt_livraison" selected="True" rename="date_livraison" />
+                <SelectField field="q_commandee" selected="True" rename="qte_commandee" />
+                <SelectField field="q_livree" selected="True" rename="qte_livree" />
+                <SelectField field="q_conforme" selected="True" rename="qte_conforme" />
+                <SelectField field="prix" selected="True" rename="prix_unitaire_eur" />
+                <SelectField field="fichier_source" selected="True" />
+                <SelectField field="date_commande" selected="False" />
+                <SelectField field="date_promise" selected="False" />
+                <SelectField field="date_livraison" selected="False" />
+                <SelectField field="qte_commandee" selected="False" />
+                <SelectField field="qte_livree" selected="False" />
+                <SelectField field="qte_conforme" selected="False" />
+                <SelectField field="prix_unitaire_eur" selected="False" />
+                <SelectField field="format_date" selected="False" />
+                <SelectField field="separateur_decimal" selected="False" />
                 <SelectField field="*Unknown" selected="True" />
               </SelectFields>
             </Configuration>
-          </SelectConfiguration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="690" y="77" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="id_facconnier" action="GroupBy" rename="id_facconnier" />
+                <SummarizeField field="id_commande" action="Count" rename="Count" />
+                <SummarizeField field="date_commande" action="CountNonNull" rename="CountNonNull_date_commande" />
+                <SummarizeField field="date_livraison" action="CountNonNull" rename="CountNonNull_date_livraison" />
+                <SummarizeField field="prix_unitaire_eur" action="CountNonNull" rename="CountNonNull_prix_unitaire_eur" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="774" y="77" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Temp\Alteryx\Engine_1760_f8131aa7bdf74576ac6d7ce3209eaf76_\Engine_1760_34ebd115efef480195de902fcec06292~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="774" y="197" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Temp\Alteryx\Engine_1760_f8131aa7bdf74576ac6d7ce3209eaf76_\Engine_1760_1f54ae003c5d45de9b47f29526322e3b~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1397" y="389" width="661" height="393" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Contrôles et corrections</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
+          <AnnotationText>Contrôles et corrections</AnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+      <ChildNodes>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1422" y="449" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF([sku_inconnu] = &quot;oui&quot;, &quot;sku_inconnu&quot;,&#xA;IIF([qte_commandee] &lt; 1000, &quot;quantite_en_milliers&quot;,&#xA;IIF(!IsNull([date_livraison]) AND [date_livraison] &lt; [date_commande], &quot;livraison_avant_commande&quot;,&#xA;IIF(!IsNull([qte_livree]) AND [qte_livree] &lt;= 0, &quot;quantite_negative_ou_nulle&quot;,&#xA;IIF(IsNull([date_livraison]) AND !IsNull([qte_livree]), &quot;date_livraison_manquante&quot;,&#xA;&quot;&quot;)))))" field="type_anomalie" size="50" type="V_WString" enabled="true" />
+                <FormulaField expression="Switch([type_anomalie], &quot;&quot;,&#xA;  &quot;sku_inconnu&quot;, [sku],&#xA;  &quot;quantite_en_milliers&quot;, ToString([qte_commandee], 1),&#xA;  &quot;livraison_avant_commande&quot;, DateTimeFormat([date_livraison], &quot;%Y-%m-%d&quot;),&#xA;  &quot;quantite_negative_ou_nulle&quot;, ToString([qte_livree], 0),&#xA;  &quot;date_livraison_manquante&quot;, &quot;vide&quot;)" field="valeur_originale" size="255" type="V_WString" enabled="true" />
+                <FormulaField expression="Switch([type_anomalie], &quot;&quot;,&#xA;  &quot;sku_inconnu&quot;, &quot;signalée&quot;,&#xA;  &quot;quantite_en_milliers&quot;, &quot;corrigée (x1000)&quot;,&#xA;  &quot;livraison_avant_commande&quot;, &quot;date invalidée (mise à vide)&quot;,&#xA;  &quot;quantite_negative_ou_nulle&quot;, &quot;quantité invalidée (mise à vide)&quot;,&#xA;  &quot;date_livraison_manquante&quot;, &quot;signalée&quot;)" field="action" size="255" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>type_anomalie = IIF([sku_inconnu] = "oui", "sku_inconnu",
+IIF([qte_commandee] &lt; ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1554" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression><![CDATA[   [type_anomalie] != ""]]></Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[   [type_anomalie] != ""]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1710" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1794" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="id_facconnier" selected="True" />
+                <SelectField field="id_commande" selected="True" />
+                <SelectField field="sku" selected="False" />
+                <SelectField field="fournisseur" selected="False" />
+                <SelectField field="date_commande" selected="False" />
+                <SelectField field="date_promise" selected="False" />
+                <SelectField field="date_livraison" selected="False" />
+                <SelectField field="qte_commandee" selected="False" />
+                <SelectField field="qte_livree" selected="False" />
+                <SelectField field="qte_conforme" selected="False" />
+                <SelectField field="prix_unitaire_eur" selected="False" />
+                <SelectField field="sku_inconnu" selected="False" />
+                <SelectField field="type_anomalie" selected="True" />
+                <SelectField field="valeur_originale" selected="True" />
+                <SelectField field="action" selected="True" />
+                <SelectField field="fichier_source" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1878" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="type_anomalie" action="GroupBy" rename="type_anomalie" />
+                <SummarizeField field="id_commande" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1974" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Temp\Alteryx\Engine_1760_f8131aa7bdf74576ac6d7ce3209eaf76_\Engine_1760_fa2ee540954f44029f1addb220b8f27d~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1710" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF(IsNull([date_livraison]) AND IsNull([qte_livree]), &quot;en cours&quot;, &quot;livrée&quot;)" field="statut_commande" size="20" type="V_WString" enabled="true" />
+                <FormulaField expression="IIF([type_anomalie] = &quot;quantite_en_milliers&quot;, [qte_commandee] * 1000, [qte_commandee])" field="qte_commandee" size="8" type="Double" enabled="true" />
+                <FormulaField expression="IIF([type_anomalie] = &quot;quantite_en_milliers&quot;, [qte_livree] * 1000, IIF([type_anomalie] = &quot;quantite_negative_ou_nulle&quot;, Null(), [qte_livree]))" field="qte_livree" size="8" type="Double" enabled="true" />
+                <FormulaField expression="IIF([type_anomalie] = &quot;quantite_en_milliers&quot;, [qte_conforme] * 1000, [qte_conforme])" field="qte_conforme" size="8" type="Double" enabled="true" />
+                <FormulaField expression="IIF([type_anomalie] = &quot;livraison_avant_commande&quot;, Null(), [date_livraison])" field="date_livraison" size="10" type="Date" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>statut_commande = IIF(IsNull([date_livraison]) AND IsNull([qte_livree]), "en cou...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1806" y="606" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Temp\Alteryx\Engine_1760_f8131aa7bdf74576ac6d7ce3209eaf76_\Engine_1760_800ff38aa1ae43c2ad44bf836dcd552b~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
     </Node>
-    <Node ToolID="4">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="390" y="126" />
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="581" y="365" width="793" height="441" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <FormulaFields>
-            <FormulaField expression="IIF(IsEmpty([date_commande]), Null(),&#xA;  IIF(Trim([format_date]) = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1900-01-01&quot;, ToNumber([date_commande]) - 2, &quot;days&quot;),&#xA;      DateTimeParse([date_commande],&#xA;                    IIF(Trim([format_date]) = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_commande" size="10" type="Date" enabled="true" />
-            <FormulaField expression="IIF(IsEmpty([date_promise]), Null(),&#xA;  IIF(Trim([format_date]) = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1900-01-01&quot;, ToNumber([date_promise]) - 2, &quot;days&quot;),&#xA;      DateTimeParse([date_promise],&#xA;                    IIF(Trim([format_date]) = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_promise" size="10" type="Date" enabled="true" />
-            <FormulaField expression="IIF(IsEmpty([date_livraison]), Null(),&#xA;  IIF(Trim([format_date]) = &quot;serie_excel&quot;,&#xA;      DateTimeAdd(&quot;1900-01-01&quot;, ToNumber([date_livraison]) - 2, &quot;days&quot;),&#xA;      DateTimeParse([date_livraison],&#xA;                    IIF(Trim([format_date]) = &quot;dd/MM/yyyy&quot;, &quot;%d/%m/%Y&quot;, &quot;%Y-%m-%d&quot;))))" field="dt_livraison" size="10" type="Date" enabled="true" />
-            <FormulaField expression="IIF(IsEmpty([qte_commandee]), Null(), ToNumber(Replace([qte_commandee], &quot;,&quot;, &quot;.&quot;)))" field="q_commandee" size="8" type="Double" enabled="true" />
-            <FormulaField expression="IIF(IsEmpty([qte_livree]), Null(), ToNumber(Replace([qte_livree], &quot;,&quot;, &quot;.&quot;)))" field="q_livree" size="8" type="Double" enabled="true" />
-            <FormulaField expression="IIF(IsEmpty([qte_conforme]), Null(), ToNumber(Replace([qte_conforme], &quot;,&quot;, &quot;.&quot;)))" field="q_conforme" size="8" type="Double" enabled="true" />
-            <FormulaField expression="IIF(IsEmpty([prix_unitaire_eur]), Null(),&#xA;    IIF([separateur_decimal] = &quot;,&quot;,&#xA;        ToNumber(Replace([prix_unitaire_eur], &quot;,&quot;, &quot;.&quot;)),&#xA;        ToNumber([prix_unitaire_eur])))" field="prix" size="8" type="Double" enabled="true" />
-          </FormulaFields>
+          <Caption>Doublons et référentiel</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>dt_commande = IIF(IsEmpty([date_commande]), Null(),
-  IIF(Trim([format_date]) = ...</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="5">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="546" y="126" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="True" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="id_facconnier" selected="True" />
-            <SelectField field="id_commande" selected="True" />
-            <SelectField field="sku" selected="True" />
-            <SelectField field="fournisseur" selected="True" />
-            <SelectField field="dt_commande" selected="True" rename="date_commande" />
-            <SelectField field="dt_promise" selected="True" rename="date_promise" />
-            <SelectField field="dt_livraison" selected="True" rename="date_livraison" />
-            <SelectField field="q_commandee" selected="True" rename="qte_commandee" />
-            <SelectField field="q_livree" selected="True" rename="qte_livree" />
-            <SelectField field="q_conforme" selected="True" rename="qte_conforme" />
-            <SelectField field="prix" selected="True" rename="prix_unitaire_eur" />
-            <SelectField field="fichier_source" selected="True" />
-            <SelectField field="date_commande" selected="False" />
-            <SelectField field="date_promise" selected="False" />
-            <SelectField field="date_livraison" selected="False" />
-            <SelectField field="qte_commandee" selected="False" />
-            <SelectField field="qte_livree" selected="False" />
-            <SelectField field="qte_conforme" selected="False" />
-            <SelectField field="prix_unitaire_eur" selected="False" />
-            <SelectField field="format_date" selected="False" />
-            <SelectField field="separateur_decimal" selected="False" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
+          <AnnotationText>Doublons et référentiel</AnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="6">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="774" y="186" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Temp\Alteryx\Engine_24480_76086fa5075c45d8bbb52ac857b349ce_\Engine_24480_7729b8d47ccd4adb836664335f578126~.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profil</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="7">
-      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="690" y="66" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SummarizeFields>
-            <SummarizeField field="id_facconnier" action="GroupBy" rename="id_facconnier" />
-            <SummarizeField field="id_commande" action="Count" rename="Count" />
-            <SummarizeField field="date_commande" action="CountNonNull" rename="CountNonNull_date_commande" />
-            <SummarizeField field="date_livraison" action="CountNonNull" rename="CountNonNull_date_livraison" />
-            <SummarizeField field="prix_unitaire_eur" action="CountNonNull" rename="CountNonNull_prix_unitaire_eur" />
-          </SummarizeFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
-    </Node>
-    <Node ToolID="8">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="774" y="66" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Temp\Alteryx\Engine_24480_76086fa5075c45d8bbb52ac857b349ce_\Engine_24480_da999b22f5f74a3a87bb2413b1eba127~.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profil</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="9">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="690" y="258" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UniqueFields>
-            <Field field="id_commande" />
-          </UniqueFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
-    </Node>
-    <Node ToolID="10">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="774" y="354" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="&quot;doublon&quot;" field="type_anomalie" size="50" type="V_WString" enabled="true" />
-            <FormulaField expression="[id_commande]" field="valeur_originale" size="255" type="V_WString" enabled="true" />
-            <FormulaField expression="&quot;ligne exclue&quot;" field="action" size="255" type="V_WString" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>type_anomalie = "doublon"
+      <ChildNodes>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="606" y="461" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="id_commande" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1194" y="630" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;doublon&quot;" field="type_anomalie" size="50" type="V_WString" enabled="true" />
+                <FormulaField expression="[id_commande]" field="valeur_originale" size="255" type="V_WString" enabled="true" />
+                <FormulaField expression="&quot;ligne exclue&quot;" field="action" size="255" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>type_anomalie = "doublon"
 valeur_originale = [id_commande]
 action = "ligne exclu...</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="11">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="954" y="354" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv</File>
-          <FormatSpecificOptions>
-            <HeaderRow>True</HeaderRow>
-            <IgnoreErrors>False</IgnoreErrors>
-            <AllowShareWrite>False</AllowShareWrite>
-            <ImportLine>1</ImportLine>
-            <FieldLen>254</FieldLen>
-            <SingleThreadRead>False</SingleThreadRead>
-            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
-            <Delimeter>;</Delimeter>
-            <QuoteRecordBreak>False</QuoteRecordBreak>
-            <CodePage>65001</CodePage>
-          </FormatSpecificOptions>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>erp_produits.csv</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="sku" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
-            <Field name="libelle" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
-            <Field name="gamme" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
-            <Field name="forme" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
-            <Field name="contenance_ml" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
-            <Field name="complexite" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
-            <Field name="prix_standard_eur" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="12">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1038" y="354" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="sku" selected="True" />
-            <SelectField field="*Unknown" selected="False" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="13">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1134" y="258" />
-      </GuiSettings>
-      <Properties>
-        <Configuration joinByRecordPos="False">
-          <JoinInfo connection="Left">
-            <Field field="sku" />
-          </JoinInfo>
-          <JoinInfo connection="Right">
-            <Field field="sku" />
-          </JoinInfo>
-          <SelectConfiguration>
-            <Configuration outputConnection="Join">
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="834" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>;</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>erp_produits.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="sku" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+                <Field name="libelle" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+                <Field name="gamme" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+                <Field name="forme" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+                <Field name="contenance_ml" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+                <Field name="complexite" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+                <Field name="prix_standard_eur" size="254" source="File: C:\Users\arejeb\Desktop\fia5\portfolio\external-manufacturing-cockpit\external-manufacturing-cockpit\data\raw\erp\erp_produits.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="918" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
               <OrderChanged value="False" />
               <CommaDecimal value="False" />
               <SelectFields>
-                <SelectField field="Right_sku" selected="False" rename="Right_sku" input="Right_" />
-                <SelectField field="*Unknown" selected="True" />
+                <SelectField field="sku" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
               </SelectFields>
             </Configuration>
-          </SelectConfiguration>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-    </Node>
-    <Node ToolID="14">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1266" y="294" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="&quot;non&quot;" field="sku_inconnu" size="3" type="V_WString" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[sku_inconnu = "non"
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1014" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="sku" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="sku" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_sku" selected="False" rename="Right_sku" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1146" y="498" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;non&quot;" field="sku_inconnu" size="3" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[sku_inconnu = "non"
 ]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="15">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1266" y="210" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="&quot;oui&quot;" field="sku_inconnu" size="3" type="V_WString" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[sku_inconnu = "oui"
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1146" y="414" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="&quot;oui&quot;" field="sku_inconnu" size="3" type="V_WString" enabled="true" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[sku_inconnu = "oui"
 ]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="16">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1410" y="246" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <ByName_ErrorMode>Warning</ByName_ErrorMode>
-          <ByName_OutputMode>All</ByName_OutputMode>
-          <Mode>ByName</Mode>
-          <SetOutputOrder value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
-    </Node>
-    <Node ToolID="17">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1518" y="246" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="IIF([sku_inconnu] = &quot;oui&quot;, &quot;sku_inconnu&quot;,&#xA;IIF([qte_commandee] &lt; 1000, &quot;quantite_en_milliers&quot;,&#xA;IIF(!IsNull([date_livraison]) AND [date_livraison] &lt; [date_commande], &quot;livraison_avant_commande&quot;,&#xA;IIF(!IsNull([qte_livree]) AND [qte_livree] &lt;= 0, &quot;quantite_negative_ou_nulle&quot;,&#xA;IIF(IsNull([date_livraison]) AND !IsNull([qte_livree]), &quot;date_livraison_manquante&quot;,&#xA;&quot;&quot;)))))" field="type_anomalie" size="50" type="V_WString" enabled="true" />
-            <FormulaField expression="Switch([type_anomalie], &quot;&quot;,&#xA;  &quot;sku_inconnu&quot;, [sku],&#xA;  &quot;quantite_en_milliers&quot;, ToString([qte_commandee], 1),&#xA;  &quot;livraison_avant_commande&quot;, DateTimeFormat([date_livraison], &quot;%Y-%m-%d&quot;),&#xA;  &quot;quantite_negative_ou_nulle&quot;, ToString([qte_livree], 0),&#xA;  &quot;date_livraison_manquante&quot;, &quot;vide&quot;)" field="valeur_originale" size="255" type="V_WString" enabled="true" />
-            <FormulaField expression="Switch([type_anomalie], &quot;&quot;,&#xA;  &quot;sku_inconnu&quot;, &quot;signalée&quot;,&#xA;  &quot;quantite_en_milliers&quot;, &quot;corrigée (x1000)&quot;,&#xA;  &quot;livraison_avant_commande&quot;, &quot;date invalidée (mise à vide)&quot;,&#xA;  &quot;quantite_negative_ou_nulle&quot;, &quot;quantité invalidée (mise à vide)&quot;,&#xA;  &quot;date_livraison_manquante&quot;, &quot;signalée&quot;)" field="action" size="255" type="V_WString" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>type_anomalie = IIF([sku_inconnu] = "oui", "sku_inconnu",
-IIF([qte_commandee] &lt; ...</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="18">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="1650" y="246" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Expression><![CDATA[   [type_anomalie] != ""]]></Expression>
-          <Mode>Custom</Mode>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[   [type_anomalie] != ""]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1290" y="450" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+      </ChildNodes>
     </Node>
   </Nodes>
   <Connections>
@@ -514,6 +720,38 @@ IIF([qte_commandee] &lt; ...</DefaultAnnotationText>
       <Destination ToolID="8" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="9" Connection="Duplicates" />
       <Destination ToolID="10" Connection="Input" />
     </Connection>
@@ -548,10 +786,6 @@ IIF([qte_commandee] &lt; ...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="16" Connection="Output" />
       <Destination ToolID="17" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="17" Connection="Output" />
-      <Destination ToolID="18" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
