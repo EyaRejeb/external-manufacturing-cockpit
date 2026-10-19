@@ -11,3 +11,5 @@ __pycache__/
 
 # Fichiers temporaires Alteryx
 data/processed/*.yxdb
+# Sauvegardes automatiques Alteryx
+*.bak
