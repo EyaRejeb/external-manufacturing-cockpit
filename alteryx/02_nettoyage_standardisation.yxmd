@@ -932,7 +932,10 @@ MatchScore = Null()
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
         </Node>
-      </ChildNodes>
+      <Node ToolID="62"><GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula"><Position x="220" y="780" /></GuiSettings>
+<Properties><Configuration><FormulaFields><FormulaField expression="Trim([id_officiel])" field="id_officiel" size="10" type="V_WString" enabled="true" /><FormulaField expression="Trim([fournisseur])" field="fournisseur" size="255" type="V_WString" enabled="true" /></FormulaFields></Configuration>
+<Annotation DisplayMode="0"><Name /><AnnotationText>Trim référentiel</AnnotationText><DefaultAnnotationText /><Left value="False" /></Annotation></Properties>
+<EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" /></Node></ChildNodes>
     </Node>
     <Node ToolID="60">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
@@ -1119,7 +1122,10 @@ MatchScore = Null()
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
         </Node>
-      </ChildNodes>
+      <Node ToolID="63"><GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula"><Position x="2380" y="735" /></GuiSettings>
+<Properties><Configuration><FormulaFields><FormulaField expression="&quot;facconnier_non_reference&quot;" field="type_anomalie" size="50" type="V_WString" enabled="true" /><FormulaField expression="[fournisseur]" field="valeur_originale" size="255" type="V_WString" enabled="true" /><FormulaField expression="&quot;ligne exclue : façonnier absent du référentiel&quot;" field="action" size="255" type="V_WString" enabled="true" /></FormulaFields></Configuration>
+<Annotation DisplayMode="0"><Name /><AnnotationText>Façonnier non référencé</AnnotationText><DefaultAnnotationText /><Left value="False" /></Annotation></Properties>
+<EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" /></Node></ChildNodes>
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
@@ -1605,11 +1611,11 @@ action = "ligne exclu...</DefaultAnnotationText>
       <Destination ToolID="32" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="32" Connection="Output" />
+      <Origin ToolID="62" Connection="Output" />
       <Destination ToolID="33" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="32" Connection="Output" />
+      <Origin ToolID="62" Connection="Output" />
       <Destination ToolID="48" Connection="Right" />
     </Connection>
     <Connection>
@@ -1784,7 +1790,7 @@ action = "ligne exclu...</DefaultAnnotationText>
       <Origin ToolID="16" Connection="Output" />
       <Destination ToolID="17" Connection="Input" />
     </Connection>
-  </Connections>
+  <Connection><Origin ToolID="32" Connection="Output" /><Destination ToolID="62" Connection="Input" /></Connection><Connection><Origin ToolID="55" Connection="Left" /><Destination ToolID="63" Connection="Input" /></Connection><Connection Wireless="True"><Origin ToolID="63" Connection="Output" /><Destination ToolID="22" Connection="Input" /></Connection></Connections>
   <Properties>
     <Memory default="True" />
     <GlobalRecordLimit value="0" />
