@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="40" y="10" width="1110" height="50"/>
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Workflow 03 : prépare les lots et les déviations du système qualité. Convertit les types, rattache chaque lot à sa commande (façonnier, SKU), calcule les délais de clôture des déviations et contrôle la cohérence. Sorties : fact_lot.csv et fact_deviation.csv.</Text>
+          <Font name="Arial" size="8.25" style="0"/>
+          <TextColor name="Black"/>
+          <FillColor name="White"/>
+          <Shape shape="0"/>
+          <Justification Justification="4"/>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name/>
+          <DefaultAnnotationText/>
+          <Left value="False"/>
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="30" y="80" width="760" height="290"/>
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Lots</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25"/>
+          <Disabled value="False"/>
+          <Folded value="False"/>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name/>
+          <AnnotationText>Lots</AnnotationText>
+          <DefaultAnnotationText/>
+          <Left value="False"/>
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="60" y="120"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords/>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\data\raw\qualite\qualite_lots.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>qualite_lots.csv</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput"/>
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="170" y="120"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF(IsEmpty([date_fabrication]), Null(), DateTimeParse([date_fabrication], &quot;%Y-%m-%d&quot;))" field="dt_fabrication" size="10" type="Date" enabled="true"/>
+                <FormulaField expression="ToNumber([taille_lot])" field="n_taille_lot" size="4" type="Int32" enabled="true"/>
+                <FormulaField expression="IIF(IsEmpty([cout_non_qualite_eur]), 0, ToNumber([cout_non_qualite_eur]))" field="n_cout" size="8" type="Double" enabled="true"/>
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>conversion des types</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula"/>
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="280" y="120"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True"/>
+              <CommaDecimal value="False"/>
+              <SelectFields>
+                <SelectField field="id_lot" selected="True"/>
+                <SelectField field="id_commande" selected="True"/>
+                <SelectField field="dt_fabrication" selected="True" rename="date_fabrication"/>
+                <SelectField field="n_taille_lot" selected="True" rename="taille_lot"/>
+                <SelectField field="statut_lot" selected="True"/>
+                <SelectField field="n_cout" selected="True" rename="cout_non_qualite_eur"/>
+                <SelectField field="*Unknown" selected="False"/>
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>lots typés</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect"/>
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="60" y="240"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords/>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\data\processed\fact_commande.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>fact_commande.csv</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput"/>
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="170" y="240"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True"/>
+              <CommaDecimal value="False"/>
+              <SelectFields>
+                <SelectField field="id_commande" selected="True"/>
+                <SelectField field="id_facconnier" selected="True"/>
+                <SelectField field="sku" selected="True"/>
+                <SelectField field="*Unknown" selected="False"/>
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>clés commande</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect"/>
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="400" y="170"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="id_commande"/>
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="id_commande"/>
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False"/>
+                  <CommaDecimal value="False"/>
+                  <SelectFields>
+                    <SelectField field="Right_id_commande" selected="False" rename="Right_id_commande" input="Right_"/>
+                    <SelectField field="*Unknown" selected="True"/>
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>lot ↔ commande</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin"/>
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="520" y="150"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True"/>
+              <CommaDecimal value="False"/>
+              <SelectFields>
+                <SelectField field="id_lot" selected="True"/>
+                <SelectField field="id_commande" selected="True"/>
+                <SelectField field="id_facconnier" selected="True"/>
+                <SelectField field="sku" selected="True"/>
+                <SelectField field="date_fabrication" selected="True"/>
+                <SelectField field="taille_lot" selected="True"/>
+                <SelectField field="statut_lot" selected="True"/>
+                <SelectField field="cout_non_qualite_eur" selected="True"/>
+                <SelectField field="*Unknown" selected="False"/>
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>colonnes finales</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect"/>
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="650" y="150"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">..\data\processed\fact_lot.csv</File>
+              <Passwords/>
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>65001</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False"/>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>fact_lot.csv</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+            <Dependencies>
+              <Implicit/>
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput"/>
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="520" y="250"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile/>
+              <TempFileDataProfiling/>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100"/>
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table/>
+                  </Hints>
+                </View1>
+                <View2/>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>lots sans commande (attendu : 0)</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2"/>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="30" y="420" width="760" height="290"/>
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Déviations</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25"/>
+          <Disabled value="False"/>
+          <Folded value="False"/>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name/>
+          <AnnotationText>Déviations</AnnotationText>
+          <DefaultAnnotationText/>
+          <Left value="False"/>
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="60" y="470"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords/>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\data\raw\qualite\qualite_deviations.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>1000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>qualite_deviations.csv</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput"/>
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="170" y="470"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF(IsEmpty([date_ouverture]), Null(), DateTimeParse([date_ouverture], &quot;%Y-%m-%d&quot;))" field="dt_ouverture" size="10" type="Date" enabled="true"/>
+                <FormulaField expression="IIF(IsEmpty([date_cloture]), Null(), DateTimeParse([date_cloture], &quot;%Y-%m-%d&quot;))" field="dt_cloture" size="10" type="Date" enabled="true"/>
+                <FormulaField expression="IIF(IsNull([dt_cloture]), Null(), DateTimeDiff([dt_cloture], [dt_ouverture], &quot;days&quot;))" field="delai_cloture_jours" size="4" type="Int32" enabled="true"/>
+                <FormulaField expression="IIF(IsNull([dt_cloture]), DateTimeDiff(DateTimeParse(&quot;2025-12-31&quot;, &quot;%Y-%m-%d&quot;), [dt_ouverture], &quot;days&quot;), Null())" field="age_ouverte_jours" size="4" type="Int32" enabled="true"/>
+                <FormulaField expression="IIF(IsNull([delai_cloture_jours]), Null(), IIF([delai_cloture_jours] &lt;= 30, &quot;oui&quot;, &quot;non&quot;))" field="cloture_30j" size="3" type="V_WString" enabled="true"/>
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>dates et délais de clôture</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula"/>
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="280" y="470"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True"/>
+              <CommaDecimal value="False"/>
+              <SelectFields>
+                <SelectField field="id_deviation" selected="True"/>
+                <SelectField field="id_lot" selected="True"/>
+                <SelectField field="dt_ouverture" selected="True" rename="date_ouverture"/>
+                <SelectField field="dt_cloture" selected="True" rename="date_cloture"/>
+                <SelectField field="statut_deviation" selected="True"/>
+                <SelectField field="gravite" selected="True"/>
+                <SelectField field="description_libre" selected="True"/>
+                <SelectField field="delai_cloture_jours" selected="True"/>
+                <SelectField field="age_ouverte_jours" selected="True"/>
+                <SelectField field="cloture_30j" selected="True"/>
+                <SelectField field="*Unknown" selected="False"/>
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>déviations typées</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect"/>
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="400" y="520"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="id_lot"/>
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="id_lot"/>
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False"/>
+                  <CommaDecimal value="False"/>
+                  <SelectFields>
+                    <SelectField field="Right_id_lot" selected="False" rename="Right_id_lot" input="Right_"/>
+                    <SelectField field="Right_date_fabrication" selected="False" input="Right_"/>
+                    <SelectField field="Right_taille_lot" selected="False" input="Right_"/>
+                    <SelectField field="Right_statut_lot" selected="False" input="Right_"/>
+                    <SelectField field="Right_cout_non_qualite_eur" selected="False" input="Right_"/>
+                    <SelectField field="*Unknown" selected="True"/>
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>déviation ↔ lot</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin"/>
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="520" y="500"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True"/>
+              <CommaDecimal value="False"/>
+              <SelectFields>
+                <SelectField field="id_deviation" selected="True"/>
+                <SelectField field="id_lot" selected="True"/>
+                <SelectField field="id_commande" selected="True"/>
+                <SelectField field="id_facconnier" selected="True"/>
+                <SelectField field="sku" selected="True"/>
+                <SelectField field="date_ouverture" selected="True"/>
+                <SelectField field="date_cloture" selected="True"/>
+                <SelectField field="statut_deviation" selected="True"/>
+                <SelectField field="gravite" selected="True"/>
+                <SelectField field="description_libre" selected="True"/>
+                <SelectField field="delai_cloture_jours" selected="True"/>
+                <SelectField field="age_ouverte_jours" selected="True"/>
+                <SelectField field="cloture_30j" selected="True"/>
+                <SelectField field="*Unknown" selected="False"/>
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>colonnes finales</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect"/>
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="650" y="500"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">..\data\processed\fact_deviation.csv</File>
+              <Passwords/>
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>65001</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False"/>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>fact_deviation.csv</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+            <Dependencies>
+              <Implicit/>
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput"/>
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="520" y="600"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile/>
+              <TempFileDataProfiling/>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100"/>
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table/>
+                  </Hints>
+                </View1>
+                <View2/>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>déviations sans lot (attendu : 0)</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2"/>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="840" y="80" width="330" height="630"/>
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Contrôles</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25"/>
+          <Disabled value="False"/>
+          <Folded value="False"/>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name/>
+          <AnnotationText>Contrôles</AnnotationText>
+          <DefaultAnnotationText/>
+          <Left value="False"/>
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="870" y="500"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IIF(!IsNull([date_cloture]) AND [date_cloture] &lt; [date_ouverture], &quot;cloture_avant_ouverture&quot;,&#10;IIF([statut_deviation] = &quot;ouverte&quot; AND !IsNull([date_cloture]), &quot;statut_incoherent&quot;,&#10;IIF([statut_deviation] = &quot;clôturée&quot; AND IsNull([date_cloture]), &quot;statut_incoherent&quot;, &quot;ok&quot;)))" field="controle" size="40" type="V_WString" enabled="true"/>
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>cohérence des dates</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula"/>
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="980" y="500"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="controle" action="GroupBy" rename="controle"/>
+                <SummarizeField field="id_deviation" action="Count" rename="nb_deviations"/>
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize"/>
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1090" y="500"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile/>
+              <TempFileDataProfiling/>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100"/>
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table/>
+                  </Hints>
+                </View1>
+                <View2/>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>attendu : 1 223 « ok »</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2"/>
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="870" y="150"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="statut_lot" action="GroupBy" rename="statut_lot"/>
+                <SummarizeField field="id_lot" action="Count" rename="nb_lots"/>
+                <SummarizeField field="cout_non_qualite_eur" action="Sum" rename="cout_total_eur"/>
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize"/>
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="980" y="150"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile/>
+              <TempFileDataProfiling/>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100"/>
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table/>
+                  </Hints>
+                </View1>
+                <View2/>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>libéré / retraité / rejeté</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2"/>
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="870" y="610"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="statut_deviation" action="GroupBy" rename="statut_deviation"/>
+                <SummarizeField field="gravite" action="GroupBy" rename="gravite"/>
+                <SummarizeField field="id_deviation" action="Count" rename="nb"/>
+                <SummarizeField field="delai_cloture_jours" action="Avg" rename="delai_moyen_jours"/>
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText/>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize"/>
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="980" y="610"/>
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile/>
+              <TempFileDataProfiling/>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100"/>
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table/>
+                  </Hints>
+                </View1>
+                <View2/>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name/>
+              <DefaultAnnotationText>déviations par statut et gravité</DefaultAnnotationText>
+              <Left value="False"/>
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2"/>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output"/>
+      <Destination ToolID="2" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output"/>
+      <Destination ToolID="3" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output"/>
+      <Destination ToolID="5" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output"/>
+      <Destination ToolID="6" Connection="Left"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output"/>
+      <Destination ToolID="6" Connection="Right"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join"/>
+      <Destination ToolID="7" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output"/>
+      <Destination ToolID="8" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Left"/>
+      <Destination ToolID="9" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output"/>
+      <Destination ToolID="11" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output"/>
+      <Destination ToolID="12" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output"/>
+      <Destination ToolID="13" Connection="Left"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output"/>
+      <Destination ToolID="13" Connection="Right"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join"/>
+      <Destination ToolID="14" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output"/>
+      <Destination ToolID="15" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Left"/>
+      <Destination ToolID="16" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output"/>
+      <Destination ToolID="17" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output"/>
+      <Destination ToolID="18" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output"/>
+      <Destination ToolID="19" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output"/>
+      <Destination ToolID="20" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output"/>
+      <Destination ToolID="21" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output"/>
+      <Destination ToolID="22" Connection="Input"/>
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output"/>
+      <Destination ToolID="23" Connection="Input"/>
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True"/>
+    <GlobalRecordLimit value="0"/>
+    <TempFiles default="True"/>
+    
+
+    <Annotation on="True" includeToolName="False"/>
+    <ConvErrorLimit value="10"/>
+    <ConvErrorLimit_Stop value="False"/>
+    
+
+    <CancelOnError value="False"/>
+    <DisableBrowse value="False"/>
+    <EnablePerformanceProfiling value="False"/>
+    <RunWithE2 value="True"/>
+    
+
+    <PredictiveToolsCodePage value="1252"/>
+    <DisableAllOutput value="False"/>
+    <ShowAllMacroMessages value="False"/>
+    
+
+    <ShowConnectionStatusIsOn value="True"/>
+    <ShowConnectionStatusOnlyWhenRunning value="True"/>
+    <ZoomLevel value="0"/>
+    
+
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False"/>
+    <MetaInfo>
+      <NameIsFileName value="True"/>
+      <Name>03_qualite_lots</Name>
+      
+
+      <Description/>
+      <RootToolName/>
+      <ToolVersion/>
+      <ToolInDb value="False"/>
+      <CategoryName/>
+      <SearchTags/>
+      <Author/>
+      <Company/>
+      <Copyright/>
+      
+
+      <DescriptionLink actual="" displayed=""/>
+      <Example>
+        <Description/>
+        <File/>
+      </Example>
+      <WorkflowId value="b94ed70f-f64d-478c-8be0-e2511e604330"/>
+      
+
+      <Telemetry>
+        <PreviousWorkflowId value=""/>
+        <OriginWorkflowId value=""/>
+      </Telemetry>
+      <PlatformWorkflowId value=""/>
+    </MetaInfo>
+    
+
+    <Events>
+      <Enabled value="True"/>
+    </Events>
+  </Properties>
+</AlteryxDocument>
