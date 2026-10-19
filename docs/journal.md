@@ -42,3 +42,28 @@ Transformer 8 exports façonniers hétérogènes (5 formats de colonnes, 3 forma
 
 ### Ce que je retiens
 Un pipeline de données se juge autant sur ce qu'il signale que sur ce qu'il produit. Les tests volontairement « cassants » (nouveau fournisseur, fournisseur retiré) ont révélé des défauts invisibles sur les données nominales.
+
+
+## Phase 3 — Analyses métier (Python)
+
+### Démarche
+Analyse menée uniquement sur les sorties Alteryx et le référentiel ERP, sans connaître les signaux à l'avance. Les tables de vérité ne sont ouvertes qu'à la fin, pour valider. Notebook : `notebooks/01_analyses_metier.ipynb`.
+
+### Constats
+| Question | Constat | Preuve |
+|---|---|---|
+| Quel façonnier se dégrade ? | F06 : OTIF de 88 % à 73 % depuis début 2025 | test de proportions, p < 0,001 |
+| Saisonnalité ? | Solaire : 85 % à l'heure en mars-mai contre 96 % | présent en 2023, 2024 et 2025 |
+| Causes des rejets ? | Complexité 3 : rejets ×1,9 (4,6 % contre 2,4 %) | effet présent chez 7 façonniers sur 8 |
+| Causes des déviations ? | F03 : 50 % de descriptions liées à la matière | repérage par mots-clés, à confirmer en phase 4 |
+
+### Décisions de méthode
+- **Périmètre de l'OTIF documenté** : commandes en cours, livraisons sans date et mois incomplet exclus (5 657 commandes retenues sur 6 000).
+- **Rupture détectée automatiquement** (mois qui sépare le mieux l'avant et l'après) : 02/2025 pour un signal injecté en 03/2025. Écart d'un mois expliqué par le faible volume (≈ 12 commandes par mois).
+- **Effets séparés** : F06 exclu de l'analyse de saisonnalité, et effet complexité contrôlé à l'intérieur de chaque façonnier, pour ne pas confondre deux causes.
+
+### Validation
+OTIF par façonnier à **0,5 point maximum** de la vérité, taux de rejet par complexité à 0,1 point : le nettoyage Alteryx ne biaise pas les analyses.
+
+### Ce que je retiens
+Un indicateur global masque l'essentiel : il faut découper par fournisseur et dans le temps, puis contrôler les facteurs cachés avant de conclure.
