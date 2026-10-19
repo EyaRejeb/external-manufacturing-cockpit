@@ -1,0 +1,33 @@
+﻿id_facconnier,fournisseur,nom_officiel,id_officiel,MatchScore,methode,controle_nom
+F02,LAB GARONNE,Laboratoires Garonne Façonnage,F02,,manuel (alias),cohérent
+F03,Pyrénées Fab.,Fabrication Pyrénées,F03,,manuel (alias),cohérent
+F01,COSMETIQUES DU MIDI,Cosmétiques du Midi,F01,100,automatique,cohérent
+F01,Cosmetiques Midi,Cosmétiques du Midi,F01,93,automatique,cohérent
+F01,Cosmétiques du Midi,Cosmétiques du Midi,F01,100,automatique,cohérent
+F01,Cosmétiques du Midi SAS,Cosmétiques du Midi,F01,95,automatique,cohérent
+F02,Garonne Façonnage,Laboratoires Garonne Façonnage,F02,82,automatique,cohérent
+F02,Labo Garonne,Laboratoires Garonne Façonnage,F02,72,automatique,cohérent
+F02,Laboratoires Garonne Façonnage,Laboratoires Garonne Façonnage,F02,100,automatique,cohérent
+F03,FAB PYRENEES,Fabrication Pyrénées,F03,78,automatique,cohérent
+F03,Fabrication Pyrenees,Fabrication Pyrénées,F03,100,automatique,cohérent
+F03,Fabrication Pyrénées,Fabrication Pyrénées,F03,100,automatique,cohérent
+F04,ATLANTIQUE FORMUL.,Atlantique Formulation,F04,92,automatique,cohérent
+F04,Atl. Formulation,Atlantique Formulation,F04,77,automatique,cohérent
+F04,Atlantique Formulation,Atlantique Formulation,F04,100,automatique,cohérent
+F04,Atlantique Formulations,Atlantique Formulation,F04,99,automatique,cohérent
+F05,VALENCIA COSMETIC,Valencia Cosmetic Partners,F05,89,automatique,cohérent
+F05,Valencia CP,Valencia Cosmetic Partners,F05,81,automatique,cohérent
+F05,Valencia Cosmetic Partners,Valencia Cosmetic Partners,F05,100,automatique,cohérent
+F05,Valencia Cosmetic Partners SL,Valencia Cosmetic Partners,F05,97,automatique,cohérent
+F06,WISLA CM,Wisla Contract Manufacturing,F06,76,automatique,cohérent
+F06,Wisla Contract Manufacturing,Wisla Contract Manufacturing,F06,100,automatique,cohérent
+F06,Wisla Contract Mfg,Wisla Contract Manufacturing,F06,87,automatique,cohérent
+F06,Wisła Contract Manufacturing,Wisla Contract Manufacturing,F06,99,automatique,cohérent
+F07,ANDALUCIA DERMO,Andalucía Dermo Industrial,F07,86,automatique,cohérent
+F07,Andalucia Dermo Ind.,Andalucía Dermo Industrial,F07,90,automatique,cohérent
+F07,Andalucía Dermo,Andalucía Dermo Industrial,F07,86,automatique,cohérent
+F07,Andalucía Dermo Industrial,Andalucía Dermo Industrial,F07,100,automatique,cohérent
+F08,TOSCANA BEAUTY,Toscana Beauty Lab,F08,94,automatique,cohérent
+F08,Toscana BL,Toscana Beauty Lab,F08,85,automatique,cohérent
+F08,Toscana Beauty Lab,Toscana Beauty Lab,F08,100,automatique,cohérent
+F08,Toscana Beauty Lab Srl,Toscana Beauty Lab,F08,95,automatique,cohérent
