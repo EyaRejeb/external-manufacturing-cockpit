@@ -1,3 +1,10 @@
+# Journal de bord
+
+## Phase 1 — Données synthétiques
+- Générateur Python reproductible (seed 42, paramétré par `config.yaml`) : 8 façonniers, 60 produits, 6 000 commandes, ≈11 700 lots, ≈1 200 déviations.
+- 5 signaux métier et 415 anomalies (6 types) injectés volontairement, avec tables de vérité dans `data/reference/verite/` pour valider le pipeline.
+- Contrôle visuel : `notebooks/00_controle_generation.ipynb`.  
+
 ## Phase 2 — Pipeline Alteryx (ingestion, nettoyage, qualité)
 
 ### Objectif
