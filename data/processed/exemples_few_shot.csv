@@ -1,0 +1,13 @@
+id_deviation,description_libre,categorie_6m_verite
+DEV-2023-0300,Arrêt non planifié de la ligne d'encartonnage suite à une alarme,Machine
+DEV-2025-0079,Défaut d'étanchéité de la remplisseuse. Investigation ouverte (en zone de production),Machine
+DEV-2023-0345,erreur d'étiquetage manuel par l'opérateur. investigation ouverte,Main-d'œuvre
+DEV-2025-0066,Operateur non habilite affecte au poste d'homogeneisation. Aucun impact sur la securite du consommateur identifie a ce stade,Main-d'œuvre
+DEV-2025-0393,"Excipient actif apaisant contamine, signale par le fournisseur apres utilisation",Matière
+DEV-2023-0295,certificat d'analyse du lot fournisseur d'eau purifiée absent ou incomplet,Matière
+DEV-2025-0321,Erreur de calcul dans le rapport d'analyse du lot. Impact qualité en cours d'évaluation,Mesure
+DEV-2025-0202,Écart entre deux mesures de charge microbienne sur le même échantillon,Mesure
+DEV-2024-0024,Comptage particulaire hors limites en salle propre (constaté par l'opé),Milieu
+DEV-2024-0316,Écart de pression différentielle entre zones. Investigation ouverte,Milieu
+DEV-2025-0186,Ordre d'introduction des phases inverse pendant l'etape d'homogeneisation,Méthode
+DEV-2025-0331,Instruction de fab non suivie lors de l'etape de pesee. Investigation ouverte,Méthode

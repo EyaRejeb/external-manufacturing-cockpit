@@ -67,3 +67,37 @@ OTIF par façonnier à **0,5 point maximum** de la vérité, taux de rejet par c
 
 ### Ce que je retiens
 Un indicateur global masque l'essentiel : il faut découper par fournisseur et dans le temps, puis contrôler les facteurs cachés avant de conclure.
+
+
+## Phase 4 — Classification IA des déviations (LLM)
+
+### Problème
+Les 1 223 déviations ne sont décrites qu'en texte libre : impossible d'en analyser les causes sans catégorie.
+
+### Solution
+- `src/classifier_deviations.py` : Google Gemini (`gemini-flash-latest`, offre gratuite) classe chaque description selon les 6M (Matière, Méthode, Machine, Main-d'œuvre, Milieu, Mesure), en JSON structuré (catégorie, confiance, justification), par paquets de 100.
+- Clé API dans `.env` (ignoré par Git), résultats sauvegardés en CSV : évaluation reproductible sans rappeler l'API.
+- Gestion du quota gratuit : reprise automatique, nouvelles tentatives sur les erreurs 503, classification étalée sur 3 jours.
+- Deux modes comparés : zero-shot (définitions seules) et few-shot (12 exemples annotés, exclus de l'évaluation).
+
+### Résultats (`notebooks/02_evaluation_ia.ipynb`)
+| | Zero-shot | Few-shot | Référence naïve |
+|---|---|---|---|
+| Exactitude | 99,8 % | 99,9 % | 33,7 % |
+| F1 macro | 99,7 % | 99,9 % | — |
+
+- Repérage des causes Matière : F1 de 100 % contre 79 % par mots-clés, 0 fausse alerte contre 109.
+- Seule erreur : « port des équipements de protection non conforme », Main-d'œuvre classée Méthode. Cas réellement ambigu, signalé en confiance moyenne.
+
+### Réponses métier (5e signal retrouvé)
+- F03 : 54 % de déviations Matière, contre 18 à 28 % ailleurs → audit des matières premières.
+- Lots > 50 000 unités : 35 % de déviations Méthode, contre 21 % (p < 0,001) → revoir les instructions pour les grands volumes.
+- Les conclusions obtenues avec les catégories IA sont identiques à celles obtenues avec les vraies catégories.
+
+### Limites
+- Les descriptions synthétiques viennent de 48 modèles de phrases : bien plus régulières que des déviations réelles. Le score serait plus bas sur des données réelles.
+- Le modèle s'annonce presque toujours en confiance haute : l'intérêt de la confiance pour trier les cas à relire n'a pas pu être vraiment testé.
+- Avec de vraies données de santé : offre d'API sans réutilisation des données ou modèle hébergé en interne (RGPD).
+
+### Ce que je retiens
+Un LLM s'évalue comme n'importe quel modèle, et le few-shot n'est utile que s'il reste une marge de progression : ici, le zero-shot suffisait.

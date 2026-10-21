@@ -1,0 +1,1224 @@
+id_deviation,categorie_ia,confiance,justification,modele,mode
+DEV-2023-0127,Méthode,haute,Procédure non respectée sur la vitesse d'agitation.,gemini-flash-latest,zero-shot
+DEV-2023-0381,Matière,haute,Matière première non conforme au cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2024-0189,Méthode,haute,Non-respect de l'ordre des étapes du procédé.,gemini-flash-latest,zero-shot
+DEV-2023-0368,Machine,haute,Maintenance préventive d'un équipement non réalisée.,gemini-flash-latest,zero-shot
+DEV-2024-0044,Matière,haute,Matière première hors limites de spécification.,gemini-flash-latest,zero-shot
+DEV-2025-0003,Main-d'œuvre,haute,Défaut de formation de l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0364,Machine,haute,Panne d'un équipement de production.,gemini-flash-latest,zero-shot
+DEV-2023-0126,Mesure,haute,Instrument de mesure non qualifié.,gemini-flash-latest,zero-shot
+DEV-2023-0377,Méthode,haute,Utilisation d'un mode opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2024-0418,Méthode,haute,Dossier de lot incomplet avec signature manquante.,gemini-flash-latest,zero-shot
+DEV-2023-0149,Machine,haute,Défaillance d'un capteur sur la cuve.,gemini-flash-latest,zero-shot
+DEV-2024-0392,Matière,haute,Excipient contaminé fourni pour la production.,gemini-flash-latest,zero-shot
+DEV-2025-0326,Main-d'œuvre,haute,Opérateur affecté sans habilitation requise.,gemini-flash-latest,zero-shot
+DEV-2023-0193,Méthode,haute,Inversion de l'ordre d'introduction des phases.,gemini-flash-latest,zero-shot
+DEV-2025-0332,Méthode,haute,Paramètre de procédé non enregistré au dossier.,gemini-flash-latest,zero-shot
+DEV-2023-0196,Main-d'œuvre,haute,Erreur humaine de manipulation par un intérimaire.,gemini-flash-latest,zero-shot
+DEV-2025-0241,Matière,haute,Matière première non conforme avec odeur anormale.,gemini-flash-latest,zero-shot
+DEV-2023-0120,Méthode,haute,Procédure de nettoyage non appliquée.,gemini-flash-latest,zero-shot
+DEV-2023-0159,Matière,haute,Utilisation d'un lot de matière en quarantaine.,gemini-flash-latest,zero-shot
+DEV-2023-0380,Machine,haute,Défaut de maintenance préventive de la turbine.,gemini-flash-latest,zero-shot
+DEV-2024-0061,Matière,haute,Matière première hors limites de spécification.,gemini-flash-latest,zero-shot
+DEV-2025-0100,Méthode,haute,Réalisation de l'étape hors procédure établie.,gemini-flash-latest,zero-shot
+DEV-2023-0352,Matière,haute,Article de conditionnement défectueux et non conforme.,gemini-flash-latest,zero-shot
+DEV-2024-0376,Mesure,haute,Instrument de pesée hors étalonnage utilisé.,gemini-flash-latest,zero-shot
+DEV-2025-0193,Main-d'œuvre,haute,Opérateur non habilité affecté au poste.,gemini-flash-latest,zero-shot
+DEV-2025-0337,Main-d'œuvre,haute,Erreur humaine lors de l'étiquetage manuel par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0161,Machine,haute,Arrêt et alarme sur équipement de transfert.,gemini-flash-latest,zero-shot
+DEV-2023-0286,Main-d'œuvre,haute,Oubli de double vérification par un opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0195,Machine,haute,Maintenance préventive d'un équipement non réalisée à temps.,gemini-flash-latest,zero-shot
+DEV-2024-0193,Matière,haute,Certificat d'analyse fournisseur de matière première non conforme.,gemini-flash-latest,zero-shot
+DEV-2024-0146,Main-d'œuvre,haute,Erreur humaine d'étiquetage manuel par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0371,Méthode,haute,Dossier de lot incomplet avec signature manquante.,gemini-flash-latest,zero-shot
+DEV-2024-0402,Méthode,haute,Non-respect de l'ordre d'introduction des phases.,gemini-flash-latest,zero-shot
+DEV-2025-0208,Machine,haute,Usure mécanique d'une pièce de la pompe.,gemini-flash-latest,zero-shot
+DEV-2024-0208,Méthode,haute,Non-respect du temps de procédé défini au dossier.,gemini-flash-latest,zero-shot
+DEV-2023-0355,Matière,haute,Anomalie organoleptique sur une matière première reçue.,gemini-flash-latest,zero-shot
+DEV-2024-0099,Milieu,haute,Dérive environnementale de pression différentielle entre zones.,gemini-flash-latest,zero-shot
+DEV-2024-0362,Machine,haute,Panne mécanique de l'équipement de remplissage.,gemini-flash-latest,zero-shot
+DEV-2023-0386,Machine,haute,Usure d'un composant de la machine d'étiquetage.,gemini-flash-latest,zero-shot
+DEV-2023-0305,Matière,haute,Utilisation d'un lot de matière première en quarantaine.,gemini-flash-latest,zero-shot
+DEV-2023-0096,Matière,haute,Défaut qualité sur un article de conditionnement.,gemini-flash-latest,zero-shot
+DEV-2024-0137,Milieu,haute,Écart environnemental de pression différentielle entre salles.,gemini-flash-latest,zero-shot
+DEV-2024-0291,Matière,haute,Contamination particulaire d'une matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0318,Main-d'œuvre,haute,Non-respect du port des EPI par le personnel.,gemini-flash-latest,zero-shot
+DEV-2024-0089,Milieu,haute,Contamination particulaire de l'environnement en salle propre.,gemini-flash-latest,zero-shot
+DEV-2025-0219,Machine,haute,Défaillance d'un capteur sur la ligne d'encartonnage.,gemini-flash-latest,zero-shot
+DEV-2023-0192,Main-d'œuvre,haute,Mauvaise manipulation opérationnelle liée à l'intérimaire.,gemini-flash-latest,zero-shot
+DEV-2024-0036,Matière,haute,Certificat d'analyse fournisseur manquant ou non conforme.,gemini-flash-latest,zero-shot
+DEV-2025-0137,Matière,haute,Excipient contaminé fourni par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2024-0065,Matière,haute,Non-conformité microbiologique de la matière première parfum.,gemini-flash-latest,zero-shot
+DEV-2025-0157,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2024-0211,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2024-0256,Méthode,haute,Temps de procédé non respecté hors procédure,gemini-flash-latest,zero-shot
+DEV-2024-0073,Matière,haute,Particules étrangères dans une matière première,gemini-flash-latest,zero-shot
+DEV-2025-0024,Main-d'œuvre,haute,Erreur de saisie manuelle de l'opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0255,Main-d'œuvre,haute,Opérateur non habilité au poste,gemini-flash-latest,zero-shot
+DEV-2024-0064,Méthode,haute,Durée de fabrication non conforme à la procédure,gemini-flash-latest,zero-shot
+DEV-2023-0041,Main-d'œuvre,haute,Erreur d'étiquetage manuel par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0063,Matière,haute,Certificat d'analyse matière première manquant,gemini-flash-latest,zero-shot
+DEV-2025-0253,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2024-0244,Main-d'œuvre,haute,Non-respect du port des équipements par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0181,Main-d'œuvre,haute,Formation de l'opérateur non à jour,gemini-flash-latest,zero-shot
+DEV-2024-0394,Machine,haute,Capteur de machine en panne,gemini-flash-latest,zero-shot
+DEV-2025-0104,Mesure,haute,Instrument de mesure non qualifié,gemini-flash-latest,zero-shot
+DEV-2024-0021,Matière,haute,Matière première non conforme organoleptiquement,gemini-flash-latest,zero-shot
+DEV-2025-0328,Matière,haute,Certificat d'analyse matière première manquant,gemini-flash-latest,zero-shot
+DEV-2023-0068,Matière,haute,Certificat d'analyse matière première non conforme,gemini-flash-latest,zero-shot
+DEV-2024-0147,Main-d'œuvre,haute,Erreur humaine de saisie de l'opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0320,Main-d'œuvre,haute,Mauvaise manipulation opératoire par un intérimaire,gemini-flash-latest,zero-shot
+DEV-2024-0235,Main-d'œuvre,haute,Non-respect du port des équipements par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0012,Matière,haute,Anomalie d'odeur sur matière première,gemini-flash-latest,zero-shot
+DEV-2023-0106,Matière,haute,Utilisation d'un lot de matière en quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0132,Méthode,haute,Défaut d'enregistrement dans le dossier de lot,gemini-flash-latest,zero-shot
+DEV-2024-0363,Mesure,haute,Résultat hors spécification au contrôle qualité,gemini-flash-latest,zero-shot
+DEV-2024-0206,Méthode,haute,Instruction et mode opératoire obsolètes appliqués,gemini-flash-latest,zero-shot
+DEV-2024-0380,Milieu,haute,Infiltration d'eau dans les locaux de production.,gemini-flash-latest,zero-shot
+DEV-2024-0152,Matière,haute,Excipient contaminé livré par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2024-0390,Matière,haute,Matière première non conforme aux spécifications à réception.,gemini-flash-latest,zero-shot
+DEV-2025-0181,Mesure,haute,Résultat de contrôle qualité hors spécification.,gemini-flash-latest,zero-shot
+DEV-2025-0018,Matière,haute,Certificat d'analyse matière première absent ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2024-0338,Milieu,haute,Présence de nuisibles dans l'environnement de stockage.,gemini-flash-latest,zero-shot
+DEV-2023-0144,Méthode,haute,Non-respect de l'ordre des étapes du procédé.,gemini-flash-latest,zero-shot
+DEV-2023-0056,Matière,haute,Matière première glycérine contaminée par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2024-0174,Matière,haute,Certificat d'analyse fournisseur manquant ou non conforme.,gemini-flash-latest,zero-shot
+DEV-2024-0332,Milieu,haute,Défaillance du système de climatisation des locaux.,gemini-flash-latest,zero-shot
+DEV-2025-0028,Méthode,haute,Dépassement du temps de procédé prescrit.,gemini-flash-latest,zero-shot
+DEV-2024-0135,Matière,haute,Anomalie organoleptique détectée sur une matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0045,Main-d'œuvre,haute,Erreur humaine de manipulation par un intérimaire.,gemini-flash-latest,zero-shot
+DEV-2025-0007,Matière,haute,Excipient eau contaminé signalé par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2023-0046,Matière,haute,Défaut qualité sur un article de conditionnement.,gemini-flash-latest,zero-shot
+DEV-2024-0351,Méthode,haute,Instruction de fabrication non respectée lors du process.,gemini-flash-latest,zero-shot
+DEV-2023-0157,Matière,haute,Certificat d'analyse du fournisseur absent ou non conforme.,gemini-flash-latest,zero-shot
+DEV-2023-0300,Machine,haute,Arrêt inattendu de l'équipement de production.,gemini-flash-latest,zero-shot
+DEV-2023-0351,Matière,haute,Contamination particulaire de la matière première reçue.,gemini-flash-latest,zero-shot
+DEV-2025-0087,Méthode,haute,Utilisation d'une procédure de fabrication obsolète.,gemini-flash-latest,zero-shot
+DEV-2025-0068,Mesure,haute,Résultat analytique hors spécification au contrôle qualité.,gemini-flash-latest,zero-shot
+DEV-2025-0286,Matière,haute,Utilisation d'un lot de matière en quarantaine.,gemini-flash-latest,zero-shot
+DEV-2025-0189,Méthode,haute,Non-respect de l'instruction de fabrication.,gemini-flash-latest,zero-shot
+DEV-2023-0067,Main-d'œuvre,haute,Oubli de contrôle imputable à l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2024-0060,Main-d'œuvre,haute,Erreur opérationnelle de manipulation par un intérimaire.,gemini-flash-latest,zero-shot
+DEV-2024-0015,Méthode,haute,Temps de procédé raccourci et procédure non suivie.,gemini-flash-latest,zero-shot
+DEV-2025-0182,Machine,haute,Panne d'un équipement de production (boucheuse).,gemini-flash-latest,zero-shot
+DEV-2024-0184,Matière,haute,Certificat d'analyse matière première absent ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2025-0211,Mesure,haute,Instrument de mesure non qualifié.,gemini-flash-latest,zero-shot
+DEV-2024-0350,Matière,haute,Article de conditionnement primaire défectueux.,gemini-flash-latest,zero-shot
+DEV-2024-0180,Matière,haute,Matière première non conforme avec odeur anormale.,gemini-flash-latest,zero-shot
+DEV-2025-0048,Mesure,haute,Instrument de mesure analytique non qualifié.,gemini-flash-latest,zero-shot
+DEV-2023-0128,Machine,haute,Fuite sur un équipement de production.,gemini-flash-latest,zero-shot
+DEV-2025-0124,Matière,haute,Excipient contaminé fourni par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2023-0340,Machine,haute,Usure mécanique d'un composant de la boucheuse.,gemini-flash-latest,zero-shot
+DEV-2023-0112,Méthode,haute,Dossier de lot incomplet avec signature manquante.,gemini-flash-latest,zero-shot
+DEV-2025-0317,Milieu,haute,Défaillance de la climatisation en zone de production.,gemini-flash-latest,zero-shot
+DEV-2024-0102,Méthode,haute,Utilisation d'un mode opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2025-0199,Matière,haute,Utilisation d'un lot en statut quarantaine.,gemini-flash-latest,zero-shot
+DEV-2023-0118,Méthode,haute,"Dossier de lot incomplet, paramètre non enregistré.",gemini-flash-latest,zero-shot
+DEV-2025-0383,Matière,haute,Article de conditionnement défectueux (étiquette).,gemini-flash-latest,zero-shot
+DEV-2024-0201,Matière,haute,Excipient contaminé livré par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2024-0398,Main-d'œuvre,haute,Erreur humaine de saisie par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0231,Main-d'œuvre,haute,Mauvaise manipulation opératoire par un intérimaire.,gemini-flash-latest,zero-shot
+DEV-2023-0058,Matière,haute,Matière première présentant une anomalie organoleptique.,gemini-flash-latest,zero-shot
+DEV-2025-0160,Machine,haute,Arrêt non planifié suite à une alarme équipement.,gemini-flash-latest,zero-shot
+DEV-2024-0413,Méthode,haute,Procédure de nettoyage inter-campagne non appliquée.,gemini-flash-latest,zero-shot
+DEV-2023-0208,Méthode,haute,Non-respect de l'ordre des étapes d'introduction.,gemini-flash-latest,zero-shot
+DEV-2023-0154,Matière,haute,Matière première non conforme à la réception.,gemini-flash-latest,zero-shot
+DEV-2024-0123,Méthode,haute,Procédure de nettoyage non respectée entre campagnes.,gemini-flash-latest,zero-shot
+DEV-2024-0411,Machine,haute,Panne d'une pompe de transfert.,gemini-flash-latest,zero-shot
+DEV-2024-0382,Mesure,haute,Balance de pesée hors étalonnage.,gemini-flash-latest,zero-shot
+DEV-2023-0027,Matière,haute,Matière première non conforme au cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2023-0156,Milieu,haute,Température de la salle hors limites.,gemini-flash-latest,zero-shot
+DEV-2023-0119,Machine,haute,Fuite sur un équipement de production.,gemini-flash-latest,zero-shot
+DEV-2025-0355,Machine,haute,Défaillance et alarme sur cuve de fabrication.,gemini-flash-latest,zero-shot
+DEV-2025-0347,Main-d'œuvre,haute,Erreur humaine de manipulation par un opérateur.,gemini-flash-latest,zero-shot
+DEV-2025-0093,Méthode,haute,Dossier de lot incomplet sans enregistrement de paramètre.,gemini-flash-latest,zero-shot
+DEV-2025-0073,Milieu,haute,Comptage particulaire environnemental hors limites.,gemini-flash-latest,zero-shot
+DEV-2024-0254,Matière,haute,Matière première non conforme à réception.,gemini-flash-latest,zero-shot
+DEV-2024-0213,Machine,haute,Capteur d'une machine en panne.,gemini-flash-latest,zero-shot
+DEV-2025-0338,Méthode,haute,Utilisation d'un mode opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2025-0310,Machine,haute,Maintenance préventive d'équipement non réalisée.,gemini-flash-latest,zero-shot
+DEV-2023-0342,Mesure,haute,Écart entre résultats de mesures analytiques.,gemini-flash-latest,zero-shot
+DEV-2024-0055,Machine,haute,Maintenance préventive machine non réalisée à échéance.,gemini-flash-latest,zero-shot
+DEV-2025-0006,Milieu,haute,Comptage particulaire de la salle hors limites.,gemini-flash-latest,zero-shot
+DEV-2024-0366,Milieu,haute,Panne du système de climatisation de zone.,gemini-flash-latest,zero-shot
+DEV-2023-0304,Méthode,haute,Non-respect de l'ordre des étapes opératoires.,gemini-flash-latest,zero-shot
+DEV-2023-0318,Machine,haute,Panne de la remplisseuse en production.,gemini-flash-latest,zero-shot
+DEV-2024-0090,Mesure,haute,Erreur de calcul dans le rapport analytique.,gemini-flash-latest,zero-shot
+DEV-2024-0261,Matière,haute,Matière première non conforme aux spécifications d'aspect.,gemini-flash-latest,zero-shot
+DEV-2024-0233,Matière,haute,Matière première non conforme en teneur active.,gemini-flash-latest,zero-shot
+DEV-2024-0155,Milieu,haute,Comptage particulaire en salle propre non conforme.,gemini-flash-latest,zero-shot
+DEV-2025-0021,Matière,haute,Excipient fourni contaminé par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2025-0192,Matière,haute,Particules étrangères dans un contenant de matière première.,gemini-flash-latest,zero-shot
+DEV-2025-0072,Main-d'œuvre,haute,Oubli d'enregistrement d'un paramètre par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0052,Machine,haute,Maintenance préventive d'un équipement non réalisée,gemini-flash-latest,zero-shot
+DEV-2025-0015,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2025-0143,Matière,haute,Certificat d'analyse matière première manquant ou incomplet,gemini-flash-latest,zero-shot
+DEV-2025-0378,Main-d'œuvre,haute,Erreur humaine lors de l'étiquetage manuel,gemini-flash-latest,zero-shot
+DEV-2025-0011,Machine,haute,Maintenance préventive de la machine non réalisée,gemini-flash-latest,zero-shot
+DEV-2023-0336,Matière,haute,Matière première reçue non conforme aux spécifications,gemini-flash-latest,zero-shot
+DEV-2023-0139,Main-d'œuvre,haute,Formation de l'opérateur non à jour,gemini-flash-latest,zero-shot
+DEV-2023-0073,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2024-0247,Milieu,haute,Écart de pression différentielle entre zones de production,gemini-flash-latest,zero-shot
+DEV-2025-0140,Main-d'œuvre,haute,Opérateur non habilité affecté au poste,gemini-flash-latest,zero-shot
+DEV-2025-0217,Matière,haute,Matière première contaminée fournie par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2024-0373,Matière,haute,Anomalie organoleptique sur matière première eau purifiée,gemini-flash-latest,zero-shot
+DEV-2025-0230,Méthode,haute,Procédure de nettoyage non respectée entre campagnes,gemini-flash-latest,zero-shot
+DEV-2023-0341,Machine,haute,Capteur de l'équipement de production en panne,gemini-flash-latest,zero-shot
+DEV-2024-0293,Matière,haute,Excipient contaminé livré par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2023-0122,Matière,haute,Matière première non conforme au cahier des charges,gemini-flash-latest,zero-shot
+DEV-2024-0272,Méthode,haute,Non-respect de la procédure et contrôle omis,gemini-flash-latest,zero-shot
+DEV-2023-0219,Matière,haute,Certificat d'analyse du fournisseur manquant ou incomplet,gemini-flash-latest,zero-shot
+DEV-2024-0331,Matière,haute,Présence de corps étrangers dans une matière première,gemini-flash-latest,zero-shot
+DEV-2024-0066,Matière,haute,Certificat d'analyse fournisseur absent ou non conforme,gemini-flash-latest,zero-shot
+DEV-2025-0150,Milieu,moyenne,Panne de climatisation impactant l'environnement de production,gemini-flash-latest,zero-shot
+DEV-2025-0038,Machine,haute,Défaut de maintenance préventive sur équipement de transfert,gemini-flash-latest,zero-shot
+DEV-2024-0005,Méthode,haute,Non-respect du temps de procédé défini en procédure,gemini-flash-latest,zero-shot
+DEV-2023-0243,Milieu,haute,Contamination particulaire de l'air en salle propre,gemini-flash-latest,zero-shot
+DEV-2024-0326,Méthode,haute,Non-respect de la procédure de contrôle de température,gemini-flash-latest,zero-shot
+DEV-2025-0033,Matière,haute,Matière première non conforme aux spécifications à réception,gemini-flash-latest,zero-shot
+DEV-2025-0264,Milieu,haute,Température ambiante de la salle hors limites,gemini-flash-latest,zero-shot
+DEV-2023-0272,Mesure,haute,Erreur de calcul dans le rapport d'analyse analytique,gemini-flash-latest,zero-shot
+DEV-2023-0228,Matière,haute,Article de conditionnement primaire défectueux,gemini-flash-latest,zero-shot
+DEV-2024-0348,Machine,haute,Dérive de vitesse de l'équipement de fabrication,gemini-flash-latest,zero-shot
+DEV-2025-0298,Machine,haute,Fuite mécanique sur un équipement de production,gemini-flash-latest,zero-shot
+DEV-2024-0026,Main-d'œuvre,haute,Non-respect du port des EPI par le personnel,gemini-flash-latest,zero-shot
+DEV-2025-0022,Mesure,haute,Méthode d'échantillonnage non représentative pour contrôle qualité,gemini-flash-latest,zero-shot
+DEV-2023-0235,Méthode,haute,Utilisation d'un mode opératoire documentaire obsolète,gemini-flash-latest,zero-shot
+DEV-2025-0081,Méthode,haute,Dossier de lot incomplet avec signature manquante,gemini-flash-latest,zero-shot
+DEV-2024-0248,Machine,haute,Fuite mécanique sur la machine d'étiquetage,gemini-flash-latest,zero-shot
+DEV-2025-0225,Méthode,haute,Inversion de l'ordre des étapes du procédé,gemini-flash-latest,zero-shot
+DEV-2025-0295,Méthode,haute,Utilisation d'une instruction de travail obsolète,gemini-flash-latest,zero-shot
+DEV-2024-0039,Matière,haute,Utilisation d'une matière première en quarantaine,gemini-flash-latest,zero-shot
+DEV-2024-0238,Méthode,haute,Dépassement du temps de procédé prévu au dossier,gemini-flash-latest,zero-shot
+DEV-2024-0197,Machine,haute,Défaut d'étanchéité mécanique sur un équipement,gemini-flash-latest,zero-shot
+DEV-2025-0314,Matière,haute,Non-conformité de la teneur en eau de la matière,gemini-flash-latest,zero-shot
+DEV-2023-0310,Mesure,haute,Échantillonnage non représentatif pour le contrôle d'odeur,gemini-flash-latest,zero-shot
+DEV-2025-0014,Mesure,haute,Instrument de mesure de température défectueux,gemini-flash-latest,zero-shot
+DEV-2023-0325,Machine,haute,Défaillance et alarme sur la ligne d'encartonnage,gemini-flash-latest,zero-shot
+DEV-2024-0334,Milieu,haute,Panne du système de climatisation de la salle,gemini-flash-latest,zero-shot
+DEV-2025-0207,Matière,haute,Utilisation d'un lot d'émulsifiant en quarantaine,gemini-flash-latest,zero-shot
+DEV-2024-0304,Main-d'œuvre,haute,Erreur humaine opératoire commise par un intérimaire,gemini-flash-latest,zero-shot
+DEV-2024-0237,Matière,haute,Anomalie organoleptique sur une matière première,gemini-flash-latest,zero-shot
+DEV-2024-0315,Matière,haute,Matière première non conforme au cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2025-0237,Méthode,haute,Procédure de nettoyage non appliquée.,gemini-flash-latest,zero-shot
+DEV-2025-0279,Matière,haute,Anomalie organoleptique sur une matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0323,Milieu,haute,Température de la salle hors spécifications.,gemini-flash-latest,zero-shot
+DEV-2023-0080,Méthode,haute,Signature manquante dans le dossier de lot.,gemini-flash-latest,zero-shot
+DEV-2025-0281,Machine,haute,Panne de capteur sur la cuve.,gemini-flash-latest,zero-shot
+DEV-2024-0176,Matière,haute,Particules étrangères détectées dans la matière première.,gemini-flash-latest,zero-shot
+DEV-2025-0280,Matière,haute,Utilisation d'une matière première sous statut quarantaine.,gemini-flash-latest,zero-shot
+DEV-2023-0057,Machine,haute,Panne de capteur sur la pompe.,gemini-flash-latest,zero-shot
+DEV-2025-0229,Matière,haute,Matière première non conforme à réception.,gemini-flash-latest,zero-shot
+DEV-2023-0002,Machine,haute,Panne de l'équipement de fabrication.,gemini-flash-latest,zero-shot
+DEV-2025-0051,Méthode,haute,Dossier de lot incomplet avec signature manquante.,gemini-flash-latest,zero-shot
+DEV-2023-0009,Matière,haute,Contamination particulaire de la matière première.,gemini-flash-latest,zero-shot
+DEV-2023-0324,Main-d'œuvre,haute,Défaut de double vérification par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0212,Matière,haute,Matière première non conforme au pH spécifié.,gemini-flash-latest,zero-shot
+DEV-2024-0342,Matière,haute,Article de conditionnement défectueux à réception.,gemini-flash-latest,zero-shot
+DEV-2023-0330,Matière,haute,Présence de corps étrangers dans la matière.,gemini-flash-latest,zero-shot
+DEV-2024-0310,Méthode,haute,Non-respect de la vitesse d'agitation opératoire.,gemini-flash-latest,zero-shot
+DEV-2025-0334,Main-d'œuvre,haute,Habilitation ou formation de l'opérateur non actualisée.,gemini-flash-latest,zero-shot
+DEV-2025-0363,Milieu,haute,Infiltration d'eau dans la zone de production.,gemini-flash-latest,zero-shot
+DEV-2024-0353,Méthode,haute,Dépassement du temps de procédé prescrit.,gemini-flash-latest,zero-shot
+DEV-2024-0125,Matière,haute,Teneur non conforme de la matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0043,Méthode,haute,Paramètre de procédé non consigné au dossier.,gemini-flash-latest,zero-shot
+DEV-2024-0084,Méthode,haute,Temps de filtration supérieur au procédé standard.,gemini-flash-latest,zero-shot
+DEV-2024-0319,Machine,haute,Usure mécanique d'une pièce machine.,gemini-flash-latest,zero-shot
+DEV-2024-0285,Matière,haute,Matière première non conforme au cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2023-0308,Méthode,haute,Procédure de nettoyage non appliquée.,gemini-flash-latest,zero-shot
+DEV-2024-0387,Main-d'œuvre,haute,Formation de l'opérateur non à jour.,gemini-flash-latest,zero-shot
+DEV-2025-0201,Matière,haute,Contamination particulaire de la matière première eau purifiée.,gemini-flash-latest,zero-shot
+DEV-2024-0325,Machine,haute,Capteur d'équipement de conditionnement hors service.,gemini-flash-latest,zero-shot
+DEV-2024-0330,Milieu,haute,Écart de pression différentielle entre zones environnementales.,gemini-flash-latest,zero-shot
+DEV-2024-0164,Matière,haute,Excipient contaminé fourni par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2023-0082,Méthode,haute,Utilisation d'un mode opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2024-0200,Matière,haute,Présence de corps étrangers dans la matière première.,gemini-flash-latest,zero-shot
+DEV-2023-0327,Matière,haute,Certificat d'analyse matière première absent ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2025-0309,Machine,haute,Dérive d'un paramètre mécanique de la boucheuse.,gemini-flash-latest,zero-shot
+DEV-2024-0401,Mesure,haute,Méthode analytique de dosage non validée.,gemini-flash-latest,zero-shot
+DEV-2023-0010,Main-d'œuvre,haute,Oubli de double vérification par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2024-0415,Main-d'œuvre,haute,Vérification non réalisée par le second opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0026,Méthode,moyenne,Paramètre de procédé non enregistré au dossier.,gemini-flash-latest,zero-shot
+DEV-2024-0241,Méthode,haute,Dossier de lot incomplet avec signature manquante.,gemini-flash-latest,zero-shot
+DEV-2025-0041,Matière,haute,Corps étrangers dans le fût de matière première.,gemini-flash-latest,zero-shot
+DEV-2023-0357,Méthode,haute,"Dossier de lot incomplet, signature manquante.",gemini-flash-latest,zero-shot
+DEV-2025-0144,Machine,haute,Panne de la machine d'étiquetage en production.,gemini-flash-latest,zero-shot
+DEV-2023-0062,Matière,haute,Contamination particulaire d'une matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0110,Machine,haute,Défaut d'étanchéité mécanique de la boucheuse.,gemini-flash-latest,zero-shot
+DEV-2023-0257,Machine,haute,Arrêt non planifié d'équipement sur alarme.,gemini-flash-latest,zero-shot
+DEV-2025-0074,Matière,haute,Excipient contaminé livré par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2023-0242,Méthode,haute,Non-respect de l'ordre des étapes de fabrication.,gemini-flash-latest,zero-shot
+DEV-2024-0004,Main-d'œuvre,haute,Erreur humaine de manipulation par un intérimaire.,gemini-flash-latest,zero-shot
+DEV-2023-0124,Méthode,haute,Procédure de nettoyage non appliquée.,gemini-flash-latest,zero-shot
+DEV-2023-0032,Matière,haute,Certificat d'analyse fournisseur manquant ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2025-0019,Méthode,haute,Instruction de fabrication non respectée.,gemini-flash-latest,zero-shot
+DEV-2023-0113,Milieu,haute,Contamination issue de l'environnement de production.,gemini-flash-latest,zero-shot
+DEV-2025-0108,Machine,haute,Défaillance du capteur d'un équipement.,gemini-flash-latest,zero-shot
+DEV-2024-0337,Matière,haute,Matière première non conforme aux spécifications.,gemini-flash-latest,zero-shot
+DEV-2024-0275,Matière,haute,Certificat d'analyse fournisseur non conforme.,gemini-flash-latest,zero-shot
+DEV-2025-0067,Mesure,haute,Instrument de mesure de température défectueux.,gemini-flash-latest,zero-shot
+DEV-2025-0111,Main-d'œuvre,haute,Oubli de vérification par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2025-0202,Mesure,haute,Écart de résultats sur contrôle analytique.,gemini-flash-latest,zero-shot
+DEV-2025-0167,Méthode,haute,Donnée manquante dans le dossier de lot.,gemini-flash-latest,zero-shot
+DEV-2025-0059,Machine,haute,Défaut d'étanchéité sur équipement de production.,gemini-flash-latest,zero-shot
+DEV-2023-0241,Machine,haute,Panne mécanique d'un équipement de production.,gemini-flash-latest,zero-shot
+DEV-2023-0019,Méthode,haute,Utilisation d'un mode opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2024-0389,Mesure,haute,Erreur de calcul d'analyse au contrôle.,gemini-flash-latest,zero-shot
+DEV-2024-0227,Matière,haute,Non-conformité organoleptique de la matière première.,gemini-flash-latest,zero-shot
+DEV-2023-0044,Machine,haute,Dérive de fonctionnement d'un équipement.,gemini-flash-latest,zero-shot
+DEV-2025-0340,Machine,haute,Panne d'un capteur de machine.,gemini-flash-latest,zero-shot
+DEV-2025-0077,Main-d'œuvre,haute,Défaut de formation de l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2024-0231,Matière,haute,Anomalie sur la matière première conservateur.,gemini-flash-latest,zero-shot
+DEV-2024-0424,Matière,haute,Matière première non conforme au cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2025-0374,Machine,haute,Maintenance préventive d'équipement non réalisée.,gemini-flash-latest,zero-shot
+DEV-2025-0313,Méthode,haute,Dépassement du temps de procédé prescrit.,gemini-flash-latest,zero-shot
+DEV-2024-0140,Main-d'œuvre,haute,Habilitation ou formation opérateur non à jour.,gemini-flash-latest,zero-shot
+DEV-2024-0282,Machine,haute,Fuite ou défaut d'étanchéité d'une cuve.,gemini-flash-latest,zero-shot
+DEV-2025-0276,Matière,haute,Matière première conservateur hors spécifications du cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2024-0409,Machine,haute,Défaillance technique d'étanchéité sur équipement de production.,gemini-flash-latest,zero-shot
+DEV-2024-0214,Méthode,haute,Procédure de nettoyage non appliquée entre deux campagnes.,gemini-flash-latest,zero-shot
+DEV-2024-0324,Matière,haute,Certificat d'analyse fournisseur de matière première non conforme.,gemini-flash-latest,zero-shot
+DEV-2024-0072,Matière,haute,Matière première non conforme aux limites du cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2024-0185,Méthode,haute,Non-respect de l'ordre opératoire défini du procédé.,gemini-flash-latest,zero-shot
+DEV-2025-0178,Matière,haute,Anomalie organoleptique constatée sur une matière première.,gemini-flash-latest,zero-shot
+DEV-2023-0160,Matière,haute,Matière première hors limites de spécification physico-chimique.,gemini-flash-latest,zero-shot
+DEV-2024-0218,Matière,haute,Non-conformité organoleptique d'une matière première active.,gemini-flash-latest,zero-shot
+DEV-2023-0178,Main-d'œuvre,haute,Erreur humaine d'étiquetage manuel par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2025-0274,Main-d'œuvre,haute,Défaut d'habilitation de l'opérateur pour ce poste.,gemini-flash-latest,zero-shot
+DEV-2024-0080,Main-d'œuvre,haute,Erreur humaine de saisie manuelle de l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0029,Machine,haute,Arrêt sur alarme d'un équipement de fabrication.,gemini-flash-latest,zero-shot
+DEV-2023-0083,Matière,haute,Contamination particulaire d'une matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0286,Milieu,haute,Présence de nuisibles dans l'environnement de stockage.,gemini-flash-latest,zero-shot
+DEV-2024-0198,Méthode,haute,Étape de pesée réalisée hors procédure définie.,gemini-flash-latest,zero-shot
+DEV-2024-0049,Matière,haute,Défaut organoleptique détecté sur la matière première.,gemini-flash-latest,zero-shot
+DEV-2023-0035,Méthode,haute,Instruction de fabrication non respectée durant le procédé.,gemini-flash-latest,zero-shot
+DEV-2025-0133,Matière,haute,Certificat d'analyse matière première manquant ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2024-0340,Méthode,haute,Utilisation d'un mode opératoire obsolète de fabrication.,gemini-flash-latest,zero-shot
+DEV-2023-0021,Matière,haute,Défaut organoleptique constaté sur la matière première.,gemini-flash-latest,zero-shot
+DEV-2023-0309,Méthode,haute,Dépassement du temps de procédé prescrit au dossier.,gemini-flash-latest,zero-shot
+DEV-2025-0271,Méthode,haute,Ordre d'introduction des phases non respecté.,gemini-flash-latest,zero-shot
+DEV-2024-0058,Matière,haute,Matière première non conforme à spécification à réception.,gemini-flash-latest,zero-shot
+DEV-2023-0173,Main-d'œuvre,haute,Mauvaise manipulation humaine commise par un opérateur intérimaire.,gemini-flash-latest,zero-shot
+DEV-2024-0281,Matière,haute,Particules étrangères dans un fût de matière première,gemini-flash-latest,zero-shot
+DEV-2023-0018,Méthode,haute,Paramètre de procédé non enregistré dans le dossier,gemini-flash-latest,zero-shot
+DEV-2025-0261,Main-d'œuvre,haute,Formation de l'opérateur non à jour,gemini-flash-latest,zero-shot
+DEV-2023-0321,Matière,haute,Matière première non conforme aux spécifications microbiennes,gemini-flash-latest,zero-shot
+DEV-2024-0328,Méthode,haute,Non-respect de l'ordre opératoire d'introduction des phases,gemini-flash-latest,zero-shot
+DEV-2024-0028,Milieu,haute,Température de la salle hors spécifications,gemini-flash-latest,zero-shot
+DEV-2024-0234,Matière,haute,Écart de pH sur matière première reçue,gemini-flash-latest,zero-shot
+DEV-2025-0164,Milieu,haute,Infiltration d'eau dans la zone de production,gemini-flash-latest,zero-shot
+DEV-2023-0148,Machine,haute,Fuite mécanique sur équipement boucheuse,gemini-flash-latest,zero-shot
+DEV-2025-0345,Matière,haute,Contamination particulaire dans matière première,gemini-flash-latest,zero-shot
+DEV-2025-0311,Main-d'œuvre,haute,Oubli de contrôle imputable à l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0290,Matière,haute,Utilisation d'un lot de matière en quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0372,Main-d'œuvre,haute,Non-respect du port des EPI par le personnel,gemini-flash-latest,zero-shot
+DEV-2024-0356,Mesure,haute,Instrument de mesure non qualifié,gemini-flash-latest,zero-shot
+DEV-2024-0129,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2024-0057,Mesure,haute,Défaut d'échantillonnage pour le contrôle analytique,gemini-flash-latest,zero-shot
+DEV-2024-0391,Matière,haute,Particules étrangères dans un fût de matière première,gemini-flash-latest,zero-shot
+DEV-2023-0267,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0216,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0145,Matière,haute,Utilisation d'un lot de matière en quarantaine,gemini-flash-latest,zero-shot
+DEV-2025-0101,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2024-0399,Méthode,haute,Dossier de lot incomplet avec signature manquante,gemini-flash-latest,zero-shot
+DEV-2024-0088,Main-d'œuvre,haute,Habilitation ou formation opérateur non à jour,gemini-flash-latest,zero-shot
+DEV-2023-0012,Main-d'œuvre,haute,Erreur humaine de saisie de l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0118,Matière,haute,Particules étrangères dans un fût de matière première,gemini-flash-latest,zero-shot
+DEV-2025-0336,Méthode,haute,Dossier de lot incomplet avec signature manquante.,gemini-flash-latest,zero-shot
+DEV-2025-0246,Matière,haute,Utilisation d'une matière en statut quarantaine.,gemini-flash-latest,zero-shot
+DEV-2024-0192,Matière,haute,Article de conditionnement défectueux.,gemini-flash-latest,zero-shot
+DEV-2024-0240,Méthode,haute,Non-respect de l'ordre d'introduction des étapes.,gemini-flash-latest,zero-shot
+DEV-2023-0186,Matière,haute,Matière première hors spécifications du cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2024-0344,Main-d'œuvre,haute,Oubli de double vérification par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0299,Matière,haute,Anomalie organoleptique sur une matière première.,gemini-flash-latest,zero-shot
+DEV-2025-0389,Matière,haute,Article de conditionnement non conforme.,gemini-flash-latest,zero-shot
+DEV-2024-0121,Matière,haute,Aspect matière première hors cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2023-0071,Matière,haute,Excipient contaminé livré par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2025-0054,Mesure,haute,Instrument de mesure non qualifié.,gemini-flash-latest,zero-shot
+DEV-2023-0069,Machine,haute,Fuite sur un équipement de transfert.,gemini-flash-latest,zero-shot
+DEV-2023-0271,Méthode,haute,Dossier de lot incomplet.,gemini-flash-latest,zero-shot
+DEV-2024-0395,Matière,haute,Article de conditionnement primaire défectueux.,gemini-flash-latest,zero-shot
+DEV-2025-0235,Machine,haute,Usure mécanique d'un équipement de production.,gemini-flash-latest,zero-shot
+DEV-2023-0253,Méthode,haute,Utilisation d'un mode opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2025-0206,Matière,haute,Défaut d'odeur sur matière première.,gemini-flash-latest,zero-shot
+DEV-2025-0249,Machine,haute,Usure d'une pièce de la machine d'étiquetage.,gemini-flash-latest,zero-shot
+DEV-2024-0037,Machine,haute,Arrêt imprévu et alarme d'une machine.,gemini-flash-latest,zero-shot
+DEV-2025-0012,Machine,haute,Défaut d'étanchéité sur équipement d'encartonnage.,gemini-flash-latest,zero-shot
+DEV-2023-0270,Milieu,haute,Dérive d'humidité dans l'environnement de fabrication.,gemini-flash-latest,zero-shot
+DEV-2024-0030,Mesure,haute,Méthode analytique de contrôle non validée.,gemini-flash-latest,zero-shot
+DEV-2024-0087,Milieu,haute,Écart de pression différentielle environnementale.,gemini-flash-latest,zero-shot
+DEV-2023-0374,Machine,haute,Panne d'équipement suite à une alarme.,gemini-flash-latest,zero-shot
+DEV-2025-0023,Méthode,haute,Consigne de vitesse de procédure non respectée.,gemini-flash-latest,zero-shot
+DEV-2023-0234,Méthode,haute,Non-respect de l'ordre d'introduction des phases,gemini-flash-latest,zero-shot
+DEV-2025-0020,Machine,haute,Fuite constatée sur un équipement de production,gemini-flash-latest,zero-shot
+DEV-2025-0252,Matière,haute,Matière première non conforme aux spécifications,gemini-flash-latest,zero-shot
+DEV-2025-0308,Matière,haute,Article de conditionnement défectueux à réception,gemini-flash-latest,zero-shot
+DEV-2024-0156,Méthode,haute,Paramètre procédé non consigné dans le dossier,gemini-flash-latest,zero-shot
+DEV-2024-0249,Méthode,haute,Inversion de l'ordre d'introduction des phases,gemini-flash-latest,zero-shot
+DEV-2023-0131,Mesure,haute,Écart analytique lors de mesures de pH,gemini-flash-latest,zero-shot
+DEV-2024-0405,Main-d'œuvre,moyenne,Non-respect du port des EPI par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0209,Main-d'œuvre,haute,Erreur humaine de manipulation par un opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0047,Machine,haute,Dérive de vitesse d'une pompe de transfert,gemini-flash-latest,zero-shot
+DEV-2024-0379,Matière,haute,Utilisation d'une matière première en quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0376,Main-d'œuvre,haute,Erreur de manipulation réalisée par un intérimaire,gemini-flash-latest,zero-shot
+DEV-2025-0301,Matière,haute,Certificat d'analyse matière manquant ou incomplet,gemini-flash-latest,zero-shot
+DEV-2024-0122,Main-d'œuvre,haute,Oubli de vérification préalable par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0190,Méthode,haute,Paramètre procédé non tracé au dossier de lot,gemini-flash-latest,zero-shot
+DEV-2023-0092,Main-d'œuvre,haute,Défaut d'habilitation ou de formation de l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0009,Milieu,haute,Dépassement particulaire dans l'environnement de salle propre,gemini-flash-latest,zero-shot
+DEV-2024-0259,Main-d'œuvre,haute,Oubli de la double vérification par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0077,Machine,haute,Panne mécanique d'un équipement de production,gemini-flash-latest,zero-shot
+DEV-2024-0345,Matière,haute,Certificat d'analyse fournisseur absent ou non conforme,gemini-flash-latest,zero-shot
+DEV-2025-0318,Méthode,haute,Dépassement du temps de procédé opératoire prescrit,gemini-flash-latest,zero-shot
+DEV-2023-0326,Machine,haute,Arrêt non planifié lié à l'équipement,gemini-flash-latest,zero-shot
+DEV-2024-0006,Matière,haute,Anomalie organoleptique sur une matière première,gemini-flash-latest,zero-shot
+DEV-2024-0277,Machine,haute,Défaillance d'un capteur sur la machine,gemini-flash-latest,zero-shot
+DEV-2024-0035,Matière,haute,Matière première non conforme au cahier des charges,gemini-flash-latest,zero-shot
+DEV-2023-0360,Matière,haute,Matière première non conforme aux spécifications à réception.,gemini-flash-latest,zero-shot
+DEV-2024-0113,Méthode,haute,Procédure non suivie avec temps de procédé raccourci.,gemini-flash-latest,zero-shot
+DEV-2024-0085,Méthode,haute,Utilisation d'un mode opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2024-0383,Machine,haute,Panne d'un équipement de fabrication en cours d'opération.,gemini-flash-latest,zero-shot
+DEV-2025-0316,Machine,haute,Dérive technique d'un équipement de fabrication.,gemini-flash-latest,zero-shot
+DEV-2024-0225,Main-d'œuvre,haute,Oubli de vérification humaine par le second opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0227,Matière,haute,Certificat d'analyse matière première absent ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2024-0081,Matière,haute,Excipient contaminé livré par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2024-0001,Matière,haute,Excipient contaminé fourni pour la production.,gemini-flash-latest,zero-shot
+DEV-2023-0261,Méthode,haute,Procédure de nettoyage non appliquée entre deux campagnes.,gemini-flash-latest,zero-shot
+DEV-2023-0361,Matière,haute,Lot de matière sous statut quarantaine utilisé à tort.,gemini-flash-latest,zero-shot
+DEV-2023-0238,Milieu,haute,Infiltration d'eau affectant l'environnement de production.,gemini-flash-latest,zero-shot
+DEV-2025-0040,Méthode,haute,Dossier de lot incomplet avec paramètre non consigné.,gemini-flash-latest,zero-shot
+DEV-2025-0047,Matière,haute,Certificat d'analyse du fournisseur de matière première manquant.,gemini-flash-latest,zero-shot
+DEV-2025-0089,Matière,haute,Article de conditionnement non conforme et défectueux.,gemini-flash-latest,zero-shot
+DEV-2024-0420,Mesure,haute,Erreur de calcul dans le rapport analytique.,gemini-flash-latest,zero-shot
+DEV-2025-0062,Milieu,haute,Panne du système de climatisation des locaux.,gemini-flash-latest,zero-shot
+DEV-2025-0055,Machine,haute,Fuite constatée sur une machine de production.,gemini-flash-latest,zero-shot
+DEV-2025-0300,Matière,haute,Défaut qualitatif constaté sur une matière première.,gemini-flash-latest,zero-shot
+DEV-2025-0122,Main-d'œuvre,haute,Non-respect du port des équipements de protection individuelle.,gemini-flash-latest,zero-shot
+DEV-2024-0031,Méthode,haute,Dépassement du temps de procédé prescrit.,gemini-flash-latest,zero-shot
+DEV-2025-0373,Main-d'œuvre,haute,Port non conforme des protections par les opérateurs.,gemini-flash-latest,zero-shot
+DEV-2023-0226,Méthode,haute,Instruction de fabrication non respectée lors du procédé.,gemini-flash-latest,zero-shot
+DEV-2024-0048,Méthode,haute,Utilisation d'un document opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2024-0271,Matière,haute,Contamination d'un fût de matière première active.,gemini-flash-latest,zero-shot
+DEV-2025-0283,Mesure,haute,Méthode analytique de dosage non validée,gemini-flash-latest,zero-shot
+DEV-2025-0294,Matière,haute,Contamination particulaire d'une matière première,gemini-flash-latest,zero-shot
+DEV-2025-0329,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2023-0229,Mesure,haute,Résultat hors spécification au contrôle qualité,gemini-flash-latest,zero-shot
+DEV-2025-0223,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0390,Méthode,haute,Non-respect du temps de procédé prévu,gemini-flash-latest,zero-shot
+DEV-2023-0140,Machine,haute,Dérive de vitesse d'un équipement de production,gemini-flash-latest,zero-shot
+DEV-2023-0389,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0159,Milieu,haute,Humidité excessive en zone de fabrication,gemini-flash-latest,zero-shot
+DEV-2024-0359,Machine,haute,Usure mécanique d'une pièce machine,gemini-flash-latest,zero-shot
+DEV-2023-0008,Méthode,haute,Inversion de l'ordre des étapes du procédé,gemini-flash-latest,zero-shot
+DEV-2023-0185,Main-d'œuvre,haute,Non-respect du port des EPI par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0358,Méthode,haute,"Dossier de lot incomplet, paramètre non enregistré",gemini-flash-latest,zero-shot
+DEV-2024-0186,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2023-0045,Main-d'œuvre,haute,Formation de l'opérateur non à jour,gemini-flash-latest,zero-shot
+DEV-2023-0111,Matière,haute,Matière première non conforme aux spécifications,gemini-flash-latest,zero-shot
+DEV-2023-0094,Matière,haute,Odeur anormale de l'eau purifiée,gemini-flash-latest,zero-shot
+DEV-2023-0247,Matière,haute,Certificat d'analyse fournisseur absent ou incomplet,gemini-flash-latest,zero-shot
+DEV-2024-0267,Milieu,haute,Contamination microbiologique de l'environnement de production,gemini-flash-latest,zero-shot
+DEV-2025-0177,Matière,haute,Anomalie organoleptique sur matière première,gemini-flash-latest,zero-shot
+DEV-2024-0191,Milieu,haute,Présence de nuisibles en zone de stockage,gemini-flash-latest,zero-shot
+DEV-2024-0108,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2023-0259,Machine,haute,Maintenance préventive non réalisée à échéance,gemini-flash-latest,zero-shot
+DEV-2025-0130,Machine,haute,Maintenance préventive d'équipement non réalisée,gemini-flash-latest,zero-shot
+DEV-2024-0347,Mesure,haute,Instrument de mesure non qualifié,gemini-flash-latest,zero-shot
+DEV-2025-0153,Mesure,haute,Échantillonnage non représentatif pour le contrôle qualité.,gemini-flash-latest,zero-shot
+DEV-2025-0277,Matière,haute,Certificat d'analyse matière première fournisseur absent ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2023-0302,Méthode,haute,Procédure et consigne d'agitation non respectées.,gemini-flash-latest,zero-shot
+DEV-2024-0268,Méthode,haute,Instruction de fabrication non suivie lors du refroidissement.,gemini-flash-latest,zero-shot
+DEV-2024-0397,Méthode,haute,Étape réalisée hors procédure opératoire prescrite.,gemini-flash-latest,zero-shot
+DEV-2023-0237,Matière,haute,Matière première non conforme au cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2025-0176,Mesure,haute,Erreur de calcul dans le rapport analytique.,gemini-flash-latest,zero-shot
+DEV-2024-0029,Matière,haute,Article de conditionnement étui défectueux.,gemini-flash-latest,zero-shot
+DEV-2025-0226,Main-d'œuvre,haute,Mauvaise manipulation humaine par un opérateur intérimaire.,gemini-flash-latest,zero-shot
+DEV-2024-0034,Matière,haute,Excipient eau purifiée contaminé fourni.,gemini-flash-latest,zero-shot
+DEV-2025-0296,Matière,haute,Particules étrangères présentes dans la matière première.,gemini-flash-latest,zero-shot
+DEV-2025-0364,Main-d'œuvre,haute,Erreur de manipulation humaine par un intérimaire.,gemini-flash-latest,zero-shot
+DEV-2023-0123,Matière,haute,Matière première non conforme aux spécifications réceptionnées.,gemini-flash-latest,zero-shot
+DEV-2023-0059,Matière,haute,Certificat d'analyse matière fournisseur manquant ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2023-0039,Méthode,haute,Instruction de fabrication non suivie lors de l'émulsion.,gemini-flash-latest,zero-shot
+DEV-2025-0027,Méthode,haute,Procédure de nettoyage non appliquée entre campagnes.,gemini-flash-latest,zero-shot
+DEV-2023-0164,Méthode,haute,Non-respect de la procédure et durée opératoire.,gemini-flash-latest,zero-shot
+DEV-2024-0262,Matière,haute,Article de conditionnement défectueux à réception.,gemini-flash-latest,zero-shot
+DEV-2025-0380,Matière,haute,Article de conditionnement défectueux.,gemini-flash-latest,zero-shot
+DEV-2023-0316,Matière,haute,Matière première non conforme au cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2023-0343,Matière,haute,Matière première non conforme aux critères d'acceptation.,gemini-flash-latest,zero-shot
+DEV-2025-0262,Méthode,haute,Utilisation d'un mode opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2025-0304,Matière,haute,Matière première non conforme au pH à réception.,gemini-flash-latest,zero-shot
+DEV-2024-0161,Méthode,haute,Dossier de lot incomplet avec signature manquante.,gemini-flash-latest,zero-shot
+DEV-2025-0148,Main-d'œuvre,haute,Formation requise de l'opérateur non à jour.,gemini-flash-latest,zero-shot
+DEV-2023-0189,Matière,haute,Excipient contaminé signalé par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2024-0199,Matière,haute,Lot de matière en quarantaine utilisé,gemini-flash-latest,zero-shot
+DEV-2024-0053,Matière,haute,Matière première non conforme au cahier des charges,gemini-flash-latest,zero-shot
+DEV-2025-0323,Matière,haute,Matière première eau purifiée non conforme,gemini-flash-latest,zero-shot
+DEV-2025-0110,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2023-0055,Main-d'œuvre,haute,Erreur humaine d'étiquetage manuel,gemini-flash-latest,zero-shot
+DEV-2024-0320,Méthode,haute,Dossier de lot non renseigné,gemini-flash-latest,zero-shot
+DEV-2024-0100,Méthode,haute,Temps de procédé prévu non respecté,gemini-flash-latest,zero-shot
+DEV-2023-0203,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0056,Milieu,haute,Dépassement particulaire dans l'environnement de production,gemini-flash-latest,zero-shot
+DEV-2025-0371,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2025-0103,Matière,haute,Matière première hors spécifications,gemini-flash-latest,zero-shot
+DEV-2023-0319,Méthode,haute,Instruction de fabrication non suivie,gemini-flash-latest,zero-shot
+DEV-2025-0269,Matière,haute,Matière première non conforme au cahier des charges,gemini-flash-latest,zero-shot
+DEV-2024-0022,Machine,haute,Arrêt imprévu d'un équipement de production,gemini-flash-latest,zero-shot
+DEV-2024-0131,Matière,haute,Matière première huile minérale non conforme,gemini-flash-latest,zero-shot
+DEV-2025-0115,Milieu,haute,Présence de nuisibles en zone de stockage,gemini-flash-latest,zero-shot
+DEV-2025-0343,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2025-0170,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2023-0166,Méthode,haute,Temps d'émulsion non conforme au dossier,gemini-flash-latest,zero-shot
+DEV-2024-0255,Milieu,haute,Infiltration d'eau dans l'atelier,gemini-flash-latest,zero-shot
+DEV-2025-0107,Matière,haute,Matière première hors spécification à réception,gemini-flash-latest,zero-shot
+DEV-2023-0293,Milieu,haute,Infiltration d'eau dans les locaux,gemini-flash-latest,zero-shot
+DEV-2023-0011,Mesure,haute,Erreur de calcul d'analyse,gemini-flash-latest,zero-shot
+DEV-2023-0277,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2024-0219,Mesure,haute,Résultat hors spécification au contrôle qualité,gemini-flash-latest,zero-shot
+DEV-2024-0182,Matière,haute,Matière première présentant une odeur anormale,gemini-flash-latest,zero-shot
+DEV-2025-0112,Machine,haute,Fuite sur un équipement de production,gemini-flash-latest,zero-shot
+DEV-2023-0129,Méthode,haute,Instruction de fabrication non suivie,gemini-flash-latest,zero-shot
+DEV-2025-0250,Milieu,haute,Comptage particulaire hors limites en salle propre,gemini-flash-latest,zero-shot
+DEV-2024-0223,Mesure,haute,Échantillonnage de contrôle non représentatif,gemini-flash-latest,zero-shot
+DEV-2023-0346,Méthode,haute,Dossier de lot incomplet,gemini-flash-latest,zero-shot
+DEV-2025-0088,Méthode,haute,Paramètre de procédé non enregistré,gemini-flash-latest,zero-shot
+DEV-2024-0069,Main-d'œuvre,haute,Non-port des équipements par le personnel,gemini-flash-latest,zero-shot
+DEV-2024-0111,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2024-0258,Machine,haute,Défaillance et alarme sur la cuve,gemini-flash-latest,zero-shot
+DEV-2024-0205,Matière,haute,Excipient contaminé par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2023-0279,Matière,haute,Contamination particulaire de la matière première,gemini-flash-latest,zero-shot
+DEV-2023-0294,Machine,haute,Défaut mécanique sur pompe de transfert,gemini-flash-latest,zero-shot
+DEV-2025-0141,Matière,haute,Matière première hors spécifications analytiques,gemini-flash-latest,zero-shot
+DEV-2024-0358,Mesure,haute,Erreur de calcul dans le rapport analytique,gemini-flash-latest,zero-shot
+DEV-2025-0064,Milieu,haute,Présence de nuisibles en zone stockage,gemini-flash-latest,zero-shot
+DEV-2024-0257,Matière,haute,Teneur non conforme de la matière première,gemini-flash-latest,zero-shot
+DEV-2025-0053,Main-d'œuvre,haute,Oubli de vérification par un opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0059,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2023-0384,Matière,haute,Utilisation d'une matière en quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0223,Méthode,haute,Procédure de nettoyage non exécutée,gemini-flash-latest,zero-shot
+DEV-2024-0024,Milieu,haute,Dépassement particulaire en salle propre,gemini-flash-latest,zero-shot
+DEV-2025-0149,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2025-0060,Machine,haute,Fuite sur équipement d'étiquetage,gemini-flash-latest,zero-shot
+DEV-2025-0365,Machine,haute,Usure mécanique d'un composant machine,gemini-flash-latest,zero-shot
+DEV-2025-0321,Mesure,haute,Erreur de calcul dans rapport d'analyse,gemini-flash-latest,zero-shot
+DEV-2024-0384,Main-d'œuvre,haute,Erreur humaine lors de l'étiquetage manuel,gemini-flash-latest,zero-shot
+DEV-2023-0104,Main-d'œuvre,haute,Oubli de double contrôle par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0025,Machine,haute,Usure mécanique sur la cuve,gemini-flash-latest,zero-shot
+DEV-2025-0335,Matière,haute,Flacon de conditionnement non conforme,gemini-flash-latest,zero-shot
+DEV-2025-0009,Mesure,haute,Instrument de mesure défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0312,Méthode,haute,Enregistrement de procédé non documenté,gemini-flash-latest,zero-shot
+DEV-2025-0121,Machine,haute,Fuite sur turbine de fabrication,gemini-flash-latest,zero-shot
+DEV-2024-0378,Matière,haute,Utilisation d'un lot en quarantaine,gemini-flash-latest,zero-shot
+DEV-2024-0132,Matière,haute,Excipient contaminé par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2025-0319,Main-d'œuvre,haute,Oubli de double vérification humaine,gemini-flash-latest,zero-shot
+DEV-2025-0232,Matière,haute,Utilisation d'une matière première en quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0099,Main-d'œuvre,haute,Oubli de double vérification opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0097,Matière,haute,Odeur anormale de la matière première,gemini-flash-latest,zero-shot
+DEV-2024-0167,Machine,haute,Fuite constatée sur la remplisseuse,gemini-flash-latest,zero-shot
+DEV-2023-0265,Main-d'œuvre,haute,Erreur humaine de saisie de quantité,gemini-flash-latest,zero-shot
+DEV-2024-0074,Machine,haute,Dérive d'un paramètre mécanique machine,gemini-flash-latest,zero-shot
+DEV-2025-0381,Milieu,haute,Infiltration d'eau dans l'atelier,gemini-flash-latest,zero-shot
+DEV-2024-0144,Matière,haute,Particules étrangères dans la matière première,gemini-flash-latest,zero-shot
+DEV-2025-0083,Main-d'œuvre,haute,Défaut de double vérification par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0414,Machine,haute,Panne de la machine d'encartonnage,gemini-flash-latest,zero-shot
+DEV-2023-0225,Main-d'œuvre,haute,Non-respect du port des EPI,gemini-flash-latest,zero-shot
+DEV-2023-0291,Machine,haute,Usure mécanique d'une pièce machine,gemini-flash-latest,zero-shot
+DEV-2024-0101,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2023-0052,Main-d'œuvre,haute,Erreur humaine de saisie opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0138,Main-d'œuvre,haute,Non-port des protections par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0138,Main-d'œuvre,haute,Oubli de double vérification par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0264,Méthode,haute,Dossier de lot incomplet avec signature manquante,gemini-flash-latest,zero-shot
+DEV-2025-0352,Milieu,haute,Contamination microbiologique de l'environnement,gemini-flash-latest,zero-shot
+DEV-2025-0004,Matière,haute,Certificat d'analyse matière absent ou incomplet,gemini-flash-latest,zero-shot
+DEV-2023-0152,Méthode,haute,Non-respect de la procédure de contrôle,gemini-flash-latest,zero-shot
+DEV-2024-0023,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2025-0190,Mesure,haute,Erreur de calcul dans rapport analytique,gemini-flash-latest,zero-shot
+DEV-2025-0387,Mesure,haute,Instrument de mesure de température défectueux,gemini-flash-latest,zero-shot
+DEV-2024-0204,Méthode,haute,Enregistrement de paramètre procédé omis,gemini-flash-latest,zero-shot
+DEV-2025-0191,Méthode,haute,Inversion de l'ordre des étapes opératoires,gemini-flash-latest,zero-shot
+DEV-2025-0134,Méthode,haute,Étape réalisée en dehors de la procédure,gemini-flash-latest,zero-shot
+DEV-2023-0151,Méthode,haute,Procédure opératoire non respectée,gemini-flash-latest,zero-shot
+DEV-2023-0205,Machine,haute,Panne d'un équipement de production,gemini-flash-latest,zero-shot
+DEV-2023-0030,Matière,haute,Matière première présentant une odeur non conforme,gemini-flash-latest,zero-shot
+DEV-2025-0166,Méthode,haute,Ordre d'introduction des phases non respecté,gemini-flash-latest,zero-shot
+DEV-2025-0046,Matière,haute,Odeur anormale sur matière conservateur,gemini-flash-latest,zero-shot
+DEV-2024-0288,Matière,haute,Certificat d'analyse fournisseur non conforme,gemini-flash-latest,zero-shot
+DEV-2023-0232,Machine,haute,Fuite sur étiqueteuse,gemini-flash-latest,zero-shot
+DEV-2023-0086,Matière,haute,Excipient contaminé par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2023-0333,Main-d'œuvre,haute,Défaut d'habilitation de l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0245,Matière,haute,Matière première hors limites analytiques,gemini-flash-latest,zero-shot
+DEV-2025-0243,Matière,haute,Utilisation d'un lot d'actif en quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0312,Milieu,haute,Température de la salle hors limites,gemini-flash-latest,zero-shot
+DEV-2024-0075,Matière,haute,Matière première non conforme au cahier des charges,gemini-flash-latest,zero-shot
+DEV-2023-0168,Matière,haute,Matière première hors limites de spécification,gemini-flash-latest,zero-shot
+DEV-2024-0202,Matière,haute,Utilisation d'un lot de matière en quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0158,Main-d'œuvre,haute,Formation de l'opérateur non à jour,gemini-flash-latest,zero-shot
+DEV-2025-0197,Méthode,haute,Temps de procédé non conforme au dossier de lot,gemini-flash-latest,zero-shot
+DEV-2025-0187,Machine,haute,Défaut d'étanchéité d'un équipement de production,gemini-flash-latest,zero-shot
+DEV-2024-0294,Matière,haute,Certificat d'analyse matière première manquant ou incomplet,gemini-flash-latest,zero-shot
+DEV-2025-0116,Méthode,haute,Non-respect d'une instruction de fabrication,gemini-flash-latest,zero-shot
+DEV-2025-0094,Matière,haute,Certificat d'analyse matière première absent ou incomplet,gemini-flash-latest,zero-shot
+DEV-2024-0314,Méthode,haute,Dépassement du temps de filtration du procédé,gemini-flash-latest,zero-shot
+DEV-2025-0128,Machine,haute,Défaut d'étanchéité de la cuve de fabrication,gemini-flash-latest,zero-shot
+DEV-2023-0322,Matière,haute,Anomalie d'odeur sur matière première eau purifiée,gemini-flash-latest,zero-shot
+DEV-2023-0075,Machine,haute,Arrêt imprévu d'un équipement de production,gemini-flash-latest,zero-shot
+DEV-2024-0343,Matière,haute,Odeur anormale constatée sur matière première,gemini-flash-latest,zero-shot
+DEV-2023-0278,Matière,haute,Utilisation d'un lot de matière en quarantaine,gemini-flash-latest,zero-shot
+DEV-2025-0045,Mesure,haute,Instrument de mesure défectueux en cours d'opération,gemini-flash-latest,zero-shot
+DEV-2024-0062,Matière,haute,Matière première hors limites de spécification,gemini-flash-latest,zero-shot
+DEV-2025-0136,Main-d'œuvre,haute,Oubli de double vérification par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0095,Machine,haute,Défaut d'étanchéité de la boucheuse,gemini-flash-latest,zero-shot
+DEV-2025-0218,Mesure,haute,Instrument de mesure non qualifié,gemini-flash-latest,zero-shot
+DEV-2025-0307,Matière,haute,Anomalie d'aspect ou d'odeur de la glycérine,gemini-flash-latest,zero-shot
+DEV-2024-0127,Milieu,haute,Présence de nuisibles en zone de stockage,gemini-flash-latest,zero-shot
+DEV-2023-0033,Matière,haute,Utilisation d'un lot de matière sous quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0114,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2023-0290,Mesure,haute,Méthode analytique de contrôle non validée,gemini-flash-latest,zero-shot
+DEV-2023-0054,Matière,haute,Certificat d'analyse fournisseur manquant ou incomplet,gemini-flash-latest,zero-shot
+DEV-2025-0303,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2024-0007,Matière,haute,Certificat d'analyse fournisseur absent ou non conforme,gemini-flash-latest,zero-shot
+DEV-2023-0182,Méthode,haute,Non-respect de l'ordre des étapes du procédé,gemini-flash-latest,zero-shot
+DEV-2023-0150,Méthode,haute,Procédure non respectée et durée raccourcie,gemini-flash-latest,zero-shot
+DEV-2023-0155,Main-d'œuvre,haute,Formation de l'opérateur non à jour,gemini-flash-latest,zero-shot
+DEV-2023-0211,Matière,haute,Lot de matière en quarantaine utilisé à tort,gemini-flash-latest,zero-shot
+DEV-2023-0133,Matière,haute,Matière première en quarantaine utilisée à tort,gemini-flash-latest,zero-shot
+DEV-2024-0163,Mesure,haute,Échantillonnage non représentatif pour le contrôle,gemini-flash-latest,zero-shot
+DEV-2025-0275,Mesure,haute,Erreur de calcul dans le rapport analytique,gemini-flash-latest,zero-shot
+DEV-2024-0196,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2024-0302,Matière,haute,Contamination de la matière première par corps étrangers,gemini-flash-latest,zero-shot
+DEV-2024-0139,Matière,haute,Lot de matière sous statut quarantaine utilisé,gemini-flash-latest,zero-shot
+DEV-2024-0236,Machine,haute,Panne d'un capteur sur la turbine,gemini-flash-latest,zero-shot
+DEV-2024-0300,Matière,haute,Matière en quarantaine utilisée en fabrication,gemini-flash-latest,zero-shot
+DEV-2023-0332,Machine,haute,Usure d'une pièce d'équipement de production,gemini-flash-latest,zero-shot
+DEV-2023-0146,Matière,haute,Excipient contaminé fourni par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2023-0107,Méthode,haute,Instruction de fabrication non suivie en pesée,gemini-flash-latest,zero-shot
+DEV-2025-0248,Milieu,haute,Écart de pression différentielle environnementale,gemini-flash-latest,zero-shot
+DEV-2025-0247,Méthode,haute,Étape réalisée hors procédure sans contrôle requis,gemini-flash-latest,zero-shot
+DEV-2023-0393,Matière,haute,Odeur anormale constatée sur matière première,gemini-flash-latest,zero-shot
+DEV-2025-0086,Machine,haute,Maintenance préventive équipement non effectuée,gemini-flash-latest,zero-shot
+DEV-2024-0406,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2023-0216,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2024-0194,Main-d'œuvre,haute,Erreur humaine d'étiquetage manuel par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0033,Milieu,haute,Comptage particulaire hors limites en salle propre,gemini-flash-latest,zero-shot
+DEV-2025-0118,Méthode,haute,Non-respect du temps de filtration du procédé,gemini-flash-latest,zero-shot
+DEV-2023-0391,Méthode,haute,Inversion de l'ordre des étapes du procédé,gemini-flash-latest,zero-shot
+DEV-2023-0049,Machine,haute,Fuite sur un équipement de production,gemini-flash-latest,zero-shot
+DEV-2025-0240,Matière,haute,Présence de particules étrangères dans la matière,gemini-flash-latest,zero-shot
+DEV-2025-0325,Méthode,haute,Mode opératoire obsolète utilisé en filtration,gemini-flash-latest,zero-shot
+DEV-2025-0231,Méthode,haute,Dossier de lot incomplet avec paramètre non consigné,gemini-flash-latest,zero-shot
+DEV-2023-0028,Matière,haute,Certificat fournisseur absent ou incomplet,gemini-flash-latest,zero-shot
+DEV-2024-0079,Matière,haute,Particules étrangères dans une matière première,gemini-flash-latest,zero-shot
+DEV-2024-0119,Machine,haute,Capteur de machine de production défaillant,gemini-flash-latest,zero-shot
+DEV-2023-0268,Méthode,haute,Non-respect de l'instruction de fabrication,gemini-flash-latest,zero-shot
+DEV-2024-0372,Méthode,haute,Dossier de lot incomplet avec signature manquante,gemini-flash-latest,zero-shot
+DEV-2024-0160,Main-d'œuvre,haute,Affectation d'un opérateur non habilité,gemini-flash-latest,zero-shot
+DEV-2024-0126,Matière,haute,Matière première hors limites de spécification,gemini-flash-latest,zero-shot
+DEV-2023-0390,Méthode,haute,Procédure obsolète suivie en homogénéisation,gemini-flash-latest,zero-shot
+DEV-2024-0357,Matière,haute,Matière première en quarantaine utilisée à tort,gemini-flash-latest,zero-shot
+DEV-2024-0011,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2024-0071,Matière,haute,Certificat fournisseur manquant ou non conforme,gemini-flash-latest,zero-shot
+DEV-2023-0142,Main-d'œuvre,haute,Formation de l'opérateur non à jour,gemini-flash-latest,zero-shot
+DEV-2023-0269,Méthode,haute,Non-enregistrement d'un paramètre dans le dossier,gemini-flash-latest,zero-shot
+DEV-2024-0224,Matière,haute,Certificat d'analyse matière manquant ou incomplet,gemini-flash-latest,zero-shot
+DEV-2023-0004,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2024-0352,Machine,haute,Usure mécanique d'une pièce d'étiqueteuse,gemini-flash-latest,zero-shot
+DEV-2023-0065,Mesure,haute,Variabilité anormale des mesures de contrôle,gemini-flash-latest,zero-shot
+DEV-2025-0297,Mesure,haute,Résultat analytique hors spécifications au contrôle,gemini-flash-latest,zero-shot
+DEV-2025-0359,Méthode,haute,Mode opératoire obsolète utilisé en remplissage,gemini-flash-latest,zero-shot
+DEV-2024-0105,Matière,haute,Anomalie organoleptique sur matière première,gemini-flash-latest,zero-shot
+DEV-2023-0047,Méthode,haute,Mode opératoire obsolète utilisé lors du procédé,gemini-flash-latest,zero-shot
+DEV-2023-0179,Machine,haute,Dérive de fonctionnement sur équipement boucheuse,gemini-flash-latest,zero-shot
+DEV-2023-0275,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2024-0232,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2024-0086,Matière,haute,Article de conditionnement flacon défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0168,Méthode,haute,Ordre d'introduction des phases non respecté,gemini-flash-latest,zero-shot
+DEV-2024-0054,Matière,haute,Matière première hors spécification à réception,gemini-flash-latest,zero-shot
+DEV-2025-0214,Main-d'œuvre,haute,Opérateur non formé à la procédure applicable,gemini-flash-latest,zero-shot
+DEV-2023-0194,Milieu,haute,Infiltration d'eau dans les locaux de production,gemini-flash-latest,zero-shot
+DEV-2023-0307,Matière,haute,Odeur non conforme constatée sur conservateur,gemini-flash-latest,zero-shot
+DEV-2023-0313,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2025-0061,Matière,haute,Présence de corps étrangers dans une matière,gemini-flash-latest,zero-shot
+DEV-2025-0342,Machine,haute,Dérive de vitesse sur la cuve de fabrication,gemini-flash-latest,zero-shot
+DEV-2025-0375,Méthode,haute,Non-respect de la durée de procédé prescrite,gemini-flash-latest,zero-shot
+DEV-2023-0024,Matière,haute,Notice de conditionnement défectueuse,gemini-flash-latest,zero-shot
+DEV-2024-0335,Méthode,haute,Paramètre de procédé non renseigné au dossier,gemini-flash-latest,zero-shot
+DEV-2023-0115,Mesure,haute,Défaillance d'un instrument de mesure de température,gemini-flash-latest,zero-shot
+DEV-2023-0378,Main-d'œuvre,haute,Oubli de double vérification par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0263,Main-d'œuvre,haute,Erreur humaine lors de l'étiquetage manuel,gemini-flash-latest,zero-shot
+DEV-2023-0349,Milieu,haute,Température de la salle hors limites autorisées,gemini-flash-latest,zero-shot
+DEV-2025-0200,Méthode,haute,Omission d'enregistrement d'un paramètre procédé,gemini-flash-latest,zero-shot
+DEV-2024-0417,Main-d'œuvre,haute,Opérateur non habilité au poste de travail,gemini-flash-latest,zero-shot
+DEV-2025-0010,Main-d'œuvre,haute,Défaut de double vérification par le personnel,gemini-flash-latest,zero-shot
+DEV-2024-0093,Méthode,haute,Non-respect de l'ordre des étapes du procédé,gemini-flash-latest,zero-shot
+DEV-2025-0186,Méthode,haute,Ordre d'introduction des phases non respecté,gemini-flash-latest,zero-shot
+DEV-2024-0183,Machine,haute,Panne d'un équipement de production,gemini-flash-latest,zero-shot
+DEV-2024-0217,Machine,haute,Défaut d'étanchéité sur équipement,gemini-flash-latest,zero-shot
+DEV-2025-0151,Machine,haute,Dérive mécanique d'une ligne de conditionnement,gemini-flash-latest,zero-shot
+DEV-2025-0030,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2024-0151,Main-d'œuvre,haute,Non-port des EPI par les opérateurs,gemini-flash-latest,zero-shot
+DEV-2024-0252,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2025-0284,Machine,haute,Usure mécanique d'une pièce équipement,gemini-flash-latest,zero-shot
+DEV-2025-0344,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2024-0333,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2024-0171,Machine,haute,Capteur de l'équipement hors service,gemini-flash-latest,zero-shot
+DEV-2023-0292,Machine,haute,Usure de pièce sur équipement,gemini-flash-latest,zero-shot
+DEV-2025-0324,Mesure,haute,Résultat de contrôle qualité hors spécification,gemini-flash-latest,zero-shot
+DEV-2025-0013,Matière,haute,Utilisation d'un lot en statut quarantaine,gemini-flash-latest,zero-shot
+DEV-2024-0142,Matière,haute,Excipient contaminé par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2025-0348,Mesure,haute,Instrument de contrôle non qualifié,gemini-flash-latest,zero-shot
+DEV-2024-0297,Machine,haute,Capteur d'équipement en panne,gemini-flash-latest,zero-shot
+DEV-2024-0404,Méthode,haute,Ordre d'introduction des phases non respecté,gemini-flash-latest,zero-shot
+DEV-2024-0154,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2025-0356,Matière,haute,Corps étranger dans un contenant matière,gemini-flash-latest,zero-shot
+DEV-2025-0129,Mesure,haute,Instrument de contrôle non qualifié,gemini-flash-latest,zero-shot
+DEV-2023-0125,Matière,haute,Lot sous quarantaine utilisé à tort,gemini-flash-latest,zero-shot
+DEV-2024-0393,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2025-0209,Main-d'œuvre,haute,Erreur humaine de saisie opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0361,Machine,haute,Défaut d'étanchéité sur la ligne,gemini-flash-latest,zero-shot
+DEV-2023-0306,Matière,haute,Anomalie organoleptique sur eau purifiée,gemini-flash-latest,zero-shot
+DEV-2023-0169,Méthode,haute,Ordre des phases opératoires inversé,gemini-flash-latest,zero-shot
+DEV-2025-0196,Machine,haute,Panne d'une ligne d'encartonnage,gemini-flash-latest,zero-shot
+DEV-2024-0063,Matière,haute,Certificat d'analyse matière manquant,gemini-flash-latest,zero-shot
+DEV-2023-0255,Mesure,haute,Méthode analytique de contrôle non validée,gemini-flash-latest,zero-shot
+DEV-2024-0229,Matière,haute,Particules étrangères dans matière première,gemini-flash-latest,zero-shot
+DEV-2024-0134,Méthode,haute,Mode opératoire obsolète utilisé,gemini-flash-latest,zero-shot
+DEV-2023-0051,Matière,haute,Anomalie organoleptique sur matière première,gemini-flash-latest,zero-shot
+DEV-2023-0177,Machine,haute,Panne mécanique d'un équipement,gemini-flash-latest,zero-shot
+DEV-2024-0385,Méthode,haute,Paramètre de procédé non renseigné,gemini-flash-latest,zero-shot
+DEV-2023-0078,Machine,haute,Panne d'une machine d'étiquetage,gemini-flash-latest,zero-shot
+DEV-2024-0068,Matière,haute,Excipient contaminé fourni à tort,gemini-flash-latest,zero-shot
+DEV-2025-0154,Main-d'œuvre,haute,Erreur humaine lors de l'étiquetage,gemini-flash-latest,zero-shot
+DEV-2024-0153,Méthode,haute,Enregistrement de paramètre manquant au dossier,gemini-flash-latest,zero-shot
+DEV-2023-0273,Machine,haute,Arrêt imprévu d'un équipement,gemini-flash-latest,zero-shot
+DEV-2024-0120,Matière,haute,Excipient contaminé par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2025-0070,Méthode,haute,Non-respect de l'instruction de fabrication,gemini-flash-latest,zero-shot
+DEV-2024-0308,Main-d'œuvre,haute,Non-respect du port des EPI,gemini-flash-latest,zero-shot
+DEV-2024-0179,Méthode,haute,Temps de procédé non respecté,gemini-flash-latest,zero-shot
+DEV-2025-0288,Machine,haute,Alarme causant l'arrêt machine,gemini-flash-latest,zero-shot
+DEV-2024-0010,Matière,haute,Certificat d'analyse fournisseur non conforme,gemini-flash-latest,zero-shot
+DEV-2025-0228,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2023-0236,Matière,haute,Contamination fournisseur de l'excipient,gemini-flash-latest,zero-shot
+DEV-2023-0015,Matière,haute,Matière en quarantaine utilisée à tort,gemini-flash-latest,zero-shot
+DEV-2024-0295,Main-d'œuvre,haute,Équipements de protection non portés,gemini-flash-latest,zero-shot
+DEV-2023-0323,Machine,haute,Dérive d'un équipement en production,gemini-flash-latest,zero-shot
+DEV-2025-0052,Main-d'œuvre,haute,Défaut de formation de l'opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0050,Matière,haute,Matière non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2025-0194,Main-d'œuvre,haute,Erreur humaine d'étiquetage manuel,gemini-flash-latest,zero-shot
+DEV-2025-0120,Matière,haute,Article de conditionnement non conforme,gemini-flash-latest,zero-shot
+DEV-2024-0329,Matière,haute,Spécification microbienne non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2023-0022,Matière,haute,Excipient défectueux livré par fournisseur,gemini-flash-latest,zero-shot
+DEV-2024-0216,Machine,haute,Fuite sur équipement de fabrication,gemini-flash-latest,zero-shot
+DEV-2023-0199,Matière,haute,Excipient contaminé par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2025-0322,Méthode,haute,Ordre des étapes de procédé inversé,gemini-flash-latest,zero-shot
+DEV-2025-0032,Matière,haute,Utilisation d'un lot sous quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0020,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2023-0081,Méthode,haute,Inversion de l'ordre d'introduction,gemini-flash-latest,zero-shot
+DEV-2025-0354,Méthode,haute,Inversion de l'ordre d'introduction prescrit,gemini-flash-latest,zero-shot
+DEV-2023-0188,Mesure,haute,Instrument de mesure défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0259,Méthode,haute,Mode opératoire appliqué obsolète,gemini-flash-latest,zero-shot
+DEV-2025-0008,Méthode,haute,Dossier de lot incomplet,gemini-flash-latest,zero-shot
+DEV-2025-0349,Méthode,haute,Mode opératoire obsolète utilisé,gemini-flash-latest,zero-shot
+DEV-2025-0076,Machine,haute,Fuite sur cuve de fabrication,gemini-flash-latest,zero-shot
+DEV-2023-0201,Mesure,haute,Méthode d'échantillonnage de contrôle non représentative,gemini-flash-latest,zero-shot
+DEV-2025-0090,Matière,haute,Particules étrangères dans matière première,gemini-flash-latest,zero-shot
+DEV-2025-0391,Méthode,haute,Signature manquante au dossier de lot,gemini-flash-latest,zero-shot
+DEV-2023-0400,Machine,haute,Capteur d'équipement hors service,gemini-flash-latest,zero-shot
+DEV-2023-0023,Machine,haute,Fuite mécanique sur équipement,gemini-flash-latest,zero-shot
+DEV-2023-0143,Milieu,haute,Panne de climatisation en zone,gemini-flash-latest,zero-shot
+DEV-2023-0100,Méthode,haute,Non-application de la procédure de nettoyage,gemini-flash-latest,zero-shot
+DEV-2023-0289,Machine,haute,Maintenance d'équipement non réalisée,gemini-flash-latest,zero-shot
+DEV-2023-0215,Matière,haute,Contamination particulaire du fût de matière,gemini-flash-latest,zero-shot
+DEV-2024-0168,Main-d'œuvre,haute,Comportement non conforme au port d'EPI,gemini-flash-latest,zero-shot
+DEV-2025-0082,Matière,haute,Anomalie d'odeur de la matière,gemini-flash-latest,zero-shot
+DEV-2024-0070,Méthode,haute,Omission d'enregistrement au dossier procédé,gemini-flash-latest,zero-shot
+DEV-2024-0412,Milieu,haute,Particules environnementales hors limites,gemini-flash-latest,zero-shot
+DEV-2025-0367,Machine,haute,Défaillance d'un capteur équipement,gemini-flash-latest,zero-shot
+DEV-2024-0365,Machine,haute,Arrêt alarme d'un équipement,gemini-flash-latest,zero-shot
+DEV-2024-0377,Main-d'œuvre,haute,Non-respect des règles de port d'EPI,gemini-flash-latest,zero-shot
+DEV-2023-0399,Main-d'œuvre,haute,Habilitation et formation opérateur manquantes,gemini-flash-latest,zero-shot
+DEV-2024-0375,Méthode,haute,Non-respect d'un paramètre de procédure,gemini-flash-latest,zero-shot
+DEV-2023-0098,Machine,haute,Maintenance préventive machine non réalisée,gemini-flash-latest,zero-shot
+DEV-2023-0260,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2023-0184,Main-d'œuvre,haute,Erreur humaine de saisie de quantité,gemini-flash-latest,zero-shot
+DEV-2024-0020,Méthode,haute,Dossier de lot non renseigné,gemini-flash-latest,zero-shot
+DEV-2024-0220,Matière,haute,Odeur anormale de la matière première,gemini-flash-latest,zero-shot
+DEV-2023-0329,Mesure,haute,Méthode analytique de contrôle non validée,gemini-flash-latest,zero-shot
+DEV-2025-0097,Matière,haute,Défaut d'odeur de matière première,gemini-flash-latest,zero-shot
+DEV-2025-0042,Matière,haute,Matière non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2024-0175,Machine,haute,Panne de capteur sur ligne,gemini-flash-latest,zero-shot
+DEV-2025-0393,Matière,haute,Matière contaminée livrée par fournisseur,gemini-flash-latest,zero-shot
+DEV-2025-0372,Machine,haute,Défaut d'étanchéité mécanique de ligne,gemini-flash-latest,zero-shot
+DEV-2025-0236,Mesure,haute,Résultat hors spécification au contrôle qualité,gemini-flash-latest,zero-shot
+DEV-2024-0148,Mesure,haute,Écart de mesure d'analyse sur le même échantillon.,gemini-flash-latest,zero-shot
+DEV-2023-0074,Mesure,haute,Erreur de calcul dans un rapport d'analyse.,gemini-flash-latest,zero-shot
+DEV-2023-0233,Matière,haute,Particules étrangères dans un fût de matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0116,Machine,haute,Dérive de vitesse d'une machine d'étiquetage.,gemini-flash-latest,zero-shot
+DEV-2025-0139,Matière,haute,Certificat d'analyse matière première manquant ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2025-0135,Matière,haute,Odeur anormale détectée sur une matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0419,Mesure,haute,Erreur de calcul dans le rapport analytique.,gemini-flash-latest,zero-shot
+DEV-2025-0220,Machine,haute,Défaut d'étanchéité d'un équipement de production.,gemini-flash-latest,zero-shot
+DEV-2024-0370,Matière,haute,Odeur anormale de la matière première eau.,gemini-flash-latest,zero-shot
+DEV-2025-0234,Méthode,haute,Instruction de fabrication non respectée.,gemini-flash-latest,zero-shot
+DEV-2023-0369,Méthode,haute,Dépassement d'un temps de procédé prescrit.,gemini-flash-latest,zero-shot
+DEV-2025-0267,Machine,haute,Maintenance préventive de la machine non réalisée.,gemini-flash-latest,zero-shot
+DEV-2024-0141,Méthode,haute,Utilisation d'un mode opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2025-0095,Méthode,moyenne,Non-respect de la consigne d'équipement de protection.,gemini-flash-latest,zero-shot
+DEV-2023-0079,Méthode,haute,Instruction de fabrication non suivie.,gemini-flash-latest,zero-shot
+DEV-2025-0026,Méthode,moyenne,Consigne de port des EPI non respectée.,gemini-flash-latest,zero-shot
+DEV-2025-0370,Matière,haute,Matière première non conforme aux spécifications.,gemini-flash-latest,zero-shot
+DEV-2024-0157,Matière,haute,Matière première reçue non conforme aux spécifications.,gemini-flash-latest,zero-shot
+DEV-2023-0116,Machine,haute,Capteur d'un équipement hors service.,gemini-flash-latest,zero-shot
+DEV-2024-0215,Méthode,haute,Instruction opératoire non suivie.,gemini-flash-latest,zero-shot
+DEV-2025-0078,Main-d'œuvre,haute,Opérateur affecté sans l'habilitation requise.,gemini-flash-latest,zero-shot
+DEV-2024-0145,Matière,haute,Article de conditionnement défectueux.,gemini-flash-latest,zero-shot
+DEV-2025-0239,Machine,haute,Panne mécanique de la machine de remplissage.,gemini-flash-latest,zero-shot
+DEV-2025-0158,Méthode,haute,Utilisation d'une procédure obsolète.,gemini-flash-latest,zero-shot
+DEV-2023-0200,Matière,haute,Excipient contaminé par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2024-0172,Matière,haute,Article de conditionnement défectueux.,gemini-flash-latest,zero-shot
+DEV-2023-0298,Matière,haute,Notice de conditionnement défectueuse.,gemini-flash-latest,zero-shot
+DEV-2025-0172,Mesure,haute,Méthode d'analyse de dosage non validée.,gemini-flash-latest,zero-shot
+DEV-2025-0257,Machine,haute,Panne de la machine d'encartonnage.,gemini-flash-latest,zero-shot
+DEV-2025-0357,Mesure,haute,Méthode d'échantillonnage non représentative pour contrôle.,gemini-flash-latest,zero-shot
+DEV-2023-0180,Machine,haute,Arrêt imprévu d'un équipement de production.,gemini-flash-latest,zero-shot
+DEV-2025-0299,Méthode,haute,Paramètre opératoire manquant dans le dossier.,gemini-flash-latest,zero-shot
+DEV-2023-0204,Matière,haute,Matière première hors limites de spécification.,gemini-flash-latest,zero-shot
+DEV-2024-0188,Machine,haute,Fuite mécanique sur la cuve.,gemini-flash-latest,zero-shot
+DEV-2025-0353,Matière,haute,Certificat d'analyse fournisseur non conforme ou absent.,gemini-flash-latest,zero-shot
+DEV-2024-0130,Machine,haute,Fuite sur équipement de production.,gemini-flash-latest,zero-shot
+DEV-2023-0274,Matière,haute,Matière première contaminée par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2023-0301,Machine,haute,Dérive mécanique de vitesse d'une pompe.,gemini-flash-latest,zero-shot
+DEV-2025-0163,Matière,haute,Odeur anormale de la matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0170,Méthode,haute,Non-respect du temps de procédé prescrit.,gemini-flash-latest,zero-shot
+DEV-2024-0094,Machine,haute,Usure mécanique d'une pièce machine.,gemini-flash-latest,zero-shot
+DEV-2023-0348,Matière,haute,Contamination particulaire d'une matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0014,Matière,haute,Matière première non conforme à réception.,gemini-flash-latest,zero-shot
+DEV-2023-0181,Main-d'œuvre,haute,Erreur humaine de saisie de quantité.,gemini-flash-latest,zero-shot
+DEV-2023-0388,Matière,haute,Excipient contaminé fourni à la fabrication.,gemini-flash-latest,zero-shot
+DEV-2023-0025,Méthode,haute,Application d'un mode opératoire périmé.,gemini-flash-latest,zero-shot
+DEV-2023-0134,Machine,haute,Défaut d'étanchéité mécanique de la machine.,gemini-flash-latest,zero-shot
+DEV-2023-0070,Matière,haute,Odeur non conforme de la matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0207,Matière,haute,Matière première avec odeur anormale.,gemini-flash-latest,zero-shot
+DEV-2023-0387,Main-d'œuvre,haute,Oubli de vérification par un opérateur.,gemini-flash-latest,zero-shot
+DEV-2025-0282,Milieu,haute,Panne de climatisation régulant l'environnement.,gemini-flash-latest,zero-shot
+DEV-2024-0408,Matière,haute,Odeur anormale constatée sur matière première.,gemini-flash-latest,zero-shot
+DEV-2023-0347,Milieu,haute,Dépassement du niveau particulaire environnemental.,gemini-flash-latest,zero-shot
+DEV-2024-0251,Matière,haute,Article de conditionnement défectueux.,gemini-flash-latest,zero-shot
+DEV-2025-0080,Machine,haute,Panne mécanique de la turbine.,gemini-flash-latest,zero-shot
+DEV-2024-0067,Matière,haute,Particules étrangères dans une matière première.,gemini-flash-latest,zero-shot
+DEV-2023-0076,Matière,haute,Certificat d'analyse matière fournisseur manquant.,gemini-flash-latest,zero-shot
+DEV-2025-0065,Machine,haute,Dérive de fonctionnement de la turbine.,gemini-flash-latest,zero-shot
+DEV-2023-0103,Méthode,haute,Ordre des étapes du procédé inversé.,gemini-flash-latest,zero-shot
+DEV-2024-0313,Main-d'œuvre,haute,Oubli de vérification par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0001,Matière,haute,Certificat d'analyse du fournisseur manquant.,gemini-flash-latest,zero-shot
+DEV-2024-0311,Mesure,haute,Échantillonnage non représentatif pour le contrôle.,gemini-flash-latest,zero-shot
+DEV-2023-0038,Main-d'œuvre,haute,Oubli de la double vérification opérateur.,gemini-flash-latest,zero-shot
+DEV-2025-0173,Machine,haute,Défaut d'étanchéité de l'équipement.,gemini-flash-latest,zero-shot
+DEV-2023-0167,Méthode,haute,Dossier de fabrication non renseigné.,gemini-flash-latest,zero-shot
+DEV-2025-0180,Matière,haute,Matière première contaminée par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2025-0183,Milieu,haute,Infiltration d'eau dans le local de production.,gemini-flash-latest,zero-shot
+DEV-2023-0344,Méthode,haute,Temps de procédé non conforme au dossier.,gemini-flash-latest,zero-shot
+DEV-2023-0221,Méthode,haute,Instruction de fabrication non respectée.,gemini-flash-latest,zero-shot
+DEV-2024-0112,Matière,haute,Matière première non conforme au cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2025-0188,Main-d'œuvre,haute,Formation de l'opérateur non à jour.,gemini-flash-latest,zero-shot
+DEV-2023-0254,Main-d'œuvre,haute,Formation opérateur absente ou non valide.,gemini-flash-latest,zero-shot
+DEV-2025-0029,Milieu,haute,Température de la salle hors spécifications.,gemini-flash-latest,zero-shot
+DEV-2024-0162,Main-d'œuvre,haute,Opérateur affecté sans qualification requise.,gemini-flash-latest,zero-shot
+DEV-2023-0137,Méthode,haute,"Dossier de lot incomplet, signature absente.",gemini-flash-latest,zero-shot
+DEV-2024-0426,Machine,haute,Fuite mécanique sur la machine.,gemini-flash-latest,zero-shot
+DEV-2024-0040,Mesure,haute,Erreur de calcul dans le rapport analytique.,gemini-flash-latest,zero-shot
+DEV-2024-0269,Matière,haute,Certificat matière première absent ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2024-0322,Machine,haute,Arrêt non planifié d'un équipement.,gemini-flash-latest,zero-shot
+DEV-2024-0212,Milieu,haute,Panne du système de climatisation ambiante.,gemini-flash-latest,zero-shot
+DEV-2025-0152,Méthode,haute,Procédure de nettoyage non exécutée.,gemini-flash-latest,zero-shot
+DEV-2025-0175,Mesure,haute,Résultat de contrôle qualité hors spécifications.,gemini-flash-latest,zero-shot
+DEV-2025-0368,Matière,haute,Certificat d'analyse matière manquant.,gemini-flash-latest,zero-shot
+DEV-2025-0123,Machine,haute,Arrêt non programmé sur alarme machine.,gemini-flash-latest,zero-shot
+DEV-2024-0346,Machine,haute,Défaut d'étanchéité mécanique d'une machine.,gemini-flash-latest,zero-shot
+DEV-2023-0110,Machine,haute,Panne de la cuve de fabrication.,gemini-flash-latest,zero-shot
+DEV-2023-0163,Milieu,haute,Contamination du milieu ambiant de production.,gemini-flash-latest,zero-shot
+DEV-2025-0036,Machine,haute,Panne mécanique de la pompe de transfert.,gemini-flash-latest,zero-shot
+DEV-2024-0230,Matière,haute,Matière première contaminée signalée par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2025-0224,Machine,haute,Défaut d'étanchéité d'un équipement de production.,gemini-flash-latest,zero-shot
+DEV-2024-0169,Main-d'œuvre,haute,Opérateur non qualifié affecté au poste.,gemini-flash-latest,zero-shot
+DEV-2023-0198,Machine,haute,Fuite ou défaut d'étanchéité de la turbine.,gemini-flash-latest,zero-shot
+DEV-2025-0385,Méthode,haute,Procédure de nettoyage non réalisée.,gemini-flash-latest,zero-shot
+DEV-2024-0410,Matière,haute,Utilisation d'un lot de matière en quarantaine.,gemini-flash-latest,zero-shot
+DEV-2025-0016,Matière,haute,Matière première livrée non conforme aux spécifications.,gemini-flash-latest,zero-shot
+DEV-2025-0227,Machine,haute,Arrêt non planifié d'une machine de ligne.,gemini-flash-latest,zero-shot
+DEV-2023-0077,Matière,haute,Odeur anormale de la matière première.,gemini-flash-latest,zero-shot
+DEV-2024-0150,Matière,haute,Excipient contaminé par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2023-0102,Machine,haute,Défaut d'étanchéité de la machine d'encartonnage.,gemini-flash-latest,zero-shot
+DEV-2023-0396,Matière,haute,Matière première non conforme au cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2025-0117,Main-d'œuvre,haute,Mauvaise manipulation par un opérateur intérimaire,gemini-flash-latest,zero-shot
+DEV-2024-0159,Matière,haute,Particules étrangères dans un fût de matière première,gemini-flash-latest,zero-shot
+DEV-2025-0165,Machine,haute,Arrêt non planifié sur alarme de la pompe,gemini-flash-latest,zero-shot
+DEV-2024-0341,Matière,haute,Utilisation d'un lot de matière première en quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0014,Matière,haute,Certificat d'analyse matière première absent ou incomplet,gemini-flash-latest,zero-shot
+DEV-2024-0368,Machine,haute,Fuite constatée sur l'équipement de remplissage,gemini-flash-latest,zero-shot
+DEV-2023-0165,Matière,haute,Utilisation d'un lot de conservateur sous statut quarantaine,gemini-flash-latest,zero-shot
+DEV-2024-0339,Mesure,haute,Instrument de mesure de dosage non qualifié,gemini-flash-latest,zero-shot
+DEV-2023-0170,Matière,haute,Anomalie d'odeur sur une matière première,gemini-flash-latest,zero-shot
+DEV-2023-0366,Matière,haute,Défaut d'aspect sur matière première hors cahier charges,gemini-flash-latest,zero-shot
+DEV-2024-0226,Main-d'œuvre,haute,Mauvaise manipulation d'un intérimaire en fabrication,gemini-flash-latest,zero-shot
+DEV-2023-0145,Méthode,haute,Étape réalisée hors procédure avec contrôle omis,gemini-flash-latest,zero-shot
+DEV-2025-0289,Matière,haute,Matière première sous quarantaine utilisée en fabrication,gemini-flash-latest,zero-shot
+DEV-2023-0207,Main-d'œuvre,haute,Oubli de vérification par l'opérateur avant démarrage,gemini-flash-latest,zero-shot
+DEV-2024-0143,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2025-0131,Méthode,haute,Mode opératoire obsolète utilisé en filtration,gemini-flash-latest,zero-shot
+DEV-2024-0114,Main-d'œuvre,haute,Non-port des équipements de protection individuelle requis,gemini-flash-latest,zero-shot
+DEV-2023-0105,Matière,haute,Particules étrangères détectées dans le fût de parfum,gemini-flash-latest,zero-shot
+DEV-2023-0220,Mesure,haute,Échantillonnage non représentatif pour le contrôle,gemini-flash-latest,zero-shot
+DEV-2025-0084,Matière,haute,Odeur anormale sur l'eau purifiée à la pesée,gemini-flash-latest,zero-shot
+DEV-2024-0092,Machine,haute,Capteur d'équipement en panne hors service,gemini-flash-latest,zero-shot
+DEV-2024-0253,Méthode,haute,Instruction de fabrication non suivie par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0050,Matière,haute,Contamination particulaire dans le contenant de matière,gemini-flash-latest,zero-shot
+DEV-2024-0042,Méthode,haute,Non-respect de l'ordre d'introduction des phases,gemini-flash-latest,zero-shot
+DEV-2025-0268,Matière,haute,Matière première non conforme aux spécifications réception,gemini-flash-latest,zero-shot
+DEV-2025-0315,Mesure,haute,Méthode analytique de dosage non validée,gemini-flash-latest,zero-shot
+DEV-2025-0155,Machine,haute,Maintenance préventive machine non réalisée à échéance,gemini-flash-latest,zero-shot
+DEV-2025-0092,Machine,haute,Retard de maintenance préventive sur la remplisseuse,gemini-flash-latest,zero-shot
+DEV-2025-0132,Machine,haute,Usure mécanique d'une pièce de la turbine,gemini-flash-latest,zero-shot
+DEV-2023-0191,Milieu,haute,Contamination détectée lors du contrôle d'environnement,gemini-flash-latest,zero-shot
+DEV-2024-0364,Machine,haute,Arrêt imprévu de cuve suite à alarme,gemini-flash-latest,zero-shot
+DEV-2024-0423,Matière,haute,Certificat d'analyse matière première manquant,gemini-flash-latest,zero-shot
+DEV-2023-0176,Matière,haute,Matière première contaminée livrée par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2024-0336,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2023-0224,Méthode,haute,Omission d'enregistrement d'un paramètre de procédé,gemini-flash-latest,zero-shot
+DEV-2025-0388,Matière,haute,Odeur anormale constatée sur matière première,gemini-flash-latest,zero-shot
+DEV-2025-0341,Matière,haute,Article de conditionnement non conforme et défectueux,gemini-flash-latest,zero-shot
+DEV-2023-0256,Matière,haute,Excipient contaminé fourni par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2025-0198,Mesure,haute,Méthode d'échantillonnage non représentative pour contrôle,gemini-flash-latest,zero-shot
+DEV-2023-0063,Main-d'œuvre,haute,Opérateur affecté sans habilitation requise,gemini-flash-latest,zero-shot
+DEV-2024-0305,Machine,haute,Maintenance préventive de l'équipement non effectuée,gemini-flash-latest,zero-shot
+DEV-2023-0087,Méthode,haute,Procédure de nettoyage non appliquée entre campagnes,gemini-flash-latest,zero-shot
+DEV-2025-0057,Mesure,haute,Prélèvement d'échantillon non représentatif,gemini-flash-latest,zero-shot
+DEV-2023-0171,Machine,haute,Usure mécanique d'une pièce de la machine,gemini-flash-latest,zero-shot
+DEV-2025-0305,Machine,haute,Capteur de ligne d'encartonnage hors service,gemini-flash-latest,zero-shot
+DEV-2023-0297,Matière,haute,Article de conditionnement non conforme,gemini-flash-latest,zero-shot
+DEV-2023-0382,Mesure,haute,Instrument de mesure de température défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0254,Méthode,haute,Ordre d'introduction des composants non respecté,gemini-flash-latest,zero-shot
+DEV-2023-0288,Machine,haute,Pièce usée sur équipement de remplissage,gemini-flash-latest,zero-shot
+DEV-2025-0265,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0043,Matière,haute,Matière première contaminée par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2023-0262,Machine,haute,Arrêt intempestif de la boucheuse sur alarme,gemini-flash-latest,zero-shot
+DEV-2023-0335,Machine,haute,Échéance de maintenance préventive dépassée,gemini-flash-latest,zero-shot
+DEV-2024-0349,Machine,haute,Défaillance d'un capteur sur la machine,gemini-flash-latest,zero-shot
+DEV-2024-0355,Machine,haute,Défaut d'étanchéité sur ligne de conditionnement,gemini-flash-latest,zero-shot
+DEV-2024-0210,Méthode,haute,Paramètre de procédé hors procédure opératoire,gemini-flash-latest,zero-shot
+DEV-2025-0221,Méthode,haute,Inversion de l'ordre d'incorporation des phases,gemini-flash-latest,zero-shot
+DEV-2023-0003,Matière,haute,Certificat d'analyse du parfum manquant,gemini-flash-latest,zero-shot
+DEV-2023-0283,Mesure,haute,Défaillance d'un instrument de mesure de température,gemini-flash-latest,zero-shot
+DEV-2025-0034,Machine,haute,Maintenance préventive non réalisée sur homogénéisateur,gemini-flash-latest,zero-shot
+DEV-2024-0422,Matière,haute,Utilisation d'un lot en statut quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0281,Matière,haute,Particules étrangères dans matière première,gemini-flash-latest,zero-shot
+DEV-2025-0146,Main-d'œuvre,haute,Erreur humaine de saisie de quantité,gemini-flash-latest,zero-shot
+DEV-2025-0212,Milieu,haute,Écart de pression différentielle entre salles,gemini-flash-latest,zero-shot
+DEV-2025-0049,Méthode,haute,Non-respect de procédure avec contrôle intermédiaire omis,gemini-flash-latest,zero-shot
+DEV-2025-0185,Méthode,haute,Défaut d'enregistrement d'un paramètre de fabrication,gemini-flash-latest,zero-shot
+DEV-2023-0385,Mesure,haute,Appareil de mesure de température défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0346,Matière,haute,Lot sous quarantaine utilisé en fabrication,gemini-flash-latest,zero-shot
+DEV-2024-0388,Machine,haute,Fuite mécanique sur étiqueteuse,gemini-flash-latest,zero-shot
+DEV-2025-0384,Matière,haute,Matière première hors spécifications d'aspect,gemini-flash-latest,zero-shot
+DEV-2023-0315,Milieu,haute,Dérive environnementale de pression différentielle,gemini-flash-latest,zero-shot
+DEV-2024-0038,Mesure,haute,Utilisation d'une méthode analytique non validée,gemini-flash-latest,zero-shot
+DEV-2024-0178,Main-d'œuvre,haute,Omission de la double vérification opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0363,Milieu,haute,Panne de climatisation en salle de fabrication,gemini-flash-latest,zero-shot
+DEV-2025-0270,Machine,haute,Usure mécanique d'une pièce d'homogénéisateur,gemini-flash-latest,zero-shot
+DEV-2025-0156,Main-d'œuvre,haute,Oubli de contrôle préalable par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0250,Machine,haute,Dérive de fonctionnement sur pompe de transfert,gemini-flash-latest,zero-shot
+DEV-2023-0314,Main-d'œuvre,haute,Opérateur non qualifié affecté au poste,gemini-flash-latest,zero-shot
+DEV-2024-0187,Matière,haute,Matière première non conforme au cahier des charges,gemini-flash-latest,zero-shot
+DEV-2024-0078,Main-d'œuvre,haute,Équipements de protection non portés par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0002,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2024-0003,Méthode,haute,Procédure de nettoyage inter-campagne omise,gemini-flash-latest,zero-shot
+DEV-2023-0240,Matière,haute,Contamination particulaire de l'eau purifiée,gemini-flash-latest,zero-shot
+DEV-2025-0379,Matière,haute,Présence de corps étrangers dans matière première,gemini-flash-latest,zero-shot
+DEV-2023-0252,Machine,haute,Défaut d'étanchéité mécanique de la cuve,gemini-flash-latest,zero-shot
+DEV-2024-0301,Méthode,haute,Dépassement du temps de procédé prescrit,gemini-flash-latest,zero-shot
+DEV-2024-0396,Main-d'œuvre,haute,Défaut de formation à jour de l'opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0113,Milieu,haute,Infiltration d'eau dans les locaux de production,gemini-flash-latest,zero-shot
+DEV-2025-0272,Machine,haute,Panne mécanique de la machine de remplissage,gemini-flash-latest,zero-shot
+DEV-2024-0273,Méthode,haute,Procédure de nettoyage non exécutée,gemini-flash-latest,zero-shot
+DEV-2024-0260,Méthode,haute,Consigne opératoire d'agitation non respectée,gemini-flash-latest,zero-shot
+DEV-2025-0098,Matière,haute,Utilisation d'émulsifiant sous statut quarantaine,gemini-flash-latest,zero-shot
+DEV-2024-0289,Matière,haute,Matière première non conforme à la spécification,gemini-flash-latest,zero-shot
+DEV-2023-0311,Matière,haute,Particules étrangères dans un contenant de matière,gemini-flash-latest,zero-shot
+DEV-2023-0206,Main-d'œuvre,haute,Erreur opératoire commise par un intérimaire,gemini-flash-latest,zero-shot
+DEV-2024-0403,Méthode,haute,Instruction opératoire non suivie en filtration,gemini-flash-latest,zero-shot
+DEV-2024-0082,Main-d'œuvre,haute,Contrôle visé omis par le second opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0360,Mesure,haute,Résultat analytique hors spécification au contrôle qualité,gemini-flash-latest,zero-shot
+DEV-2024-0367,Méthode,haute,Dossier de lot incomplet avec signature manquante,gemini-flash-latest,zero-shot
+DEV-2023-0295,Matière,haute,Certificat d'analyse matière fournisseur manquant,gemini-flash-latest,zero-shot
+DEV-2024-0106,Méthode,haute,Durée de procédé non conforme à la procédure,gemini-flash-latest,zero-shot
+DEV-2023-0217,Matière,haute,Matière première contaminée par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2024-0018,Matière,haute,Matière première non conforme au cahier des charges,gemini-flash-latest,zero-shot
+DEV-2025-0395,Mesure,haute,Erreur de calcul dans le rapport d'analyse,gemini-flash-latest,zero-shot
+DEV-2025-0109,Machine,haute,Défaut d'étanchéité sur l'équipement de remplissage,gemini-flash-latest,zero-shot
+DEV-2023-0093,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2025-0071,Matière,haute,Article de conditionnement bouchon défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0290,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2024-0051,Matière,haute,Article de conditionnement notice défectueux,gemini-flash-latest,zero-shot
+DEV-2024-0263,Méthode,haute,Temps de procédé non respecté,gemini-flash-latest,zero-shot
+DEV-2023-0354,Matière,haute,Utilisation d'une matière en statut quarantaine,gemini-flash-latest,zero-shot
+DEV-2025-0302,Milieu,haute,Comptage particulaire hors spécifications en salle propre,gemini-flash-latest,zero-shot
+DEV-2023-0282,Matière,haute,Article de conditionnement étui défectueux,gemini-flash-latest,zero-shot
+DEV-2024-0316,Milieu,haute,Écart de pression différentielle entre zones,gemini-flash-latest,zero-shot
+DEV-2023-0337,Milieu,haute,Contamination particulaire environnementale hors limites,gemini-flash-latest,zero-shot
+DEV-2023-0064,Machine,haute,Panne de la machine d'étiquetage,gemini-flash-latest,zero-shot
+DEV-2023-0016,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2025-0238,Machine,haute,Maintenance préventive équipement non réalisée,gemini-flash-latest,zero-shot
+DEV-2024-0109,Matière,haute,Certificat d'analyse matière fournisseur manquant,gemini-flash-latest,zero-shot
+DEV-2023-0350,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2023-0007,Main-d'œuvre,haute,Erreur de saisie manuelle de l'opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0162,Matière,haute,Anomalie organoleptique sur matière première,gemini-flash-latest,zero-shot
+DEV-2023-0276,Matière,haute,Excipient contaminé fourni par le fabricant,gemini-flash-latest,zero-shot
+DEV-2024-0083,Matière,haute,Article de conditionnement étiquette non conforme,gemini-flash-latest,zero-shot
+DEV-2025-0333,Méthode,haute,Mode opératoire obsolète utilisé,gemini-flash-latest,zero-shot
+DEV-2025-0244,Matière,haute,Utilisation d'une matière en statut quarantaine,gemini-flash-latest,zero-shot
+DEV-2025-0306,Matière,haute,Matière première en quarantaine utilisée à tort,gemini-flash-latest,zero-shot
+DEV-2024-0374,Machine,haute,Arrêt inopiné de l'équipement d'encartonnage,gemini-flash-latest,zero-shot
+DEV-2025-0127,Machine,haute,Fuite mécanique constatée sur la boucheuse,gemini-flash-latest,zero-shot
+DEV-2025-0362,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2023-0394,Main-d'œuvre,haute,Erreur humaine de manipulation par un intérimaire,gemini-flash-latest,zero-shot
+DEV-2025-0361,Mesure,haute,Méthode analytique de contrôle non validée,gemini-flash-latest,zero-shot
+DEV-2025-0171,Machine,haute,Dérive de vitesse sur machine de production,gemini-flash-latest,zero-shot
+DEV-2023-0250,Matière,haute,Matière première non conforme au cahier des charges,gemini-flash-latest,zero-shot
+DEV-2023-0230,Main-d'œuvre,haute,Non-respect du port des EPI par le personnel,gemini-flash-latest,zero-shot
+DEV-2025-0044,Milieu,haute,Humidité relative excessive en zone de fabrication,gemini-flash-latest,zero-shot
+DEV-2023-0353,Matière,haute,Particules étrangères dans la matière première,gemini-flash-latest,zero-shot
+DEV-2023-0222,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2024-0371,Main-d'œuvre,haute,Oubli de double vérification par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0287,Matière,haute,Utilisation d'un lot en statut quarantaine,gemini-flash-latest,zero-shot
+DEV-2024-0222,Machine,haute,Capteur d'équipement de production en panne,gemini-flash-latest,zero-shot
+DEV-2024-0274,Méthode,haute,Dossier de lot incomplet avec signature manquante,gemini-flash-latest,zero-shot
+DEV-2024-0158,Mesure,haute,Méthode analytique de dosage non validée,gemini-flash-latest,zero-shot
+DEV-2025-0394,Main-d'œuvre,haute,Défaut de formation de l'opérateur à la procédure,gemini-flash-latest,zero-shot
+DEV-2025-0204,Matière,haute,Présence de corps étrangers dans la matière première,gemini-flash-latest,zero-shot
+DEV-2024-0284,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2023-0037,Matière,haute,Article de conditionnement flacon défectueux,gemini-flash-latest,zero-shot
+DEV-2023-0061,Main-d'œuvre,haute,Opérateur non habilité affecté à la fabrication,gemini-flash-latest,zero-shot
+DEV-2024-0425,Milieu,haute,Présence d'insectes dans l'environnement de stockage,gemini-flash-latest,zero-shot
+DEV-2024-0209,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2023-0245,Matière,haute,Excipient contaminé chez le fournisseur,gemini-flash-latest,zero-shot
+DEV-2023-0147,Méthode,haute,Paramètre de procédé non conforme à la procédure,gemini-flash-latest,zero-shot
+DEV-2025-0273,Méthode,haute,Dossier de lot incomplet avec signature manquante,gemini-flash-latest,zero-shot
+DEV-2024-0091,Matière,haute,Certificat d'analyse du fournisseur manquant,gemini-flash-latest,zero-shot
+DEV-2023-0088,Méthode,haute,Dépassement du temps de procédé prévu,gemini-flash-latest,zero-shot
+DEV-2025-0035,Méthode,haute,Mode opératoire obsolète utilisé,gemini-flash-latest,zero-shot
+DEV-2024-0027,Machine,haute,Maintenance préventive équipement non réalisée,gemini-flash-latest,zero-shot
+DEV-2024-0017,Main-d'œuvre,haute,Oubli de double vérification par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0210,Matière,haute,Certificat d'analyse fournisseur absent ou incomplet,gemini-flash-latest,zero-shot
+DEV-2024-0107,Mesure,haute,Écart de mesure sur un même échantillon,gemini-flash-latest,zero-shot
+DEV-2024-0173,Méthode,haute,Dossier de lot non renseigné pour un paramètre,gemini-flash-latest,zero-shot
+DEV-2023-0320,Mesure,haute,Erreur de calcul dans le rapport analytique,gemini-flash-latest,zero-shot
+DEV-2023-0214,Mesure,haute,Résultat de contrôle qualité hors spécifications,gemini-flash-latest,zero-shot
+DEV-2024-0270,Méthode,haute,Signature manquante dans le dossier de lot,gemini-flash-latest,zero-shot
+DEV-2024-0239,Méthode,haute,Signature manquante dans le dossier de lot,gemini-flash-latest,zero-shot
+DEV-2024-0416,Méthode,haute,Dépassement du temps de procédé prescrit,gemini-flash-latest,zero-shot
+DEV-2023-0101,Main-d'œuvre,haute,Non-respect du port des EPI,gemini-flash-latest,zero-shot
+DEV-2023-0334,Milieu,haute,Température ambiante de la salle hors limites,gemini-flash-latest,zero-shot
+DEV-2024-0221,Mesure,haute,Instrument de mesure de contrôle non qualifié,gemini-flash-latest,zero-shot
+DEV-2025-0263,Mesure,haute,Erreur de calcul dans le rapport d'analyse,gemini-flash-latest,zero-shot
+DEV-2024-0097,Machine,haute,Maintenance préventive équipement non réalisée,gemini-flash-latest,zero-shot
+DEV-2024-0133,Méthode,haute,Instruction de fabrication non suivie,gemini-flash-latest,zero-shot
+DEV-2025-0351,Méthode,haute,Procédure opératoire non respectée sur la durée,gemini-flash-latest,zero-shot
+DEV-2024-0056,Matière,haute,Matière en quarantaine utilisée à tort,gemini-flash-latest,zero-shot
+DEV-2024-0278,Matière,haute,Certificat d'analyse fournisseur absent ou incomplet,gemini-flash-latest,zero-shot
+DEV-2025-0260,Matière,haute,Anomalie organoleptique sur la matière première,gemini-flash-latest,zero-shot
+DEV-2025-0119,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2025-0392,Matière,haute,Certificat d'analyse du fournisseur absent,gemini-flash-latest,zero-shot
+DEV-2024-0008,Matière,haute,Anomalie d'odeur sur la matière première,gemini-flash-latest,zero-shot
+DEV-2024-0203,Machine,haute,Usure mécanique d'une pièce de la turbine,gemini-flash-latest,zero-shot
+DEV-2023-0356,Méthode,haute,Mode opératoire non suivi sur la température,gemini-flash-latest,zero-shot
+DEV-2023-0392,Méthode,haute,Dossier de lot incomplet avec signature manquante,gemini-flash-latest,zero-shot
+DEV-2023-0248,Matière,haute,Corps étrangers dans la matière première,gemini-flash-latest,zero-shot
+DEV-2025-0085,Main-d'œuvre,haute,Formation de l'opérateur non à jour,gemini-flash-latest,zero-shot
+DEV-2025-0251,Matière,haute,Excipient contaminé signalé par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2025-0039,Matière,haute,Excipient contaminé par le fournisseur,gemini-flash-latest,zero-shot
+DEV-2025-0331,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2023-0084,Mesure,haute,Thermomètre de contrôle défectueux,gemini-flash-latest,zero-shot
+DEV-2023-0162,Milieu,haute,Écart de pression différentielle environnementale,gemini-flash-latest,zero-shot
+DEV-2024-0307,Mesure,haute,Balance de mesure hors étalonnage utilisée,gemini-flash-latest,zero-shot
+DEV-2023-0108,Mesure,haute,Instrument de pesée hors étalonnage,gemini-flash-latest,zero-shot
+DEV-2024-0428,Matière,haute,Matière première hors spécifications du cahier charges,gemini-flash-latest,zero-shot
+DEV-2024-0386,Main-d'œuvre,haute,Opérateur non habilité affecté au poste,gemini-flash-latest,zero-shot
+DEV-2023-0266,Mesure,haute,Balance de pesée hors étalonnage,gemini-flash-latest,zero-shot
+DEV-2024-0025,Méthode,haute,Procédure non suivie avec contrôle omis,gemini-flash-latest,zero-shot
+DEV-2023-0303,Méthode,haute,Temps de procédé dépassé,gemini-flash-latest,zero-shot
+DEV-2023-0042,Machine,haute,Défaut d'étanchéité mécanique de la turbine,gemini-flash-latest,zero-shot
+DEV-2025-0203,Main-d'œuvre,haute,Non-respect du port des équipements protecteurs,gemini-flash-latest,zero-shot
+DEV-2023-0141,Milieu,haute,Humidité ambiante excessive en fabrication,gemini-flash-latest,zero-shot
+DEV-2023-0397,Matière,haute,Particules étrangères dans la matière première,gemini-flash-latest,zero-shot
+DEV-2024-0298,Machine,haute,Usure d'une pièce d'un équipement de production.,gemini-flash-latest,zero-shot
+DEV-2023-0036,Mesure,haute,Instrument de mesure utilisé hors étalonnage.,gemini-flash-latest,zero-shot
+DEV-2025-0017,Matière,haute,Matière première présentant une anomalie organoleptique.,gemini-flash-latest,zero-shot
+DEV-2023-0013,Méthode,haute,Utilisation d'un mode opératoire obsolète.,gemini-flash-latest,zero-shot
+DEV-2025-0293,Main-d'œuvre,haute,Erreur humaine de saisie de l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2024-0177,Main-d'œuvre,haute,Oubli de double vérification par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2024-0138,Méthode,haute,Non-respect du temps de procédé défini.,gemini-flash-latest,zero-shot
+DEV-2025-0215,Méthode,haute,Instruction de fabrication non respectée.,gemini-flash-latest,zero-shot
+DEV-2025-0105,Machine,haute,Défaut d'étanchéité sur équipement de fabrication.,gemini-flash-latest,zero-shot
+DEV-2025-0126,Méthode,haute,Non-respect de l'ordre des étapes prescrit.,gemini-flash-latest,zero-shot
+DEV-2023-0090,Matière,haute,Certificat d'analyse matière première absent ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2023-0190,Matière,haute,Présence de corps étrangers dans la matière.,gemini-flash-latest,zero-shot
+DEV-2025-0266,Méthode,haute,Dossier de lot incomplet avec paramètre non consigné.,gemini-flash-latest,zero-shot
+DEV-2023-0066,Main-d'œuvre,haute,Opérateur non habilité pour ce poste.,gemini-flash-latest,zero-shot
+DEV-2025-0350,Mesure,haute,Méthode analytique de contrôle non validée.,gemini-flash-latest,zero-shot
+DEV-2023-0362,Main-d'œuvre,haute,Oubli de double vérification par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2024-0104,Main-d'œuvre,haute,Erreur de saisie manuelle de l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0239,Milieu,haute,Dérive de pression différentielle de l'environnement.,gemini-flash-latest,zero-shot
+DEV-2023-0117,Méthode,haute,Procédure et paramètre d'agitation non respectés.,gemini-flash-latest,zero-shot
+DEV-2024-0279,Mesure,haute,Instrument de mesure du laboratoire non qualifié.,gemini-flash-latest,zero-shot
+DEV-2024-0243,Méthode,haute,Instruction de fabrication non suivie.,gemini-flash-latest,zero-shot
+DEV-2025-0382,Main-d'œuvre,haute,Défaut de formation de l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2025-0125,Méthode,haute,Instruction de fabrication non respectée.,gemini-flash-latest,zero-shot
+DEV-2024-0421,Méthode,haute,Instruction de fabrication non suivie.,gemini-flash-latest,zero-shot
+DEV-2023-0202,Milieu,haute,Contamination microbiologique de l'environnement de production.,gemini-flash-latest,zero-shot
+DEV-2025-0233,Méthode,haute,Procédure de nettoyage non appliquée.,gemini-flash-latest,zero-shot
+DEV-2024-0427,Matière,haute,Matière première contaminée fournie par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2025-0161,Matière,haute,Article de conditionnement défectueux.,gemini-flash-latest,zero-shot
+DEV-2024-0280,Matière,haute,Matière première non conforme aux spécifications.,gemini-flash-latest,zero-shot
+DEV-2024-0299,Machine,haute,Capteur de l'équipement hors service.,gemini-flash-latest,zero-shot
+DEV-2024-0016,Matière,haute,Excipient contaminé livré par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2025-0142,Milieu,haute,Température de la salle hors spécifications.,gemini-flash-latest,zero-shot
+DEV-2023-0395,Matière,haute,Utilisation d'un lot sous statut quarantaine.,gemini-flash-latest,zero-shot
+DEV-2025-0366,Milieu,haute,Non-conformité particulaire de l'environnement propre.,gemini-flash-latest,zero-shot
+DEV-2023-0246,Méthode,haute,Dossier de lot incomplet avec signature manquante.,gemini-flash-latest,zero-shot
+DEV-2024-0076,Méthode,haute,Dossier de lot incomplet avec signature manquante.,gemini-flash-latest,zero-shot
+DEV-2024-0128,Matière,haute,Article de conditionnement non conforme.,gemini-flash-latest,zero-shot
+DEV-2025-0330,Méthode,haute,Procédure de nettoyage non respectée.,gemini-flash-latest,zero-shot
+DEV-2023-0280,Milieu,haute,Présence de nuisibles dans l'environnement.,gemini-flash-latest,zero-shot
+DEV-2024-0303,Matière,haute,Excipient contaminé livré par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2024-0136,Milieu,haute,Comptage particulaire hors limites en salle.,gemini-flash-latest,zero-shot
+DEV-2023-0284,Mesure,haute,Résultat d'analyse hors spécification au contrôle.,gemini-flash-latest,zero-shot
+DEV-2023-0175,Matière,haute,Excipient contaminé reçu du fournisseur.,gemini-flash-latest,zero-shot
+DEV-2024-0287,Main-d'œuvre,haute,Non-respect du port des EPI par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0040,Méthode,haute,Procédure opératoire non respectée pendant le procédé.,gemini-flash-latest,zero-shot
+DEV-2025-0184,Matière,haute,Certificat d'analyse matière manquant ou incomplet.,gemini-flash-latest,zero-shot
+DEV-2023-0339,Milieu,haute,Température de la salle hors limites.,gemini-flash-latest,zero-shot
+DEV-2025-0058,Main-d'œuvre,haute,Oubli de double vérification par l'opérateur.,gemini-flash-latest,zero-shot
+DEV-2025-0291,Milieu,haute,Température ambiante de la salle non conforme.,gemini-flash-latest,zero-shot
+DEV-2024-0321,Méthode,haute,Ordre d'introduction des phases non respecté.,gemini-flash-latest,zero-shot
+DEV-2024-0115,Milieu,haute,Écart de pression différentielle environnementale.,gemini-flash-latest,zero-shot
+DEV-2023-0109,Matière,haute,Matière première contaminée par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2025-0245,Méthode,haute,Temps de procédé non conforme aux instructions.,gemini-flash-latest,zero-shot
+DEV-2025-0285,Matière,haute,Matière première non conforme aux spécifications microbiologiques.,gemini-flash-latest,zero-shot
+DEV-2023-0370,Méthode,haute,Ordre d'introduction non conforme au protocole.,gemini-flash-latest,zero-shot
+DEV-2025-0099,Machine,haute,Maintenance préventive de la pompe non réalisée.,gemini-flash-latest,zero-shot
+DEV-2023-0174,Main-d'œuvre,haute,Oubli de la vérification par le second opérateur.,gemini-flash-latest,zero-shot
+DEV-2023-0383,Matière,haute,Certificat d'analyse fournisseur absent ou non conforme.,gemini-flash-latest,zero-shot
+DEV-2025-0147,Matière,haute,Utilisation indue d'un lot en quarantaine.,gemini-flash-latest,zero-shot
+DEV-2023-0135,Matière,haute,Matière première non conforme au cahier des charges.,gemini-flash-latest,zero-shot
+DEV-2023-0006,Matière,haute,Article de conditionnement imprimé non conforme.,gemini-flash-latest,zero-shot
+DEV-2025-0369,Matière,haute,Excipient contaminé chez le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2025-0005,Main-d'œuvre,haute,Erreur humaine lors de l'étiquetage manuel.,gemini-flash-latest,zero-shot
+DEV-2023-0317,Mesure,haute,Méthode analytique de dosage non validée.,gemini-flash-latest,zero-shot
+DEV-2025-0001,Milieu,haute,Comptage de particules hors spécifications en salle.,gemini-flash-latest,zero-shot
+DEV-2023-0379,Machine,haute,Panne mécanique survenue sur la boucheuse.,gemini-flash-latest,zero-shot
+DEV-2023-0213,Matière,haute,Certificat d'analyse matière première manquant.,gemini-flash-latest,zero-shot
+DEV-2023-0048,Machine,haute,Arrêt de la remplisseuse sur alarme machine.,gemini-flash-latest,zero-shot
+DEV-2025-0205,Machine,haute,Panne matérielle sur la boucheuse.,gemini-flash-latest,zero-shot
+DEV-2024-0032,Matière,haute,Article de conditionnement primaire défectueux.,gemini-flash-latest,zero-shot
+DEV-2023-0249,Milieu,haute,Humidité relative excessive de la zone de production.,gemini-flash-latest,zero-shot
+DEV-2024-0098,Méthode,haute,Non-respect de l'instruction de fabrication.,gemini-flash-latest,zero-shot
+DEV-2023-0296,Matière,haute,Excipient contaminé identifié par le fournisseur.,gemini-flash-latest,zero-shot
+DEV-2024-0019,Machine,haute,Dérive de vitesse d'une pompe de transfert équipement,gemini-flash-latest,zero-shot
+DEV-2023-0365,Milieu,haute,Comptage particulaire hors limites en salle propre,gemini-flash-latest,zero-shot
+DEV-2023-0258,Milieu,haute,Infiltration d'eau dans l'atelier de pesée,gemini-flash-latest,zero-shot
+DEV-2025-0213,Milieu,haute,Présence de nuisibles insectes en zone stockage,gemini-flash-latest,zero-shot
+DEV-2025-0091,Mesure,haute,Résultat pH hors spécification au contrôle qualité,gemini-flash-latest,zero-shot
+DEV-2023-0338,Mesure,haute,Méthode analytique de dosage non validée,gemini-flash-latest,zero-shot
+DEV-2025-0287,Matière,haute,Odeur anormale de la matière première parfum,gemini-flash-latest,zero-shot
+DEV-2023-0091,Matière,haute,Lot de matière en quarantaine utilisé,gemini-flash-latest,zero-shot
+DEV-2024-0381,Matière,haute,Contamination particulaire du fût de matière première,gemini-flash-latest,zero-shot
+DEV-2023-0218,Machine,haute,Panne de la machine d'étiquetage,gemini-flash-latest,zero-shot
+DEV-2025-0377,Matière,haute,Odeur anormale sur matière première actif,gemini-flash-latest,zero-shot
+DEV-2023-0285,Matière,haute,Lot de matière première en quarantaine utilisé,gemini-flash-latest,zero-shot
+DEV-2024-0360,Méthode,haute,Étape réalisée hors procédure avec contrôle omis,gemini-flash-latest,zero-shot
+DEV-2024-0369,Main-d'œuvre,haute,Erreur humaine de saisie de l'opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0327,Machine,haute,Dérive de vitesse de la cuve équipement,gemini-flash-latest,zero-shot
+DEV-2024-0228,Méthode,haute,Procédure non respectée lors de l'émulsion,gemini-flash-latest,zero-shot
+DEV-2023-0172,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2023-0136,Milieu,haute,Particules hors limites dans l'environnement salle,gemini-flash-latest,zero-shot
+DEV-2024-0166,Matière,haute,Matière en quarantaine utilisée en fabrication,gemini-flash-latest,zero-shot
+DEV-2023-0031,Méthode,haute,Temps de procédé dépassé selon dossier,gemini-flash-latest,zero-shot
+DEV-2024-0312,Méthode,haute,Dossier de lot incomplet avec signature manquante,gemini-flash-latest,zero-shot
+DEV-2025-0339,Main-d'œuvre,haute,Défaut d'habilitation de l'opérateur affecté,gemini-flash-latest,zero-shot
+DEV-2023-0197,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2023-0187,Machine,haute,Arrêt imprévu de la cuve sur alarme,gemini-flash-latest,zero-shot
+DEV-2023-0053,Milieu,haute,Humidité relative de la salle excessive,gemini-flash-latest,zero-shot
+DEV-2023-0375,Méthode,haute,Ordre des étapes d'introduction non respecté,gemini-flash-latest,zero-shot
+DEV-2025-0179,Milieu,haute,Température d'ambiance de salle non conforme,gemini-flash-latest,zero-shot
+DEV-2025-0278,Matière,haute,Particules étrangères dans fût de matière première,gemini-flash-latest,zero-shot
+DEV-2024-0327,Matière,haute,Odeur anormale de la matière première parfum,gemini-flash-latest,zero-shot
+DEV-2024-0354,Main-d'œuvre,haute,Oubli de vérification par un opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0050,Milieu,haute,Infiltration d'eau dans les locaux d'atelier,gemini-flash-latest,zero-shot
+DEV-2025-0037,Matière,haute,Excipient matière première contaminé par fournisseur,gemini-flash-latest,zero-shot
+DEV-2023-0085,Méthode,haute,Instruction et mode opératoire obsolètes appliqués,gemini-flash-latest,zero-shot
+DEV-2024-0046,Matière,haute,Particules étrangères dans matière première eau,gemini-flash-latest,zero-shot
+DEV-2024-0103,Matière,haute,Matière première non conforme à réception,gemini-flash-latest,zero-shot
+DEV-2025-0102,Méthode,haute,Non-respect de procédure avec durée raccourcie,gemini-flash-latest,zero-shot
+DEV-2025-0075,Matière,haute,Article de conditionnement flacon défectueux,gemini-flash-latest,zero-shot
+DEV-2024-0117,Milieu,haute,Écart de pression différentielle environnementale,gemini-flash-latest,zero-shot
+DEV-2025-0195,Méthode,haute,Instruction de fabrication non suivie,gemini-flash-latest,zero-shot
+DEV-2024-0013,Méthode,haute,Temps de procédé refroidissement non respecté,gemini-flash-latest,zero-shot
+DEV-2025-0210,Mesure,haute,Erreur de calcul dans rapport d'analyse,gemini-flash-latest,zero-shot
+DEV-2024-0096,Main-d'œuvre,haute,Erreur d'étiquetage manuel par opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0017,Matière,haute,Utilisation d'eau purifiée sous quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0072,Matière,haute,Odeur anormale sur matière première,gemini-flash-latest,zero-shot
+DEV-2025-0002,Méthode,haute,Utilisation d'un mode opératoire obsolète,gemini-flash-latest,zero-shot
+DEV-2025-0106,Méthode,haute,Temps de procédé dépassé versus dossier,gemini-flash-latest,zero-shot
+DEV-2025-0222,Matière,haute,Odeur anormale de la matière première,gemini-flash-latest,zero-shot
+DEV-2024-0407,Milieu,haute,Pression différentielle environnementale hors norme,gemini-flash-latest,zero-shot
+DEV-2024-0276,Main-d'œuvre,haute,Erreur d'étiquetage manuel par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0296,Matière,haute,Matière première en quarantaine utilisée à tort,gemini-flash-latest,zero-shot
+DEV-2023-0130,Matière,haute,Utilisation d'huile minérale en quarantaine,gemini-flash-latest,zero-shot
+DEV-2023-0398,Matière,haute,Excipient matière première contaminé à l'origine,gemini-flash-latest,zero-shot
+DEV-2024-0283,Matière,haute,Matière première hors limites de teneur,gemini-flash-latest,zero-shot
+DEV-2024-0317,Machine,haute,Fuite mécanique sur la cuve,gemini-flash-latest,zero-shot
+DEV-2024-0242,Milieu,haute,Humidité relative de l'environnement trop élevée,gemini-flash-latest,zero-shot
+DEV-2025-0079,Machine,haute,Défaut d'étanchéité mécanique de la remplisseuse,gemini-flash-latest,zero-shot
+DEV-2024-0292,Méthode,haute,Dépassement du temps de procédé prescrit,gemini-flash-latest,zero-shot
+DEV-2023-0244,Méthode,haute,Mode opératoire de conditionnement obsolète appliqué,gemini-flash-latest,zero-shot
+DEV-2025-0386,Matière,haute,Matière première utilisée sous statut quarantaine,gemini-flash-latest,zero-shot
+DEV-2025-0376,Méthode,haute,Instruction de fabrication non respectée,gemini-flash-latest,zero-shot
+DEV-2024-0149,Matière,haute,Certificat d'analyse matière première manquant,gemini-flash-latest,zero-shot
+DEV-2023-0359,Méthode,haute,Ordre d'introduction des étapes inversé,gemini-flash-latest,zero-shot
+DEV-2023-0089,Mesure,haute,Méthode d'analyse non validée pour dosage,gemini-flash-latest,zero-shot
+DEV-2024-0400,Machine,haute,Dérive de vitesse d'équipement turbine,gemini-flash-latest,zero-shot
+DEV-2024-0041,Matière,haute,Particules étrangères dans fût matière première,gemini-flash-latest,zero-shot
+DEV-2023-0060,Machine,haute,Capteur d'équipement pompe hors service,gemini-flash-latest,zero-shot
+DEV-2024-0165,Matière,haute,Certificat d'analyse matière fournisseur manquant,gemini-flash-latest,zero-shot
+DEV-2024-0195,Main-d'œuvre,haute,Erreur humaine de saisie de l'opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0066,Main-d'œuvre,haute,Opérateur non habilité pour le poste,gemini-flash-latest,zero-shot
+DEV-2023-0358,Main-d'œuvre,haute,Formation de l'opérateur non à jour,gemini-flash-latest,zero-shot
+DEV-2024-0265,Méthode,haute,Ordre d'introduction des phases non respecté,gemini-flash-latest,zero-shot
+DEV-2024-0309,Méthode,haute,Dossier de lot incomplet signature absente,gemini-flash-latest,zero-shot
+DEV-2023-0251,Matière,haute,Matière émulsifiant sous quarantaine utilisée,gemini-flash-latest,zero-shot
+DEV-2023-0367,Matière,haute,Article de conditionnement défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0256,Méthode,haute,Procédure de nettoyage non appliquée,gemini-flash-latest,zero-shot
+DEV-2023-0005,Main-d'œuvre,haute,Oubli humain de vérification avant lancement,gemini-flash-latest,zero-shot
+DEV-2025-0258,Machine,haute,Usure mécanique d'une pièce de cuve,gemini-flash-latest,zero-shot
+DEV-2024-0124,Méthode,haute,Ordre prescrit des phases non suivi,gemini-flash-latest,zero-shot
+DEV-2023-0153,Matière,haute,Article de conditionnement étiquette défectueux,gemini-flash-latest,zero-shot
+DEV-2025-0169,Méthode,haute,Procédure de nettoyage non réalisée,gemini-flash-latest,zero-shot
+DEV-2025-0069,Matière,haute,Particules étrangères dans fût matière première,gemini-flash-latest,zero-shot
+DEV-2023-0043,Milieu,haute,Particules hors spécifications en salle propre,gemini-flash-latest,zero-shot
+DEV-2025-0096,Mesure,haute,Méthode d'échantillonnage non représentative,gemini-flash-latest,zero-shot
+DEV-2023-0095,Main-d'œuvre,haute,Opérateur non habilité au poste,gemini-flash-latest,zero-shot
+DEV-2023-0373,Main-d'œuvre,haute,Oubli de contrôle par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0266,Main-d'œuvre,haute,Habilitation manquante pour l'opérateur,gemini-flash-latest,zero-shot
+DEV-2023-0328,Main-d'œuvre,haute,Erreur humaine d'étiquetage par opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0242,Méthode,haute,Inversion de l'ordre d'introduction prescrit,gemini-flash-latest,zero-shot
+DEV-2024-0264,Matière,haute,Odeur anormale de matière première tensioactif,gemini-flash-latest,zero-shot
+DEV-2025-0031,Matière,haute,Matière conservateur sous quarantaine employée,gemini-flash-latest,zero-shot
+DEV-2023-0121,Main-d'œuvre,haute,Erreur manuelle d'étiquetage par opérateur,gemini-flash-latest,zero-shot
+DEV-2025-0292,Main-d'œuvre,haute,Opérateur non habilité sur la ligne,gemini-flash-latest,zero-shot
+DEV-2023-0183,Méthode,haute,Dépassement du temps de procédé prescrit,gemini-flash-latest,zero-shot
+DEV-2025-0174,Main-d'œuvre,haute,Erreur humaine de manipulation par intérimaire,gemini-flash-latest,zero-shot
+DEV-2025-0114,Mesure,haute,Écart de mesure sur même échantillon,gemini-flash-latest,zero-shot
+DEV-2023-0331,Machine,haute,Capteur défectueux sur la remplisseuse,gemini-flash-latest,zero-shot
+DEV-2023-0034,Matière,haute,Odeur non conforme de l'eau purifiée,gemini-flash-latest,zero-shot
+DEV-2023-0345,Main-d'œuvre,haute,Erreur d'étiquetage manuel par l'opérateur,gemini-flash-latest,zero-shot
+DEV-2024-0246,Matière,haute,Particules étrangères dans fût matière première,gemini-flash-latest,zero-shot
+DEV-2024-0306,Matière,haute,Matière première glycérine hors spécification,gemini-flash-latest,zero-shot
