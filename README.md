@@ -13,8 +13,8 @@ Pipeline de données et tableau de bord de pilotage de la **sous-traitance indus
 | 1. Génération des données | Python | 6 000 commandes, 11 735 lots, 1 223 déviations qualité, 415 anomalies injectées |
 | 2. Ingestion et nettoyage | **Alteryx** (macro batch + 4 workflows) | Tables propres, **415/415 anomalies détectées**, 32 variantes de noms unifiées |
 | 3. Analyses métier | Python | **5 signaux retrouvés** (dérive F06, saisonnalité Solaire, rejets ×1,9 en complexité 3…), validés à 0,5 pt près |
-| 4. Classification IA des déviations | Python | *à venir* |
-| 5. Tableau de bord | **Power BI** | *à venir* |
+| 4. Classification IA des déviations | Python + **LLM (Gemini)** | **99,9 % d'exactitude** sur les 6 causes (6M), contre 79 % de F1 par mots-clés ; 5e signal retrouvé |
+ss| 5. Tableau de bord | **Power BI** | *à venir* |
 
 ## Points forts du pipeline Alteryx
 - **Paramétrage plutôt que code** : un nouveau façonnier s'ajoute en remplissant `mapping_colonnes.xlsx`, sans toucher aux workflows (testé avec un 9e façonnier allemand).
