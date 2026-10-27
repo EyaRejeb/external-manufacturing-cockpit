@@ -13,3 +13,6 @@ __pycache__/
 data/processed/*.yxdb
 # Sauvegardes automatiques Alteryx
 *.bak
+
+# Données publiques openFDA (non versionnées : téléchargeables avec src/fetch_openfda.py)
+data/reference/openfda_recalls.json

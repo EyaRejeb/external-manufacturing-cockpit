@@ -5,8 +5,7 @@ pyyaml>=6.0
 requests>=2.32
 matplotlib>=3.9
 ipykernel>=6.29
-
 google-genai>=1.0
 python-dotenv>=1.0
 scikit-learn>=1.5
-
+pytest>=8.0

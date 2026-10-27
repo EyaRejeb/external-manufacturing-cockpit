@@ -1,7 +1,7 @@
 # Journal de bord
 
 ## Phase 1 — Données synthétiques
-- Générateur Python reproductible (seed 42, paramétré par `config.yaml`) : 8 façonniers, 60 produits, 6 000 commandes, ≈11 700 lots, ≈1 200 déviations.
+- Générateur Python reproductible (seed 42, paramétré par `config.yaml`) : 8 façonniers, 60 produits, 6 000 commandes, 11 735 lots, 1 223 déviations.
 - 5 signaux métier et 415 anomalies (6 types) injectés volontairement, avec tables de vérité dans `data/reference/verite/` pour valider le pipeline.
 - Contrôle visuel : `notebooks/00_controle_generation.ipynb`.  
 
@@ -101,3 +101,40 @@ Les 1 223 déviations ne sont décrites qu'en texte libre : impossible d'en anal
 
 ### Ce que je retiens
 Un LLM s'évalue comme n'importe quel modèle, et le few-shot n'est utile que s'il reste une marge de progression : ici, le zero-shot suffisait.
+
+
+## Phase 5 — Tableau de bord Power BI
+
+### Objectif
+Mettre les résultats des phases 2 à 4 entre les mains des équipes achats et qualité : un tableau de bord qui se lit sans Python, et dont les chiffres sont identiques à ceux des notebooks.
+
+### Ce qui a été construit
+| Élément | Contenu |
+|---|---|
+| Modèle en étoile | 4 tables de faits (commandes, lots, déviations, anomalies) et 3 dimensions (façonnier, produit, date) |
+| `dim_date` | Table calendrier en DAX (2023 à mars 2026), marquée comme table de dates, mois triés dans l'ordre du calendrier |
+| Mesures | 17 mesures DAX regroupées dans une table `_Mesures` (OTIF, à l'heure, complète, taux de rejet, déviations pour 100 lots, clôture en 30 jours, coût de non-qualité, anomalies…) |
+| Pages | 1. Vue d'ensemble · 2. Livraisons · 3. Qualité · 4. Qualité des données |
+| Exports | [`powerbi/external_manufacturing_cockpit.pdf`](../powerbi/external_manufacturing_cockpit.pdf) et 4 captures dans `powerbi/captures/` |
+
+### Décisions
+- **La date promise sert de date de référence** pour l'OTIF : une commande est jugée sur le mois où elle devait arriver, comme dans le notebook 01.
+- **F06 est suivi par trimestre** : avec une douzaine de commandes par mois, la courbe mensuelle est trop bruitée ; le trimestre montre la chute de 2025 sans faux signal.
+- **Contrôle croisé avec Python** : l'OTIF global affiché (84,6 %) est identique à celui du notebook 01 (5 657 commandes dans le périmètre). Le tableau de bord ne recalcule rien de différent.
+- **Chaque visuel a un titre qui donne la conclusion** (« F06 : l'OTIF chute nettement en 2025 ») plutôt qu'une description (« OTIF par trimestre »).
+
+### Problèmes rencontrés et solutions
+- **Nombres mal lus** : Power BI lisait les CSV avec la culture française, le point décimal était ignoré (25500.0 devenait 255000). Correction : types appliqués avec la culture `en-US` dans Power Query.
+- **Table des anomalies sans en-têtes** : en-têtes promus manuellement, colonne `fichier_source` (chemin local) retirée, lecture avec `QuoteStyle.Csv` pour les virgules dans les valeurs.
+- **Relations créées automatiquement** (lots → commandes, déviations → commandes, déviations ↔ lots) : elles créaient des chemins ambigus. Supprimées, puis détection automatique des relations et date/heure automatique désactivées.
+
+### Ce que je retiens
+Un tableau de bord n'est crédible que si ses chiffres sont recoupés avec une autre source : le contrôle OTIF = 84,6 % des deux côtés a validé à la fois le modèle et les mesures.
+
+
+## Bilan du projet
+- **Résultat** : un pipeline complet, des fichiers Excel hétérogènes au tableau de bord, validé à chaque étape contre des tables de vérité (415/415 anomalies, OTIF à 0,5 point, 99,9 % d'exactitude IA).
+- **Valeur métier** : 5 problèmes retrouvés sans les connaître à l'avance, chacun avec une recommandation actionnable.
+- **Ce qui a le plus servi** : tracer chaque ligne exclue et tester le pipeline avec des cas volontairement cassants.
+- **Limite principale** : des données synthétiques, plus régulières que la réalité, surtout pour les descriptions de déviations.
+- **Suite possible** : rejouer le pipeline sur des données réelles et automatiser son exécution (planification, alertes sur l'OTIF).
