@@ -14,7 +14,7 @@ Pipeline de données et tableau de bord de pilotage de la **sous-traitance indus
 | 2. Ingestion et nettoyage | **Alteryx** (macro batch + 4 workflows) | Tables propres, **415/415 anomalies détectées**, 32 variantes de noms unifiées |
 | 3. Analyses métier | Python | **4 signaux retrouvés** (dérive F06, saisonnalité Solaire, rejets ×1,9 en complexité 3…), validés à 0,5 pt près |
 | 4. Classification IA des déviations | Python + **LLM (Gemini)** | **99,9 % d'exactitude** sur les 6 causes (6M), contre 79 % de F1 par mots-clés ; 5e signal retrouvé |
-ss| 5. Tableau de bord | **Power BI** | *à venir* |
+| 5. Tableau de bord | **Power BI** | 4 pages : vue d'ensemble, livraisons, qualité, qualité des données ([PDF](powerbi/external_manufacturing_cockpit.pdf)) |
 
 ## Points forts du pipeline Alteryx
 - **Paramétrage plutôt que code** : un nouveau façonnier s'ajoute en remplissant `mapping_colonnes.xlsx`, sans toucher aux workflows (testé avec un 9e façonnier allemand).
@@ -25,6 +25,8 @@ ss| 5. Tableau de bord | **Power BI** | *à venir* |
 ![Workflow de nettoyage](alteryx/captures/02_nettoyage.png)
 
 ![Dérive de l'OTIF du façonnier F06](docs/figures/02_rupture_otif.png)
+
+![Tableau de bord Power BI](powerbi/captures/01_vue_ensemble.png)
 
 ## Structure
 ```
